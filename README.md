@@ -17,6 +17,7 @@ This is a Pokemon to Digimon conversion project, using a modified Pokemon Emeral
 
 These will happen eventually, but take lower priority than the above.
 
+- Reorder the Pokedex so it makes sense with the new Digis (I'm not replacing the Pokemon strictly in order and am utilizing Pokemon from other games as bases, so expect the Pokedex to be messy until this happens).
 - Properly colored Digimon icons that don't mess up each others' color palettes (apparently they ALL share palettes... which is unfortunate).
 - Alter all dialog and item text to refer to Digimon rather than Pokemon.
 - New title screen to make sure people know what they're getting into.
