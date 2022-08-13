@@ -4367,22 +4367,22 @@ const u8 gIncineroarPokedexText[] = _(
     "with complete nonchalance.");
 
 const u8 gPopplioPokedexText[] = _(
-    "This Pokémon snorts body fluids from\n"
-    "its nose, blowing balloons to smash into\n"
-    "its foes. It practices diligently so it can\n"
-    "learn to make big bubbles.");
+    "A Digimon shaped like a bivalve covered\n"
+    "by a hard shell. It is a cunning creature\n"
+    "that lures the opponent with its cute face,\n"
+    "and attacks them when they get close.");
 
 const u8 gBrionnePokedexText[] = _(
-    "It cares deeply for its companions.\n"
-    "When its Trainer is feeling down, it\n"
-    "performs a cheery dance with a sequence\n"
-    "of water balloons  to try and help.");
+    "A hermit crab-like Digimon that lives in\n"
+    "the shallow seabeds of the ocean. As it\n"
+    "grows, it switches shells until it reaches\n"
+    "the size of a small mountain.");
 
 const u8 gPrimarinaPokedexText[] = _(
-    "It controls its water balloons with song.\n"
-    "The melody is learned from others of\n"
-    "its kind and is passed down from one\n"
-    "generation to the next.");
+    "A Digimon with the appearance of a mermaid,\n"
+    "it lives in seas found in cold regions.\n"
+    "It is good at singing, and does so with a\n"
+    "beautiful timbre, charming those who listen.");
 
 const u8 gPikipekPokedexText[] = _(
     "This Pokémon feeds on berries, whose\n"

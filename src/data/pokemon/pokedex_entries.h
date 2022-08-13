@@ -8738,7 +8738,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_POPPLIO] =
     {
-        .categoryName = _("Sea Lion"),
+        .categoryName = _("Crustacean"),
         .height = 4,
         .weight = 75,
         .description = gPopplioPokedexText,
@@ -8750,7 +8750,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BRIONNE] =
     {
-        .categoryName = _("Pop Star"),
+        .categoryName = _("Mollusk"),
         .height = 6,
         .weight = 175,
         .description = gBrionnePokedexText,
@@ -8762,7 +8762,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_PRIMARINA] =
     {
-        .categoryName = _("Soloist"),
+        .categoryName = _("Mermaid"),
         .height = 18,
         .weight = 440,
         .description = gPrimarinaPokedexText,
