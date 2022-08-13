@@ -1,9 +1,29 @@
-# pokeemerald Expansion Base
+# Digi-Emerald
 
-## What is the pokeemerald Expansion Base?
+## What is Digi-Emerald?
 
-This base aims to combine some of the features I'd like to my pokeemerald base to have for easy access and use.
-You are currently on the master branch which should always be a working (at least compileable version of the base)
+This is a Pokemon to Digimon conversion project, using a modified Pokemon Emerald as a base. This began as a fork of laserXdolphin's excellent PokeEmerald Expansions Base, a modification of the Pokemon Emerald decomp that includes many feature branches and changes that drastically improve the quality of life of the base Pokemon Emerald game. My aim is to build off of these features to create a Pokemon game featuring Digimon instead of Pokemon. Aside from the aforementioned QoL changes, the conversion of Pokemon to Digimon will primarily be aesthetic. If I have time, I will make additional changes (listed below), but without drastically altering the difficulty or pacing of the game.
+
+## Planned Changes
+
+- Replace names, battle sprites, icons, and dex entries for approximately 212 Pokemon (roughly the number obtainable in the original game) with Digimon, beginning with starters.
+- Change all encounters and trainer battles to utilize altered mons while preserving the flow and balance of the game. This will be done roughly linearly, with areas at the beginning of the game receiving the most attention initially.
+- Change base stat totals and abilities so that they make sense for the Digimon.
+- Alter movesets where necessary, without adding new moves or changing existing moves beyond what's included in the ROM base.
+- Alter all dialog and item text to refer to Digimon rather than Pokemon.
+- New title screen to make sure people know what they're getting into.
+
+## Possible Additions
+
+These are not likely to happen unless I have an abundance of time or assistance with the project, but would be nice to have.
+
+- Make every Digimon useful/competitive. This will of course change the feel and balance of the game, but is something that has been a pet peeve of mine in many monster catching games. My goal would be to do this *without* drastically altering the difficulty of the game.
+- Change moves or add additional moves to bring them more in line with traditional Digimon moves.
+- Change overworld sprites for Pokemon to Digimon.
+
+# Changes from laserXdolphin's Base ROM
+
+The following text relates to changes to the base ROM (not my changes), and come directly from laserXdolphin's readme. See below for changes included when this project was initially forked from their base. If I merge/integrate additional changes at a later point in time, they will also be listed here.
 
 ## What feature branches are included?
 
