@@ -6,20 +6,28 @@ This is a Pokemon to Digimon conversion project, using a modified Pokemon Emeral
 
 ## Planned Changes
 
+### Must Have
+
 - Replace names, battle sprites, icons, and dex entries for approximately 212 Pokemon (roughly the number obtainable in the original game) with Digimon, beginning with starters.
 - Change all encounters and trainer battles to utilize altered mons while preserving the flow and balance of the game. This will be done roughly linearly, with areas at the beginning of the game receiving the most attention initially.
 - Change base stat totals and abilities so that they make sense for the Digimon.
 - Alter movesets where necessary, without adding new moves or changing existing moves beyond what's included in the ROM base.
+
+### Should Have
+
+These will happen eventually, but take lower priority than the above.
+
+- Make sure Digimons' icons don't mess up each others' color palettes (apparently they ALL share palettes... which is unfortunate).
 - Alter all dialog and item text to refer to Digimon rather than Pokemon.
 - New title screen to make sure people know what they're getting into.
 
-## Possible Additions
+### Nice to Have
 
-These are not likely to happen unless I have an abundance of time or assistance with the project, but would be nice to have.
+These are not likely to happen unless I have an abundance of time or assistance with the project.
 
 - Make every Digimon useful/competitive. This will of course change the feel and balance of the game, but is something that has been a pet peeve of mine in many monster catching games. My goal would be to do this *without* drastically altering the difficulty of the game.
 - Change moves or add additional moves to bring them more in line with traditional Digimon moves.
-- Change overworld sprites for Pokemon to Digimon.
+- Change overworld sprites for Pokemon to Digimon. There aren't too many of these, but it would be good to have them altered for the sake of immersion.
 
 ## Notes on Included Digimon
 
