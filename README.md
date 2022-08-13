@@ -36,7 +36,10 @@ These are not likely to happen unless I have an abundance of time or assistance 
 
 The specific Digimon I choose to include will be a combination of personal preference and what's easy to find usable sprites for. The best sources so far are the Digimon Story games for the Nintendo DS. In the US, these are Digimon World, Digimon World: Dawn and Digimon World: Dusk, and of course the excellent but mostly untranslated Digimon Story: Lost Evolution. Digimon from those games have a good chance of making it in. There are also the Digimon Story Xros Wars games, but those are entirely untranslated as of the time of this writing and I am not very familiar with most of those Digimon, so they will take lower priority.
 
-Digimon that are (visually) just pallete swaps of other Digimon will not appear in the game, as I intend to use those palettes for their shiny variations.
+Other notes:
+- Digimon that are (visually) just pallete swaps of other Digimon will not appear in the game, as I intend to use those palettes for their shiny variations. 
+- Ultimate forms (known as 'Mega' in the Digimon dubs) will be reserved generally for legendary, pseudo-legendary, and Mega-evolved Pokemon. *Most* Digimon with well-known evolution lines will eventually have the ability to mega-evolve at some point, but they will come after their previous stages are implemented.
+- Baby/in-training Digimon will not generally be found in the game, as I would rather focus my efforts on implementing later evolutionary forms.
 
 # Changes from laserXdolphin's Base ROM
 
