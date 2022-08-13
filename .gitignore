@@ -38,3 +38,5 @@ porymap.project.cfg
 *.diff
 *.sym
 *.js
+*.lnk
+tools-extra/
