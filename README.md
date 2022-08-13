@@ -20,6 +20,7 @@ These will happen eventually, but take lower priority than the above.
 - Properly colored Digimon icons that don't mess up each others' color palettes (apparently they ALL share palettes... which is unfortunate).
 - Alter all dialog and item text to refer to Digimon rather than Pokemon.
 - New title screen to make sure people know what they're getting into.
+- Shiny palettes for each Digimon (they will not have different palettes until I get to this)
 
 ### Nice to Have
 
@@ -33,6 +34,8 @@ These are not likely to happen unless I have an abundance of time or assistance 
 ## Notes on Included Digimon
 
 The specific Digimon I choose to include will be a combination of personal preference and what's easy to find usable sprites for. The best sources so far are the Digimon Story games for the Nintendo DS. In the US, these are Digimon World, Digimon World: Dawn and Digimon World: Dusk, and of course the excellent but mostly untranslated Digimon Story: Lost Evolution. Digimon from those games have a good chance of making it in. There are also the Digimon Story Xros Wars games, but those are entirely untranslated as of the time of this writing and I am not very familiar with most of those Digimon, so they will take lower priority.
+
+Digimon that are (visually) just pallete swaps of other Digimon will not appear in the game, as I intend to use those palettes for their shiny variations.
 
 # Changes from laserXdolphin's Base ROM
 
