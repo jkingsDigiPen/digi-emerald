@@ -21,6 +21,10 @@ These are not likely to happen unless I have an abundance of time or assistance 
 - Change moves or add additional moves to bring them more in line with traditional Digimon moves.
 - Change overworld sprites for Pokemon to Digimon.
 
+## Notes on Included Digimon
+
+What Digimon I choose to include will be a combination of personal preference and what's easy to find usable sprites for. The best sources so far are the Digimon Story games for the Nintendo DS. In the US, these are Digimon World, Digimon World: Dawn and Digimon World: Dusk, and of course the excellent but mostly untranslated Digimon Story: Lost Evolution. Digimon from those games have a good chance of making it in. There are also the Digimon Story Xros Wars games, but those are entirely untranslated as of the time of this writing and I am not very familiar with most of those Digimon, so they will take lower priority.
+
 # Changes from laserXdolphin's Base ROM
 
 The following text relates to changes to the base ROM (not my changes), and come directly from laserXdolphin's readme. See below for changes included when this project was initially forked from their base. If I merge/integrate additional changes at a later point in time, they will also be listed here.
