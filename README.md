@@ -28,6 +28,7 @@ These are not likely to happen unless I have an abundance of time or assistance 
 - Make every Digimon useful/competitive. This will of course change the feel and balance of the game, but is something that has been a pet peeve of mine in many monster catching games. My goal would be to do this *without* drastically altering the difficulty of the game.
 - Change moves or add additional moves to bring them more in line with traditional Digimon moves.
 - Change overworld sprites for Pokemon to Digimon. There aren't too many of these, but it would be good to have them altered for the sake of immersion.
+- Front animations for each Digimon
 
 ## Notes on Included Digimon
 
