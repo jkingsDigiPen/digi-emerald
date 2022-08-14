@@ -41,3 +41,4 @@ porymap.project.cfg
 *.lnk
 tools-extra/
 graphics-digi/
+*.code-workspace
