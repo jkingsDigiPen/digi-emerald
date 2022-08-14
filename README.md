@@ -49,7 +49,7 @@ Notable exceptions:
 - Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
 - Hudiemon sprite by dragonrod342 https://www.deviantart.com/dragonrod342
 
-# Changes from laserXdolphin's Base ROM
+# Changes Brought from laserXdolphin's Base ROM
 
 The following text relates to changes to the base ROM (not my changes), and come directly from laserXdolphin's readme. See below for changes included when this project was initially forked from their base. If I merge/integrate additional changes at a later point in time, they will also be listed here.
 
