@@ -49,15 +49,15 @@ Notable exceptions:
 - Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
 - Hudiemon sprite by dragonrod342 https://www.deviantart.com/dragonrod342
 
-# Changes from laserXdolphin's Base ROM
+# Changes Brought from laserXdolphin's Base ROM
 
 The following text relates to changes to the base ROM (not my changes), and come directly from laserXdolphin's readme. See below for changes included when this project was initially forked from their base. If I merge/integrate additional changes at a later point in time, they will also be listed here.
 
 ## What feature branches are included?
 
-- **[RHH's Battle Engine Upgrade](../tree/battle_engine):** Upgrades the battle engine in pokeemerald to newer Generation games' standards. It also adds newer moves and abilities.
-- **[RHH's Pokémon Expansion](../tree/pokemon_expansion):** Adds Pokémon from newer Generations and makes them available in the National Dex. It also updates base stats and other Pokémon info.
-- **[RHH's Item Expansion](../tree/item_expansion):** Adds items from newer Generations and also updates item effects for field use. (Removed TM51 - TM100)
+- **[RHH's Battle Engine Upgrade](https://github.com/pret/pokeemerald/wiki/Feature-Branches#battle_engine):** Upgrades the battle engine in pokeemerald to newer Generation games' standards. It also adds newer moves and abilities.
+- **[RHH's Pokémon Expansion](https://github.com/pret/pokeemerald/wiki/Feature-Branches#pokemon_expansion):** Adds Pokémon from newer Generations and makes them available in the National Dex. It also updates base stats and other Pokémon info.
+- **[RHH's Item Expansion](https://github.com/pret/pokeemerald/wiki/Feature-Branches#item_expansion):** Adds items from newer Generations and also updates item effects for field use. (Removed TM51 - TM100)
 - **[TheXaman's PokedexPlus with a HGSS style](https://www.pokecommunity.com/showthread.php?t=441996):** 
 - **[ghoulslash's DexNav & Detector Mode](https://www.pokecommunity.com/showthread.php?t=440571):**
 - **[Some of ghoulslash's free_saveblock](https://www.pokecommunity.com/showthread.php?p=10168472#post10168472):** Namely FREE_UNION_ROOM_CHAT, FREE_LINK_BATTLE_RECORDS, FREE_RECORD_MIXING_HALL_RECORDS and APPRENTICE_COUNT set to 1 instead of 4 as well as MAIL_COUNT set to (PARTY_SIZE) instead of (10 + PARTY_SIZE)
