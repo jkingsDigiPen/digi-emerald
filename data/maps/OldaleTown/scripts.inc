@@ -349,39 +349,39 @@ OldaleTown_Text_SavingMyProgress:
 
 OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Hi!\n"
-	.string "I work at a Pokémon Mart.\p"
+	.string "I work at a Digimon Mart.\p"
 	.string "Can I get you to come with me?$"
 
 OldaleTown_Text_ThisIsAPokemonMart: @ 81E91FD
-	.string "This is a Pokémon Mart.\n"
+	.string "This is a Digimon Mart.\n"
 	.string "Just look for our blue roof.\p"
 	.string "We sell a variety of goods including\n"
-	.string "Poké Balls for catching Pokémon.\p"
+	.string "Digi Balls for catching Digimon.\p"
 	.string "Here, I'd like you to have this as\n"
 	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation: @ 81E92AF
 	.string "A Potion can be used anytime, so it's\n"
-	.string "even more useful than a Pokémon Center\l"
+	.string "even more useful than a Digimon Center\l"
 	.string "in certain situations.$"
 
 OldaleTown_Text_WaitDontComeInHere:
 	.string "Aaaaah! Wait!\n"
 	.string "Please don't come in here.\p"
 	.string "I just discovered the footprints of\n"
-	.string "a rare Pokémon!\p"
+	.string "a rare Digimon!\p"
 	.string "Wait until I finish sketching\n"
 	.string "them, okay?$"
 
 OldaleTown_Text_DiscoveredFootprints:
 	.string "I just discovered the footprints of\n"
-	.string "a rare Pokémon!\p"
+	.string "a rare Digimon!\p"
 	.string "Wait until I finish sketching\n"
 	.string "them, okay?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
 	.string "I finished sketching the footprints of\n"
-	.string "a rare Pokémon.\p"
+	.string "a rare Digimon.\p"
 	.string "But it turns out they were only my\n"
 	.string "own footprints…$"
 

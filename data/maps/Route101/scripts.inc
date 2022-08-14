@@ -267,7 +267,7 @@ Route101_Text_PleaseHelp:
 	.string "Hello! You over there!\n"
 	.string "Please! Help!\p"
 	.string "In my Bag!\n"
-	.string "There's a Poké Ball!$"
+	.string "There's a Digi Ball!$"
 
 Route101_Text_DontLeaveMe:
 	.string "Wh-Where are you going?!\n"
@@ -276,24 +276,24 @@ Route101_Text_DontLeaveMe:
 Route101_Text_YouSavedMe: @ 81EBF12
 	.string "Prof. Birch: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
-	.string "Pokémon when I was jumped.\p"
+	.string "Digimon when I was jumped.\p"
 	.string "You saved me.\n"
 	.string "Thanks a lot!\p"
 	.string "Oh?\p"
 	.string "Hi, you're {PLAYER}{KUN}!\p"
 	.string "This is not the place to chat, so come\n"
-	.string "by my Pokémon Lab later, okay?$"
+	.string "by my Digimon Lab later, okay?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter: @ 81EBFDD
-	.string "If Pokémon get tired, take them to\n"
-	.string "a Pokémon Center.\p"
-	.string "There's a Pokémon Center in Oldale\n"
+	.string "If Digimon get tired, take them to\n"
+	.string "a Digimon Center.\p"
+	.string "There's a Digimon Center in Oldale\n"
 	.string "Town right close by.$"
 
 Route101_Text_WildPokemonInTallGrass: @ 81EC04A
-	.string "Wild Pokémon will jump out at you in\n"
+	.string "Wild Digimon will jump out at you in\n"
 	.string "tall grass.\p"
-	.string "If you want to catch Pokémon, you have\n"
+	.string "If you want to catch Digimon, you have\n"
 	.string "to go into the tall grass and search.$"
 
 Route101_Text_RouteSign: @ 81EC0C8

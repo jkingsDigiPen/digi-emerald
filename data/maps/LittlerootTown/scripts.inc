@@ -927,10 +927,10 @@ LittlerootTown_Text_WaitPlayer: @ 81E87E1
 LittlerootTown_Text_WearTheseRunningShoes: @ 81E87F0
 	.string "Mom: {PLAYER}! {PLAYER}! Did you\n"
 	.string "introduce yourself to Prof. Birch?\p"
-	.string "Oh! What an adorable Pokémon!\n"
+	.string "Oh! What an adorable Digimon!\n"
 	.string "You got it from Prof. Birch. How nice!\p"
 	.string "You're your father's child, all right.\n"
-	.string "You look good together with Pokémon!\p"
+	.string "You look good together with Digimon!\p"
 	.string "Here, honey! If you're going out on an\n"
 	.string "adventure, wear these Running Shoes.\p"
 	.string "They'll put a zip in your step!$"
@@ -951,7 +951,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "To think that you have your very own\n"
-	.string "Pokémon now…\l"
+	.string "Digimon now…\l"
 	.string "Your father will be overjoyed.\p"
 	.string "…But please be careful.\n"
 	.string "If anything happens, you can come home.\p"
@@ -959,7 +959,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "If you use a PC, you can store items\n"
-	.string "and Pokémon.\p"
+	.string "and Digimon.\p"
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
@@ -972,18 +972,18 @@ LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
 	.string "If you go outside and go in the grass,\n"
-	.string "wild Pokémon will jump out!$"
+	.string "wild Digimon will jump out!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "It's dangerous if you don't have\n"
-	.string "your own Pokémon.$"
+	.string "your own Digimon.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Um, hi!\p"
-	.string "There are scary Pokémon outside!\n"
+	.string "There are scary Digimon outside!\n"
 	.string "I can hear their cries!\p"
 	.string "I want to go see what's going on,\n"
-	.string "but I don't have any Pokémon…\p"
+	.string "but I don't have any Digimon…\p"
 	.string "Can you go see what's happening\n"
 	.string "for me?$"
 
@@ -992,7 +992,7 @@ LittlerootTown_Text_YouSavedBirch: @ 81E8CE3
 	.string "I'm so glad!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon: @ 81E8D07
-	.string "Are you going to catch Pokémon?\n"
+	.string "Are you going to catch Digimon?\n"
 	.string "Good luck!$"
 
 LittlerootTown_Text_TownSign: @ 81E8D32
@@ -1000,7 +1000,7 @@ LittlerootTown_Text_TownSign: @ 81E8D32
 	.string "“A town that can't be shaded any hue.”$"
 
 LittlerootTown_Text_ProfBirchsLab: @ 81E8D69
-	.string "Prof. Birch's Pokémon Lab$"
+	.string "Prof. Birch's Digimon Lab$"
 
 LittlerootTown_Text_PlayersHouse: @ 81E8D83
 	.string "{PLAYER}'s House$"
@@ -1014,7 +1014,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab: @ 81E8DA2
 	.string "I knew there was something special\n"
 	.string "about you when I first saw you,\l"
 	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the Pokédex\n"
+	.string "Oh, yes. Do you still have the Digidex\n"
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my Lab.$"

@@ -58,15 +58,15 @@ OldaleTown_Mart_EventScript_Boy::
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
 	.string "The clerk says they're all sold out.\n"
-	.string "I can't buy any Poké Balls.$"
+	.string "I can't buy any Digi Balls.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls: @ 81FC2F3
-	.string "I'm going to buy a bunch of Poké Balls\n"
-	.string "and catch a bunch of Pokémon!$"
+	.string "I'm going to buy a bunch of Digi Balls\n"
+	.string "and catch a bunch of Digimon!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion: @ 81FC338
-	.string "If a Pokémon gets hurt and loses its HP\n"
+	.string "If a Digimon gets hurt and loses its HP\n"
 	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your Pokémon from fainting,\n"
+	.string "To prevent your Digimon from fainting,\n"
 	.string "restore its HP with a Potion.$"
 

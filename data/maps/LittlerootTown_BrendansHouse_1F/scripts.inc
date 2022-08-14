@@ -292,7 +292,7 @@ PlayersHouse_1F_Text_IsntItNiceInHere: @ 81F7A1C
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
-	.string "The mover's Pokémon do all the work\n"
+	.string "The mover's Digimon do all the work\n"
 	.string "of moving us in and cleaning up after.\l"
 	.string "This is so convenient!\p"
 	.string "{PLAYER}, your room is upstairs.\n"
@@ -355,7 +355,7 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
 	.string "Go for it, honey!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
-	.string "Mom: What is that, honey? A Pokénav?\n"
+	.string "Mom: What is that, honey? A Diginav?\n"
 	.string "Someone from Devon gave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
@@ -363,7 +363,7 @@ PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
 
 PlayersHouse_1F_Text_RegisteredMom: @ 81F7E89
 	.string "Registered Mom\n"
-	.string "in the Pokénav.$"
+	.string "in the Diginav.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
@@ -413,7 +413,7 @@ PlayersHouse_1F_Text_BetterGetBackToGym: @ 81F815B
 PlayersHouse_1F_Text_DadShouldStayLonger: @ 81F81B9
 	.string "Mom: That Dad of yours…\p"
 	.string "He comes home for the first time in a\n"
-	.string "while, but all he talks about is Pokémon.\p"
+	.string "while, but all he talks about is Digimon.\p"
 	.string "He should relax and stay a little longer.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory: @ 81F824B
@@ -424,8 +424,8 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "news flash!\p"
 	.string "In various Hoenn locales, there have\n"
 	.string "been reports of a Bzzt…colored\l"
-	.string "Pokémon in flight.\p"
-	.string "The identity of this Pokémon is\n"
+	.string "Digimon in flight.\p"
+	.string "The identity of this Digimon is\n"
 	.string "currently unknown.\p"
 	.string "We now return you to the regular\n"
 	.string "movie program.$"
@@ -433,8 +433,8 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 PlayersHouse_1F_Text_WhatColorDidTheySay: @ 81F8351
 	.string "Mom: {PLAYER}, did you catch that?\p"
 	.string "What color did the announcer say\n"
-	.string "that Pokémon was?$"
+	.string "that Digimon was?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon: @ 81F83A1
 	.string "Mom: Well, isn't that something!\n"
-	.string "There are still unknown Pokémon.$"
+	.string "There are still unknown Digimon.$"
