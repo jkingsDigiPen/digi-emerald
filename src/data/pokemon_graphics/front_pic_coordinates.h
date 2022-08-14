@@ -3271,17 +3271,17 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_FENNEKIN] =
     {
-        .size = MON_COORDS_SIZE(40, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(39, 62),
+        .y_offset = 1,
     },
     [SPECIES_BRAIXEN] =
     {
-        .size = MON_COORDS_SIZE(48, 64),
+        .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 4,
     },
     [SPECIES_DELPHOX] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
+        .size = MON_COORDS_SIZE(49, 64),
         .y_offset = 0,
     },
     [SPECIES_FROAKIE] =
@@ -3646,13 +3646,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_POPPLIO] =
     {
-        .size = MON_COORDS_SIZE(40, 48),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(45, 53),
+        .y_offset = 6,
     },
     [SPECIES_BRIONNE] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(64, 57),
+        .y_offset = 4,
     },
     [SPECIES_PRIMARINA] =
     {
@@ -3811,18 +3811,18 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_BOUNSWEET] =
     {
-        .size = MON_COORDS_SIZE(32, 40),
-        .y_offset = 16,
+        .size = MON_COORDS_SIZE(41, 62),
+        .y_offset = 1,
     },
     [SPECIES_STEENEE] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(63, 64),
+        .y_offset = 0,
     },
     [SPECIES_TSAREENA] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
-        .y_offset = 1,
+        .size = MON_COORDS_SIZE(29, 63),
+        .y_offset = 0,
     },
     [SPECIES_COMFEY] =
     {
