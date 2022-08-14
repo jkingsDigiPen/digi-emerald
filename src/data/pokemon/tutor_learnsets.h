@@ -3993,9 +3993,9 @@ static const u32 sTutorLearnsets[] =
                                             | TUTOR(MOVE_SWIFT)
                                             | TUTOR(MOVE_THUNDER_WAVE)),
 
-    [SPECIES_WURMPLE]       = TUTOR_LEARNSET(TUTOR(MOVE_SNORE)),
+    [SPECIES_WURMPLE]       = TUTOR_LEARNSET(0),
 
-    [SPECIES_SILCOON]       = TUTOR_LEARNSET(0),
+    [SPECIES_SILCOON]       = TUTOR_LEARNSET(TUTOR(MOVE_SNORE)),
 
     [SPECIES_BEAUTIFLY]     = TUTOR_LEARNSET(TUTOR(MOVE_DOUBLE_EDGE)
                                             | TUTOR(MOVE_ENDURE)
@@ -4006,7 +4006,7 @@ static const u32 sTutorLearnsets[] =
                                             | TUTOR(MOVE_SWAGGER)
                                             | TUTOR(MOVE_SWIFT)),
 
-    [SPECIES_CASCOON]       = TUTOR_LEARNSET(0),
+    [SPECIES_CASCOON]       = TUTOR_LEARNSET(TUTOR(MOVE_SNORE)),
 
     [SPECIES_DUSTOX]        = TUTOR_LEARNSET(TUTOR(MOVE_DOUBLE_EDGE)
                                             | TUTOR(MOVE_ENDURE)
