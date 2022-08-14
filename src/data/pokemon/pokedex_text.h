@@ -1565,58 +1565,58 @@ const u8 gSwampertPokedexText[] = _(
     "a jet ski.");
 
 const u8 gPoochyenaPokedexText[] = _(
-    "It savagely threatens foes with bared\n"
-    "fangs. It chases after fleeing targets\n"
-    "tenaciously. It turns tail and runs,\n"
-    "however, if the foe strikes back.");
+    "It is mischievous and will go to any\n"
+    "length to carry out a prank. Those who\n"
+    "look into the eyes on its hands may\n"
+    "find their hearts dominated by it.");
 
 const u8 gMightyenaPokedexText[] = _(
-    "In the wild, Mightyena live in a pack.\n"
-    "They never defy their leader's orders.\n"
-    "They defeat foes with perfectly\n"
-    "coordinated teamwork.");
+    "An ancient, noble beast that subsists\n"
+    "on blood. It seems to meld into shadows\n"
+    "making it difficult to capture, and\n"
+    "can fling thousands of tiny blades.");
 
 const u8 gZigzagoonPokedexText[] = _(
-    "Rubbing its nose against the ground, it\n"
-    "always wanders about back and forth in\n"
-    "search of something. It is distinguished\n"
-    "by the zigzag footprints it leaves.");
+    "A holy beast that wears a collar. It has\n"
+    "a calm, cool personality, able to quickly\n"
+    "analyze its situation even in battle. It is\n"
+    "said to store power in its left earring.");
 
 const u8 gLinoonePokedexText[] = _(
-    "It is exceedingly fast if it only has to run\n"
-    "in a straight line. When it spots pond-\n"
-    "dwelling prey underwater, it quickly leaps\n"
-    "in and catches it with its sharp claws.");
+    "Its tail has become a blade with a will of\n"
+    "its own. This allows it to sense attacks from\n"
+    "behind, though it can also be seen quarreling\n"
+    "with its tail from time to time.");
 
 const u8 gWurmplePokedexText[] = _(
-    "It sticks to tree branches and eats\n"
-    "leaves. The thread it spits from its mouth,\n"
-    "which becomes gooey when it touches\n"
-    "air, slows the movement of its foes.");
+    "It has a tough outer shell. When its\n"
+    "mood is high, it sticks its face out of\n"
+    "the shell and relaxes. It is said to\n"
+    "move by hanging onto larger Digimon.");
 
 const u8 gSilcoonPokedexText[] = _(
-    "It prepares for evolution using the\n"
-    "energy it stored while it was a Wurmple.\n"
-    "It keeps watch over the surroundings with\n"
-    "its two eyes.");
+    "It enjoys nature and has a carefree\n"
+    "personality. It will follow anyone if\n"
+    "it determines that they are not a threat,\n"
+    "and its ear-wings move when it is happy.");
 
 const u8 gBeautiflyPokedexText[] = _(
-    "Its colorfully patterned wings are its\n"
-    "most prominent feature. It flies through\n"
-    "flower-covered fields collecting pollen.\n"
-    "It attacks ferociously when angered.");
+    "It is cautious, but reveals its cheerful\n"
+    "countenance to those it grows to trust.\n"
+    "It travels all over, dancing in well-lit\n"
+    "places, and has an astounding memory.");
 
 const u8 gCascoonPokedexText[] = _(
-    "To avoid detection by its enemies, it hides\n"
-    "motionlessly beneath large leaves and in\n"
-    "the gaps of branches. It also attaches\n"
-    "dead leaves to its body for camouflage.");
+    "It is timid and cowardly, but contains\n"
+    "the potential to attain great power.\n"
+    "It can restrain its opponents by\n"
+    "spitting out tough, adhesive threads.");
 
 const u8 gDustoxPokedexText[] = _(
-    "It is a nocturnal Pokémon that flies from\n"
-    "fields and mountains to the attraction of\n"
-    "streetlights at night. It looses highly\n"
-    "toxic powder from its wings.");
+    "It moves with great speed and dexterity\n"
+    "and has a tough exoskeleton. Its traits\n"
+    "and skills make it adept at striking\n"
+    "without warning to silence opponents.");
 
 const u8 gLotadPokedexText[] = _(
     "This Pokémon lives in ponds with clean\n"
@@ -3917,22 +3917,22 @@ const u8 gChesnaughtPokedexText[] = _(
     "it can withstand a bomb blast.");
 
 const u8 gFennekinPokedexText[] = _(
-    "As it walks, it munches on a twig to fill\n"
-    "itself with energy in place of a snack.\n"
-    "It intimidates opponents by puffing hot\n"
-    "air out of its roomy ears.");
+    "A slender, tall fox-like Digimon with\n"
+    "a keen mind. It is always calm, cool, and\n"
+    "collected, and disciplined enough to avoid\n"
+    "losing its composure in any situation.");
 
 const u8 gBraixenPokedexText[] = _(
-    "Braixen has a twig stuck in its tail.\n"
-    "When the twig is plucked from its tail,\n"
-    "friction sets the twig alight. The flame\n"
-    "is used to send signals to its allies.");
+    "Although feared as a bewitching beast that\n"
+    "brings about destruction and ruin, long\n"
+    "ago, it was revered as a messenger that\n"
+    "appeared in times of peace");
 
 const u8 gDelphoxPokedexText[] = _(
-    "It gazes into the flame at the tip of its\n"
-    "branch to achieve a focused state, which\n"
-    "allows it to see into the future. It uses\n"
-    "psychic power to incinerate its foes.");
+    "Its faculty with magic is particularly high,\n"
+    "and attacks with talismans and spells are\n"
+    "its forte. It is usually reticent to talk,\n"
+    "and lives and lurks within dark places.");
 
 const u8 gFroakiePokedexText[] = _(
     "It protects its skin by covering its body\n"
@@ -4565,22 +4565,22 @@ const u8 gBewearPokedexText[] = _(
     "by its hug.");
 
 const u8 gBounsweetPokedexText[] = _(
-    "A delectable aroma pours from its body. \n"
-    "Bounsweet's sweat can be watered down\n"
-    "into a juice with just the right amount\n"
-    "of sweetness.");
+    "A Plant Digimon which has the appearance\n"
+    "of a flower bud. It spins the leaf on its head\n"
+    "to fly unsteadily, and is expressionless\n"
+    "but still somehow charming.");
 
 const u8 gSteeneePokedexText[] = _(
-    "The sepals on its head developed to\n"
-    "protect its body. These are quite hard, so\n"
-    "even if pecked by bird Pokémon, this\n"
-    "Pokémon is totally fine.");
+    "It has the appearance of a sunflower. If it\n"
+    "bathes in the sun's light it becomes very\n"
+    "energetic and its power rises. In good weather,\n"
+    "it flaps the leaves on its back to fly around.");
 
 const u8 gTsareenaPokedexText[] = _(
-    "Its long, striking legs aren't just for\n"
-    "show but to be used to kick with skill.\n"
-    "In victory, it shows off by kicking the\n"
-    "defeated, laughing boisterously.");
+    "A Fairy Digimon with the appearance of a\n"
+    "beautiful lilac. It is pure and innocent,\n"
+    "and despite its beautiful appearance, it\n"
+    "is said to govern over death and rebirth.");
 
 const u8 gComfeyPokedexText[] = _(
     "It attaches flowers to its nutritious\n"

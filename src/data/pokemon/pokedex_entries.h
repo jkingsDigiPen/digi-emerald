@@ -7850,7 +7850,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BRAIXEN] =
     {
-        .categoryName = _("Fox"),
+        .categoryName = _("Bewitching"),
         .height = 10,
         .weight = 145,
         .description = gBraixenPokedexText,
@@ -7862,7 +7862,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_DELPHOX] =
     {
-        .categoryName = _("Fox"),
+        .categoryName = _("Diviner"),
         .height = 15,
         .weight = 390,
         .description = gDelphoxPokedexText,
@@ -8762,7 +8762,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_PRIMARINA] =
     {
-        .categoryName = _("Mermaid"),
+        .categoryName = _("Siren"),
         .height = 18,
         .weight = 440,
         .description = gPrimarinaPokedexText,
@@ -9134,7 +9134,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BOUNSWEET] =
     {
-        .categoryName = _("Fruit"),
+        .categoryName = _("Bud"),
         .height = 3,
         .weight = 32,
         .description = gBounsweetPokedexText,
@@ -9146,7 +9146,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_STEENEE] =
     {
-        .categoryName = _("Fruit"),
+        .categoryName = _("Sunny"),
         .height = 7,
         .weight = 82,
         .description = gSteeneePokedexText,
@@ -9158,7 +9158,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TSAREENA] =
     {
-        .categoryName = _("Fruit"),
+        .categoryName = _("Lilac"),
         .height = 12,
         .weight = 214,
         .description = gTsareenaPokedexText,
