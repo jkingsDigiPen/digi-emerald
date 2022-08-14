@@ -9150,12 +9150,16 @@ static const u32 sTutorLearnsets[] =
     [SPECIES_STEENEE]       = TUTOR_LEARNSET(TUTOR(MOVE_SLEEP_TALK)
                                             | TUTOR(MOVE_SNORE)
                                             | TUTOR(MOVE_SUBSTITUTE)
-                                            | TUTOR(MOVE_SWAGGER)),
+                                            | TUTOR(MOVE_SWAGGER)
+																						| TUTOR(MOVE_THUNDER_WAVE)),
 
     [SPECIES_TSAREENA]      = TUTOR_LEARNSET(TUTOR(MOVE_SLEEP_TALK)
                                             | TUTOR(MOVE_SNORE)
                                             | TUTOR(MOVE_SUBSTITUTE)
-                                            | TUTOR(MOVE_SWAGGER)),
+                                            | TUTOR(MOVE_SWAGGER)
+																						| TUTOR(MOVE_SWIFT)
+																						| TUTOR(MOVE_THUNDER_PUNCH)
+                                            | TUTOR(MOVE_THUNDER_WAVE)),
 
     [SPECIES_COMFEY]        = TUTOR_LEARNSET(TUTOR(MOVE_ENDURE)
                                             | TUTOR(MOVE_PSYCH_UP)
