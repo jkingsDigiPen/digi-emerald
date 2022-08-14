@@ -15549,9 +15549,9 @@ static const struct LevelUpMove sBewearLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
-    LEVEL_UP_MOVE( 5, MOVE_ABSORB),
+    LEVEL_UP_MOVE( 5, MOVE_BULLET_SEED),
     LEVEL_UP_MOVE( 9, MOVE_GRASS_WHISTLE),
     LEVEL_UP_MOVE(13, MOVE_MEGA_DRAIN),
     LEVEL_UP_MOVE(17, MOVE_LEECH_SEED),
@@ -15568,7 +15568,7 @@ static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
 static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FLOWER_SHIELD),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
-    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 4, MOVE_INGRAIN),
     LEVEL_UP_MOVE( 7, MOVE_GRASS_WHISTLE),
@@ -15591,7 +15591,7 @@ static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
 static const struct LevelUpMove sTsareenaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FLOWER_SHIELD),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
-    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 4, MOVE_FAIRY_WIND),
 		LEVEL_UP_MOVE( 7, MOVE_GRASS_WHISTLE),
