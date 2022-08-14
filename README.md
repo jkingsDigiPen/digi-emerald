@@ -41,6 +41,14 @@ Other notes:
 - Ultimate forms (known as 'Mega' in the Digimon dubs) will be reserved generally for legendary, pseudo-legendary, and Mega-evolved Pokemon. *Most* Digimon with well-known evolution lines will eventually have the ability to mega-evolve at some point, but they will come after their previous stages are implemented.
 - Baby/in-training Digimon will not generally be found in the game, as I would rather focus my efforts on implementing later evolutionary forms.
 
+## Art Credits
+
+Unless otherwise noted, all Digimon sprites are modified versions of art from other Digimon games, primarily the Digimon Story games for the Nintendo DS (known as Digimon World DS an Digimon World Dawn and Dusk in their official ports).
+
+Notable exceptions:
+- Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
+- Hudiemon sprite by dragonrod342 https://www.deviantart.com/dragonrod342
+
 # Changes from laserXdolphin's Base ROM
 
 The following text relates to changes to the base ROM (not my changes), and come directly from laserXdolphin's readme. See below for changes included when this project was initially forked from their base. If I merge/integrate additional changes at a later point in time, they will also be listed here.
