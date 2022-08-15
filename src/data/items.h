@@ -11,11 +11,11 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-// Poké Balls
+// Digi Balls
 
     [ITEM_POKE_BALL] =
     {
-        .name = _("Poké Ball"),
+        .name = _("Digi Ball"),
         .itemId = ITEM_POKE_BALL,
         .price = 200,
         .description = sPokeBallDesc,
@@ -1733,7 +1733,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_DOLL] =
     {
-        .name = _("Poké Doll"),
+        .name = _("Digi Doll"),
         .itemId = ITEM_POKE_DOLL,
         .price = 100,
         .description = sPokeDollDesc,
@@ -1761,7 +1761,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_TOY] =
     {
-        .name = _("Poké Toy"),
+        .name = _("Digi Toy"),
         .itemId = ITEM_POKE_TOY,
         .price = 100,
         .description = sPokeToyDesc,
@@ -9580,7 +9580,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_RADAR] =
     {
-        .name = _("Poké Radar"),
+        .name = _("Digi Radar"),
         .itemId = ITEM_POKE_RADAR,
         .price = 0,
         .description = sPokeRadarDesc,
@@ -9617,7 +9617,7 @@ const struct Item gItems[] =
 
     [ITEM_POKE_FLUTE] =
     {
-        .name = _("Poké Flute"),
+        .name = _("Digi Flute"),
         .itemId = ITEM_POKE_FLUTE,
         .price = 0,
         .description = sPokeFluteDesc,
