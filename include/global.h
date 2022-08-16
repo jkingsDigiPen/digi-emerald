@@ -969,8 +969,17 @@ struct SaveBlock1
     /*0x560*/ struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
     /*0x5D8*/ struct ItemSlot bagPocket_KeyItems[BAG_KEYITEMS_COUNT];
     /*0x650*/ struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
-    /*0x690*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
+    
+    // Bigger bag
+    /*0x690*/ // struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
+              u8 bagPocket_TMHMOwnedFlags[26]; //allow for a total of 208 TMs/HMs
     /*0x790*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
+              struct ItemSlot bagPocket_Medicine[BAG_MEDICINE_COUNT];
+              struct ItemSlot bagPocket_BattleItems[BAG_BATTLEITEMS_COUNT];
+              struct ItemSlot bagPocket_PowerUp[BAG_POWERUP_COUNT];
+              struct ItemSlot bagPocket_TypeItems[BAG_TYPEITEMS_COUNT];
+              struct ItemSlot bagPocket_MegaStones[BAG_MEGASTONES_COUNT];
+
     /*0x848*/ struct Pokeblock pokeblocks[POKEBLOCKS_COUNT];
     /*0x9BC*/ u16 berryBlenderRecords[3];
     /*0x9C8*/ u16 trainerRematchStepCounter;
