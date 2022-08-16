@@ -971,8 +971,7 @@ struct SaveBlock1
     /*0x650*/ struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
     
     // Bigger bag
-    /*0x690*/ // struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
-              u8 bagPocket_TMHMOwnedFlags[26]; //allow for a total of 208 TMs/HMs
+    /*0x690*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
     /*0x790*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
               struct ItemSlot bagPocket_Medicine[BAG_MEDICINE_COUNT];
               struct ItemSlot bagPocket_BattleItems[BAG_BATTLEITEMS_COUNT];
