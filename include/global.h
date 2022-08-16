@@ -25,6 +25,9 @@
 #define FREE_RECORD_MIXING_HALL_RECORDS //frees up hall records for record mixing. 1032 bytes
                                         // saveblock2 total: 1032 bytes
 
+// Bigger bag
+#define BIGGER_BAG                      // Reduces TMHM block size, frees mystery gift,
+                                        // enigma berry, ram script save data.
 
 
 // Prevent cross-jump optimization.
@@ -971,14 +974,19 @@ struct SaveBlock1
     /*0x650*/ struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
     
     // Bigger bag
+    #if 0
+              u8 bagPocket_TMHMOwnedFlags[26]; //allow for a total of 208 TMs/HMs
+    #else
     /*0x690*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
+    #endif   
     /*0x790*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
+    #ifdef BIGGER_BAG
               struct ItemSlot bagPocket_Medicine[BAG_MEDICINE_COUNT];
               struct ItemSlot bagPocket_BattleItems[BAG_BATTLEITEMS_COUNT];
               struct ItemSlot bagPocket_PowerUp[BAG_POWERUP_COUNT];
               struct ItemSlot bagPocket_TypeItems[BAG_TYPEITEMS_COUNT];
               struct ItemSlot bagPocket_MegaStones[BAG_MEGASTONES_COUNT];
-
+    #endif
     /*0x848*/ struct Pokeblock pokeblocks[POKEBLOCKS_COUNT];
     /*0x9BC*/ u16 berryBlenderRecords[3];
     /*0x9C8*/ u16 trainerRematchStepCounter;
@@ -1030,12 +1038,16 @@ struct SaveBlock1
     /*0x31B3*/ struct ExternalEventData externalEventData;
     /*0x31C7*/ struct ExternalEventFlags externalEventFlags;
     /*0x31DC*/ struct Roamer roamer;
+    #ifndef BIGGER_BAG
     /*0x31F8*/ struct EnigmaBerry enigmaBerry;
     /*0x322C*/ struct MysteryGiftSave mysteryGift;
+    #endif
     /*0x3???*/ u8 dexSeen[NUM_DEX_FLAG_BYTES];
     /*0x3???*/ u8 dexCaught[NUM_DEX_FLAG_BYTES];
     /*0x3718*/ u32 trainerHillTimes[NUM_TRAINER_HILL_MODES];
+    #ifndef BIGGER_BAG
     /*0x3728*/ struct RamScript ramScript;
+    #endif
     /*0x3B14*/ struct RecordMixingGift recordMixingGift;
     /*0x3B58*/ LilycoveLady lilycoveLady;
     /*0x3B98*/ struct TrainerNameRecord trainerNameRecords[20];

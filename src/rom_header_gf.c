@@ -77,7 +77,9 @@ struct GFRomHeader
     u8 pcItemsCount;
     u32 pcItemsOffset;
     u32 giftRibbonsOffset;
+    #ifndef BIGGER_BAG
     u32 enigmaBerryOffset;
+    #endif
     u32 mapViewOffset;
     u32 unk19;
     u32 unk20;
@@ -156,7 +158,9 @@ static const struct GFRomHeader sGFRomHeader = {
     .pcItemsCount = PC_ITEMS_COUNT,
     .pcItemsOffset = offsetof(struct SaveBlock1, pcItems),
     .giftRibbonsOffset = offsetof(struct SaveBlock1, giftRibbons),
+    #ifndef BIGGER_BAG
     .enigmaBerryOffset = offsetof(struct SaveBlock1, enigmaBerry),
+    #endif
     .mapViewOffset = offsetof(struct SaveBlock1, mapView),
     .unk19 = 0x00000000,
     .unk20 = 0x00000000, // 0xFFFFFFFF in FRLG

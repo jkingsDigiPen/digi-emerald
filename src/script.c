@@ -349,16 +349,23 @@ void TryRunOnWarpIntoMapScript(void)
 
 u32 CalculateRamScriptChecksum(void)
 {
+    #ifndef BIGGER_BAG
     return CalcCRC16WithTable((u8*)(&gSaveBlock1Ptr->ramScript.data), sizeof(gSaveBlock1Ptr->ramScript.data));
+    #else
+    return 0;
+    #endif
 }
 
 void ClearRamScript(void)
 {
+    #ifndef BIGGER_BAG
     CpuFill32(0, &gSaveBlock1Ptr->ramScript, sizeof(struct RamScript));
+    #endif
 }
 
 bool8 InitRamScript(const u8 *script, u16 scriptSize, u8 mapGroup, u8 mapNum, u8 objectId)
 {
+    #ifndef BIGGER_BAG
     struct RamScriptData *scriptData = &gSaveBlock1Ptr->ramScript.data;
 
     ClearRamScript();
@@ -373,10 +380,14 @@ bool8 InitRamScript(const u8 *script, u16 scriptSize, u8 mapGroup, u8 mapNum, u8
     memcpy(scriptData->script, script, scriptSize);
     gSaveBlock1Ptr->ramScript.checksum = CalculateRamScriptChecksum();
     return TRUE;
+    #else
+    return FALSE;
+    #endif
 }
 
 const u8 *GetRamScript(u8 objectId, const u8 *script)
 {
+    #ifndef BIGGER_BAG
     struct RamScriptData *scriptData = &gSaveBlock1Ptr->ramScript.data;
     gRamScriptRetAddr = NULL;
     if (scriptData->magic != RAM_SCRIPT_MAGIC)
@@ -397,12 +408,16 @@ const u8 *GetRamScript(u8 objectId, const u8 *script)
         gRamScriptRetAddr = script;
         return scriptData->script;
     }
+    #else
+    return script;
+    #endif
 }
 
 #define NO_OBJECT OBJ_EVENT_ID_PLAYER
 
 bool32 ValidateSavedRamScript(void)
 {
+    #ifndef BIGGER_BAG
     struct RamScriptData *scriptData = &gSaveBlock1Ptr->ramScript.data;
     if (scriptData->magic != RAM_SCRIPT_MAGIC)
         return FALSE;
@@ -415,10 +430,13 @@ bool32 ValidateSavedRamScript(void)
     if (CalculateRamScriptChecksum() != gSaveBlock1Ptr->ramScript.checksum)
         return FALSE;
     return TRUE;
+    #endif
+    return FALSE;
 }
 
 u8 *GetSavedRamScriptIfValid(void)
 {
+    #ifndef BIGGER_BAG
     struct RamScriptData *scriptData = &gSaveBlock1Ptr->ramScript.data;
     if (!ValidateSavedWonderCard())
         return NULL;
@@ -439,11 +457,16 @@ u8 *GetSavedRamScriptIfValid(void)
     {
         return scriptData->script;
     }
+    #else
+    return FALSE;
+    #endif
 }
 
 void InitRamScript_NoObjectEvent(u8 *script, u16 scriptSize)
 {
+    #ifndef BIGGER_BAG
     if (scriptSize > sizeof(gSaveBlock1Ptr->ramScript.data.script))
         scriptSize = sizeof(gSaveBlock1Ptr->ramScript.data.script);
     InitRamScript(script, scriptSize, MAP_GROUP(UNDEFINED), MAP_NUM(UNDEFINED), NO_OBJECT);
+    #endif
 }
