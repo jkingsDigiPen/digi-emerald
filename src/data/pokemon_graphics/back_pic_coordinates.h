@@ -1356,8 +1356,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_LOTAD] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(53, 46),
+        .y_offset = 0,
     },
     [SPECIES_LOMBRE] =
     {
@@ -1371,8 +1371,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_SEEDOT] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(63, 46),
+        .y_offset = 0,
     },
     [SPECIES_NUZLEAF] =
     {
@@ -1426,8 +1426,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_WINGULL] =
     {
-        .size = MON_COORDS_SIZE(64, 40),
-        .y_offset = 13,
+        .size = MON_COORDS_SIZE(50, 51),
+        .y_offset = 0,
     },
     [SPECIES_PELIPPER] =
     {
@@ -1841,8 +1841,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_RALTS] =
     {
-        .size = MON_COORDS_SIZE(32, 40),
-        .y_offset = 13,
+        .size = MON_COORDS_SIZE(43, 33),
+        .y_offset = 12,
     },
     [SPECIES_KIRLIA] =
     {
