@@ -3281,7 +3281,7 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_DELPHOX] =
     {
-        .size = MON_COORDS_SIZE(55, 64),
+        .size = MON_COORDS_SIZE(39, 37),
         .y_offset = 0,
     },
     [SPECIES_FROAKIE] =
