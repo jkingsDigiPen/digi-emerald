@@ -26,17 +26,17 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_CHARMANDER] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(39, 59),
+        .y_offset = 3,
     },
     [SPECIES_CHARMELEON] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(47, 64),
+        .y_offset = 0,
     },
     [SPECIES_CHARIZARD] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
+        .size = MON_COORDS_SIZE(50, 64),
         .y_offset = 0,
     },
     [SPECIES_SQUIRTLE] =

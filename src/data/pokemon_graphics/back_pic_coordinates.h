@@ -26,13 +26,13 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_CHARMANDER] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(39, 43),
+        .y_offset = 0,
     },
     [SPECIES_CHARMELEON] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 8,
+        .size = MON_COORDS_SIZE(61, 64),
+        .y_offset = 0,
     },
     [SPECIES_CHARIZARD] =
     {
