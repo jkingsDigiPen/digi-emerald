@@ -3108,9 +3108,7 @@ static const union AnimCmd sAnim_DUSTOX_2[] =
 
 static const union AnimCmd sAnim_LOTAD_1[] =
 {
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 55),
-    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3138,15 +3136,7 @@ static const union AnimCmd sAnim_LUDICOLO_1[] =
 
 static const union AnimCmd sAnim_SEEDOT_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3265,9 +3255,7 @@ static const union AnimCmd sAnim_BRELOOM_1[] =
 
 static const union AnimCmd sAnim_WINGULL_1[] =
 {
-    ANIMCMD_FRAME(0, 17),
-    ANIMCMD_FRAME(1, 23),
-    ANIMCMD_FRAME(0, 13),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -4244,9 +4232,7 @@ static const union AnimCmd sAnim_ARMALDO_1[] =
 
 static const union AnimCmd sAnim_RALTS_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
