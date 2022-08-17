@@ -224,7 +224,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav: @ 8212820
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "Mr. Stone: That device…\p"
-	.string "It's a Pokémon Navigator, or Pokénav\n"
+	.string "It's a Digimon Navigator, or Pokénav\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "Trainer on an adventure.\p"
@@ -251,13 +251,17 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter: @ 8212A29
 	.string "It should help you, a Trainer.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare: @ 8212A9E
-	.string "Mr. Stone: A Pokémon holding that\n"
+	.string "Mr. Stone: A Digimon holding that\n"
 	.string "Exp. Share will be given some of the\l"
-	.string "Exp Points from battle.\p"
-	.string "It will get Exp Points even if it didn't\n"
-	.string "actually battle.\p"
+	.string "Exp. Points from battle.\p"
+	.string "It will get Exp. Points even if it\n"
+	.string "didn't actually battle.\p"
+	.string "It has a second mode as well!\p"
+	.string "Turn it ON instead of giving it to a\n"
+	.string "Digimon to hold and all Digimon on\l"
+	.string "your team will gain Exp. Points!\p"
 	.string "I would say Exp. Share is quite useful\n"
-	.string "for raising weak Pokémon.$"
+	.string "for raising weak Digimon.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends: @ 8212B78
 	.string "Mr. Stone: Since my youth, I've immersed\n"
@@ -265,7 +269,7 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends: @ 8212B78
 	.string "Consequently, I'm not familiar with\n"
 	.string "trends and that sort of thing.\p"
 	.string "But do young people all want to be\n"
-	.string "Trainers in the Pokémon League?$"
+	.string "Trainers in the Digimon League?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere: @ 8212C37
 	.string "This is the Devon Corporation's\n"

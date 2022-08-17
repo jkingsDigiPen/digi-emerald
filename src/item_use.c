@@ -1208,4 +1208,26 @@ void ItemUseOutOfBattle_IncreaseIV(u8 taskId)
     SetUpItemUseCallback(taskId);
 }
 
+// Gen 6 Exp Share!
+void ItemUseOutOfBattle_ExpShare(u8 taskId)
+{
+    if (!gSaveBlock2Ptr->optionsExpShare)
+    {
+        PlaySE(SE_EXP_MAX);
+        if (!gTasks[taskId].data[2]) // to account for pressing select in the overworld
+            DisplayItemMessageOnField(taskId, gText_ExpShareOn, Task_CloseCantUseKeyItemMessage);
+        else
+            DisplayItemMessage(taskId, 1, gText_ExpShareOn, CloseItemMessage);
+    }
+    else
+    {
+        PlaySE(SE_PC_OFF);
+        if (!gTasks[taskId].data[2]) // to account for pressing select in the overworld
+            DisplayItemMessageOnField(taskId, gText_ExpShareOff, Task_CloseCantUseKeyItemMessage);
+        else
+            DisplayItemMessage(taskId, 1, gText_ExpShareOff, CloseItemMessage);
+    }
+    gSaveBlock2Ptr->optionsExpShare = !gSaveBlock2Ptr->optionsExpShare;
+}
+
 #undef tUsingRegisteredKeyItem
