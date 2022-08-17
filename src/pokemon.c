@@ -6395,7 +6395,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, s
             partnerHoldEffect = gSaveBlock1Ptr->enigmaBerry.holdEffect;
             #else
             partnerHoldEffect = 0;
-            #endif;
+            #endif
         }
         else
             partnerHoldEffect = ItemId_GetHoldEffect(partnerHeldItem);
