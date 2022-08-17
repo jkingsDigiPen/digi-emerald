@@ -190,7 +190,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_LEVEL_SHEDINJA, 20, SPECIES_SHEDINJA}},
     [SPECIES_TAILLOW]               = {{EVO_LEVEL, 22, SPECIES_SWELLOW}},
     [SPECIES_SHROOMISH]             = {{EVO_LEVEL, 23, SPECIES_BRELOOM}},
-    [SPECIES_WINGULL]               = {{EVO_LEVEL, 25, SPECIES_PELIPPER}},
+    [SPECIES_WINGULL]               = {{EVO_ITEM, ITEM_DUSK_STONE, SPECIES_PELIPPER}},
     [SPECIES_SURSKIT]               = {{EVO_LEVEL, 22, SPECIES_MASQUERAIN}},
     [SPECIES_WAILMER]               = {{EVO_LEVEL, 40, SPECIES_WAILORD}},
     [SPECIES_SKITTY]                = {{EVO_ITEM, ITEM_MOON_STONE, SPECIES_DELCATTY}},
