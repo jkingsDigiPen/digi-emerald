@@ -65,6 +65,10 @@ The following text relates to changes to the base ROM (not my changes), and come
 - **[Fixes and content from the pret tutorials](https://github.com/pret/pokeemerald/wiki/Tutorials):** Indoor running, BW Repel System, Trainer Classed Pokeballs, Map dependent Trainer Battle Music
 - **[Content from Pokecommunity Simple Modifications Directory Content](https://www.pokecommunity.com/showthread.php?t=416647):** Setting EVs and Abilities for trainer battles, Nature Coloring and IV/EV Stat screens 
 
+## Additional feature branches included (not already in laserXdolphin's Base ROM)
+- **[AsparagusEduardo's More Bag Pockets](https://www.pokecommunity.com/showthread.php?t=424360):** Expands the number of bag pockets to a whopping 10, allowing for easier location of items.
+- **[Additional parts of ghoulslash's free_saveblock](https://www.pokecommunity.com/showthread.php?p=10168472#post10168472):** Specifically, enigma berries and mystery events, which were removed as a byproduct/necessity to make room for the extra pocket data.
+
 ## Pokecommunity Simple Modifications Directory Content
 - [Soft Level Cap - PokemonCrazy](https://www.pokecommunity.com/showthread.php?t=435445)
 - Set a Trainer's Pokémon's [EVs - lightbox87](https://www.pokecommunity.com/showpost.php?p=10135792), [abilities - Diego Mertens](https://www.pokecommunity.com/showpost.php?p=10127338) and nature
