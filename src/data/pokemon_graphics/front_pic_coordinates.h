@@ -3276,8 +3276,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_BRAIXEN] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(60, 64),
+        .y_offset = 0,
     },
     [SPECIES_DELPHOX] =
     {
