@@ -287,10 +287,10 @@ const u8 gText_KeyItemsPocket[] = _("Key Items");
 
 // Bigger bag
 const u8 gText_MedicinePocket[] = _("Medicine");
-const u8 gText_BattleItemsPocket[] = _("Battle Item");
-const u8 gText_PowerUpPocket[] = _("Power-Up");
+const u8 gText_BattleItemsPocket[] = _("BattleItems");
+const u8 gText_PowerUpPocket[] = _("Power-Ups");
 const u8 gText_TypeItemsPocket[] = _("Type Items");
-const u8 gText_MegaStonesPocket[] = _("M. Stones");
+const u8 gText_MegaStonesPocket[] = _("Mega Stones");
 
 // Modified for bigger bag
 const u8 *const gPocketNamesStringsTable[] =
