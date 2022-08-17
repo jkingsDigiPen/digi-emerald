@@ -3816,7 +3816,7 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_STEENEE] =
     {
-        .size = MON_COORDS_SIZE(63, 64),
+        .size = MON_COORDS_SIZE(63, 41),
         .y_offset = 0,
     },
     [SPECIES_TSAREENA] =
