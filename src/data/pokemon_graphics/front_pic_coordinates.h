@@ -1901,18 +1901,18 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_KYOGRE] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(50, 52),
+        .y_offset = 6,
     },
     [SPECIES_GROUDON] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(58, 60),
+        .y_offset = 2,
     },
     [SPECIES_RAYQUAZA] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(53, 54),
+        .y_offset = 5,
     },
     [SPECIES_LATIAS] =
     {
