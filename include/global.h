@@ -524,6 +524,7 @@ struct SaveBlock2
     /*0x624*/ u16 contestLinkResults[CONTEST_CATEGORIES_COUNT][CONTESTANT_COUNT];
     /*0x64C*/ struct BattleFrontier frontier;
     /*0xF2C*/ u8 itemFlags[ITEM_FLAGS_COUNT];
+              u16 optionsXpShare:1; // Gen 6 XP Share on/off
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
