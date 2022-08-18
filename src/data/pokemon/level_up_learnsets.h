@@ -62,6 +62,7 @@ static const struct LevelUpMove sVenusaurLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Agumon
 static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
@@ -78,6 +79,7 @@ static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// GeoGreymon
 static const struct LevelUpMove sCharmeleonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_HORN_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
@@ -97,6 +99,7 @@ static const struct LevelUpMove sCharmeleonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// RizeGreymon
 static const struct LevelUpMove sCharizardLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH), 
     LEVEL_UP_MOVE( 0, MOVE_BULLET_PUNCH), 
@@ -5455,6 +5458,7 @@ static const struct LevelUpMove sLinooneLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Minomon
 static const struct LevelUpMove sWurmpleLevelUpLearnset[] = {
     //LEVEL_UP_MOVE( 0, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
@@ -5464,7 +5468,10 @@ static const struct LevelUpMove sWurmpleLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Morphomon
 static const struct LevelUpMove sSilcoonLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 5, MOVE_POISON_STING),
@@ -5472,8 +5479,10 @@ static const struct LevelUpMove sSilcoonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Hudiemon
 static const struct LevelUpMove sBeautiflyLevelUpLearnset[] = {
-    //LEVEL_UP_MOVE( 0, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_FAIRY_WIND),
+    LEVEL_UP_MOVE( 1, MOVE_FAIRY_WIND),
     LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE(12, MOVE_ABSORB),
     LEVEL_UP_MOVE(15, MOVE_STUN_SPORE),
@@ -5490,7 +5499,9 @@ static const struct LevelUpMove sBeautiflyLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Wormmon
 static const struct LevelUpMove sCascoonLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
     LEVEL_UP_MOVE( 5, MOVE_POISON_STING),
@@ -5498,9 +5509,10 @@ static const struct LevelUpMove sCascoonLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Stingmon
 static const struct LevelUpMove sDustoxLevelUpLearnset[] = {
-    //LEVEL_UP_MOVE( 0, MOVE_GUST),
-    LEVEL_UP_MOVE( 1, MOVE_GUST),
+    LEVEL_UP_MOVE( 0, MOVE_AERIAL_ACE),
+    LEVEL_UP_MOVE( 1, MOVE_AERIAL_ACE),
     LEVEL_UP_MOVE(12, MOVE_CONFUSION),
     LEVEL_UP_MOVE(15, MOVE_POISON_POWDER),
     LEVEL_UP_MOVE(17, MOVE_MOONLIGHT),
@@ -14909,6 +14921,7 @@ static const struct LevelUpMove sIncineroarLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Syakomon
 static const struct LevelUpMove sPopplioLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
@@ -14929,6 +14942,7 @@ static const struct LevelUpMove sPopplioLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Shellmon
 static const struct LevelUpMove sBrionneLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_SHELL_SMASH),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
@@ -14953,6 +14967,7 @@ static const struct LevelUpMove sBrionneLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Mermaimon
 static const struct LevelUpMove sPrimarinaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_SPARKLING_ARIA),
     LEVEL_UP_MOVE( 0, MOVE_ANCHOR_SHOT),
@@ -15572,6 +15587,7 @@ static const struct LevelUpMove sBewearLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Lalamon
 static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
@@ -15589,6 +15605,7 @@ static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Sunflowmon
 static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_FLOWER_SHIELD),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
@@ -15613,6 +15630,7 @@ static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Lilamon
 static const struct LevelUpMove sTsareenaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_ENERGY_BALL),
     LEVEL_UP_MOVE( 0, MOVE_PARABOLIC_CHARGE),
