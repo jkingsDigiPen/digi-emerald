@@ -7576,12 +7576,12 @@ const struct BaseStats gBaseStats[] =
     // Minomon
     [SPECIES_WURMPLE] =
     {
-        .baseHP        = 45,
-        .baseAttack    = 35,
-        .baseDefense   = 50,
+        .baseHP        = 50,
+        .baseAttack    = 40,
+        .baseDefense   = 55,
         .baseSpeed     = 15,
-        .baseSpAttack  = 25,
-        .baseSpDefense = 25,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 30,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
         .catchRate = 255,
@@ -7601,12 +7601,12 @@ const struct BaseStats gBaseStats[] =
     // Morphomon
     [SPECIES_SILCOON] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 45,
-        .baseDefense   = 35,
-        .baseSpeed     = 20,
-        .baseSpAttack  = 25,
-        .baseSpDefense = 30,
+        .baseHP        = 60,
+        .baseAttack    = 50,
+        .baseDefense   = 60,
+        .baseSpeed     = 40,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 50,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FLYING,
         .catchRate = 120,
@@ -7620,7 +7620,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE},
+        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_RUN_AWAY},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
@@ -7628,16 +7628,12 @@ const struct BaseStats gBaseStats[] =
     // Hudiemon
     [SPECIES_BEAUTIFLY] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 70,
-        .baseDefense   = 50,
+        .baseHP        = 70,
+        .baseAttack    = 60,
+        .baseDefense   = 65,
         .baseSpeed     = 65,
-        .baseSpDefense = 50,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 100,
-        #else
-            .baseSpAttack  = 90,
-        #endif
+        .baseSpAttack  = 100,
+        .baseSpDefense = 70,
         .type1 = TYPE_BUG,
         .type2 = TYPE_FAIRY,
         .catchRate = 45,
@@ -7652,7 +7648,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SWARM, ABILITY_NONE, ABILITY_RIVALRY},
+        .abilities = {ABILITY_TELEPATHY, ABILITY_NONE, ABILITY_SHIELD_DUST},
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
@@ -7660,12 +7656,12 @@ const struct BaseStats gBaseStats[] =
     // Wormmon
     [SPECIES_CASCOON] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 45,
-        .baseDefense   = 35,
-        .baseSpeed     = 20,
-        .baseSpAttack  = 25,
-        .baseSpDefense = 30,
+        .baseHP        = 55,
+        .baseAttack    = 65,
+        .baseDefense   = 65,
+        .baseSpeed     = 40,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 50,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
         .catchRate = 120,
@@ -7679,7 +7675,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE},
+        .abilities = {ABILITY_RUN_AWAY, ABILITY_NONE, ABILITY_SHIELD_DUST},
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
@@ -7688,11 +7684,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DUSTOX] =
     {
         .baseHP        = 60,
-        .baseAttack    = 50,
-        .baseDefense   = 70,
-        .baseSpeed     = 65,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 90,
+        .baseAttack    = 90,
+        .baseDefense   = 75,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 70,
         .type1 = TYPE_BUG,
         .type2 = TYPE_POISON,
         .catchRate = 45,
@@ -7707,7 +7703,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_COMPOUND_EYES},
+        .abilities = {ABILITY_COMPOUND_EYES, ABILITY_NONE, ABILITY_SHIELD_DUST},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
