@@ -42,12 +42,13 @@ Other notes:
 - Baby/in-training Digimon will not generally be found in the game, as I would rather focus my efforts on implementing later evolutionary forms.
 
 ## Art Credits
-
-Unless otherwise noted, all Digimon sprites are modified versions of art from other Digimon games, primarily the Digimon Story games for the Nintendo DS (known as Digimon World DS an Digimon World Dawn and Dusk in their official ports).
-
-Notable exceptions:
+Sprites and Authors:
+- Angewomon sprite by Paburo-Hu https://twitter.com/paburo1/
+- Hudiemon sprite by dragonrod342 https://twitter.com/dragonrod_art/
+- Lilamon sprite modified from SantoryuMUGENJUS1 https://www.deviantart.com/MUGENJUS1
 - Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
-- Hudiemon sprite by dragonrod342 https://www.deviantart.com/dragonrod342
+
+All other Digimon sprites are modified versions of art from other Digimon games, primarily the Digimon Story games for the Nintendo DS (known as Digimon World DS an Digimon World Dawn and Dusk in their official ports).
 
 # Changes Brought from laserXdolphin's Base ROM
 

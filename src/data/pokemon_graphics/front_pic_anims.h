@@ -471,25 +471,20 @@ static const union AnimCmd sAnim_JIGGLYPUFF_2[] =
     ANIMCMD_END,
 };
 
+// Angewomon
 static const union AnimCmd sAnim_WIGGLYTUFF_1[] =
 {
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 20),
-    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_WIGGLYTUFF_2[] =
 {
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(2, 20),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Demidevimon
 static const union AnimCmd sAnim_ZUBAT_1[] =
 {
     ANIMCMD_FRAME(0, 3),
