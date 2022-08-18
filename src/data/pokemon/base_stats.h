@@ -2495,6 +2495,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = TRUE,
     },
 
+    // Renamon
     [SPECIES_ABRA] =
     {
         .baseHP        = 40,
@@ -2519,6 +2520,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Kyubimon
     [SPECIES_KADABRA] =
     {
         .baseHP        = 59,
@@ -2543,6 +2545,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Taomon
     [SPECIES_ALAKAZAM] =
     {
         .baseHP        = 75,
