@@ -9004,7 +9004,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Treecko[]
     {
     .iv = 0,
     .lvl = 2,
-    .species = SPECIES_FENNEKIN,
+    .species = SPECIES_CHARMANDER,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -9028,7 +9028,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Treecko[]
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_BRAIXEN,
+    .species = SPECIES_CHARMELEON,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -9052,7 +9052,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Treecko[]
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_BRAIXEN,
+    .species = SPECIES_CHARMELEON,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -9178,7 +9178,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute103Treecko[] = {
     {
     .iv = 0,
     .lvl = 2,
-    .species = SPECIES_FENNEKIN,
+    .species = SPECIES_CHARMANDER,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -9202,7 +9202,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Treecko[] = {
     {
     .iv = 100,
     .lvl = 20,
-    .species = SPECIES_BRAIXEN,
+    .species = SPECIES_CHARMELEON,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -9226,7 +9226,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Treecko[] = {
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_BRAIXEN,
+    .species = SPECIES_CHARMELEON,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -10341,7 +10341,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTreecko[]
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_FENNEKIN,
+    .species = SPECIES_CHARMANDER,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -11793,7 +11793,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTreecko[]
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_BRAIXEN,
+    .species = SPECIES_CHARMELEON,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -11886,7 +11886,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     {
     .iv = 200,
     .lvl = 34,
-    .species = SPECIES_BRAIXEN,
+    .species = SPECIES_CHARMELEON,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -13572,7 +13572,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTreecko[] = {
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_TORCHIC,
+    .species = SPECIES_CHARMANDER,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}
@@ -13589,7 +13589,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTorchic[] = {
     {
     .iv = 50,
     .lvl = 15,
-    .species = SPECIES_MUDKIP,
+    .species = SPECIES_POPPLIO,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	}

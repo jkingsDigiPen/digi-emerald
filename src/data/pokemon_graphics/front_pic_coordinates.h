@@ -321,18 +321,18 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_ABRA] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(39, 62),
+        .y_offset = 1,
     },
     [SPECIES_KADABRA] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 5,
+        .size = MON_COORDS_SIZE(60, 64),
+        .y_offset = 0,
     },
     [SPECIES_ALAKAZAM] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 2,
+        .size = MON_COORDS_SIZE(55, 56),
+        .y_offset = 0,
     },
     [SPECIES_MACHOP] =
     {

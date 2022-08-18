@@ -47,7 +47,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_POLIWHIRL]             = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_POLIWRATH},
                                        {EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED}},
     [SPECIES_ABRA]                  = {{EVO_LEVEL, 16, SPECIES_KADABRA}},
-    [SPECIES_KADABRA]               = {{EVO_TRADE, 0, SPECIES_ALAKAZAM}},
+    [SPECIES_KADABRA]               = {{EVO_LEVEL, 36, SPECIES_ALAKAZAM}},
     [SPECIES_ALAKAZAM]              = {{EVO_MEGA_EVOLUTION, ITEM_ALAKAZITE, SPECIES_ALAKAZAM_MEGA}},
     [SPECIES_MACHOP]                = {{EVO_LEVEL, 28, SPECIES_MACHOKE}},
     [SPECIES_MACHOKE]               = {{EVO_TRADE, 0, SPECIES_MACHAMP}},
