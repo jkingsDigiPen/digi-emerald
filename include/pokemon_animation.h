@@ -2,6 +2,8 @@
 #define GUARD_POKEMON_ANIMATION_H
 
 u8 GetSpeciesBackAnimSet(u16 species);
+u8 GetSpeciesFrontAnimSet(u16 species);
+u8 GetSpeciesFrontAnimDelay(u16 species);
 void LaunchAnimationTaskForFrontSprite(struct Sprite *sprite, u8 frontAnimId);
 void StartMonSummaryAnimation(struct Sprite *sprite, u8 frontAnimId);
 void LaunchAnimationTaskForBackSprite(struct Sprite *sprite, u8 backAnimSet);
