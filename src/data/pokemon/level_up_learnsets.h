@@ -79,7 +79,7 @@ static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sCharmeleonLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, HORN_ATTACK),
+    LEVEL_UP_MOVE( 0, MOVE_HORN_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
