@@ -206,8 +206,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_WIGGLYTUFF] =
     {
-        .size = MON_COORDS_SIZE(48, 64),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
     },
     [SPECIES_ZUBAT] =
     {
