@@ -50,7 +50,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CHARMANDER] =
     {
-        .categoryName = _("Lizard"),
+        .categoryName = _("Reptile"),
         .height = 6,
         .weight = 85,
         .description = gCharmanderPokedexText,
@@ -62,7 +62,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CHARMELEON] =
     {
-        .categoryName = _("Flame"),
+        .categoryName = _("Dinosaur"),
         .height = 11,
         .weight = 190,
         .description = gCharmeleonPokedexText,
@@ -74,7 +74,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CHARIZARD] =
     {
-        .categoryName = _("Flame"),
+        .categoryName = _("Cyborg"),
         .height = 17,
         .weight = 905,
         .description = gCharizardPokedexText,
@@ -758,7 +758,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ABRA] =
     {
-        .categoryName = _("Psi"),
+        .categoryName = _("Fox"),
         .height = 9,
         .weight = 195,
         .description = gAbraPokedexText,
@@ -770,7 +770,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_KADABRA] =
     {
-        .categoryName = _("Psi"),
+        .categoryName = _("Bewitching"),
         .height = 13,
         .weight = 565,
         .description = gKadabraPokedexText,
@@ -782,7 +782,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_ALAKAZAM] =
     {
-        .categoryName = _("Psi"),
+        .categoryName = _("Diviner"),
         .height = 15,
         .weight = 480,
         .description = gAlakazamPokedexText,
