@@ -985,6 +985,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Agumon
     [SPECIES_CHARMANDER] =
     {
         .baseHP        = 39,
@@ -1009,6 +1010,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // GeoGreymon
     [SPECIES_CHARMELEON] =
     {
         .baseHP        = 58,
@@ -1034,6 +1036,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // RizeGreymon
     [SPECIES_CHARIZARD] =
     {
         .baseHP        = 78,
@@ -7463,6 +7466,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Dracomon
     [SPECIES_POOCHYENA] =
     {
         .baseHP        = 35,
@@ -7487,6 +7491,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Sangloupmon
     [SPECIES_MIGHTYENA] =
     {
         .baseHP        = 70,
@@ -7565,6 +7570,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Minomon
     [SPECIES_WURMPLE] =
     {
         .baseHP        = 45,
@@ -7589,6 +7595,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Morphomon
     [SPECIES_SILCOON] =
     {
         .baseHP        = 50,
@@ -7615,6 +7622,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Hudiemon
     [SPECIES_BEAUTIFLY] =
     {
         .baseHP        = 60,
@@ -7646,6 +7654,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Wormmon
     [SPECIES_CASCOON] =
     {
         .baseHP        = 50,
@@ -7672,6 +7681,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Stingmon
     [SPECIES_DUSTOX] =
     {
         .baseHP        = 60,
@@ -7699,6 +7709,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Otamamon
     [SPECIES_LOTAD] =
     {
         .baseHP        = 40,
@@ -7724,6 +7735,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Geckomon
     [SPECIES_LOMBRE] =
     {
         .baseHP        = 60,
@@ -7749,6 +7761,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // ShogunGeckomon
     [SPECIES_LUDICOLO] =
     {
         .baseHP        = 80,
@@ -7774,6 +7787,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Mushroomon
     [SPECIES_SEEDOT] =
     {
         .baseHP        = 40,
@@ -7801,6 +7815,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Woodmon
     [SPECIES_NUZLEAF] =
     {
         .baseHP        = 70,
@@ -7828,6 +7843,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Cherrymon
     [SPECIES_SHIFTRY] =
     {
         .baseHP        = 90,
@@ -18889,6 +18905,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Syakomon
     [SPECIES_POPPLIO] =
     {
         .baseHP        = 50,
@@ -18913,6 +18930,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Shellmon
     [SPECIES_BRIONNE] =
     {
         .baseHP        = 60,
@@ -18937,6 +18955,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Mermaimon
     [SPECIES_PRIMARINA] =
     {
         .baseHP        = 70,
@@ -19667,6 +19686,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Lalamon
     [SPECIES_BOUNSWEET] =
     {
         .baseHP        = 50,
@@ -19691,6 +19711,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Sunflowmon
     [SPECIES_STEENEE] =
     {
         .baseHP        = 70,
@@ -19715,6 +19736,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Lilamon
     [SPECIES_TSAREENA] =
     {
         .baseHP        = 90,
