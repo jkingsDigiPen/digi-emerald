@@ -7511,6 +7511,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Kudamon
     [SPECIES_ZIGZAGOON] =
     {
         .baseHP        = 38,
@@ -7537,6 +7538,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Reppamon
     [SPECIES_LINOONE] =
     {
         .baseHP        = 78,
@@ -7546,7 +7548,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 50,
         .baseSpDefense = 61,
         .type1 = TYPE_NORMAL,
-        .type2 = TYPE_NORMAL,
+        .type2 = TYPE_STEEL,
         .catchRate = 90,
         .expYield = 147,
         .evYield_Speed     = 2,
