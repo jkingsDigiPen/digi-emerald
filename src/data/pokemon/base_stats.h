@@ -988,9 +988,9 @@ const struct BaseStats gBaseStats[] =
     // Agumon
     [SPECIES_CHARMANDER] =
     {
-        .baseHP        = 39,
-        .baseAttack    = 52,
-        .baseDefense   = 43,
+        .baseHP        = 40,
+        .baseAttack    = 60,
+        .baseDefense   = 45,
         .baseSpeed     = 65,
         .baseSpAttack  = 60,
         .baseSpDefense = 50,
@@ -1013,11 +1013,11 @@ const struct BaseStats gBaseStats[] =
     // GeoGreymon
     [SPECIES_CHARMELEON] =
     {
-        .baseHP        = 58,
-        .baseAttack    = 64,
-        .baseDefense   = 58,
+        .baseHP        = 60,
+        .baseAttack    = 70,
+        .baseDefense   = 60,
         .baseSpeed     = 80,
-        .baseSpAttack  = 80,
+        .baseSpAttack  = 85,
         .baseSpDefense = 65,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FIRE,
@@ -1039,11 +1039,11 @@ const struct BaseStats gBaseStats[] =
     // RizeGreymon
     [SPECIES_CHARIZARD] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 84,
-        .baseDefense   = 78,
+        .baseHP        = 75,
+        .baseAttack    = 85,
+        .baseDefense   = 75,
         .baseSpeed     = 100,
-        .baseSpAttack  = 109,
+        .baseSpAttack  = 110,
         .baseSpDefense = 85,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_STEEL,
