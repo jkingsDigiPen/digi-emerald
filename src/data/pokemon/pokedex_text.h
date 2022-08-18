@@ -1619,10 +1619,10 @@ const u8 gDustoxPokedexText[] = _(
     "without warning to silence opponents.");
 
 const u8 gLotadPokedexText[] = _(
-    "This Pokémon lives in ponds with clean\n"
-    "water. It is known to ferry small Pokémon\n"
-    "across ponds by carrying them on the\n"
-    "broad leaf on its head.");
+    "Its skin has not fully hardened, due to\n"
+    "it choosing to live underwater. Its\n"
+    "potential for mutation is high, so\n"
+    "caution is advised when training.");
 
 const u8 gLombrePokedexText[] = _(
     "In the evening, it takes great delight in\n"
@@ -1637,10 +1637,10 @@ const u8 gLudicoloPokedexText[] = _(
     "quail even when it faces a tough opponent.");
 
 const u8 gSeedotPokedexText[] = _(
-    "It hangs off branches and absorbs\n"
-    "nutrients. When it finishes eating, its\n"
-    "body becomes so heavy that it drops to\n"
-    "the ground with a thump.");
+    "It grows tiny mushroom bombs out of its\n"
+    "body that can cause a variety of\n"
+    "afflictions, making it dangerous\n"
+    "for the unprepared.");
 
 const u8 gNuzleafPokedexText[] = _(
     "A forest-dwelling Pokémon that is skilled\n"
@@ -1703,10 +1703,10 @@ const u8 gSpindaPokedexText[] = _(
     "effect of fouling its foe's aim.");
 
 const u8 gWingullPokedexText[] = _(
-    "It makes its nest on a sheer cliff at the\n"
-    "edge of the sea. It has trouble keeping\n"
-    "its wings flapping in flight. Instead, it\n"
-    "soars on updrafts.");
+    "Though not all falcomon are capable of\n"
+    "flight, those in the Hoenn region have\n"
+    "wings developed enough to do so. It\n"
+    "enjoys pretending to be a ninja.");
 
 const u8 gPelipperPokedexText[] = _(
     "It skims the tops of waves as it flies.\n"
@@ -2201,10 +2201,10 @@ const u8 gArmaldoPokedexText[] = _(
     "large wings.");
 
 const u8 gRaltsPokedexText[] = _(
-    "A Ralts has the power to sense the\n"
-    "emotions of people and Pokémon with the\n"
-    "horns on its head. It takes cover if it\n"
-    "senses any hostility.");
+    "A sacred child Digimon that has great\n"
+    "potential, but poor judgment when\n"
+    "it comes to choosing right from\n"
+    "wrong.");
 
 const u8 gKirliaPokedexText[] = _(
     "A Kirlia has the psychic power to create \n"
