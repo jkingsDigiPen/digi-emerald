@@ -7781,7 +7781,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 30,
         .baseSpDefense = 30,
         .type1 = TYPE_GRASS,
-        .type2 = TYPE_GRASS,
+        .type2 = TYPE_POISON,
         .catchRate = 255,
         .expYield = 44,
         .evYield_Defense   = 1,
@@ -7905,61 +7905,57 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Falcomon
     [SPECIES_WINGULL] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 85,
-        .baseDefense   = 42,
-        .baseSpeed     = 91,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 42,
+        .baseHP        = 55,
+        .baseAttack    = 80,
+        .baseDefense   = 40,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 40,
         .type1 = TYPE_DARK,
         .type2 = TYPE_FLYING,
         .catchRate = 30,
         .expYield = 81,
         .evYield_Speed     = 1,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = MON_MALE,
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_INSOMNIA, ABILITY_SUPER_LUCK, ABILITY_PRANKSTER},
+        .abilities = {ABILITY_INFILTRATOR, ABILITY_NONE, ABILITY_PROTEAN},
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
+    // Crowmon
     [SPECIES_PELIPPER] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 50,
-        .baseDefense   = 100,
-        .baseSpeed     = 65,
-        .baseSpDefense = 70,
-        #if P_UPDATED_STATS >= GEN_7
-            .baseSpAttack  = 95,
-        #else
-            .baseSpAttack  = 85,
-        #endif
-        .type1 = TYPE_WATER,
+        .baseHP        = 100,
+        .baseAttack    = 125,
+        .baseDefense   = 52,
+        .baseSpeed     = 71,
+        .baseSpAttack  = 105,
+        .baseSpDefense = 52,
+        .type1 = TYPE_DARK,
         .type2 = TYPE_FLYING,
-        .catchRate = 45,
-        .expYield = 154,
-        .evYield_Defense   = 2,
-        #ifdef ITEM_EXPANSION
-            .item1 = ITEM_PRETTY_FEATHER,
-        #endif
-        .genderRatio = PERCENT_FEMALE(50),
+        .catchRate = 30,
+        .expYield = 177,
+        .evYield_Attack    = 2,
+        .genderRatio = MON_MALE,
         .eggCycles = 20,
-        .friendship = 70,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_WATER_1,
+        .friendship = 35,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_KEEN_EYE, ABILITY_DRIZZLE, ABILITY_RAIN_DISH},
-        .bodyColor = BODY_COLOR_YELLOW,
+        .abilities = {ABILITY_INFILTRATOR, ABILITY_NONE, ABILITY_PROTEAN},
+        .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
+    // Puttimon
     [SPECIES_RALTS] =
     {
         .baseHP        = 28,
@@ -7993,6 +7989,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Tapirmon
     [SPECIES_KIRLIA] =
     {
         .baseHP        = 38,
@@ -8026,6 +8023,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Starmon
     [SPECIES_GARDEVOIR] =
     {
         .baseHP        = 68,
