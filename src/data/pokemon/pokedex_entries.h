@@ -3338,7 +3338,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_WINGULL] =
     {
-        .categoryName = _("Seagull"),
+        .categoryName = _("Ninja Bird"),
         .height = 6,
         .weight = 95,
         .description = gWingullPokedexText,
@@ -3350,7 +3350,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_PELIPPER] =
     {
-        .categoryName = _("Water Bird"),
+        .categoryName = _("Golden Land"),
         .height = 12,
         .weight = 280,
         .description = gPelipperPokedexText,
