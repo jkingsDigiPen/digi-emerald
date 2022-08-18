@@ -1640,7 +1640,7 @@ const u8 gSeedotPokedexText[] = _(
     "It grows tiny mushroom bombs out of its\n"
     "body that can cause a variety of\n"
     "afflictions, making it dangerous\n"
-    "for the unprepared.");
+    "for those unprepared.");
 
 const u8 gNuzleafPokedexText[] = _(
     "A forest-dwelling Pokémon that is skilled\n"
