@@ -7964,13 +7964,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 40,
         .baseSpAttack  = 45,
         .baseSpDefense = 35,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_PSYCHIC,
-        #endif
+        .type1 = TYPE_PSYCHIC,
+        .type2 = TYPE_FAIRY,
         .catchRate = 235,
         .expYield = 40,
         .evYield_SpAttack  = 1,
@@ -7978,13 +7973,9 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
-        #if P_UPDATED_EGG_GROUPS >= GEN_8
-            .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
-        #else
-            .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        #endif
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_SYNCHRONIZE, ABILITY_TRACE, ABILITY_TELEPATHY},
+        .eggGroup1 = EGG_GROUP_AMORPHOUS,
+        .eggGroup2 = EGG_GROUP_FAIRY,
+        .abilities = {ABILITY_INSOMNIA, ABILITY_OBLIVIOUS, ABILITY_TELEPATHY},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
@@ -7998,13 +7989,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 50,
         .baseSpAttack  = 65,
         .baseSpDefense = 55,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_PSYCHIC,
-        #endif
+        .type1 = TYPE_PSYCHIC,
+        .type2 = TYPE_FAIRY,
         .catchRate = 120,
         .expYield = 97,
         .evYield_SpAttack  = 2,
@@ -8012,14 +7998,10 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
-        #if P_UPDATED_EGG_GROUPS >= GEN_8
-            .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
-        #else
-            .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        #endif
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_SYNCHRONIZE, ABILITY_TRACE, ABILITY_TELEPATHY},
-        .bodyColor = BODY_COLOR_WHITE,
+        .eggGroup1 = EGG_GROUP_AMORPHOUS,
+        .eggGroup2 = EGG_GROUP_FAIRY,
+        .abilities = {ABILITY_INSOMNIA, ABILITY_LEVITATE, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
@@ -8032,13 +8014,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 80,
         .baseSpAttack  = 125,
         .baseSpDefense = 115,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_PSYCHIC,
-        #endif
+        .type1 = TYPE_PSYCHIC,
+        .type2 = TYPE_FAIRY,
         .catchRate = 45,
         .expYield = 233,
         .evYield_SpAttack  = 3,
@@ -8046,14 +8023,10 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
-        #if P_UPDATED_EGG_GROUPS >= GEN_8
-            .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
-        #else
-            .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        #endif
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_SYNCHRONIZE, ABILITY_TRACE, ABILITY_TELEPATHY},
-        .bodyColor = BODY_COLOR_WHITE,
+        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
+        .eggGroup2 = EGG_GROUP_FAIRY,
+        .abilities = {ABILITY_INSOMNIA, ABILITY_MAGIC_BOUNCE, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
 
@@ -12814,6 +12787,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Seasarmon
     [SPECIES_GALLADE] =
     {
         .baseHP        = 68,
@@ -12831,13 +12805,9 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
-        #if P_UPDATED_EGG_GROUPS >= GEN_8
-            .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
-        #else
-            .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        #endif
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_STEADFAST, ABILITY_NONE, ABILITY_JUSTIFIED},
+        .eggGroup1 = EGG_GROUP_MONSTER,
+        .eggGroup2 = EGG_GROUP_FAIRY,
+        .abilities = {ABILITY_FRIEND_GUARD, ABILITY_FRIEND_STEADFAST, ABILITY_JUSTIFIED},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
