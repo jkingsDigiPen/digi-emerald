@@ -3099,24 +3099,14 @@ static const union AnimCmd sAnim_LOTAD_1[] =
 // Gekomon
 static const union AnimCmd sAnim_LOMBRE_1[] =
 {
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 7),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
 // ShogunGekomon
 static const union AnimCmd sAnim_LUDICOLO_1[] =
 {
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 

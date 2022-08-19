@@ -1378,13 +1378,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Gekomon
     [SPECIES_LOMBRE] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(41, 64),
+        .y_offset = 0,
     },
     // ShogunGekomon
     [SPECIES_LUDICOLO] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
+        .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
     // Mushroomon
@@ -1402,8 +1402,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Cherrymon
     [SPECIES_SHIFTRY] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(52, 64),
+        .y_offset = 0,
     },
     [SPECIES_NINCADA] =
     {
