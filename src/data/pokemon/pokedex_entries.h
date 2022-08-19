@@ -3300,7 +3300,7 @@ const struct PokedexEntry gPokedexEntries[] =
     // Mushroomon
     [NATIONAL_DEX_SEEDOT] =
     {
-        .categoryName = _("Poison Shroom"),
+        .categoryName = _("Poison Bomb"),
         .height = 5,
         .weight = 40,
         .description = gSeedotPokedexText,
