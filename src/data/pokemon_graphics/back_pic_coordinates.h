@@ -1862,16 +1862,19 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Puttimon
     [SPECIES_RALTS] =
     {
         .size = MON_COORDS_SIZE(43, 33),
         .y_offset = 12,
     },
+    // Tapirmon
     [SPECIES_KIRLIA] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(41, 43),
+        .y_offset = 5,
     },
+    // Starmon
     [SPECIES_GARDEVOIR] =
     {
         .size = MON_COORDS_SIZE(48, 56),
@@ -2402,6 +2405,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 6,
     },
+    // Seasarmon
     [SPECIES_GALLADE] =
     {
         .size = MON_COORDS_SIZE(64, 64),
