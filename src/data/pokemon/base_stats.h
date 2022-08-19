@@ -1867,65 +1867,52 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Gatomon
     [SPECIES_JIGGLYPUFF] =
     {
-        .baseHP        = 115,
-        .baseAttack    = 45,
-        .baseDefense   = 20,
-        .baseSpeed     = 20,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 25,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_NORMAL,
-        #endif
-        .catchRate = 170,
-        .expYield = 95,
-        .evYield_HP        = 2,
-        .item2 = ITEM_MOON_STONE,
-        .genderRatio = PERCENT_FEMALE(75),
+        .baseHP        = 50, // +20
+        .baseAttack    = 70, // +30
+        .baseDefense   = 45, // +15
+        .baseSpeed     = 65, // +35
+        .baseSpAttack  = 75, // +45
+        .baseSpDefense = 65, // +15
+        .type1 = TYPE_FAIRY,
+        .type2 = TYPE_NORMAL,
+        .catchRate = 75,
+        .expYield = 142,
+        .evYield_SpAttack = 2,
+        .genderRatio = MON_FEMALE,
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
-        .eggGroup1 = EGG_GROUP_FAIRY,
+        .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FAIRY,
         .abilities = {ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE, ABILITY_FRIEND_GUARD},
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = TRUE,
     },
 
+    // Angewomon
     [SPECIES_WIGGLYTUFF] =
     {
-        .baseHP        = 140,
-        .baseAttack    = 70,
-        .baseDefense   = 45,
-        .baseSpeed     = 45,
-        .baseSpDefense = 50,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 85,
-        #else
-            .baseSpAttack  = 75,
-        #endif
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_NORMAL,
-        #endif
-        .catchRate = 50,
-        .expYield = 196,
-        .evYield_HP        = 3,
-        .item2 = ITEM_MOON_STONE,
-        .genderRatio = PERCENT_FEMALE(75),
+        .baseHP        = 70,
+        .baseAttack    = 100,
+        .baseDefense   = 60,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 120,
+        .baseSpDefense = 80,
+        .type1 = TYPE_FAIRY,
+        .type2 = TYPE_FLYING,
+        .catchRate = 30,
+        .expYield = 245,
+        .evYield_SpAttack  = 2,
+        .evYield_SpDefense = 1,
+        .genderRatio = MON_FEMALE,
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_FAIRY,
-        .eggGroup2 = EGG_GROUP_FAIRY,
+        .eggGroup2 = EGG_GROUP_FLYING,
         .abilities = {ABILITY_CUTE_CHARM, ABILITY_COMPETITIVE, ABILITY_FRISK},
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = TRUE,
@@ -5272,25 +5259,21 @@ const struct BaseStats gBaseStats[] =
         .noFlip = TRUE,
     },
 
+    // Salamon
     [SPECIES_IGGLYBUFF] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 30,
-        .baseDefense   = 15,
-        .baseSpeed     = 15,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 20,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_NORMAL,
-        #endif
-        .catchRate = 170,
-        .expYield = 42,
-        .evYield_HP        = 1,
-        .genderRatio = PERCENT_FEMALE(75),
+        .baseHP        = 30,
+        .baseAttack    = 40,
+        .baseDefense   = 30,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 50,
+        .type1 = TYPE_FAIRY,
+        .type2 = TYPE_NORMAL,
+        .catchRate = 190,
+        .expYield = 49,
+        .evYield_SpDefense = 1,
+        .genderRatio = MON_FEMALE,
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
