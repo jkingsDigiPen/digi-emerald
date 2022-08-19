@@ -447,6 +447,11 @@
 #define B_WIN_VS_OUTCOME_LEFT    22
 #define B_WIN_VS_OUTCOME_RIGHT   23
 
+// Display type effectiveness
+#define B_WIN_SUPER_EFFECTIVE    24
+#define B_WIN_NOT_VERY_EFFECTIVE 25
+#define B_WIN_MOVE_NO_EFFECT     26
+
 // The following are duplicate id values for windows that Battle Arena uses differently.
 #define ARENA_WIN_PLAYER_NAME      15
 #define ARENA_WIN_VS               16
