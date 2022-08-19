@@ -201,8 +201,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_JIGGLYPUFF] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(56, 56),
+        .y_offset = 4,
     },
     [SPECIES_WIGGLYTUFF] =
     {
@@ -876,7 +876,7 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_IGGLYBUFF] =
     {
-        .size = MON_COORDS_SIZE(40, 40),
+        .size = MON_COORDS_SIZE(40, 38),
         .y_offset = 13,
     },
     [SPECIES_TOGEPI] =
