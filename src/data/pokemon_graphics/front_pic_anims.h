@@ -4203,34 +4203,23 @@ static const union AnimCmd sAnim_ARMALDO_1[] =
     ANIMCMD_END,
 };
 
+// Puttimon
 static const union AnimCmd sAnim_RALTS_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Tapirmon
 static const union AnimCmd sAnim_KIRLIA_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 39),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Starmon
 static const union AnimCmd sAnim_GARDEVOIR_1[] =
 {
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 3),
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 3),
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 3),
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 3),
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 3),
-    ANIMCMD_FRAME(0, 3),
-    ANIMCMD_FRAME(1, 3),
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
