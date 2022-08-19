@@ -1431,8 +1431,8 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_PELIPPER] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(57, 52),
+        .y_offset = 3,
     },
     [SPECIES_SURSKIT] =
     {
