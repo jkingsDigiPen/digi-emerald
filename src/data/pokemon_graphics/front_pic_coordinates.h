@@ -1396,8 +1396,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Woodmon
     [SPECIES_NUZLEAF] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(64, 60),
+        .y_offset = 2,
     },
     // Cherrymon
     [SPECIES_SHIFTRY] =
