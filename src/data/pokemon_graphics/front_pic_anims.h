@@ -5433,10 +5433,9 @@ static const union AnimCmd sAnim_PORYGON_Z_1[] =
     ANIMCMD_END,
 };
 
+// Seasarmon
 static const union AnimCmd sAnim_GALLADE_1[] =
 {
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };

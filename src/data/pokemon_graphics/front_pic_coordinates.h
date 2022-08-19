@@ -1877,7 +1877,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Starmon
     [SPECIES_GARDEVOIR] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
+        .size = MON_COORDS_SIZE(63, 64),
         .y_offset = 0,
     },
     [SPECIES_BAGON] =
@@ -2408,7 +2408,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Seasarmon
     [SPECIES_GALLADE] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
+        .size = MON_COORDS_SIZE(64, 62),
         .y_offset = 1,
     },
     [SPECIES_PROBOPASS] =
