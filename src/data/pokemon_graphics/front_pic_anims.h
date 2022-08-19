@@ -30,18 +30,21 @@ static const union AnimCmd sAnim_VENUSAUR_1[] =
     ANIMCMD_END,
 };
 
+// Agumon
 static const union AnimCmd sAnim_CHARMANDER_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// GeoGreymon
 static const union AnimCmd sAnim_CHARMELEON_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// RizeGreymon
 static const union AnimCmd sAnim_CHARIZARD_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -768,29 +771,24 @@ static const union AnimCmd sAnim_POLIWRATH_1[] =
     ANIMCMD_END,
 };
 
+// Renamon
 static const union AnimCmd sAnim_ABRA_1[] =
 {
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 13),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Kyubimon
 static const union AnimCmd sAnim_KADABRA_1[] =
 {
-    ANIMCMD_FRAME(0, 12),
-    ANIMCMD_FRAME(1, 45),
-    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Taomon
 static const union AnimCmd sAnim_ALAKAZAM_1[] =
 {
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 54),
-    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3004,36 +3002,42 @@ static const union AnimCmd sAnim_SWAMPERT_1[] =
     ANIMCMD_END,
 };
 
+// Dracmon
 static const union AnimCmd sAnim_POOCHYENA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Sangloupmon
 static const union AnimCmd sAnim_MIGHTYENA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Kudamon
 static const union AnimCmd sAnim_ZIGZAGOON_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Reppamon
 static const union AnimCmd sAnim_LINOONE_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Minomon
 static const union AnimCmd sAnim_WURMPLE_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Morphomon
 static const union AnimCmd sAnim_SILCOON_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -3046,6 +3050,7 @@ static const union AnimCmd sAnim_SILCOON_2[] =
     ANIMCMD_END,
 };
 
+// Hudiemon
 static const union AnimCmd sAnim_BEAUTIFLY_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -3058,6 +3063,7 @@ static const union AnimCmd sAnim_BEAUTIFLY_2[] =
     ANIMCMD_END,
 };
 
+// Wormmon
 static const union AnimCmd sAnim_CASCOON_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -3070,6 +3076,7 @@ static const union AnimCmd sAnim_CASCOON_2[] =
     ANIMCMD_END,
 };
 
+// Stingmon
 static const union AnimCmd sAnim_DUSTOX_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -3082,12 +3089,14 @@ static const union AnimCmd sAnim_DUSTOX_2[] =
     ANIMCMD_END,
 };
 
+// Otamamon
 static const union AnimCmd sAnim_LOTAD_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Gekomon
 static const union AnimCmd sAnim_LOMBRE_1[] =
 {
     ANIMCMD_FRAME(0, 6),
@@ -3098,6 +3107,7 @@ static const union AnimCmd sAnim_LOMBRE_1[] =
     ANIMCMD_END,
 };
 
+// ShogunGekomon
 static const union AnimCmd sAnim_LUDICOLO_1[] =
 {
     ANIMCMD_FRAME(0, 22),
@@ -3110,31 +3120,24 @@ static const union AnimCmd sAnim_LUDICOLO_1[] =
     ANIMCMD_END,
 };
 
+// Mushroomon
 static const union AnimCmd sAnim_SEEDOT_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Woodmon
 static const union AnimCmd sAnim_NUZLEAF_1[] =
 {
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 7),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Cherrymon
 static const union AnimCmd sAnim_SHIFTRY_1[] =
 {
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 35),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3229,12 +3232,14 @@ static const union AnimCmd sAnim_BRELOOM_1[] =
     ANIMCMD_END,
 };
 
+// Falcomon
 static const union AnimCmd sAnim_WINGULL_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Crowmon
 static const union AnimCmd sAnim_PELIPPER_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -7572,18 +7577,21 @@ static const union AnimCmd sAnim_BEWEAR_1[] =
     ANIMCMD_END,
 };
 
+// Lalamon
 static const union AnimCmd sAnim_BOUNSWEET_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Sunflowmon
 static const union AnimCmd sAnim_STEENEE_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Lilamon
 static const union AnimCmd sAnim_TSAREENA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -13075,16 +13083,19 @@ static const union AnimCmd *const sAnims_INCINEROAR[] ={
     sAnim_INCINEROAR_1,
 };
 
+// Syakomon
 static const union AnimCmd *const sAnims_POPPLIO[] ={
     sAnim_GeneralFrame0,
     sAnim_POPPLIO_1,
 };
 
+// Shellmon
 static const union AnimCmd *const sAnims_BRIONNE[] ={
     sAnim_GeneralFrame0,
     sAnim_BRIONNE_1,
 };
 
+// Mermaimon
 static const union AnimCmd *const sAnims_PRIMARINA[] ={
     sAnim_GeneralFrame0,
     sAnim_PRIMARINA_1,

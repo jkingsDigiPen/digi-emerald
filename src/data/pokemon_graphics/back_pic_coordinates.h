@@ -24,16 +24,19 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 10,
     },
+    // Agumon
     [SPECIES_CHARMANDER] =
     {
         .size = MON_COORDS_SIZE(39, 43),
         .y_offset = 0,
     },
+    // GeoGreymon
     [SPECIES_CHARMELEON] =
     {
         .size = MON_COORDS_SIZE(61, 64),
         .y_offset = 0,
     },
+    // RizeGreymon
     [SPECIES_CHARIZARD] =
     {
         .size = MON_COORDS_SIZE(64, 64),
@@ -319,16 +322,19 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 7,
     },
+    // Renamon
     [SPECIES_ABRA] =
     {
         .size = MON_COORDS_SIZE(49, 56),
         .y_offset = 0,
     },
+    // Kyubimon
     [SPECIES_KADABRA] =
     {
         .size = MON_COORDS_SIZE(60, 51),
         .y_offset = 0,
     },
+    // Taomon
     [SPECIES_ALAKAZAM] =
     {
         .size = MON_COORDS_SIZE(39, 37),
@@ -1309,76 +1315,91 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 6,
     },
+    // Dracmon
     [SPECIES_POOCHYENA] =
     {
         .size = MON_COORDS_SIZE(55, 48),
         .y_offset = 0,
     },
+    // Sangloupmon
     [SPECIES_MIGHTYENA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Kudamon
     [SPECIES_ZIGZAGOON] =
     {
         .size = MON_COORDS_SIZE(42, 47),
         .y_offset = 0,
     },
+    // Reppamon
     [SPECIES_LINOONE] =
     {
         .size = MON_COORDS_SIZE(63, 64),
         .y_offset = 0,
     },
+    // Minomon
     [SPECIES_WURMPLE] =
     {
         .size = MON_COORDS_SIZE(30, 62),
         .y_offset = 1,
     },
+    // Morphomon
     [SPECIES_SILCOON] =
     {
         .size = MON_COORDS_SIZE(62, 64),
         .y_offset = 0,
     },
+    // Hudiemon
     [SPECIES_BEAUTIFLY] =
     {
         .size = MON_COORDS_SIZE(61, 64),
         .y_offset = 0,
     },
+    // Wormmon
     [SPECIES_CASCOON] =
     {
         .size = MON_COORDS_SIZE(64, 45),
         .y_offset = 7,
     },
+    // Stingmon
     [SPECIES_DUSTOX] =
     {
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Otamamon
     [SPECIES_LOTAD] =
     {
         .size = MON_COORDS_SIZE(53, 46),
         .y_offset = 0,
     },
+    // Gekomon
     [SPECIES_LOMBRE] =
     {
         .size = MON_COORDS_SIZE(48, 56),
         .y_offset = 6,
     },
+    // ShogunGekomon
     [SPECIES_LUDICOLO] =
     {
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 6,
     },
+    // Mushroomon
     [SPECIES_SEEDOT] =
     {
         .size = MON_COORDS_SIZE(63, 46),
         .y_offset = 0,
     },
+    // Woodmon
     [SPECIES_NUZLEAF] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(59, 47),
+        .y_offset = 6,
     },
+    // Cherrymon
     [SPECIES_SHIFTRY] =
     {
         .size = MON_COORDS_SIZE(64, 56),
@@ -1424,11 +1445,13 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(56, 56),
         .y_offset = 4,
     },
+    // Falcomon
     [SPECIES_WINGULL] =
     {
         .size = MON_COORDS_SIZE(50, 51),
         .y_offset = 0,
     },
+    // Crowmon
     [SPECIES_PELIPPER] =
     {
         .size = MON_COORDS_SIZE(57, 52),
@@ -3644,16 +3667,19 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 4,
     },
+    // Syakomon
     [SPECIES_POPPLIO] =
     {
         .size = MON_COORDS_SIZE(45, 53),
         .y_offset = 6,
     },
+    // Shellmon
     [SPECIES_BRIONNE] =
     {
         .size = MON_COORDS_SIZE(64, 44),
         .y_offset = 0,
     },
+    // Mermaimon
     [SPECIES_PRIMARINA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
@@ -3809,16 +3835,19 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 2,
     },
+    // Lalamon
     [SPECIES_BOUNSWEET] =
     {
         .size = MON_COORDS_SIZE(45, 62),
         .y_offset = 0,
     },
+    // Bounsweet
     [SPECIES_STEENEE] =
     {
         .size = MON_COORDS_SIZE(63, 41),
         .y_offset = 0,
     },
+    // Lilamon
     [SPECIES_TSAREENA] =
     {
         .size = MON_COORDS_SIZE(57, 64),
