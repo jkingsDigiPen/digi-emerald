@@ -2450,11 +2450,11 @@ static const u8 sBanefulBunkerDescription[] = _(
     "foes on contact.");
 
 static const u8 sSpiritShackleDescription[] = _(
-    "After being hit, foes can\n"
-    "no longer escape.");
+    "Shoots a magical arrow\n"
+    "that pins a foe in place.");
 
 static const u8 sDarkestLariatDescription[] = _(
-    "Swings the arms to strike\n"
+    "Swings the arms to strike.\n"
     "It ignores stat changes.");
 
 static const u8 sSparklingAriaDescription[] = _(
