@@ -7856,10 +7856,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_TAILLOW] =
     {
         .baseHP        = 40,
-        .baseAttack    = 55,
+        .baseAttack    = 60,
         .baseDefense   = 30,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 30,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 50,
         .baseSpDefense = 30,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FLYING,
@@ -7880,15 +7880,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SWELLOW] =
     {
         .baseHP        = 60,
-        .baseAttack    = 85,
+        .baseAttack    = 90,
         .baseDefense   = 60,
-        .baseSpeed     = 125,
-        .baseSpDefense = 50,
-        #if P_UPDATED_STATS >= GEN_7
-            .baseSpAttack  = 75,
-        #else
-            .baseSpAttack  = 50,
-        #endif
+        .baseSpeed     = 130,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 60,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FLYING,
         .catchRate = 45,
