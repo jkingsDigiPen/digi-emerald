@@ -1354,8 +1354,8 @@ const struct MonCoords gMonBackPicCoords[] =
     // Hudiemon
     [SPECIES_BEAUTIFLY] =
     {
-        .size = MON_COORDS_SIZE(61, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(38, 50),
+        .y_offset = 5,
     },
     // Wormmon
     [SPECIES_CASCOON] =

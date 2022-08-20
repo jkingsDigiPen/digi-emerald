@@ -1336,8 +1336,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Reppamon
     [SPECIES_LINOONE] =
     {
-        .size = MON_COORDS_SIZE(46, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(56, 55),
+        .y_offset = 5,
     },
     // Minomon
     [SPECIES_WURMPLE] =
@@ -1354,8 +1354,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Hudiemon
     [SPECIES_BEAUTIFLY] =
     {
-        .size = MON_COORDS_SIZE(36, 62),
-        .y_offset = 1,
+        .size = MON_COORDS_SIZE(38, 64),
+        .y_offset = 0,
     },
     // Wormmon
     [SPECIES_CASCOON] =
