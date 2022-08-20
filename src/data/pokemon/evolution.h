@@ -182,10 +182,10 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_LEVEL_MALE, 7, SPECIES_CASCOON}},
     [SPECIES_SILCOON]               = {{EVO_LEVEL, 10, SPECIES_BEAUTIFLY}},
     [SPECIES_CASCOON]               = {{EVO_LEVEL, 10, SPECIES_DUSTOX}},
-    [SPECIES_LOTAD]                 = {{EVO_LEVEL, 14, SPECIES_LOMBRE}},
-    [SPECIES_LOMBRE]                = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_LUDICOLO}},
+    [SPECIES_LOTAD]                 = {{EVO_LEVEL, 14, SPECIES_LOMBRE}}, // otamamon
+    [SPECIES_LOMBRE]                = {{EVO_LEVEL, 30, SPECIES_LUDICOLO}}, // gekomon
     [SPECIES_SEEDOT]                = {{EVO_LEVEL, 14, SPECIES_NUZLEAF}},
-    [SPECIES_NUZLEAF]               = {{EVO_LEVEL, 33, SPECIES_SHIFTRY}},
+    [SPECIES_NUZLEAF]               = {{EVO_LEVEL, 30, SPECIES_SHIFTRY}},
     [SPECIES_NINCADA]               = {{EVO_LEVEL_NINJASK, 20, SPECIES_NINJASK},
                                        {EVO_LEVEL_SHEDINJA, 20, SPECIES_SHEDINJA}},
     [SPECIES_TAILLOW]               = {{EVO_LEVEL, 22, SPECIES_SWELLOW}},

@@ -7712,12 +7712,12 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_SWIFT_SWIM, ABILITY_RAIN_DISH, ABILITY_OWN_TEMPO},
+        .abilities = {ABILITY_OWN_TEMPO, ABILITY_SWIFT_SWIM, ABILITY_IMMUNITY},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
-    // Geckomon
+    // Gekomon
     [SPECIES_LOMBRE] =
     {
         .baseHP        = 60,
@@ -7738,12 +7738,12 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_SWIFT_SWIM, ABILITY_RAIN_DISH, ABILITY_OWN_TEMPO},
+        .abilities = {ABILITY_OWN_TEMPO, ABILITY_RAIN_DISH, ABILITY_IMMUNITY},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
-    // ShogunGeckomon
+    // ShogunGekomon
     [SPECIES_LUDICOLO] =
     {
         .baseHP        = 80,
@@ -7764,7 +7764,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_SWIFT_SWIM, ABILITY_RAIN_DISH, ABILITY_OWN_TEMPO},
+        .abilities = {ABILITY_OWN_TEMPO, ABILITY_RAIN_DISH, ABILITY_IMMUNITY},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
@@ -7807,7 +7807,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 40,
         .type1 = TYPE_GRASS,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_POISON,
         .catchRate = 120,
         .expYield = 119,
         .evYield_Attack    = 2,
@@ -7835,7 +7835,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 90,
         .baseSpDefense = 60,
         .type1 = TYPE_GRASS,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_POISON,
         .catchRate = 45,
         .expYield = 216,
         .evYield_Attack    = 3,
