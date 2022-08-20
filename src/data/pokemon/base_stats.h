@@ -7906,11 +7906,11 @@ const struct BaseStats gBaseStats[] =
     // Falcomon
     [SPECIES_WINGULL] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 80,
+        .baseHP        = 40,
+        .baseAttack    = 70,
         .baseDefense   = 40,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 80,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 65,
         .baseSpDefense = 40,
         .type1 = TYPE_DARK,
         .type2 = TYPE_FLYING,
