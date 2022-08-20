@@ -3131,68 +3131,38 @@ static const union AnimCmd sAnim_SHIFTRY_1[] =
     ANIMCMD_END,
 };
 
+// Kunemon
 static const union AnimCmd sAnim_NINCADA_1[] =
 {
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 33),
-    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Flymon
 static const union AnimCmd sAnim_NINJASK_1[] =
 {
     ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 33),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 1),
-    ANIMCMD_FRAME(0, 11),
     ANIMCMD_END,
 };
 
+// Shadramon
 static const union AnimCmd sAnim_SHEDINJA_1[] =
 {
-    ANIMCMD_FRAME(0, 33),
-    ANIMCMD_FRAME(1, 33),
-    ANIMCMD_FRAME(0, 33),
-    ANIMCMD_FRAME(1, 33),
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd sAnim_TAILLOW_1[] =
-{
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 2),
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Hawkmon
+static const union AnimCmd sAnim_TAILLOW_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+// Aquilamon
 static const union AnimCmd sAnim_SWELLOW_1[] =
 {
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(1, 18),
-    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
