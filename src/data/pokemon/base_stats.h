@@ -7906,7 +7906,7 @@ const struct BaseStats gBaseStats[] =
     // Falcomon
     [SPECIES_WINGULL] =
     {
-        .baseHP        = 55,
+        .baseHP        = 50,
         .baseAttack    = 80,
         .baseDefense   = 40,
         .baseSpeed     = 90,
@@ -7931,12 +7931,12 @@ const struct BaseStats gBaseStats[] =
     // Crowmon
     [SPECIES_PELIPPER] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 125,
-        .baseDefense   = 52,
-        .baseSpeed     = 71,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 52,
+        .baseHP        = 70,
+        .baseAttack    = 100,
+        .baseDefense   = 60,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 60,
         .type1 = TYPE_DARK,
         .type2 = TYPE_FLYING,
         .catchRate = 30,
