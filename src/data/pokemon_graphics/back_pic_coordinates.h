@@ -1405,30 +1405,35 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(62, 61),
         .y_offset = 2,
     },
+    // Kunemon
     [SPECIES_NINCADA] =
     {
         .size = MON_COORDS_SIZE(64, 32),
         .y_offset = 18,
     },
+    // Flymon
     [SPECIES_NINJASK] =
     {
         .size = MON_COORDS_SIZE(64, 40),
         .y_offset = 13,
     },
+    // Shadramon
     [SPECIES_SHEDINJA] =
     {
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 6,
     },
+    // Hawkmon
     [SPECIES_TAILLOW] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 15,
+        .size = MON_COORDS_SIZE(56, 51),
+        .y_offset = 7,
     },
+    // Aquilamon
     [SPECIES_SWELLOW] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(61, 55),
+        .y_offset = 4,
     },
     [SPECIES_SHROOMISH] =
     {
