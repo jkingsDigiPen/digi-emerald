@@ -3336,9 +3336,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Hawkmon
     [NATIONAL_DEX_TAILLOW] =
     {
-        .categoryName = _("Tiny Swallow"),
+        .categoryName = _("Small Hawk"),
         .height = 3,
         .weight = 23,
         .description = gTaillowPokedexText,
@@ -3348,9 +3349,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Aquilamon
     [NATIONAL_DEX_SWELLOW] =
     {
-        .categoryName = _("Swallow"),
+        .categoryName = _("Great Eagle"),
         .height = 7,
         .weight = 198,
         .description = gSwellowPokedexText,
@@ -3425,9 +3427,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Hyokomon
     [NATIONAL_DEX_SURSKIT] =
     {
-        .categoryName = _("Pond Skater"),
+        .categoryName = _("Sword Chick"),
         .height = 5,
         .weight = 17,
         .description = gSurskitPokedexText,
@@ -3437,9 +3440,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Buraimon
     [NATIONAL_DEX_MASQUERAIN] =
     {
-        .categoryName = _("Eyeball"),
+        .categoryName = _("Brave Bird"),
         .height = 8,
         .weight = 36,
         .description = gMasquerainPokedexText,
@@ -5729,9 +5733,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Seasarmon
     [NATIONAL_DEX_GALLADE] =
     {
-        .categoryName = _("Blade"),
+        .categoryName = _("Holy Ally"),
         .height = 16,
         .weight = 520,
         .description = gGalladePokedexText,
