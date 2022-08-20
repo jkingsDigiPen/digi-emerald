@@ -7956,12 +7956,12 @@ const struct BaseStats gBaseStats[] =
     // Puttimon
     [SPECIES_RALTS] =
     {
-        .baseHP        = 28,
-        .baseAttack    = 25,
-        .baseDefense   = 25,
+        .baseHP        = 30,
+        .baseAttack    = 30,
+        .baseDefense   = 30,
         .baseSpeed     = 40,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 35,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 40,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FAIRY,
         .catchRate = 235,
@@ -7981,12 +7981,12 @@ const struct BaseStats gBaseStats[] =
     // Tapirmon
     [SPECIES_KIRLIA] =
     {
-        .baseHP        = 38,
-        .baseAttack    = 35,
-        .baseDefense   = 35,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 55,
+        .baseHP        = 50,
+        .baseAttack    = 50,
+        .baseDefense   = 45,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 75,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FAIRY,
         .catchRate = 120,
@@ -8006,12 +8006,12 @@ const struct BaseStats gBaseStats[] =
     // Starmon
     [SPECIES_GARDEVOIR] =
     {
-        .baseHP        = 68,
-        .baseAttack    = 65,
-        .baseDefense   = 65,
+        .baseHP        = 70,
+        .baseAttack    = 60,
+        .baseDefense   = 60,
         .baseSpeed     = 80,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 115,
+        .baseSpAttack  = 120,
+        .baseSpDefense = 110,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FAIRY,
         .catchRate = 45,
@@ -12784,12 +12784,12 @@ const struct BaseStats gBaseStats[] =
     // Seasarmon
     [SPECIES_GALLADE] =
     {
-        .baseHP        = 68,
-        .baseAttack    = 125,
-        .baseDefense   = 65,
+        .baseHP        = 70,
+        .baseAttack    = 120,
+        .baseDefense   = 60,
         .baseSpeed     = 80,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 115,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 110,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FIGHTING,
         .catchRate = 45,
