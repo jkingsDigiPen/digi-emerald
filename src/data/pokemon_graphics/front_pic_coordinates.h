@@ -1462,15 +1462,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 57),
         .y_offset = 1,
     },
+    // Hyokomon
     [SPECIES_SURSKIT] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 8,
+        .size = MON_COORDS_SIZE(41, 54),
+        .y_offset = 5,
     },
+    // Buraimon
     [SPECIES_MASQUERAIN] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(54, 64),
+        .y_offset = 0,
     },
     [SPECIES_WAILMER] =
     {
