@@ -5760,6 +5760,7 @@ static const struct LevelUpMove sShedinjaLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Hawkmon
 static const struct LevelUpMove sTaillowLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
@@ -5777,7 +5778,9 @@ static const struct LevelUpMove sTaillowLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Aquilamon
 static const struct LevelUpMove sSwellowLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
     LEVEL_UP_MOVE( 1, MOVE_BRAVE_BIRD),
     LEVEL_UP_MOVE( 1, MOVE_AIR_SLASH),
     LEVEL_UP_MOVE( 1, MOVE_PLUCK),
