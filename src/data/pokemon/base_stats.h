@@ -7720,12 +7720,12 @@ const struct BaseStats gBaseStats[] =
     // Gekomon
     [SPECIES_LOMBRE] =
     {
-        .baseHP        = 60,
+        .baseHP        = 80,
         .baseAttack    = 50,
         .baseDefense   = 50,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 70,
+        .baseSpeed     = 40,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 75,
         .type1 = TYPE_WATER,
         .type2 = TYPE_GRASS,
         .catchRate = 120,
@@ -7746,10 +7746,10 @@ const struct BaseStats gBaseStats[] =
     // ShogunGekomon
     [SPECIES_LUDICOLO] =
     {
-        .baseHP        = 80,
+        .baseHP        = 120,
         .baseAttack    = 70,
         .baseDefense   = 70,
-        .baseSpeed     = 70,
+        .baseSpeed     = 50,
         .baseSpAttack  = 90,
         .baseSpDefense = 100,
         .type1 = TYPE_WATER,
@@ -7773,10 +7773,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SEEDOT] =
     {
         .baseHP        = 40,
-        .baseAttack    = 40,
-        .baseDefense   = 50,
+        .baseAttack    = 50,
+        .baseDefense   = 30,
         .baseSpeed     = 30,
-        .baseSpAttack  = 30,
+        .baseSpAttack  = 40,
         .baseSpDefense = 30,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
@@ -7800,12 +7800,12 @@ const struct BaseStats gBaseStats[] =
     // Woodmon
     [SPECIES_NUZLEAF] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 70,
-        .baseDefense   = 40,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 40,
+        .baseHP        = 65,
+        .baseAttack    = 75,
+        .baseDefense   = 55,
+        .baseSpeed     = 45,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 55,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
         .catchRate = 120,
@@ -7830,10 +7830,10 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 90,
         .baseAttack    = 100,
-        .baseDefense   = 60,
-        .baseSpeed     = 80,
+        .baseDefense   = 80,
+        .baseSpeed     = 60,
         .baseSpAttack  = 90,
-        .baseSpDefense = 60,
+        .baseSpDefense = 80,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
         .catchRate = 45,
