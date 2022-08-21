@@ -90,7 +90,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 2,
@@ -105,12 +105,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 3,
@@ -120,7 +120,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 2,
@@ -154,7 +154,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 3,
@@ -164,7 +164,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 4,
@@ -308,22 +308,22 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 2,
@@ -462,7 +462,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 4,
@@ -472,7 +472,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 5,
@@ -487,7 +487,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 4,
@@ -705,7 +705,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 12,
@@ -1365,7 +1365,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 6,
@@ -1390,7 +1390,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 7,
@@ -1410,7 +1410,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 7,
@@ -1434,7 +1434,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 13,
@@ -1444,7 +1444,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 14,
@@ -2107,7 +2107,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 28,
@@ -2117,7 +2117,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 25,
@@ -2467,12 +2467,12 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 11,
                 "max_level": 11,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 12,
@@ -3561,7 +3561,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_IGGLYBUFF"
               },
               {
                 "min_level": 25,
@@ -4112,7 +4112,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 28,
@@ -4122,7 +4122,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 25,
@@ -4181,7 +4181,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 28,
@@ -4191,7 +4191,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 25,
@@ -4250,7 +4250,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 28,
@@ -4260,7 +4260,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 25,
@@ -4319,7 +4319,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 28,
@@ -4329,7 +4329,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 25,
@@ -4388,7 +4388,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 28,
@@ -4398,7 +4398,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 25,
@@ -4526,7 +4526,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 29,
@@ -4536,7 +4536,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_POOCHYENA"
               },
               {
                 "min_level": 26,
