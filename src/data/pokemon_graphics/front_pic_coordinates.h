@@ -1366,7 +1366,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Stingmon
     [SPECIES_DUSTOX] =
     {
-        .size = MON_COORDS_SIZE(63, 64),
+        .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
     // Otamamon
