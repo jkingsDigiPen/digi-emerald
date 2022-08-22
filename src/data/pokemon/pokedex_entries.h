@@ -1424,9 +1424,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Gizamon
     [NATIONAL_DEX_GOLDEEN] =
     {
-        .categoryName = _("Goldfish"),
+        .categoryName = _("Sharp Fin"),
         .height = 6,
         .weight = 150,
         .description = gGoldeenPokedexText,
@@ -1436,9 +1437,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Tortamon
     [NATIONAL_DEX_SEAKING] =
     {
-        .categoryName = _("Goldfish"),
+        .categoryName = _("Tortoise"),
         .height = 13,
         .weight = 390,
         .description = gSeakingPokedexText,

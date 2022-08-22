@@ -55,7 +55,7 @@ Other notes:
 
 Sprites and Authors:
 - Labramon sprite by Bre-Ishurna https://www.deviantart.com/bre-ishurna-spriteac/
-- Hudiemon sprite by Dragonrod342 https://twitter.com/dragonrod_art/
+- Hudiemon, MarineKimeramon sprites by Dragonrod342 https://twitter.com/dragonrod_art/
 - Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
 - Angewomon sprite by Paburo-Hu https://twitter.com/paburo1/
 - Lilamon sprite modified from SantoryuMUGENJUS1 https://www.deviantart.com/MUGENJUS1
@@ -101,6 +101,10 @@ The following text relates to changes to the base ROM (not my changes), and come
 - [Item Descriptions On First Obtain - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10126502)
 - [Custom Battle Music Via Scripting - Anon822](https://www.pokecommunity.com/showpost.php?p=10341282)
 - [Power item and Destiny Knot breeding - DarkDown](https://www.pokecommunity.com/showpost.php?p=10488226)
+
+## Additional modifications (not already in ROM base)
+- [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83)
+- [Remove overworld pokenav calls - Jaizu](https://www.pokecommunity.com/showpost.php?p=10210036&postcount=151)
 
 ## Pret Tutorial Content
 

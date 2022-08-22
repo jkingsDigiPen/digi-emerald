@@ -712,17 +712,19 @@ const u8 gSeadraPokedexText[] = _(
     "traditional herbal medicine. It shows no\n"
     "mercy to anything approaching its nest.");
 
+// Gizamon
 const u8 gGoldeenPokedexText[] = _(
-    "In the springtime, schools of Goldeen\n"
-    "can be seen swimming up falls and rivers.\n"
-    "It metes out staggering damage with its\n"
-    "single horn.");
+    "Though it is a mammal, it is more\n"
+    "suited to an aquatic life. When in the\n"
+    "water, it is ferocious and territorial,\n"
+    "but quickly grows timid taken out of it.");
 
+// Tortamon
 const u8 gSeakingPokedexText[] = _(
-    "It punches holes in boulders on stream-\n"
-    "beds. This is a clever innovation that\n"
-    "prevents its eggs from being attacked or\n"
-    "washed away by the current.");
+    "Sharp blades grow from the enormous\n"
+    "shell on its back. Both its shell and\n"
+    "its body are highly dense, causing it\n"
+    "to create tremors with each step.");
 
 const u8 gStaryuPokedexText[] = _(
     "It gathers with others in the night and\n"
