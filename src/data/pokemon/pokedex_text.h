@@ -22,18 +22,21 @@ const u8 gVenusaurPokedexText[] = _(
     "sunlight. The flower's aroma soothes the\n"
     "emotions of people.");
 
+// Agumon
 const u8 gCharmanderPokedexText[] = _(
     "A reptile that has developed enough\n"
     "to be able to walk on two legs.\n"
     "It is brave and ferocious, and\n"
     "is quite loyal to those it trusts.");
 
+// GeoGreymon
 const u8 gCharmeleonPokedexText[] = _(
     "A unique subspecies of the more common\n"
     "Greymon. Its entire body is well suited\n"
     "to combat, particularly the horns\n"
     "on its head and its fiery breath.");
 
+// RizeGreymon
 const u8 gCharizardPokedexText[] = _(
     "Over half of its body is mechanized.\n"
     "It fires three-round bursts from its\n"
@@ -376,18 +379,21 @@ const u8 gPoliwrathPokedexText[] = _(
     "This Pokémon can swim back and forth\n"
     "across the Pacific Ocean without effort.");
 
+// Renamon
 const u8 gAbraPokedexText[] = _(
     "A slender, tall fox-like Digimon with\n"
     "a keen mind. It is always calm, cool, and\n"
     "collected, and disciplined enough to avoid\n"
     "losing its composure in any situation.");
 
+// Kyubimon
 const u8 gKadabraPokedexText[] = _(
     "Although feared as a bewitching beast that\n"
     "brings about destruction and ruin, long\n"
     "ago, it was revered as a messenger that\n"
     "appeared in times of peace");
 
+// Taomon
 const u8 gAlakazamPokedexText[] = _(
     "Its faculty with magic is particularly high,\n"
     "and attacks with talismans and spells are\n"
@@ -1564,90 +1570,105 @@ const u8 gSwampertPokedexText[] = _(
     "by piling up boulders. It swims as fast as\n"
     "a jet ski.");
 
+// Dracmon
 const u8 gPoochyenaPokedexText[] = _(
     "It is mischievous and will go to any\n"
     "length to carry out a prank. Those who\n"
     "look into the eyes on its hands may\n"
     "find their hearts dominated by it.");
 
+// Sangloupmon
 const u8 gMightyenaPokedexText[] = _(
     "An ancient, noble beast that subsists\n"
     "on blood. It seems to meld into shadows\n"
     "making it difficult to capture, and\n"
     "can fling thousands of tiny blades.");
 
+// Kudamon
 const u8 gZigzagoonPokedexText[] = _(
     "A holy beast that wears a collar. It has\n"
     "a calm, cool personality, able to quickly\n"
     "analyze its situation even in battle. It is\n"
     "said to store power in its left earring.");
 
+// Reppamon
 const u8 gLinoonePokedexText[] = _(
     "Its tail has become a blade with a will of\n"
     "its own. This allows it to sense attacks from\n"
     "behind, though it can also be seen quarreling\n"
     "with its tail from time to time.");
 
+// Minomon
 const u8 gWurmplePokedexText[] = _(
     "It has a tough outer shell. When its\n"
     "mood is high, it sticks its face out of\n"
     "the shell and relaxes. It is said to\n"
     "move by hanging onto larger Digimon.");
 
+// Morphomon
 const u8 gSilcoonPokedexText[] = _(
     "It enjoys nature and has a carefree\n"
     "personality. It will follow anyone if\n"
     "it determines that they are not a threat,\n"
     "and its ear-wings move when it is happy.");
 
+// Hudiemon
 const u8 gBeautiflyPokedexText[] = _(
     "It is cautious, but reveals its cheerful\n"
     "countenance to those it grows to trust.\n"
     "It travels all over, dancing in well-lit\n"
     "places, and has an astounding memory.");
 
+// Wormmon
 const u8 gCascoonPokedexText[] = _(
-    "It is timid and cowardly, but contains\n"
-    "the potential to attain great power.\n"
+    "It is timid and cowardly, but has\n"
+    "the potential to become powerful.\n"
     "It can restrain its opponents by\n"
     "spitting out tough, adhesive threads.");
 
+// Stingmon
 const u8 gDustoxPokedexText[] = _(
     "It moves with great speed and dexterity\n"
     "and has a tough exoskeleton. Its traits\n"
     "and skills make it adept at striking\n"
     "without warning to silence opponents.");
 
+// Otamamon
 const u8 gLotadPokedexText[] = _(
     "Its skin has not fully hardened, due to\n"
     "it choosing to live underwater. Its\n"
     "potential for mutation is high, so\n"
     "caution is advised when training.");
 
+// Gekomon
 const u8 gLombrePokedexText[] = _(
     "In the evening, it takes great delight in\n"
     "popping out of rivers and startling people.\n"
     "It feeds on aquatic moss that grows on\n"
     "rocks in the riverbed.");
 
+// ShogunGekomon
 const u8 gLudicoloPokedexText[] = _(
     "When it hears festive music, all the cells\n"
     "in its body become stimulated, and it\n"
     "begins moving in rhythm. It does not\n"
     "quail even when it faces a tough opponent.");
 
+// Mushroomon
 const u8 gSeedotPokedexText[] = _(
     "It grows tiny mushroom bombs out of its\n"
     "body that can cause a variety of\n"
     "afflictions, making it dangerous\n"
     "for those unprepared.");
 
+// Woodmon
 const u8 gNuzleafPokedexText[] = _(
     "A forest-dwelling Pokémon that is skilled\n"
     "at climbing trees. Its long and pointed\n"
     "nose is its weak point. It loses power if\n"
     "the nose is gripped.");
 
+// Cherrymon
 const u8 gShiftryPokedexText[] = _(
     "It is said to arrive on chilly, wintry winds.\n"
     "Feared from long ago as the guardian of\n"
@@ -1672,12 +1693,14 @@ const u8 gShedinjaPokedexText[] = _(
     "The inside of its body is hollow and\n"
     "utterly dark.");
 
+// Hawkmon
 const u8 gTaillowPokedexText[] = _(
     "Although it is small, it is very courageous.\n"
     "It will take on a larger Skarmory on an\n"
     "equal footing. However, its will weakens if\n"
     "it becomes hungry.");
 
+// Aquilamon
 const u8 gSwellowPokedexText[] = _(
     "A Swellow dives upon prey from far above.\n"
     "It never misses its targets. It takes to\n"
@@ -1702,24 +1725,28 @@ const u8 gSpindaPokedexText[] = _(
     "unsteady, tottering walk has the\n"
     "effect of fouling its foe's aim.");
 
+// Falcomon
 const u8 gWingullPokedexText[] = _(
     "Though not all falcomon are capable of\n"
     "flight, those in the Hoenn region have\n"
     "wings developed enough to do so. It\n"
     "enjoys pretending to be a ninja.");
 
+// Crowmon
 const u8 gPelipperPokedexText[] = _(
     "It skims the tops of waves as it flies.\n"
     "When it spots prey, it uses its large beak\n"
     "to scoop up the victim with water.\n"
     "It protects its eggs in its beak.");
 
+// Hyokomon
 const u8 gSurskitPokedexText[] = _(
     "They gather on puddles after evening\n"
     "downpours, gliding across the surface\n"
     "of water as if sliding. It secretes honey\n"
     "with a sweet aroma from its head.");
 
+// Buraimon
 const u8 gMasquerainPokedexText[] = _(
     "It intimidates foes with the large eyelike\n"
     "patterns on its antennae. Because it can't\n"
@@ -1738,12 +1765,14 @@ const u8 gWailordPokedexText[] = _(
     "maximum capacity, a Wailord can dive close\n"
     "to 10,000 feet beneath the waves.");
 
+// Labramon
 const u8 gSkittyPokedexText[] = _(
     "A Skitty's adorably cute behavior makes it\n"
     "highly popular. In battle, it makes its tail\n"
     "puff out. It threatens foes with a sharp\n"
     "growl.");
 
+// Cerberusmon
 const u8 gDelcattyPokedexText[] = _(
     "Rather than keeping a permanent lair,\n"
     "it habitually seeks comfortable spots and\n"
@@ -4564,18 +4593,21 @@ const u8 gBewearPokedexText[] = _(
     "world after their spines were squashed\n"
     "by its hug.");
 
+// Lalamon
 const u8 gBounsweetPokedexText[] = _(
     "A Plant Digimon which has the appearance\n"
     "of a flower bud. It spins the leaf on its head\n"
     "to fly unsteadily, and is expressionless\n"
     "but still somehow charming.");
 
+// Sunflowmon
 const u8 gSteeneePokedexText[] = _(
     "It has the appearance of a sunflower. If it\n"
     "bathes in the sun's light it becomes very\n"
     "energetic and its power rises. In good weather,\n"
     "it flaps the leaves on its back to fly around.");
 
+// Lilamon
 const u8 gTsareenaPokedexText[] = _(
     "A Fairy Digimon with the appearance of a\n"
     "beautiful lilac. It is pure and innocent,\n"
