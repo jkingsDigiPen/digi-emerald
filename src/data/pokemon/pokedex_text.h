@@ -1106,17 +1106,19 @@ const u8 gBellossomPokedexText[] = _(
     "persists, it does a dance that is thought\n"
     "to be a ritual for summoning the sun.");
 
+// Lunamon
 const u8 gMarillPokedexText[] = _(
-    "Its body is covered with water-repellent\n"
-    "fur. Because of the fur, it can swim\n"
-    "through water at high speed without being\n"
-    "slowed by the water's resistance.");
+    "Its large rabbit-like ears allow it\n"
+    "to easily identify sounds from far\n"
+    "away. The antenna on its forehead\n"
+    "is the source of much of its power.");
 
+// Lekismon
 const u8 gAzumarillPokedexText[] = _(
-    "It lives in water virtually all day long.\n"
-    "Its body color and pattern act as\n"
-    "camouflage that makes it tough for\n"
-    "enemies to spot in water.");
+    "Its powerful leg muscles allow it\n"
+    "to jump great distances and assault\n"
+    "its enemies. It has great power over\n"
+    "both water and ice as well.");
 
 const u8 gSudowoodoPokedexText[] = _(
     "It mimics a tree to avoid being attacked\n"
@@ -1981,11 +1983,12 @@ const u8 gSolrockPokedexText[] = _(
     "Solrock line up facing the sun and absorb\n"
     "its light.");
 
+// Moonmon
 const u8 gAzurillPokedexText[] = _(
-    "Its tail, which is packed with nutrition,\n"
-    "is very bouncy like a rubber ball. On sunny\n"
-    "days they gather at the edge of water and\n"
-    "splash about for fun.");
+    "Legends tell that this Digimon was born\n"
+    "from the fusion of data from software\n"
+    "analyzing the moon. It has a pure heart and\n"
+    "can form a strong bond with its trainer.");
 
 const u8 gSpoinkPokedexText[] = _(
     "A Pokémon that manipulates psychic power\n"

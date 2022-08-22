@@ -2209,9 +2209,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Lunamon
     [NATIONAL_DEX_MARILL] =
     {
-        .categoryName = _("Aqua Mouse"),
+        .categoryName = _("Lonely"),
         .height = 4,
         .weight = 85,
         .description = gMarillPokedexText,
@@ -2221,9 +2222,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Lekismon
     [NATIONAL_DEX_AZUMARILL] =
     {
-        .categoryName = _("Aqua Rabbit"),
+        .categoryName = _("Moon Phase"),
         .height = 8,
         .weight = 285,
         .description = gAzumarillPokedexText,
@@ -3613,9 +3615,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
+    // Moonmon
     [NATIONAL_DEX_AZURILL] =
     {
-        .categoryName = _("Polka Dot"),
+        .categoryName = _("Water Drop"),
         .height = 2,
         .weight = 20,
         .description = gAzurillPokedexText,
