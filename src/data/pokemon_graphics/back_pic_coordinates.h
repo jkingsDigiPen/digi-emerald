@@ -600,14 +600,16 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 6,
     },
+    // Gizamon
     [SPECIES_GOLDEEN] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(54, 54),
+        .y_offset = 4,
     },
+    // Tortamon
     [SPECIES_SEAKING] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
+        .size = MON_COORDS_SIZE(54, 47),
         .y_offset = 6,
     },
     [SPECIES_STARYU] =
@@ -655,15 +657,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 13,
     },
+    // Numemon
     [SPECIES_MAGIKARP] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(52, 56),
+        .y_offset = 4,
     },
+    // MarineKimeramon
     [SPECIES_GYARADOS] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 5,
+        .size = MON_COORDS_SIZE(64, 57),
+        .y_offset = 2,
     },
     [SPECIES_LAPRAS] =
     {
