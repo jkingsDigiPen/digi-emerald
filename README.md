@@ -4,37 +4,47 @@
 
 This is a Pokemon to Digimon conversion project, using a modified Pokemon Emerald as a base. This began as a fork of laserXdolphin's excellent PokeEmerald Expansions Base, a modification of the Pokemon Emerald decomp that includes many feature branches and changes that drastically improve the quality of life of the base Pokemon Emerald game. My aim is to build off of these features to create a Pokemon game featuring Digimon instead of Pokemon. Aside from the aforementioned QoL changes, the conversion of Pokemon to Digimon will primarily be aesthetic. If I have time, I will make additional changes (listed below), but without drastically altering the difficulty or pacing of the game.
 
+Note that this project has no affiliation with the great Digimon-themed ROM hacks by Guzeinbuck. While I have certainly been inspired by their work, I very much wanted a hack that took a different approach as far as difficulty and QoL features were concerned.
+
 ## Planned Changes
+
+### Already Complete
+
+- New title screen to make sure people know what they're getting into.
 
 ### Must Have
 
-- Replace names, battle sprites, icons, and dex entries for approximately 212 Pokemon (roughly the number obtainable in the original game) with Digimon, beginning with starters.
+- Replace names, battle sprites, and dex entries for approximately 212 Pokemon (roughly the number obtainable in the original game) with Digimon, beginning with starters.
 - Change all encounters and trainer battles to utilize altered mons while preserving the flow and balance of the game. This will be done roughly linearly, with areas at the beginning of the game receiving the most attention initially.
 - Change base stat totals and abilities so that they make sense for the Digimon.
 - Alter movesets where necessary, without adding new moves or changing existing moves beyond what's included in the ROM base.
+- Individual colored icons for each Digimon (for the party info screen, as well as storage boxes)
+- Alter all dialog and item text to refer to Digimon rather than Pokemon.
 
 ### Should Have
 
 These will happen eventually, but take lower priority than the above.
 
-- Reorder the Pokedex so it makes sense with the new Digis (I'm not replacing the Pokemon strictly in order and am utilizing Pokemon from other games as bases, so expect the Pokedex to be messy until this happens).
-- Properly colored Digimon icons that don't mess up each others' color palettes (apparently they ALL share palettes... which is unfortunate).
-- Alter all dialog and item text to refer to Digimon rather than Pokemon.
-- New title screen to make sure people know what they're getting into.
+- Make every Digimon useful/competitive. This will of course change the feel and balance of the game, but is something that has been a pet peeve of mine in many monster catching games. My goal would be to do this *without* drastically altering the difficulty of the game.
 - Shiny palettes for each Digimon (they will not have different palettes until I get to this)
 
 ### Nice to Have
 
 These are not likely to happen unless I have an abundance of time or assistance with the project.
 
-- Make every Digimon useful/competitive. This will of course change the feel and balance of the game, but is something that has been a pet peeve of mine in many monster catching games. My goal would be to do this *without* drastically altering the difficulty of the game.
 - Change moves or add additional moves to bring them more in line with traditional Digimon moves.
 - Change overworld sprites for Pokemon to Digimon. There aren't too many of these, but it would be good to have them altered for the sake of immersion.
+
+## Not Planned
+
+This project is a lot of work; I am the only one working on it ad have a job, so there are some things that I have no intention of doing:
+
+- Alter storyline and maps to create a new story that's different from the one in the base game.
 - Front animations for each Digimon
 
 ## Notes on Included Digimon
 
-The specific Digimon I choose to include will be a combination of personal preference and what's easy to find usable sprites for. The best sources so far are the Digimon Story games for the Nintendo DS. In the US, these are Digimon World, Digimon World: Dawn and Digimon World: Dusk, and of course the excellent but mostly untranslated Digimon Story: Lost Evolution. Digimon from those games have a good chance of making it in. There are also the Digimon Story Xros Wars games, but those are entirely untranslated as of the time of this writing and I am not very familiar with most of those Digimon, so they will take lower priority.
+The specific Digimon I choose to include will be a combination of personal preference and what I can easily find usable sprites for. The highest quality sources so far are the Digimon Story games for the Nintendo DS. In the US, these are Digimon World, Digimon World: Dawn and Digimon World: Dusk, and of course the excellent but mostly untranslated Digimon Story: Lost Evolution. Digimon from those games have a good chance of making it in. There are also the Digimon Story Xros Wars games, but those are entirely untranslated as of the time of this writing and I am not very familiar with most of those Digimon, so they will take lower priority.
 
 Other notes:
 - Digimon that are (visually) just pallete swaps of other Digimon will not appear in the game, as I intend to use those palettes for their shiny variations. 
@@ -42,11 +52,13 @@ Other notes:
 - Baby/in-training Digimon will not generally be found in the game, as I would rather focus my efforts on implementing later evolutionary forms.
 
 ## Art Credits
+
 Sprites and Authors:
-- Angewomon sprite by Paburo-Hu https://twitter.com/paburo1/
-- Hudiemon sprite by dragonrod342 https://twitter.com/dragonrod_art/
-- Lilamon sprite modified from SantoryuMUGENJUS1 https://www.deviantart.com/MUGENJUS1
+- Labramon sprite by Bre-Ishurna https://www.deviantart.com/bre-ishurna-spriteac/
+- Hudiemon sprite by Dragonrod342 https://twitter.com/dragonrod_art/
 - Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
+- Angewomon sprite by Paburo-Hu https://twitter.com/paburo1/
+- Lilamon sprite modified from SantoryuMUGENJUS1 https://www.deviantart.com/MUGENJUS1
 
 All other Digimon sprites are modified versions of art from other Digimon games, primarily the Digimon Story games for the Nintendo DS (known as Digimon World DS an Digimon World Dawn and Dusk in their official ports).
 
