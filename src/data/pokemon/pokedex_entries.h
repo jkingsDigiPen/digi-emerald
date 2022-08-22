@@ -1556,9 +1556,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Numemon
     [NATIONAL_DEX_MAGIKARP] =
     {
-        .categoryName = _("Fish"),
+        .categoryName = _("Mollusk"),
         .height = 9,
         .weight = 100,
         .description = gMagikarpPokedexText,
@@ -1568,9 +1569,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // MarineKimeramon
     [NATIONAL_DEX_GYARADOS] =
     {
-        .categoryName = _("Atrocious"),
+        .categoryName = _("Composite"),
         .height = 65,
         .weight = 2350,
         .description = gGyaradosPokedexText,

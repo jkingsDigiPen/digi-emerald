@@ -778,17 +778,19 @@ const u8 gTaurosPokedexText[] = _(
     "Tauros to battle, it will charge at thick\n"
     "trees and knock them down to calm itself.");
 
+// Numemon
 const u8 gMagikarpPokedexText[] = _(
-    "Its swimming muscles are weak, so it is\n"
-    "easily washed away by currents. In places\n"
-    "where water pools, you can see many\n"
-    "Magikarp deposited there by the flow.");
+    "Digimon are said to become Numemon when\n"
+    "their trainers fail to care for them\n"
+    "properly. Though disgusting in appearance,\n"
+    "it may contain some hidden power within.");
 
+// MarineKimeramon
 const u8 gGyaradosPokedexText[] = _(
-    "It is an extremely vicious and violent\n"
-    "Pokémon. When humans begin to fight,\n"
-    "it will appear and burn everything to the\n"
-    "ground with intensely hot flames.");
+    "This terrifying creature came about as\n"
+    "a result of experiments involving\n"
+    "various aquatic Digimon. It causes\n"
+    "devastation wherever it goes.");
 
 const u8 gLaprasPokedexText[] = _(
     "People have driven Lapras almost to the\n"
