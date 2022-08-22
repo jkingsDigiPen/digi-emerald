@@ -929,15 +929,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(32, 40),
         .y_offset = 12,
     },
+    // Lunamon
     [SPECIES_MARILL] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 14,
+        .size = MON_COORDS_SIZE(53, 64),
+        .y_offset = 0,
     },
+    // Lekismon
     [SPECIES_AZUMARILL] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(39, 64),
+        .y_offset = 0,
     },
     [SPECIES_SUDOWOODO] =
     {
@@ -1665,10 +1667,11 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Moonmon
     [SPECIES_AZURILL] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(23, 53),
+        .y_offset = 6,
     },
     [SPECIES_SPOINK] =
     {
