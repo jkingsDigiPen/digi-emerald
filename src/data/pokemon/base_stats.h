@@ -5502,65 +5502,55 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Lunamon
     [SPECIES_MARILL] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 20,
+        .baseHP        = 50,
+        .baseAttack    = 70,
         .baseDefense   = 50,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 20,
-        .baseSpDefense = 50,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_WATER,
-        #endif
+        .baseSpeed     = 45,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 60,
+        .type1 = TYPE_ICE,
+        .type2 = TYPE_FAIRY,
         .catchRate = 190,
         .expYield = 88,
-        .evYield_HP        = 2,
+        .evYield_Attack = 1,
+        .evYield_SpAttack = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
-        .eggGroup1 = EGG_GROUP_WATER_1,
+        .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
-        .abilities = {ABILITY_THICK_FAT, ABILITY_HUGE_POWER, ABILITY_SAP_SIPPER},
-        .bodyColor = BODY_COLOR_BLUE,
+        .abilities = {ABILITY_WATER_ABSORB, ABILITY_ICE_BODY, ABILITY_INNER_FOCUS},
+        .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
 
+    // Lekismon
     [SPECIES_AZUMARILL] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 50,
-        .baseDefense   = 80,
-        .baseSpeed     = 50,
+        .baseHP        = 70,
+        .baseAttack    = 90,
+        .baseDefense   = 70,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 100,
         .baseSpDefense = 80,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 60,
-        #else
-            .baseSpAttack  = 50,
-        #endif
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_WATER,
-        #endif
+        .type1 = TYPE_ICE,
+        .type2 = TYPE_FAIRY,
         .catchRate = 75,
         .expYield = 189,
-        .evYield_HP        = 3,
+        .evYield_Attack = 1,
+        .evYield_SpAttack = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
-        .eggGroup1 = EGG_GROUP_WATER_1,
+        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_FAIRY,
-        .abilities = {ABILITY_THICK_FAT, ABILITY_HUGE_POWER, ABILITY_SAP_SIPPER},
-        .bodyColor = BODY_COLOR_BLUE,
+        .abilities = {ABILITY_WATER_ABSORB, ABILITY_ICE_BODY, ABILITY_INNER_FOCUS},
+        .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
 
@@ -8407,31 +8397,27 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Moonmon
     [SPECIES_AZURILL] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 20,
-        .baseDefense   = 40,
-        .baseSpeed     = 20,
-        .baseSpAttack  = 20,
-        .baseSpDefense = 40,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_NORMAL,
-            .type2 = TYPE_NORMAL,
-        #endif
+        .baseHP        = 35,
+        .baseAttack    = 40,
+        .baseDefense   = 35,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 35,
+        .baseSpDefense = 45,
+        .type1 = TYPE_NORMAL,
+        .type2 = TYPE_FAIRY,
         .catchRate = 150,
         .expYield = 38,
-        .evYield_HP        = 1,
+        .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
-        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
-        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_THICK_FAT, ABILITY_HUGE_POWER, ABILITY_SAP_SIPPER},
+        .eggGroup1 = EGG_GROUP_AMORPHOUS,
+        .eggGroup2 = EGG_GROUP_FAIRY,
+        .abilities = {ABILITY_WATER_ABSORB, ABILITY_ICE_BODY, ABILITY_INNER_FOCUS},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
