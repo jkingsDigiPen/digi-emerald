@@ -1154,7 +1154,8 @@ bool32 TryStartMatchCall(void)
         && MapAllowsMatchCall()
         && SelectMatchCallTrainer())
     {
-        StartMatchCall();
+        // Disable overworld calls - they are annoying
+        //StartMatchCall();
         return TRUE;
     }
 
