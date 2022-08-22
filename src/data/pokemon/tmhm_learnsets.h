@@ -3171,8 +3171,30 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM06_TOXIC)
                                             | TMHM(TM03_WATER_PULSE)),
 
-    [SPECIES_MAGIKARP]    = TMHM_LEARNSET(0),
+    // Numemon
+    [SPECIES_MAGIKARP]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
+                                            | TMHM(TM28_DIG)
+                                            | TMHM(TM32_DOUBLE_TEAM)
+                                            | TMHM(TM42_FACADE)
+                                            | TMHM(TM21_FRUSTRATION)
+                                            | TMHM(TM19_GIGA_DRAIN)
+                                            | TMHM(TM10_HIDDEN_POWER)
+                                            | TMHM(TM17_PROTECT)
+                                            | TMHM(TM18_RAIN_DANCE)
+                                            | TMHM(TM44_REST)
+                                            | TMHM(TM27_RETURN)
+                                            | TMHM(TM43_SECRET_POWER)
+                                            | TMHM(TM30_SHADOW_BALL)
+                                            | TMHM(TM34_SHOCK_WAVE)
+                                            | TMHM(TM36_SLUDGE_BOMB)
+                                            | TMHM(HM04_STRENGTH)
+                                            | TMHM(TM11_SUNNY_DAY)
+                                            | TMHM(TM12_TAUNT)
+                                            | TMHM(TM46_THIEF)
+                                            | TMHM(TM41_TORMENT)
+                                            | TMHM(TM06_TOXIC)),
 
+    // MarineKimeramon
     [SPECIES_GYARADOS]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
                                             | TMHM(TM14_BLIZZARD)
                                             | TMHM(HM08_DIVE)

@@ -3875,6 +3875,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Gizamon
     [SPECIES_GOLDEEN] =
     {
         .baseHP        = 45,
@@ -3900,6 +3901,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Tortamon
     [SPECIES_SEAKING] =
     {
         .baseHP        = 80,
@@ -4157,6 +4159,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Numemon
     [SPECIES_MAGIKARP] =
     {
         .baseHP        = 20,
@@ -4175,12 +4178,13 @@ const struct BaseStats gBaseStats[] =
         .friendship = 70,
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_2,
-        .eggGroup2 = EGG_GROUP_DRAGON,
-        .abilities = {ABILITY_SWIFT_SWIM, ABILITY_NONE, ABILITY_RATTLED},
+        .eggGroup2 = EGG_GROUP_AMORPHOUS,
+        .abilities = {ABILITY_STICKY_HOLD, ABILITY_NONE, ABILITY_RATTLED},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
+    // MarineKimeramon
     [SPECIES_GYARADOS] =
     {
         .baseHP        = 95,
@@ -4190,7 +4194,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 100,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_FLYING,
+        .type2 = TYPE_DARK,
         .catchRate = 45,
         .expYield = 189,
         .evYield_Attack    = 2,

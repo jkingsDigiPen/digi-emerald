@@ -2592,15 +2592,27 @@ static const struct LevelUpMove sTaurosLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Numemon
 static const struct LevelUpMove sMagikarpLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
-    LEVEL_UP_MOVE(15, MOVE_TACKLE),
-    LEVEL_UP_MOVE(30, MOVE_FLAIL),
+    LEVEL_UP_MOVE( 1, MOVE_MUD_SLAP),
+    LEVEL_UP_MOVE( 2, MOVE_POISON_GAS),
+    LEVEL_UP_MOVE( 7, MOVE_WATER_PULSE),
+    LEVEL_UP_MOVE(11, MOVE_MUD_BOMB),
+    LEVEL_UP_MOVE(15, MOVE_ACID_SPRAY),
+    LEVEL_UP_MOVE(19, MOVE_HIDDEN_POWER),
+    LEVEL_UP_MOVE(23, MOVE_RAIN_DANCE),
+    LEVEL_UP_MOVE(29, MOVE_BODY_SLAM),
+    LEVEL_UP_MOVE(33, MOVE_FLAIL),
+    LEVEL_UP_MOVE(37, MOVE_MUDDY_WATER),
+    LEVEL_UP_MOVE(40, MOVE_GUNK_SHOT),
+    LEVEL_UP_MOVE(46, MOVE_BELCH),
     LEVEL_UP_END
 };
 
+// MarineKimeramon
 static const struct LevelUpMove sGyaradosLevelUpLearnset[] = {
-    //LEVEL_UP_MOVE( 0, MOVE_BITE),
+    LEVEL_UP_MOVE( 0, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_THRASH),
     LEVEL_UP_MOVE(21, MOVE_LEER),
