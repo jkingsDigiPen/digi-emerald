@@ -1484,15 +1484,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 40),
         .y_offset = 14,
     },
+    // Labramon
     [SPECIES_SKITTY] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
+        .size = MON_COORDS_SIZE(43, 47),
         .y_offset = 6,
     },
+    // Cerberusmon
     [SPECIES_DELCATTY] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(61, 53),
+        .y_offset = 2,
     },
     [SPECIES_KECLEON] =
     {

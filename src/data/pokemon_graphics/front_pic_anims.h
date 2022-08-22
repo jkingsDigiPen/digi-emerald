@@ -3206,39 +3206,29 @@ static const union AnimCmd sAnim_PELIPPER_1[] =
     ANIMCMD_END,
 };
 
+// Hyokomon
 static const union AnimCmd sAnim_SURSKIT_1[] =
 {
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 18),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 18),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_SURSKIT_2[] =
 {
-    ANIMCMD_FRAME(1, 1),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Buraimon
 static const union AnimCmd sAnim_MASQUERAIN_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_MASQUERAIN_2[] =
 {
-    ANIMCMD_FRAME(1, 1),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3262,19 +3252,17 @@ static const union AnimCmd sAnim_WAILORD_1[] =
     ANIMCMD_END,
 };
 
+// Labramon
 static const union AnimCmd sAnim_SKITTY_1[] =
 {
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 35),
-    ANIMCMD_FRAME(0, 9),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Cerberusmon
 static const union AnimCmd sAnim_DELCATTY_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 46),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
