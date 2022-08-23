@@ -876,31 +876,24 @@ static const union AnimCmd sAnim_TENTACRUEL_1[] =
     ANIMCMD_END,
 };
 
+// Gottsumon
 static const union AnimCmd sAnim_GEODUDE_1[] =
 {
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 36),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Golemon
 static const union AnimCmd sAnim_GRAVELER_1[] =
 {
-    ANIMCMD_FRAME(0, 16),
-    ANIMCMD_FRAME(1, 16),
-    ANIMCMD_FRAME(0, 16),
-    ANIMCMD_FRAME(1, 16),
-    ANIMCMD_FRAME(0, 16),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Volcanomon
 static const union AnimCmd sAnim_GOLEM_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 31),
     ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(0, 8),
     ANIMCMD_END,
 };
 
@@ -3264,15 +3257,10 @@ static const union AnimCmd sAnim_CLAYDOL_1[] =
     ANIMCMD_END,
 };
 
+// PawnChessmonWhite
 static const union AnimCmd sAnim_NOSEPASS_1[] =
 {
-    ANIMCMD_FRAME(0, 27),
-    ANIMCMD_FRAME(1, 27),
-    ANIMCMD_FRAME(0, 27),
-    ANIMCMD_FRAME(1, 27),
-    ANIMCMD_FRAME(0, 27),
-    ANIMCMD_FRAME(1, 27),
-    ANIMCMD_FRAME(0, 3),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -5333,10 +5321,9 @@ static const union AnimCmd sAnim_GALLADE_1[] =
     ANIMCMD_END,
 };
 
+// Knightmon
 static const union AnimCmd sAnim_PROBOPASS_1[] =
 {
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
