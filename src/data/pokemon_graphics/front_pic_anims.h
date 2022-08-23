@@ -3142,29 +3142,17 @@ static const union AnimCmd sAnim_SWELLOW_1[] =
     ANIMCMD_END,
 };
 
+// Kotemon
 static const union AnimCmd sAnim_SHROOMISH_1[] =
 {
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Shurimon
 static const union AnimCmd sAnim_BRELOOM_1[] =
 {
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 7),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 

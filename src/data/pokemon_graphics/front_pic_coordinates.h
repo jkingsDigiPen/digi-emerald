@@ -1441,15 +1441,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(63, 64),
         .y_offset = 0,
     },
+    // Kotemon
     [SPECIES_SHROOMISH] =
     {
-        .size = MON_COORDS_SIZE(40, 40),
-        .y_offset = 14,
+        .size = MON_COORDS_SIZE(59, 55),
+        .y_offset = 5,
     },
+    // Shurimon
     [SPECIES_BRELOOM] =
     {
-        .size = MON_COORDS_SIZE(48, 64),
-        .y_offset = 3,
+        .size = MON_COORDS_SIZE(53, 64),
+        .y_offset = 0,
     },
     [SPECIES_SPINDA] =
     {
