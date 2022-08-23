@@ -12820,7 +12820,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-        .abilities = {ABILITY_BATTLE_ARMOR, ABILITY_SHEER_FORCE, ABILITY_PRESSURE},
+        .abilities = {ABILITY_BATTLE_ARMOR, ABILITY_ROCK_HEAD, ABILITY_PRESSURE},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
