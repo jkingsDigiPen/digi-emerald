@@ -7098,26 +7098,32 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM41_TORMENT)
                                             | TMHM(TM06_TOXIC)),
 
+    // Kotemon
     [SPECIES_SHROOMISH]   = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-                                            | TMHM(TM09_BULLET_SEED)
+                                            | TMHM(TM31_BRICK_BREAK)
+                                            | TMHM(TM08_BULK_UP)
+                                            | TMHM(HM01_CUT)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM42_FACADE)
                                             | TMHM(HM05_FLASH)
                                             | TMHM(TM01_FOCUS_PUNCH)
                                             | TMHM(TM21_FRUSTRATION)
-                                            | TMHM(TM19_GIGA_DRAIN)
                                             | TMHM(TM10_HIDDEN_POWER)
+                                            | TMHM(TM15_HYPER_BEAM)
+                                            | TMHM(TM23_IRON_TAIL)
                                             | TMHM(TM17_PROTECT)
                                             | TMHM(TM44_REST)
                                             | TMHM(TM27_RETURN)
+                                            | TMHM(HM06_ROCK_SMASH)
+                                            | TMHM(TM39_ROCK_TOMB)
                                             | TMHM(TM20_SAFEGUARD)
                                             | TMHM(TM43_SECRET_POWER)
-                                            | TMHM(TM36_SLUDGE_BOMB)
                                             | TMHM(TM49_SNATCH)
-                                            | TMHM(TM22_SOLAR_BEAM)
-                                            | TMHM(TM11_SUNNY_DAY)
+                                            | TMHM(TM47_STEEL_WING)
+                                            | TMHM(HM04_STRENGTH)
                                             | TMHM(TM06_TOXIC)),
 
+    // Shurimon
     [SPECIES_BRELOOM]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
                                             | TMHM(TM31_BRICK_BREAK)
                                             | TMHM(TM08_BULK_UP)
@@ -7131,7 +7137,6 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM19_GIGA_DRAIN)
                                             | TMHM(TM10_HIDDEN_POWER)
                                             | TMHM(TM15_HYPER_BEAM)
-                                            | TMHM(TM23_IRON_TAIL)
                                             | TMHM(TM17_PROTECT)
                                             | TMHM(TM44_REST)
                                             | TMHM(TM27_RETURN)
@@ -7142,6 +7147,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM36_SLUDGE_BOMB)
                                             | TMHM(TM49_SNATCH)
                                             | TMHM(TM22_SOLAR_BEAM)
+                                            | TMHM(TM47_STEEL_WING)
                                             | TMHM(HM04_STRENGTH)
                                             | TMHM(TM11_SUNNY_DAY)
                                             | TMHM(TM06_TOXIC)),
