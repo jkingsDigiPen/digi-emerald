@@ -235,17 +235,19 @@ const u8 gNinetalesPokedexText[] = _(
     "A long-lived Ninetales will have fur that\n"
     "shines like gold.");
 
+// Gatomon
 const u8 gJigglypuffPokedexText[] = _(
-    "Nothing can avoid falling asleep hearing a\n"
-    "Jigglypuff's song. The sound waves of its\n"
-    "singing voice match the brain waves of\n"
-    "someone in a deep sleep.");
+    "Though cute and relatively small, this\n"
+    "Digimon possesses a great deal of strength.\n"
+    "Its sharp claws are dangerous, though its\n"
+    "power is diminished if its tail ring is lost.");
 
+// Angewomon
 const u8 gWigglytuffPokedexText[] = _(
-    "Its fur is the ultimate in luxuriousness.\n"
-    "Sleeping alongside a Wigglytuff is simply\n"
-    "divine. Its body expands seemingly without\n"
-    "end when it inhales.");
+    "Though it typically has a gentle demeanor,\n"
+    "this angel Digimon will relentlessly pursue\n"
+    "those it deems as evil, striking with\n"
+    "holy arrows until they relent.");
 
 const u8 gZubatPokedexText[] = _(
     "While living in pitch-black caverns, their\n"
@@ -1052,11 +1054,12 @@ const u8 gCleffaPokedexText[] = _(
     "They dance until daybreak, when they\n"
     "quench their thirst with the morning dew.");
 
+// Salamon
 const u8 gIgglybuffPokedexText[] = _(
-    "Its soft and pliable body is very bouncy.\n"
-    "When it sings continuously with all its\n"
-    "might, its body steadily turns a deepening\n"
-    "pink color.");
+    "This Digimon was created as an experiment\n"
+    "by researchers, who decided to give it the\n"
+    "appearance of a tiny puppy. With proper\n"
+    "training, it can realize its potential.");
 
 const u8 gTogepiPokedexText[] = _(
     "As its energy, it uses the feelings of\n"
