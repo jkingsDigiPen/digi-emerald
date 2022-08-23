@@ -1460,8 +1460,8 @@ static const struct LevelUpMove sGravelerLevelUpLearnset[] = {
 
 // Volcanomon
 static const struct LevelUpMove sGolemLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_BOOM_BURST),
-    LEVEL_UP_MOVE( 1, MOVE_BOOM_BURST),
+    LEVEL_UP_MOVE( 0, MOVE_BOOMBURST),
+    LEVEL_UP_MOVE( 1, MOVE_BOOMBURST),
     LEVEL_UP_MOVE( 1, MOVE_HEAVY_SLAM),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
