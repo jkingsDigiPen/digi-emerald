@@ -450,23 +450,26 @@ const u8 gTentacruelPokedexText[] = _(
     "80 tentacles. Its red orbs glow when it\n"
     "grows excited or agitated.");
 
+// Gottsumon
 const u8 gGeodudePokedexText[] = _(
-    "It climbs mountain paths using only the\n"
-    "power of its arms. Because they look just\n"
-    "like boulders lining paths, hikers may step\n"
-    "on them without noticing.");
+    "It has a cheerful personality, but can\n"
+    "be rather selfish and, once angered, is\n"
+    "prone to rampage like a volcanic eruption,\n"
+    "shooting rocks from the top of its head.");
 
+// Golemon
 const u8 gGravelerPokedexText[] = _(
-    "They descend from mountains by tumbling\n"
-    "down steep slopes. They are so brutal,\n"
-    "they smash aside obstructing trees and\n"
-    "massive boulders with thunderous tackles.");
+    "It emits dangerous gases from its back,\n"
+    "which it is protected from by various\n"
+    "incantations carved into its stony skin.\n"
+    "Ninety percent of its body is rock.");
 
+// Volcanomon
 const u8 gGolemPokedexText[] = _(
-    "It is said to live in volcanic craters\n"
-    "on mountain peaks. Once a year, it sheds\n"
-    "its hide and grows larger. The shed hide\n"
-    "crumbles and returns to the soil.");
+    "The volcano on its back erupts when its\n"
+    "anger reaches its peak. Its deafening\n"
+    "voice is capable of shaking the earth\n"
+    "and its atmosphere.");
 
 const u8 gPonytaPokedexText[] = _(
     "A Ponyta is very weak at birth. It can\n"
@@ -1808,11 +1811,12 @@ const u8 gClaydolPokedexText[] = _(
     "They are kept floating by the Pokémon's\n"
     "manipulation of psychic power.");
 
+// PawnChessmonWhite
 const u8 gNosepassPokedexText[] = _(
-    "Its body emits a powerful magnetism.\n"
-    "It feeds on prey that is pulled in by the\n"
-    "force. Its magnetism is stronger in cold\n"
-    "seasons.");
+    "Its power is relatively weak, but it\n"
+    "advances continuously, regardless of\n"
+    "danger. In groups, it can create\n"
+    "a formidable defensive formation.");
 
 const u8 gTorkoalPokedexText[] = _(
     "It battles using energy it gets from\n"
@@ -2902,11 +2906,12 @@ const u8 gGalladePokedexText[] = _(
     "Though it appears intimidating, it is\n"
     "usually docile and enjoys sunbathing.");
 
+// Knightmon
 const u8 gProbopassPokedexText[] = _(
-    "It freely controls three units called\n"
-    "Mini-Noses using magnetic force.\n"
-    "With them, it can attack its foes from\n"
-    "three directions.");
+    "It faithfully serves its master, using\n"
+    "its heavy armor and enormous greatsword\n"
+    "to protect them from all threats. It can\n"
+    "fell any foe with only a single strike.");
 
 const u8 gDusknoirPokedexText[] = _(
     "This feared Pokémon is said to travel to\n"
