@@ -2758,6 +2758,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Gottsumon
     [SPECIES_GEODUDE] =
     {
         .baseHP        = 40,
@@ -2783,14 +2784,15 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Golemon 410
     [SPECIES_GRAVELER] =
     {
-        .baseHP        = 55,
-        .baseAttack    = 95,
-        .baseDefense   = 115,
+        .baseHP        = 60,
+        .baseAttack    = 100,
+        .baseDefense   = 120,
         .baseSpeed     = 35,
         .baseSpAttack  = 45,
-        .baseSpDefense = 45,
+        .baseSpDefense = 50,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_GROUND,
         .catchRate = 120,
@@ -2808,18 +2810,15 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Volcanomon 520
     [SPECIES_GOLEM] =
     {
         .baseHP        = 80,
-        .baseDefense   = 130,
-        .baseSpeed     = 45,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 65,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 120,
-        #else
-            .baseAttack    = 110,
-        #endif
+        .baseAttack    = 120,
+        .baseDefense   = 135,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 75,
         .type1 = TYPE_ROCK,
         .type2 = TYPE_GROUND,
         .catchRate = 45,
