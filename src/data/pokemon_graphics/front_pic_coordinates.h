@@ -1738,20 +1738,23 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(56, 48),
         .y_offset = 11,
     },
+    // Gizamon
     [SPECIES_SLAKOTH] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 15,
+        .size = MON_COORDS_SIZE(62, 58),
+        .y_offset = 3,
     },
+    // Leomon
     [SPECIES_VIGOROTH] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(48, 64),
+        .y_offset = 0,
     },
+    // Mad Leomon
     [SPECIES_SLAKING] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(63, 54),
+        .y_offset = 5,
     },
     [SPECIES_GULPIN] =
     {
