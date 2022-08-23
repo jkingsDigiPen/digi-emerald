@@ -896,6 +896,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
+    // Gottusmon
     [NATIONAL_DEX_GEODUDE] =
     {
         .categoryName = _("Rock"),
@@ -908,6 +909,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Golemon
     [NATIONAL_DEX_GRAVELER] =
     {
         .categoryName = _("Rock"),
@@ -920,6 +922,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Volcanomon
     [NATIONAL_DEX_GOLEM] =
     {
         .categoryName = _("Megaton"),
@@ -3633,9 +3636,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // PawnChessmonWhite
     [NATIONAL_DEX_NOSEPASS] =
     {
-        .categoryName = _("Compass"),
+        .categoryName = _("Defender"),
         .height = 10,
         .weight = 970,
         .description = gNosepassPokedexText,
@@ -3645,9 +3649,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
+    // Labramon
     [NATIONAL_DEX_SKITTY] =
     {
-        .categoryName = _("Kitten"),
+        .categoryName = _("Retriever"),
         .height = 6,
         .weight = 110,
         .description = gSkittyPokedexText,
@@ -3657,9 +3662,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Cerberusmon
     [NATIONAL_DEX_DELCATTY] =
     {
-        .categoryName = _("Prim"),
+        .categoryName = _("Watchdog"),
         .height = 11,
         .weight = 326,
         .description = gDelcattyPokedexText,
@@ -5758,9 +5764,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Knightmon
     [NATIONAL_DEX_PROBOPASS] =
     {
-        .categoryName = _("Compass"),
+        .categoryName = _("Honorable"),
         .height = 14,
         .weight = 3400,
         .description = gProbopassPokedexText,
