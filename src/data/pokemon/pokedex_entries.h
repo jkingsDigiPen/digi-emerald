@@ -3483,9 +3483,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Gazimon
     [NATIONAL_DEX_SLAKOTH] =
     {
-        .categoryName = _("Slacker"),
+        .categoryName = _("Sharp Claw"),
         .height = 8,
         .weight = 240,
         .description = gSlakothPokedexText,
@@ -3495,11 +3496,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Leomon
     [NATIONAL_DEX_VIGOROTH] =
     {
-        .categoryName = _("Wild Monkey"),
-        .height = 14,
-        .weight = 465,
+        .categoryName = _("Beast King"),
+        .height = 16,
+        .weight = 700,
         .description = gVigorothPokedexText,
         .pokemonScale = 301,
         .pokemonOffset = 2,
@@ -3507,11 +3509,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Mad Leomon
     [NATIONAL_DEX_SLAKING] =
     {
-        .categoryName = _("Lazy"),
+        .categoryName = _("Mad Zombie"),
         .height = 20,
-        .weight = 1305,
+        .weight = 1200,
         .description = gSlakingPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,

@@ -2068,23 +2068,26 @@ const u8 gRoseliaPokedexText[] = _(
     "The fragrance of its flowers has the\n"
     "effect of making its foes careless.");
 
+// Gazimon
 const u8 gSlakothPokedexText[] = _(
-    "It sleeps virtually all day and night long.\n"
-    "It doesn't change its nest its entire life,\n"
-    "but it sometimes travels great distances\n"
-    "by swimming in rivers.");
+    "It is extremely aggressive, rarely warming\n"
+    "up to humans or other Digimon. Its claws\n"
+    "are effective for attacking, as well as\n"
+    "digging holes, which it uses as traps.");
 
+// Leomon
 const u8 gVigorothPokedexText[] = _(
-    "It can't keep still because its blood boils\n"
-    "with energy. It runs through the fields\n"
-    "and mountains all day to calm itself. If it\n"
-    "doesn't, it can't sleep at night.");
+    "Its noble purpose and strong sense of\n"
+    "justice have led many to call it the\n"
+    "King of Beasts. It is a longtime rival\n"
+    "of the fiendish Ogremon.");
 
+// Mad Leomon
 const u8 gSlakingPokedexText[] = _(
-    "Hordes of Slaking gather around trees\n"
-    "when fruits come into season. They wait\n"
-    "around patiently for ripened fruits to fall\n"
-    "out of the trees.");
+    "Though once noble, it is now so corrupted\n"
+    "by the power it sought that it is little\n"
+    "more than a soulless puppet. Beware, for\n"
+    "it attacks relentlessly when angered.");
 
 const u8 gGulpinPokedexText[] = _(
     "This Pokémon's stomach fluid can even\n"
