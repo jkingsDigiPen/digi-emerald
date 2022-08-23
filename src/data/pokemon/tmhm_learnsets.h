@@ -7146,6 +7146,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM11_SUNNY_DAY)
                                             | TMHM(TM06_TOXIC)),
 
+    // Gazimon
     [SPECIES_SLAKOTH]     = TMHM_LEARNSET(TMHM(TM40_AERIAL_ACE)
                                             | TMHM(TM45_ATTRACT)
                                             | TMHM(TM14_BLIZZARD)
@@ -7177,6 +7178,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM06_TOXIC)
                                             | TMHM(TM03_WATER_PULSE)),
 
+    // Leomon
     [SPECIES_VIGOROTH]    = TMHM_LEARNSET(TMHM(TM40_AERIAL_ACE)
                                             | TMHM(TM45_ATTRACT)
                                             | TMHM(TM14_BLIZZARD)
@@ -7211,6 +7213,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM06_TOXIC)
                                             | TMHM(TM03_WATER_PULSE)),
 
+    // Mad Leomon
     [SPECIES_SLAKING]     = TMHM_LEARNSET(TMHM(TM40_AERIAL_ACE)
                                             | TMHM(TM45_ATTRACT)
                                             | TMHM(TM14_BLIZZARD)
