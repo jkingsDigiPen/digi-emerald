@@ -380,20 +380,23 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 11,
     },
+    // Gottsumon
     [SPECIES_GEODUDE] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(35, 51),
+        .y_offset = 4,
     },
+    // Golemon
     [SPECIES_GRAVELER] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(56, 60),
+        .y_offset = 3,
     },
+    // Volcanomon
     [SPECIES_GOLEM] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(59, 59),
+        .y_offset = 3,
     },
     [SPECIES_PONYTA] =
     {
@@ -1519,10 +1522,11 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 7,
     },
+    // PawnChessmonWhite
     [SPECIES_NOSEPASS] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(59, 57),
+        .y_offset = 3,
     },
     [SPECIES_TORKOAL] =
     {
@@ -2432,10 +2436,11 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 52),
         .y_offset = 5,
     },
+    // Knightmon
     [SPECIES_PROBOPASS] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(59, 59),
+        .y_offset = 3,
     },
     [SPECIES_DUSKNOIR] =
     {
