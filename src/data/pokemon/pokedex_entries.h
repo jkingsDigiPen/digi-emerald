@@ -3459,9 +3459,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Kotemon
     [NATIONAL_DEX_SHROOMISH] =
     {
-        .categoryName = _("Mushroom"),
+        .categoryName = _("Guarded"),
         .height = 4,
         .weight = 45,
         .description = gShroomishPokedexText,
@@ -3471,9 +3472,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Shurimon
     [NATIONAL_DEX_BRELOOM] =
     {
-        .categoryName = _("Mushroom"),
+        .categoryName = _("Camouflage"),
         .height = 12,
         .weight = 392,
         .description = gBreloomPokedexText,

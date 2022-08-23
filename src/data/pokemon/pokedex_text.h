@@ -1713,17 +1713,19 @@ const u8 gSwellowPokedexText[] = _(
     "a great distance. The horns on its\n"
     "head are quite potent in combat.");
 
+// Kotemon
 const u8 gShroomishPokedexText[] = _(
-    "It loves to eat damp, composted soil in\n"
-    "forests. If you enter a forest after a\n"
-    "long rain, you can see many Shroomish\n"
-    "feasting on composted soil.");
+    "Though it is reptilian in nature, its\n"
+    "true appearance is unknown, as it never\n"
+    "removes its mask or other defensive\n"
+    "gear. It hones its swordplay diligently.");
 
+// Shurimon
 const u8 gBreloomPokedexText[] = _(
-    "It scatters spores from holes in the cap\n"
-    "on its head. It loves warm and humid\n"
-    "climates. It feeds on trees and plants in\n"
-    "fields and forests.");
+    "It has learned to blend in with its\n"
+    "surroundings, making it difficult to\n"
+    "detect. It uses this ability to ambush\n"
+    "its foes, attacking with shurikens.");
 
 const u8 gSpindaPokedexText[] = _(
     "It is distinguished by a pattern of\n"
