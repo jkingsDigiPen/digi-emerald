@@ -432,7 +432,7 @@ RusturfTunnel_Text_Peeko: @ 822D1F7
 
 RusturfTunnel_Text_GruntIntro:
 	.string "Grah, keelhaul it all!\p"
-	.string "That hostage Pokémon turned out to\n"
+	.string "That hostage Digimon turned out to\n"
 	.string "be worthless!\p"
 	.string "And to think I made a getaway…\n"
 	.string "In this tunnel to nowhere!\p"
@@ -497,7 +497,7 @@ RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 
 RusturfTunnel_Text_ExplainStrength: @ 822D6D2
 	.string "That HM contains Strength.\p"
-	.string "If a muscular Pokémon were to learn\n"
+	.string "If a muscular Digimon were to learn\n"
 	.string "that, it would be able to move even\l"
 	.string "large boulders.$"
 
@@ -518,15 +518,15 @@ RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
 RusturfTunnel_Text_MikeIntro:
 	.string "What do you call a wild man up in the\n"
 	.string "mountains? A mountain man, right?\p"
-	.string "So why don't they call a Pokémon in\n"
-	.string "the mountains a mountain Pokémon?$"
+	.string "So why don't they call a Digimon in\n"
+	.string "the mountains a mountain Digimon?$"
 
 RusturfTunnel_Text_MikeDefeat: @ 822D8DB
-	.string "My Pokémon…\n"
+	.string "My Digimon…\n"
 	.string "Ran out of power…$"
 
 RusturfTunnel_Text_MikePostBattle:
 	.string "They halted development here to\n"
-	.string "protect Pokémon, right?\l"
+	.string "protect Digimon, right?\l"
 	.string "There's a feel-good story!$"
 

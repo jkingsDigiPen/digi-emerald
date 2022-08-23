@@ -1033,7 +1033,7 @@ RustboroCity_Text_SneakyLookingManWentAroundCorner:
 	.string "looking guy went around the corner.$"
 
 RustboroCity_Text_HaveYouChallengedGym: @ 81E130D
-	.string "Have you taken the Pokémon Gym\n"
+	.string "Have you taken the Digimon Gym\n"
 	.string "challenge?\p"
 	.string "When you get that shiny Gym Badge\n"
 	.string "in hand, I guess Trainers begin to\l"
@@ -1041,21 +1041,21 @@ RustboroCity_Text_HaveYouChallengedGym: @ 81E130D
 
 RustboroCity_Text_HeyThatsRustborosGymBadge: @ 81E139E
 	.string "Hey, that's Rustboro's Gym Badge!\p"
-	.string "Out of all the Pokémon Gym Badges,\n"
+	.string "Out of all the Digimon Gym Badges,\n"
 	.string "Rustboro's is the coolest, I'd say.$"
 
 RustboroCity_Text_YoureNewAroundHere:
 	.string "Oh? Who might you be?\n"
 	.string "You're a new face around these parts.\p"
 	.string "Have you just transferred into the\n"
-	.string "Pokémon Trainer's School?$"
+	.string "Digimon Trainer's School?$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire: @ 81E1480
 	.string "I challenged the Gym Leader, but…\p"
 	.string "It's not going to be easy winning with\n"
-	.string "my Fire-type Pokémon…\p"
-	.string "Fire-type Pokémon don't match up\n"
-	.string "well against Rock-type Pokémon…$"
+	.string "my Fire-type Digimon…\p"
+	.string "Fire-type Digimon don't match up\n"
+	.string "well against Rock-type Digimon…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel: @ 81E1520
 	.string "The old sailor Mr. Briney lives in\n"
@@ -1072,26 +1072,26 @@ RustboroCity_Text_MrBrineyLovesPeeko: @ 81E1589
 	.string "that Peeko.$"
 
 RustboroCity_Text_WowYouHavePokemon: @ 81E1633
-	.string "Wow, you have Pokémon with you, too.\p"
+	.string "Wow, you have Digimon with you, too.\p"
 	.string "When I get bigger, I'm going to go\n"
-	.string "places with Pokémon, too.$"
+	.string "places with Digimon, too.$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool: @ 81E1695
-	.string "Pokémon Trainer's School!\p"
+	.string "Digimon Trainer's School!\p"
 	.string "If I go to this school, will I be able\n"
-	.string "to catch rare Pokémon easily?$"
+	.string "to catch rare Digimon easily?$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp: @ 81E16F4
-	.string "If a Pokémon gains experience in\n"
+	.string "If a Digimon gains experience in\n"
 	.string "battles, it can sometimes change in\l"
 	.string "the way it looks.$"
 
 RustboroCity_Text_PokemonChangeShape: @ 81E174B
-	.string "A Pokémon changes shape?\n"
+	.string "A Digimon changes shape?\n"
 	.string "If one did that, I would be shocked!$"
 
 RustboroCity_Text_TradePokemonGrowFast: @ 81E1789
-	.string "A Pokémon you get in a trade from\n"
+	.string "A Digimon you get in a trade from\n"
 	.string "someone grows fast.\p"
 	.string "But if you don't have certain Gym\n"
 	.string "Badges, it may not obey you…$"
@@ -1137,21 +1137,21 @@ RustboroCity_Text_PleaseComeWithMe:
 RustboroCity_Text_MayHiLetsRegister: @ 81E1A49
 	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "You had a Match Call feature put\n"
-	.string "on your Pokénav!\p"
+	.string "on your Diginav!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredMay: @ 81E1ADB
 	.string "Registered May\n"
-	.string "in the Pokénav.$"
+	.string "in the Diginav.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
 	.string "May: Oh, by the way, I passed\n"
 	.string "Mr. Briney in Petalburg Woods.\p"
 	.string "I guess he's on his way home to his\n"
 	.string "cottage by the sea.\p"
-	.string "How's your Pokédex coming along,\n"
+	.string "How's your Digidex coming along,\n"
 	.string "{PLAYER}{KUN}? Mine's looking pretty decent!\p"
 	.string "So…\n"
 	.string "How about a little battle?$"
@@ -1159,7 +1159,7 @@ RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough: @ 81E1BD3
 	.string "May: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
-	.string "Pokémon very much?\p"
+	.string "Digimon very much?\p"
 	.string "That's not very good for a Trainer!$"
 
 RustboroCity_Text_MayWantToBattle: @ 81E1C48
@@ -1184,21 +1184,21 @@ RustboroCity_Text_MayMrBrineyHint: @ 81E1CE7
 RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
 	.string "Brendan: Oh, hey, {PLAYER}!\p"
 	.string "You had a Match Call feature put\n"
-	.string "on your Pokénav! Cool!\p"
+	.string "on your Diginav! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan: @ 81E1E11
 	.string "Registered Brendan\n"
-	.string "in the Pokénav.$"
+	.string "in the Diginav.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 	.string "Brendan: By the way, {PLAYER}, I walked\n"
 	.string "by Mr. Briney in Petalburg Woods.\p"
 	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
-	.string "{PLAYER}, how's your Pokédex?\n"
+	.string "{PLAYER}, how's your Digidex?\n"
 	.string "Have you filled in any pages yet?\p"
 	.string "Mine rules.\p"
 	.string "Want to have a battle to test how\n"
@@ -1206,7 +1206,7 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon: @ 81E1F2F
 	.string "Brendan: What's the matter? Don't have\n"
-	.string "any confidence in your Pokémon?$"
+	.string "any confidence in your Digimon?$"
 
 RustboroCity_Text_BrendanWantToBattle: @ 81E1F76
 	.string "Brendan: What's up?\n"
@@ -1240,7 +1240,7 @@ RustboroCity_Text_DevonCorpSign: @ 81E2128
 	.string "it all.”$"
 
 RustboroCity_Text_GymSign: @ 81E2167
-	.string "Rustboro City Pokémon Gym\n"
+	.string "Rustboro City Digimon Gym\n"
 	.string "Leader: Roxanne\p"
 	.string "“The Rock-loving honors student!”$"
 
@@ -1255,34 +1255,34 @@ RustboroCity_Text_CitySign: @ 81E220B
 	.string "nature and science.”$"
 
 RustboroCity_Text_TrainersSchoolSign: @ 81E2253
-	.string "Pokémon Trainer's School\p"
+	.string "Digimon Trainer's School\p"
 	.string "“We'll teach you anything about\n"
-	.string "Pokémon!”$"
+	.string "Digimon!”$"
 
 RustboroCity_Text_CuttersHouse: @ 81E2296
 	.string "Cutter's House$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
 	.string "I've been developing an added feature\n"
-	.string "for the Pokénav…\p"
+	.string "for the Diginav…\p"
 	.string "And it turned out great!\p"
-	.string "{PLAYER}, may I see that Pokénav?\n"
+	.string "{PLAYER}, may I see that Diginav?\n"
 	.string "The one our President gave you?$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 	.string "There you go, {PLAYER}!\p"
 	.string "I added a new feature named\n"
-	.string "Match Call to your Pokénav.\p"
+	.string "Match Call to your Diginav.\p"
 	.string "Using the Match Call feature,\n"
 	.string "you can chat with people who have\l"
-	.string "been registered in your Pokénav.\p"
+	.string "been registered in your Diginav.\p"
 	.string "{PLAYER}, our President Stone should\n"
-	.string "be registered in your Pokénav.\p"
+	.string "be registered in your Diginav.\p"
 	.string "Test it out.\n"
 	.string "Please give our President a call.$"
 
 RustboroCity_Text_PleaseSelectPokenav: @ 81E2449
-	.string "Please select the Pokénav.$"
+	.string "Please select the Diginav.$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
 	.string "Okay, I'd better get back to work.\n"
@@ -1293,7 +1293,7 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "You can have a 2-on-2 battle even\n"
 	.string "if you're not with another Trainer.\p"
 	.string "If you catch the eyes of two Trainers\n"
-	.string "when you have two or more Pokémon,\l"
+	.string "when you have two or more Digimon,\l"
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two Trainers by yourself?$"

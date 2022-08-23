@@ -50,7 +50,7 @@ RustboroCity_House1_EventScript_Hiker::
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
-	.string "Huh? My Pokémon is cute?\n"
+	.string "Huh? My Digimon is cute?\n"
 	.string "Sure, I knew that.\p"
 	.string "But if you really want, I'm willing\n"
 	.string "to trade it to you.\p"
@@ -59,7 +59,7 @@ RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
 	.string "Eheheh…\n"
-	.string "Please be good to my Pokémon.$"
+	.string "Please be good to my Digimon.$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 	.string "Huh? That doesn't look anything like\n"
@@ -67,15 +67,15 @@ RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 	.string "Oh, if you don't want to, that's okay.\n"
-	.string "But my Pokémon is cute, you know…$"
+	.string "But my Digimon is cute, you know…$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute: @ 8215B17
-	.string "Any Pokémon can be cute if you raise\n"
+	.string "Any Digimon can be cute if you raise\n"
 	.string "it with care and kindness.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
 	.string "In all sorts of places, there are all\n"
-	.string "sorts of Pokémon and people.\p"
+	.string "sorts of Digimon and people.\p"
 	.string "I find that fascinating, so I go to all\n"
 	.string "sorts of places.$"
 

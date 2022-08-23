@@ -272,56 +272,56 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 	.string "We're developing a device for talking\n"
-	.string "with Pokémon.\p"
+	.string "with Digimon.\p"
 	.string "But we haven't had much success…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
 	.string "I'm developing new kinds of\n"
-	.string "Poké Balls…\p"
+	.string "Digi Balls…\p"
 	.string "But I haven't made much headway…$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "We finally made new kinds of\n"
-	.string "Poké Balls!\p"
+	.string "Digi Balls!\p"
 	.string "The Repeat Ball makes it easier to\n"
-	.string "catch Pokémon you've caught before.\p"
+	.string "catch Digimon you've caught before.\p"
 	.string "The Timer Ball gets better at catching\n"
-	.string "Pokémon the longer a battle runs.\p"
+	.string "Digimon the longer a battle runs.\p"
 	.string "Both are proudly developed by\n"
 	.string "the Devon Corporation.\p"
 	.string "Please give them a try!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav: @ 8211D9F
-	.string "I made the Pokénav!\p"
+	.string "I made the Diginav!\p"
 	.string "As an engineer, I feel blessed to have\n"
 	.string "made something so great!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Oh, wow!\n"
-	.string "That's a Pokénav!\p"
+	.string "That's a Diginav!\p"
 	.string "It came about as a result of our\n"
 	.string "President's desire to learn about\l"
-	.string "the feelings of Pokémon.\p"
+	.string "the feelings of Digimon.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
-	.string "trying the Pokénav out.$"
+	.string "trying the Diginav out.$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 	.string "I'm trying to develop a device that\n"
 	.string "visually reproduces the dreams of\l"
-	.string "Pokémon…\p"
+	.string "Digimon…\p"
 	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 	.string "I've been trying to develop a device\n"
-	.string "that resurrects Pokémon from fossils…\p"
+	.string "that resurrects Digimon from fossils…\p"
 	.string "And, it's working!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "Wait! That thing you have there…\n"
-	.string "Is that a Pokémon fossil?\p"
-	.string "Would you like to bring that Pokémon\n"
+	.string "Is that a Digimon fossil?\p"
+	.string "Would you like to bring that Digimon\n"
 	.string "back to life?\p"
 	.string "I can with my newly developed\n"
 	.string "Fossil Regenerator.$"
@@ -335,7 +335,7 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "Oh, now that's a surprise!\n"
 	.string "You have not one, but two, fossils?\p"
 	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one Pokémon at a time.\p"
+	.string "regenerate one Digimon at a time.\p"
 	.string "Would you like to pick one of your\n"
 	.string "fossils for regeneration?$"
 
@@ -355,9 +355,9 @@ RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime: @ 82121A2
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 	.string "Thanks for waiting!\p"
-	.string "Your fossilized Pokémon has been\n"
+	.string "Your fossilized Digimon has been\n"
 	.string "brought back to life!\p"
-	.string "The fossil was an ancient Pokémon.\n"
+	.string "The fossil was an ancient Digimon.\n"
 	.string "{STR_VAR_2}, it was!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
@@ -366,12 +366,12 @@ RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon: @ 82122F5
-	.string "Uh-oh, you've got too many Pokémon.\n"
+	.string "Uh-oh, you've got too many Digimon.\n"
 	.string "You have no room for this one.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 	.string "I'm trying to develop a new feature\n"
-	.string "for the Pokénav…\p"
+	.string "for the Diginav…\p"
 	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:

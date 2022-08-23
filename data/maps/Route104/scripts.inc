@@ -1010,16 +1010,16 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
 	.string "of the sea?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon: @ 81ED6A2
-	.string "If you're going to throw a Poké Ball,\n"
-	.string "weaken the wild Pokémon first.\p"
+	.string "If you're going to throw a Digi Ball,\n"
+	.string "weaken the wild Digimon first.\p"
 	.string "It will be easier to catch if it's been\n"
 	.string "poisoned, burned, or lulled to sleep.$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
 	.string "You're a thief if you try to steal\n"
-	.string "someone else's Pokémon.\p"
-	.string "You should throw Poké Balls only at\n"
-	.string "wild Pokémon.$"
+	.string "someone else's Digimon.\p"
+	.string "You should throw Digi Balls only at\n"
+	.string "wild Digimon.$"
 
 Route104_Text_ImNotATrainer: @ 81ED7A2
 	.string "Oh, no, I'm not a Trainer.\p"
@@ -1032,7 +1032,7 @@ Route104_Text_LikeFillingMouthWithSeedsTakeThis:
 	.string "I like filling my mouth with seeds,\n"
 	.string "then spitting them out fast!\p"
 	.string "You can have this, so you try it out!\p"
-	.string "Use it on a Pokémon, and it will learn\n"
+	.string "Use it on a Digimon, and it will learn\n"
 	.string "a move for firing seeds rapidly.$"
 
 Route104_Text_TMsAreOneTimeUse:
@@ -1074,27 +1074,27 @@ Route104_Text_TrainerTipsDoubleBattles: @ 81EDAEF
 	.string "Trainer Tips\p"
 	.string "In the Hoenn region there are pairs\n"
 	.string "of Trainers who challenge others\l"
-	.string "for 2-on-2 Pokémon battles called\l"
+	.string "for 2-on-2 Digimon battles called\l"
 	.string "Double Battles.\p"
 	.string "In a Double Battle, the Trainer must\n"
-	.string "send out two Pokémon, the one at the\l"
+	.string "send out two Digimon, the one at the\l"
 	.string "left of the list and the top one.\l"
-	.string "Watch how Pokémon are lined up.$"
+	.string "Watch how Digimon are lined up.$"
 
 Route104_Text_MayWeShouldRegister: @ 81EDBFF
 	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "Devon upgraded your Pokénav with\n"
+	.string "Devon upgraded your Diginav with\n"
 	.string "the Match Call system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay: @ 81EDC8F
 	.string "{PLAYER} registered May\n"
-	.string "in the Pokénav.$"
+	.string "in the Diginav.$"
 
 Route104_Text_MayHowsYourPokedex: @ 81EDCB1
 	.string "May: Oh, by the way, {PLAYER}{KUN},\n"
-	.string "how's your Pokédex coming along?$"
+	.string "how's your Digidex coming along?$"
 
 Route104_Text_MayMinesDecentLetsBattle:
 	.string "Mine's looking pretty decent.\n"
@@ -1104,7 +1104,7 @@ Route104_Text_MayMinesDecentLetsBattle:
 Route104_Text_MayHaventRaisedPokemon: @ 81EDD2A
 	.string "May: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
-	.string "Pokémon very much?\p"
+	.string "Digimon very much?\p"
 	.string "That's not very good for a Trainer!$"
 
 Route104_Text_MayLetsBattle: @ 81EDD9F
@@ -1121,25 +1121,25 @@ Route104_Text_MayDefeat:
 
 Route104_Text_MayPostBattle: @ 81EDE3E
 	.string "May: I can tell you've gotten pretty\n"
-	.string "good with the way you handle Pokémon.\p"
+	.string "good with the way you handle Digimon.\p"
 	.string "But instead of only making them\n"
 	.string "battle, you should be like Mr. Briney.\p"
 	.string "It's important to become friends with\n"
-	.string "Pokémon, too.$"
+	.string "Digimon, too.$"
 
 Route104_Text_BrendanWeShouldRegister: @ 81EDF04
 	.string "Brendan: Oh, hey, {PLAYER}!\p"
 	.string "Cool, you had Devon install the Match\n"
-	.string "CALL system on your Pokénav!\p"
+	.string "CALL system on your Diginav!\p"
 	.string "Let's register each other in our\n"
-	.string "Pokénavs so we can keep in touch.$"
+	.string "Diginavs so we can keep in touch.$"
 
 Route104_Text_RegisteredBrendan: @ 81EDFA0
 	.string "{PLAYER} registered Brendan\n"
-	.string "in the Pokénav.$"
+	.string "in the Diginav.$"
 
 Route104_Text_BrendanHowsYourPokedex: @ 81EDFC6
-	.string "Brendan: {PLAYER}, how's your Pokédex?\n"
+	.string "Brendan: {PLAYER}, how's your Digidex?\n"
 	.string "Have you filled in any pages yet?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
@@ -1149,7 +1149,7 @@ Route104_Text_BrendanDoingGreatLetsBattle:
 
 Route104_Text_BrendanNoConfidence: @ 81EE04D
 	.string "Brendan: What's the matter? Don't have\n"
-	.string "any confidence in your Pokémon?$"
+	.string "any confidence in your Digimon?$"
 
 Route104_Text_BrendanLetsBattle: @ 81EE094
 	.string "Brendan: What's up?\n"
@@ -1165,8 +1165,8 @@ Route104_Text_BrendanDefeat:
 
 Route104_Text_BrendanPostBattle: @ 81EE120
 	.string "Brendan: You've gotten pretty decent\n"
-	.string "at handling Pokémon.\p"
+	.string "at handling Digimon.\p"
 	.string "But, you know, you shouldn't just be\n"
-	.string "making Pokémon battle.\p"
+	.string "making Digimon battle.\p"
 	.string "Like Mr. Briney, it's important to\n"
-	.string "become friends with your Pokémon.$"
+	.string "become friends with your Digimon.$"

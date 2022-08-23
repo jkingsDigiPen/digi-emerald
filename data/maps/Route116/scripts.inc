@@ -368,14 +368,14 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "What's going on?\p"
 	.string "I was digging the tunnel without any\n"
 	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with Pokémon\n"
+	.string "That tunnel's filled with Digimon\n"
 	.string "that react badly to loud noises.\l"
 	.string "They could cause an uproar.\p"
 	.string "That's why we stopped using heavy\n"
 	.string "equipment for tunneling…\p"
 	.string "I'm worried that the goon will do\n"
 	.string "something stupid and startle the\l"
-	.string "Pokémon into an uproar.$"
+	.string "Digimon into an uproar.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
 	.string "Nnn… Roar!\p"
@@ -397,13 +397,13 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "For you, the most wonderful Trainer,\n"
 	.string "I bear good news!\p"
 	.string "Recently, our company developed\n"
-	.string "a new kind of Poké Ball.\p"
+	.string "a new kind of Digi Ball.\p"
 	.string "As a token of our appreciation, this\n"
 	.string "is our gift to our wonderful Trainer!$"
 
 Route116_Text_NewBallAvailableAtMart: @ 81F3521
-	.string "Our new Poké Ball will be available\n"
-	.string "at the Pokémon Mart in Rustboro.\p"
+	.string "Our new Digi Ball will be available\n"
+	.string "at the Digimon Mart in Rustboro.\p"
 	.string "Please do try it out!\n"
 	.string "Thank you and bye-bye!$"
 
@@ -414,7 +414,7 @@ Route116_Text_BagIsJamPacked: @ 81F3593
 Route116_Text_TokenOfAppreciation:
 	.string "As a token of our appreciation for\n"
 	.string "your delivering our package, I have\l"
-	.string "a gift of a new kind of Poké Ball\l"
+	.string "a gift of a new kind of Digi Ball\l"
 	.string "for our most wonderful Trainer!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
@@ -457,10 +457,10 @@ Route116_Text_TunnelersRestHouse: @ 81F380F
 
 Route116_Text_TrainerTipsBToStopEvolution: @ 81F3825
 	.string "Trainer Tips\p"
-	.string "If you want to stop a Pokémon from\n"
+	.string "If you want to stop a Digimon from\n"
 	.string "evolving, press the B Button while it\l"
 	.string "is trying to evolve.\l"
-	.string "The startled Pokémon will stop.\p"
+	.string "The startled Digimon will stop.\p"
 	.string "This is called an evolution cancel.$"
 
 Route116_Text_TrainerTipsBagHasPockets: @ 81F38D4

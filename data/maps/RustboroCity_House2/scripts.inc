@@ -16,6 +16,6 @@ RustboroCity_House2_Text_TrainerSchoolExcellent: @ 8215EC6
 
 RustboroCity_House2_Text_RoxanneKnowsALot: @ 8215F21
 	.string "Roxanne, the Gym Leader, really knows\n"
-	.string "a lot about Pokémon.\p"
+	.string "a lot about Digimon.\p"
 	.string "She's really strong, too!$"
 

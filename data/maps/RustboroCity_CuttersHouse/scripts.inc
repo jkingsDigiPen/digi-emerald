@@ -24,7 +24,7 @@ RustboroCity_CuttersHouse_EventScript_Lass::
 RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 	.string "That determined expression…\n"
 	.string "That limber way you move…\l"
-	.string "And your well-trained Pokémon…\p"
+	.string "And your well-trained Digimon…\p"
 	.string "You're obviously a skilled Trainer!\p"
 	.string "No, wait, don't say a word.\n"
 	.string "I can tell just by looking at you.\p"
@@ -37,8 +37,8 @@ RustboroCity_CuttersHouse_Text_ExplainCut: @ 8215D33
 	.string "That Hidden Machine, or HM for\n"
 	.string "short, is Cut.\p"
 	.string "An HM move is one that can be used\n"
-	.string "by Pokémon outside of battle.\p"
-	.string "Any Pokémon that's learned Cut can\n"
+	.string "by Digimon outside of battle.\p"
+	.string "Any Digimon that's learned Cut can\n"
 	.string "chop down thin trees if the Trainer\l"
 	.string "has earned the Stone Badge.\p"
 	.string "And, unlike a TM, an HM can be used\n"
@@ -47,6 +47,6 @@ RustboroCity_CuttersHouse_Text_ExplainCut: @ 8215D33
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
 	.string "When they were expanding the city of\n"
 	.string "Rustboro, my dad helped out.\p"
-	.string "He made his Pokémon use Cut to clear\n"
+	.string "He made his Digimon use Cut to clear\n"
 	.string "the land of trees.$"
 

@@ -75,7 +75,7 @@ Route102_EventScript_Allen::
 
 Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
 	.string "Wally: {PLAYER}…\n"
-	.string "Pokémon hide in tall grass like this,\l"
+	.string "Digimon hide in tall grass like this,\l"
 	.string "don't they?\p"
 	.string "Please watch me and see if I can\n"
 	.string "catch one properly.\p"
@@ -83,7 +83,7 @@ Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
 
 Route102_Text_WallyIDidIt: @ 81EC271
 	.string "Wally: I did it… It's my…\n"
-	.string "My Pokémon!$"
+	.string "My Digimon!$"
 
 Route102_Text_LetsGoBack:
 	.string "{PLAYER}, thank you!\n"
@@ -98,7 +98,7 @@ Route102_Text_ImNotVeryTall:
 
 Route102_Text_CatchWholeBunchOfPokemon:
 	.string "I'm going to catch a whole bunch of\n"
-	.string "Pokémon!$"
+	.string "Digimon!$"
 
 Route102_Text_RouteSignOldale: @ 81EC35B
 	.string "Route 102\n"

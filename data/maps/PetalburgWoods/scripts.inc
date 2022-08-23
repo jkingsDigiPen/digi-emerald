@@ -323,9 +323,9 @@ PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Not a one to be found…$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish: @ 822E34F
-	.string "Hello, have you seen any Pokémon\n"
-	.string "called Shroomish around here?\p"
-	.string "I really love that Pokémon.$"
+	.string "Hello, have you seen any Digimon\n"
+	.string "called Kotemon around here?\p"
+	.string "I really love that Digimon.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
 	.string "I was going to ambush you, but you\n"
@@ -339,7 +339,7 @@ PetalburgWoods_Text_HandOverThosePapers: @ 822E428
 
 PetalburgWoods_Text_YouHaveToHelpMe:
 	.string "Aiyeeeh!\p"
-	.string "You're a Pokémon Trainer, aren't you?\n"
+	.string "You're a Digimon Trainer, aren't you?\n"
 	.string "You've got to help me, please!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
@@ -357,7 +357,7 @@ PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "meddling with Team Aqua!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but I'm out of\n"
-	.string "Pokémon…\p"
+	.string "Digimon…\p"
 	.string "And, hey, we of Team Aqua are also\n"
 	.string "after something in Rustboro.\p"
 	.string "I'll let you go today!$"
@@ -384,41 +384,41 @@ PetalburgWoods_Text_YoureLoadedWithItems:
 	.string "I can't give you this Great Ball.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam: @ 822E77D
-	.string "I caught a whole bunch of Pokémon!\p"
+	.string "I caught a whole bunch of Digimon!\p"
 	.string "Go, go, go!\n"
-	.string "My Bug Pokémon team!$"
+	.string "My Bug Digimon team!$"
 
 PetalburgWoods_Text_ICouldntWin: @ 822E7C1
-	.string "I have all these Pokémon,\n"
+	.string "I have all these Digimon,\n"
 	.string "but I couldn't win…$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls: @ 822E7EF
-	.string "I caught a bunch of Pokémon.\n"
-	.string "Now I'm out of Poké Balls.$"
+	.string "I caught a bunch of Digimon.\n"
+	.string "Now I'm out of Digi Balls.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon: @ 822E827
-	.string "If you take Bug Pokémon to school,\n"
+	.string "If you take Bug Digimon to school,\n"
 	.string "you get to be instantly popular!$"
 
 PetalburgWoods_Text_CantBePopularIfILose:
 	.string "I can't be popular if I lose.$"
 
 PetalburgWoods_Text_PeopleRespectYou: @ 822E889
-	.string "If you have a big Bug Pokémon,\n"
+	.string "If you have a big Bug Digimon,\n"
 	.string "people respect you for it.$"
 
 PetalburgWoods_Text_IWantRematch1: @ 822E8C3
 	.string "I want a rematch when my Bug\n"
-	.string "Pokémon grow up!\p"
-	.string "I'm registering you in my Pokénav!$"
+	.string "Digimon grow up!\p"
+	.string "I'm registering you in my Diginav!$"
 
 PetalburgWoods_Text_IWantRematch2: @ 822E914
 	.string "I want a rematch when my Bug \n"
-	.string "Pokémon grow up!\p"
-	.string "I'm registering you in my Pokénav!$"
+	.string "Digimon grow up!\p"
+	.string "I'm registering you in my Diginav!$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown: @ 822E966
-	.string "My Bug Pokémon have grown.\n"
+	.string "My Bug Digimon have grown.\n"
 	.string "I'll be popular again.$"
 
 PetalburgWoods_Text_CantBePopularIfLose:
@@ -426,13 +426,13 @@ PetalburgWoods_Text_CantBePopularIfLose:
 
 PetalburgWoods_Text_IveBeenTrainingHard:
 	.string "You get to be popular if you have\n"
-	.string "strong Pokémon, right?\l"
+	.string "strong Digimon, right?\l"
 	.string "So, I've been training hard.$"
 
 PetalburgWoods_Text_StayOutOfTallGrass:
 	.string "Yo, there!\n"
-	.string "Your Pokémon doing okay?\p"
-	.string "If your Pokémon are weak and you want\n"
+	.string "Your Digimon doing okay?\p"
+	.string "If your Digimon are weak and you want\n"
 	.string "to avoid battles, you should stay out\l"
 	.string "of tall grass.$"
 
@@ -450,17 +450,17 @@ PetalburgWoods_Text_TryUsingThisItem:
 
 PetalburgWoods_Text_MiracleSeedExplanation: @ 822EB63
 	.string "It's a Miracle Seed.\n"
-	.string "If a Pokémon holds that item, its\l"
+	.string "If a Digimon holds that item, its\l"
 	.string "Grass-type moves become stronger.\p"
 	.string "Besides Miracle Seed, I think there are\n"
-	.string "other convenient items for Pokémon\l"
+	.string "other convenient items for Digimon\l"
 	.string "to hold.$"
 
 PetalburgWoods_Text_TrainerTipsExperience: @ 822EC10
 	.string "Trainer Tips\p"
-	.string "Any Pokémon that appears even once\n"
+	.string "Any Digimon that appears even once\n"
 	.string "in a battle is awarded Exp Points.\p"
-	.string "To raise a weak Pokémon, put it at the\n"
+	.string "To raise a weak Digimon, put it at the\n"
 	.string "left of the team list.\p"
 	.string "As soon as a battle starts, switch it\n"
 	.string "out. It will earn Exp Points without\l"
@@ -468,9 +468,9 @@ PetalburgWoods_Text_TrainerTipsExperience: @ 822EC10
 
 PetalburgWoods_Text_TrainerTipsPP: @ 822ED07
 	.string "Trainer Tips\p"
-	.string "In addition to Hit Points (HP), Pokémon\n"
+	.string "In addition to Hit Points (HP), Digimon\n"
 	.string "have Power Points (PP) that are used to\l"
 	.string "make moves during battle.\p"
-	.string "If a Pokémon runs out of PP, it must be\n"
-	.string "taken to a Pokémon Center.$"
+	.string "If a Digimon runs out of PP, it must be\n"
+	.string "taken to a Digimon Center.$"
 

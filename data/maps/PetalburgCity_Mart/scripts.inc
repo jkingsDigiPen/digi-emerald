@@ -67,20 +67,20 @@ PetalburgCity_Mart_EventScript_Man::
 	end
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger: @ 8207DF1
-	.string "Even if a Pokémon is weak now,\n"
+	.string "Even if a Digimon is weak now,\n"
 	.string "it will grow stronger.\p"
 	.string "The most important thing is love!\n"
-	.string "Love for your Pokémon!$"
+	.string "Love for your Digimon!$"
 
 PetalburgCity_Mart_Text_RepelIsUseful: @ 8207E60
 	.string "Do you use Repel?\n"
-	.string "It keeps Pokémon away, so it's\l"
+	.string "It keeps Digimon away, so it's\l"
 	.string "useful when you're in a hurry.$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou: @ 8207EB0
 	.string "Do you have any Antidotes with\n"
 	.string "you?\p"
 	.string "If you walk around with a poisoned\n"
-	.string "Pokémon, it will lose HP until it faints.\l"
+	.string "Digimon, it will lose HP until it faints.\l"
 	.string "Take some Antidotes with you.$"
 

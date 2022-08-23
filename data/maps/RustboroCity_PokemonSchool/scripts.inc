@@ -201,22 +201,22 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents::
 
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
 	.string "The blackboard lists status changes\n"
-	.string "that may affect Pokémon in battle.$"
+	.string "that may affect Digimon in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:
 	.string "Which topic do you want to read?$"
 
 RustboroCity_PokemonSchool_Text_ExplainPoison: @ 821411A
-	.string "If a Pokémon is poisoned, it will\n"
+	.string "If a Digimon is poisoned, it will\n"
 	.string "steadily lose HP.\p"
 	.string "The effects of poison remain after\n"
 	.string "a battle.\p"
-	.string "A poisoned Pokémon's HP will drop\n"
+	.string "A poisoned Digimon's HP will drop\n"
 	.string "while it is traveling.\p"
 	.string "Heal a poisoning using an Antidote.$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis: @ 82141D8
-	.string "If a Pokémon becomes paralyzed,\n"
+	.string "If a Digimon becomes paralyzed,\n"
 	.string "its Speed drops.\p"
 	.string "It may also not be able to move while\n"
 	.string "it is in battle.\p"
@@ -224,9 +224,9 @@ RustboroCity_PokemonSchool_Text_ExplainParalysis: @ 82141D8
 	.string "Cure it using a Parlyz Heal.$"
 
 RustboroCity_PokemonSchool_Text_ExplainSleep: @ 821427D
-	.string "If a Pokémon falls asleep, it will be\n"
+	.string "If a Digimon falls asleep, it will be\n"
 	.string "unable to attack.\p"
-	.string "A Pokémon may wake up on its own,\n"
+	.string "A Digimon may wake up on its own,\n"
 	.string "but if a battle ends while it is\l"
 	.string "sleeping, it will stay asleep.\p"
 	.string "Wake it up using an Awakening.$"
@@ -238,7 +238,7 @@ RustboroCity_PokemonSchool_Text_ExplainBurn: @ 8214336
 	.string "Cure a burn using a Burn Heal.$"
 
 RustboroCity_PokemonSchool_Text_ExplainFreeze: @ 82143B8
-	.string "If a Pokémon is frozen, it becomes\n"
+	.string "If a Digimon is frozen, it becomes\n"
 	.string "completely helpless.\p"
 	.string "It will remain frozen after battle.\n"
 	.string "Thaw it out using an Ice Heal.$"
@@ -251,16 +251,16 @@ RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
 	.string "this item.$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw: @ 82144C8
-	.string "A Pokémon holding the Quick Claw will\n"
+	.string "A Digimon holding the Quick Claw will\n"
 	.string "occasionally speed up and get to move\l"
 	.string "before its opponent.\p"
 	.string "There are many other items that are\n"
-	.string "meant to be held by Pokémon.\p"
+	.string "meant to be held by Digimon.\p"
 	.string "Just those alone will give you many\n"
 	.string "topics to study!$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow: @ 821459F
-	.string "I'm trading Pokémon with my friend\n"
+	.string "I'm trading Digimon with my friend\n"
 	.string "right now.$"
 
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot: @ 82145CD
@@ -268,38 +268,38 @@ RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot: @ 82145CD
 	.string "I'm finally getting one!$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems: @ 8214604
-	.string "Pokémon can hold items, but they\n"
+	.string "Digimon can hold items, but they\n"
 	.string "don't know what to do with man-made\l"
 	.string "items like Potion and Antidote.$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself: @ 8214669
-	.string "You know how some Pokémon moves can\n"
-	.string "confuse a Pokémon?\p"
-	.string "A confused Pokémon will sometimes\n"
+	.string "You know how some Digimon moves can\n"
+	.string "confuse a Digimon?\p"
+	.string "A confused Digimon will sometimes\n"
 	.string "attack itself without meaning to.\p"
 	.string "But once it leaves battle, it will\n"
 	.string "return to normal.$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry: @ 8214719
-	.string "A Pokémon holding a Berry will heal\n"
+	.string "A Digimon holding a Berry will heal\n"
 	.string "itself…\p"
 	.string "There are many kinds of items that\n"
-	.string "Pokémon can hold…\p"
+	.string "Digimon can hold…\p"
 	.string "Boy, it sure is hard taking notes\n"
 	.string "down…$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
 	.string "It's this student's notebook…\p"
-	.string "Pokémon are to be caught using\n"
-	.string "Poké Balls.\p"
-	.string "Up to six Pokémon can accompany\n"
+	.string "Digimon are to be caught using\n"
+	.string "Digi Balls.\p"
+	.string "Up to six Digimon can accompany\n"
 	.string "a Trainer.\p"
 	.string "A Trainer is someone who catches\n"
-	.string "Pokémon, raises them, and battles\l"
+	.string "Digimon, raises them, and battles\l"
 	.string "with them.\p"
 	.string "A Trainer's mission is to defeat\n"
 	.string "the strong Trainers who await\l"
-	.string "challengers in Pokémon Gyms.$"
+	.string "challengers in Digimon Gyms.$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "Hello? Didn't we meet before?\n"
@@ -309,11 +309,11 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "I've been traveling everywhere in\n"
 	.string "search of outstanding Trainers.\p"
 	.string "More specifically, I'm looking for\n"
-	.string "Pokémon battle experts.\p"
+	.string "Digimon battle experts.\p"
 	.string "So, what brings you to this School?\n"
 	.string "Are you a Trainer, too?\p"
 	.string "The first thing you should do is to\n"
-	.string "have a Pokémon learn the move Cut.\p"
+	.string "have a Digimon learn the move Cut.\p"
 	.string "If I remember correctly, someone in\n"
 	.string "this town has Cut.$"
 
@@ -339,7 +339,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "I've been traveling everywhere in\n"
 	.string "search of outstanding Trainers.\p"
 	.string "More specifically, I'm looking for\n"
-	.string "Pokémon battle experts.\p"
+	.string "Digimon battle experts.\p"
 	.string "Oh, what's that?\n"
 	.string "It's a Stone Badge, isn't it?\p"
 	.string "That's pretty impressive, I'd say, for\n"

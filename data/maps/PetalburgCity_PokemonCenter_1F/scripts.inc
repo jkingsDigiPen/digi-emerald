@@ -55,42 +55,42 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem: @ 8207A76
-	.string "That PC-based Pokémon Storage\n"
+	.string "That PC-based Digimon Storage\n"
 	.string "System…\p"
 	.string "Whoever made it must be some kind\n"
 	.string "of a scientific wizard!$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP: @ 8207AD6
-	.string "When my Pokémon ate an\n"
+	.string "When my Digimon ate an\n"
 	.string "Oran Berry, it regained HP!$"
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon: @ 8207B09
-	.string "There are many types of Pokémon.\p"
+	.string "There are many types of Digimon.\p"
 	.string "All types have their strengths and\n"
 	.string "weaknesses against other types.\p"
-	.string "Depending on the types of Pokémon,\n"
+	.string "Depending on the types of Digimon,\n"
 	.string "a battle could be easy or hard.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType: @ 8207BB0
-	.string "For example, your Treecko\n"
+	.string "For example, your Lalamon\n"
 	.string "is a Grass type.\p"
 	.string "It's strong against the Water and\n"
 	.string "Ground types.\p"
 	.string "But, it's weak against Fire-type\n"
-	.string "Pokémon.$"
+	.string "Digimon.$"
 
 PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType: @ 8207C35
-	.string "For example, your Torchic\n"
+	.string "For example, your Agumon\n"
 	.string "is a Fire type.\p"
 	.string "It's strong against the Grass and\n"
 	.string "Bug types.\p"
 	.string "But, it's weak against Water-type\n"
-	.string "Pokémon.$"
+	.string "Digimon.$"
 
 PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType: @ 8207CB7
-	.string "For example, your Mudkip\n"
+	.string "For example, your Syakomon\n"
 	.string "is a Water type.\p"
 	.string "It's strong against the Fire type.\p"
 	.string "But, it's weak against Grass-type\n"
-	.string "and Electric-type Pokémon.$"
+	.string "and Electric-type Digimon.$"
 

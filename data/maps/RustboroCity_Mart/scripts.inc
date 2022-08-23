@@ -71,11 +71,11 @@ RustboroCity_Mart_EventScript_BugCatcher::
 RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish: @ 8214F8F
 	.string "I'm buying some Parlyz Heals and\n"
 	.string "Antidotes.\p"
-	.string "Just in case I run into Shroomish\n"
+	.string "Just in case I run into Wormmon\n"
 	.string "in Petalburg Woods.$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead: @ 8214FF1
-	.string "My Pokémon evolved.\n"
+	.string "My Digimon evolved.\n"
 	.string "It has a lot of HP now.\p"
 	.string "I should buy Super Potions for it\n"
 	.string "instead of ordinary Potions.$"
