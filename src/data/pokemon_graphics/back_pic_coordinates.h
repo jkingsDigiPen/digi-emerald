@@ -1435,7 +1435,7 @@ const struct MonCoords gMonBackPicCoords[] =
     // Hawkmon
     [SPECIES_TAILLOW] =
     {
-        .size = MON_COORDS_SIZE(56, 51),
+        .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 7,
     },
     // Aquilamon
