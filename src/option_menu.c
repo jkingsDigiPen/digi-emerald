@@ -481,7 +481,7 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsWindowFrameType = gTasks[taskId].data[TD_FRAMETYPE];
     // Page 2
     gSaveBlock2Ptr->optionsShowTypeEffectiveness = gTasks[taskId].data[TD_TYPEEFFECT];
-    gSaveBlock2Ptr->optionsShowTypeEffectiveness = gTasks[taskId].data[TD_EXPSHARE];
+    gSaveBlock2Ptr->optionsGen6ExpShare = gTasks[taskId].data[TD_EXPSHARE];
     gSaveBlock2Ptr->optionsMatchCalls = gTasks[taskId].data[TD_MATCHCALLS];
 
     // Reset to first page
