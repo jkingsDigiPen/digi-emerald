@@ -7445,7 +7445,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    // Dracomon
+    // Dracmon
     [SPECIES_POOCHYENA] =
     {
         .baseHP        = 35,
@@ -7908,7 +7908,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FLYING,
         .catchRate = 200,
-        .expYield = 81,
+        .expYield = 60,
         .evYield_Speed     = 1,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 20,
@@ -8464,7 +8464,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 200,
-        .expYield = 66,
+        .expYield = 56,
         .evYield_SpAttack  = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
