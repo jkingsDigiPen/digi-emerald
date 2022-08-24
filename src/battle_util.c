@@ -10153,9 +10153,24 @@ bool32 CanTargetBattler(u8 battlerAtk, u8 battlerDef, u16 move)
 u8 GetTypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId)
 {
 	bool8 isInverse = (B_FLAG_INVERSE_BATTLE != 0 && FlagGet(B_FLAG_INVERSE_BATTLE)) ? TRUE : FALSE;
+
+    // 10 - normal effectiveness
+    const static u8 NORMAL_EFFECTIVENESS = 10;
+    // 24 - super effective
+    const static u8 SUPER_EFFECTIVE = 24;
+    // 25 - not very effective
+    const static u8 NOT_VERY_EFFECTIVE = 25;
+    // 26 - no effect
+    const static u8 NO_EFFECT = 26;
+
+    // Don't display anything if mon has not been seen yet
+    if(!GetSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[targetId].species), FLAG_GET_SEEN))
+    {
+        return NORMAL_EFFECTIVENESS;
+    }
 	
 	if (gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].power == 0)
-		return 10;
+		return NORMAL_EFFECTIVENESS;
 	else
 	{
 		u16 mod = sTypeEffectivenessTable[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type][gBattleMons[targetId].type1];
@@ -10178,30 +10193,25 @@ u8 GetTypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId)
 			}
 		}
 
-		// 10 - normal effectiveness
-		// 24 - super effective
-		// 25 - not very effective
-		// 26 - no effect
-
 		if (mod == UQ_4_12(0.0)) {
 			if(isInverse)
-				return 24;
+				return SUPER_EFFECTIVE;
 			else
-				return 26;
+				return NO_EFFECT;
 		}
 		else if (mod <= UQ_4_12(0.5)) {
 			if(isInverse)
-				return 24;
+				return SUPER_EFFECTIVE;
 			else
-				return 25;
+				return NOT_VERY_EFFECTIVE;
 		}
 		else if (mod >= UQ_4_12(2.0)) {
 			if(isInverse)
-				return 25;
+				return NOT_VERY_EFFECTIVE;
 			else
-				return 24;
+				return SUPER_EFFECTIVE;
 		}
 		else
-			return 10;
+			return NORMAL_EFFECTIVENESS;
 	}
 }
