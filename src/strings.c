@@ -1522,12 +1522,18 @@ const u8 gText_FrameTypeNumber[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");
 const u8 gText_ButtonTypeNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal");
 const u8 gText_ButtonTypeLR[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}LR");
 const u8 gText_ButtonTypeLEqualsA[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A");
+
+// Additional options
 const u8 gText_TypeEffect[] = _("Type Effectiveness");
 const u8 gText_TypeEffectShow[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Show");
 const u8 gText_TypeEffectHide[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Hide");
 const u8 gText_ExpShareOption[] = _("Whole Party XP Share");
 const u8 gText_ExpShareOptionOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
 const u8 gText_ExpShareOptionOff[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
+const u8 gText_MatchCallOption[] = _("Match Calls");
+const u8 gText_MatchCallOptionOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
+const u8 gText_MatchCallOptionOff[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
+
 const u8 gText_NumPlayerLink[] = _("{STR_VAR_1}P Link");
 const u8 gText_BronzeCard[] = _("Bronze");
 const u8 gText_CopperCard[] = _("Copper");

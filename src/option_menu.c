@@ -28,6 +28,7 @@ enum TaskData
     TD_FRAMETYPE,
     TD_TYPEEFFECT, 
     TD_EXPSHARE,
+    TD_MATCHCALLS,
 };
 
 // Menu items
@@ -47,6 +48,7 @@ enum MenuItemsPage2
 {
     MENUITEM_TYPEEFFECT,
     MENUITEM_EXPSHARE,
+    MENUITEM_MATCHCALLS,
     MENUITEM_BACK,
     MENUITEM_CANCEL,
     MENUITEM_COUNT2,
@@ -77,6 +79,7 @@ enum MenuPages
 // Page 2
 #define YPOS_TYPEEFFECT   (MENUITEM_TYPEEFFECT * 16)
 #define YPOS_EXPSHARE     (MENUITEM_EXPSHARE * 16)
+#define YPOS_MATCHCALLS   (MENUITEM_MATCHCALLS * 16)
 
 // this file's functions
 static void Task_OptionMenuFadeIn(u8 taskId);
@@ -100,6 +103,8 @@ static u8   TypeEffect_ProcessInput(u8 selection);
 static void TypeEffect_DrawChoices(u8 selection);
 static u8   ExpShare_ProcessInput(u8 selection);
 static void ExpShare_DrawChoices(u8 selection);
+static u8   MatchCalls_ProcessInput(u8 selection);
+static void MatchCalls_DrawChoices(u8 selection);
 static void DrawTextOption(void);
 static void DrawOptionMenuTexts(void);
 static void DrawBgWindowFrames(void);
@@ -127,6 +132,7 @@ static const u8 *const sOptionMenuItemsNames2[MENUITEM_COUNT2] =
 {
     [MENUITEM_TYPEEFFECT]  = gText_TypeEffect,
     [MENUITEM_EXPSHARE]    = gText_ExpShareOption,
+    [MENUITEM_MATCHCALLS]  = gText_MatchCallOption,
     [MENUITEM_BACK]        = gText_OptionMenuBack,
     [MENUITEM_CANCEL]      = gText_OptionMenuCancel,
 };
@@ -281,6 +287,7 @@ void CB2_InitOptionMenu(void)
         gTasks[taskId].data[TD_FRAMETYPE] = gSaveBlock2Ptr->optionsWindowFrameType;
         gTasks[taskId].data[TD_TYPEEFFECT] = gSaveBlock2Ptr->optionsShowTypeEffectiveness;
         gTasks[taskId].data[TD_EXPSHARE] = gSaveBlock2Ptr->optionsGen6ExpShare;
+        gTasks[taskId].data[TD_MATCHCALLS] = gSaveBlock2Ptr->optionsMatchCalls;
 
         DrawChoices(taskId);
 
@@ -443,6 +450,13 @@ static void Task_OptionMenuProcessInput(u8 taskId)
                 if (previousOption != gTasks[taskId].data[TD_EXPSHARE])
                     ExpShare_DrawChoices(gTasks[taskId].data[TD_EXPSHARE]);
                 break;
+            case MENUITEM_MATCHCALLS:
+                previousOption = gTasks[taskId].data[TD_MATCHCALLS];
+                gTasks[taskId].data[TD_MATCHCALLS] = MatchCalls_ProcessInput(gTasks[taskId].data[TD_MATCHCALLS]);
+
+                if (previousOption != gTasks[taskId].data[TD_MATCHCALLS])
+                    MatchCalls_DrawChoices(gTasks[taskId].data[TD_MATCHCALLS]);
+                break;
             default:
                 return;
             }
@@ -468,6 +482,7 @@ static void Task_OptionMenuSave(u8 taskId)
     // Page 2
     gSaveBlock2Ptr->optionsShowTypeEffectiveness = gTasks[taskId].data[TD_TYPEEFFECT];
     gSaveBlock2Ptr->optionsShowTypeEffectiveness = gTasks[taskId].data[TD_EXPSHARE];
+    gSaveBlock2Ptr->optionsMatchCalls = gTasks[taskId].data[TD_MATCHCALLS];
 
     // Reset to first page
     sCurrentMenuPage = MENUPAGE_ONE;
@@ -776,6 +791,30 @@ static void ExpShare_DrawChoices(u8 selection)
     DrawOptionMenuChoice(gText_ExpShareOptionOff, GetStringRightAlignXOffset(FONT_NORMAL, gText_ExpShareOptionOff, 198), YPOS_EXPSHARE, styles[1]);
 }
 
+static u8 MatchCalls_ProcessInput(u8 selection)
+{
+    if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+    {
+        selection ^= 1;
+        sArrowPressed = TRUE;
+    }
+
+    return selection;
+}
+
+static void MatchCalls_DrawChoices(u8 selection)
+{
+    u8 styles[2];
+
+    styles[0] = 0;
+    styles[1] = 0;
+    styles[selection] = 1;
+
+    DrawOptionMenuChoice(gText_MatchCallOptionOn, 124, YPOS_MATCHCALLS, styles[0]);
+    DrawOptionMenuChoice(gText_MatchCallOptionOff, GetStringRightAlignXOffset(FONT_NORMAL, 
+        gText_MatchCallOptionOff, 198), YPOS_MATCHCALLS, styles[1]);
+}
+
 static void DrawTextOption(void)
 {
     FillWindowPixelBuffer(WIN_TEXT_OPTION, PIXEL_FILL(1));
@@ -851,5 +890,6 @@ static void DrawChoices(u8 taskId)
     {
         TypeEffect_DrawChoices(gTasks[taskId].data[TD_TYPEEFFECT]);
         ExpShare_DrawChoices(gTasks[taskId].data[TD_EXPSHARE]);
+        MatchCalls_DrawChoices(gTasks[taskId].data[TD_MATCHCALLS]);
     }
 }

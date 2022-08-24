@@ -526,6 +526,7 @@ struct SaveBlock2
     /*0xF2C*/ u8 itemFlags[ITEM_FLAGS_COUNT];
               u16 optionsGen6ExpShare:1; // Gen 6 XP Share on/off
               u16 optionsShowTypeEffectiveness:1; // Display type effectivness in battle
+              u16 optionsMatchCalls:1; // Whether to enable match calls from trainers
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;

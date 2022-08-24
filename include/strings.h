@@ -332,6 +332,9 @@ extern const u8 gText_TypeEffectHide[];
 extern const u8 gText_ExpShareOption[];
 extern const u8 gText_ExpShareOptionOn[];
 extern const u8 gText_ExpShareOptionOff[];
+extern const u8 gText_MatchCallOption[];
+extern const u8 gText_MatchCallOptionOn[];
+extern const u8 gText_MatchCallOptionOff[];
 
 extern const u8 gText_MaleSymbol[];
 extern const u8 gText_FemaleSymbol[];
