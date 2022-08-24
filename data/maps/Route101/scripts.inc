@@ -277,6 +277,8 @@ Route101_Text_YouSavedMe: @ 81EBF12
 	.string "Prof. Birch: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
 	.string "Digimon when I was jumped.\p"
+	.string "Kudamon are normally rather small.\n"
+	.string "That one was enormous!\p"
 	.string "You saved me.\n"
 	.string "Thanks a lot!\p"
 	.string "Oh?\p"
