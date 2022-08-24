@@ -1211,7 +1211,7 @@ void ItemUseOutOfBattle_IncreaseIV(u8 taskId)
 // Gen 6 Exp Share!
 void ItemUseOutOfBattle_ExpShare(u8 taskId)
 {
-    if (!gSaveBlock2Ptr->optionsExpShare)
+    if (gSaveBlock2Ptr->optionsGen6ExpShare == OPTIONS_GEN6_XP_SHARE_OFF)
     {
         PlaySE(SE_EXP_MAX);
         if (!gTasks[taskId].data[2]) // to account for pressing select in the overworld
@@ -1227,7 +1227,7 @@ void ItemUseOutOfBattle_ExpShare(u8 taskId)
         else
             DisplayItemMessage(taskId, 1, gText_ExpShareOff, CloseItemMessage);
     }
-    gSaveBlock2Ptr->optionsExpShare = !gSaveBlock2Ptr->optionsExpShare;
+    gSaveBlock2Ptr->optionsGen6ExpShare = !gSaveBlock2Ptr->optionsGen6ExpShare;
 }
 
 #undef tUsingRegisteredKeyItem

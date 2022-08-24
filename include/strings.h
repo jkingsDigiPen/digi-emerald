@@ -323,7 +323,15 @@ extern const u8 gText_BattleStyle[];
 extern const u8 gText_Sound[];
 extern const u8 gText_Frame[];
 extern const u8 gText_OptionMenuCancel[];
+extern const u8 gText_OptionMenuMore[];
+extern const u8 gText_OptionMenuBack[];
 extern const u8 gText_ButtonMode[];
+extern const u8 gText_TypeEffect[];
+extern const u8 gText_TypeEffectShow[];
+extern const u8 gText_TypeEffectHide[];
+extern const u8 gText_ExpShareOption[];
+extern const u8 gText_ExpShareOptionOn[];
+extern const u8 gText_ExpShareOptionOff[];
 
 extern const u8 gText_MaleSymbol[];
 extern const u8 gText_FemaleSymbol[];
