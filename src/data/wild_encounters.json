@@ -110,7 +110,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_ZIGZAGOON"
               },
               {
                 "min_level": 3,
@@ -204,12 +204,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_ZIGZAGOON"
+                "species": "SPECIES_SEEDOT"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_ZIGZAGOON"
+                "species": "SPECIES_RALTS"
               }
             ]
           },
@@ -308,7 +308,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_ZIGZAGOON"
               },
               {
                 "min_level": 3,
@@ -318,7 +318,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_ZIGZAGOON"
+                "species": "SPECIES_SKITTY"
               },
               {
                 "min_level": 4,
@@ -333,7 +333,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_ZIGZAGOON"
+                "species": "SPECIES_TAILLOW"
               },
               {
                 "min_level": 3,
@@ -487,7 +487,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_WURMPLE"
               },
               {
                 "min_level": 4,
