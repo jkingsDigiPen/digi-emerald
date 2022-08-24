@@ -414,6 +414,7 @@ static void CreateTypeIconSprites(void);
 #define HGSS_DECAPPED 1 //0 false, 1 true
 #define HGSS_DARK_MODE 0 //0 false, 1 true
 #define HGSS_HIDE_UNSEEN_EVOLUTION_NAMES 1 //0 false, 1 true
+#define HGSS_HIDE_UNSEEN_EVOLUTION_COLORS 1 //only show silhouettes - 0 false, 1 true
 static u16 NationalPokedexNumToSpeciesHGSS(u16 nationalNum);
 static void LoadTilesetTilemapHGSS(u8 page);
 static void Task_HandleStatsScreenInput(u8 taskId);
@@ -445,6 +446,15 @@ static void CreateStatBars(struct PokedexListItem *dexMon);
 static void CreateStatBarsBg(void);
 static void SpriteCB_StatBars(struct Sprite *sprite);
 static void SpriteCB_StatBarsBg(struct Sprite *sprite);
+
+// Icon silhouette for unseen mons (evo data)
+#define TAG_SILHOUETTE 30003
+static const u16 sSilhouetteIcon_Pal[] = INCBIN_U16("graphics/pokemon/icon_palettes/silhouette.gbapal");
+static const struct SpritePalette sSpritePal_MonIconSilhouette =
+{
+    .data = sSilhouetteIcon_Pal,
+    .tag = TAG_SILHOUETTE
+};
 
 //HGSS_UI Forms screen for PokemonExpansion (rhh)
 #ifdef POKEMON_EXPANSION
@@ -7895,20 +7905,25 @@ static void HandleTargetSpeciesPrint(u8 taskId, u16 targetSpecies, u16 previousT
 
     if (base_i < iterations) 
     {
-        // Don't draw icons for unseen mons (for evolution)
-        if(!GetSetPokedexFlag(SpeciesToNationalPokedexNum(targetSpecies), FLAG_GET_SEEN))
-            return;
-        
-        LoadMonIconPalette(targetSpecies); //Loads pallete for current mon
-        #ifndef POKEMON_EXPANSION
-            gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, TRUE); //Create pokemon sprite
-        #endif
-        #ifdef POKEMON_EXPANSION
-            if (isEevee)
-                gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 45 + 26*base_i, 31, 4, 0); //Create pokemon sprite
-            else
-                gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0); //Create pokemon sprite
-        #endif
+        // Draw silhouettes only for unseen mons (for evolution)
+        if(HGSS_HIDE_UNSEEN_EVOLUTION_COLORS && !GetSetPokedexFlag(SpeciesToNationalPokedexNum(targetSpecies), FLAG_GET_SEEN))
+        {
+            LoadSpritePalette(&sSpritePal_MonIconSilhouette); // Load silhouette icon palette
+            CreateMonIconSilhouette(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, sSpritePal_MonIconSilhouette.tag); //Create pokemon sprite
+        }
+        else
+        {
+            LoadMonIconPalette(targetSpecies); //Loads pallete for current mon
+            #ifndef POKEMON_EXPANSION
+                gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, TRUE); //Create pokemon sprite
+            #endif
+            #ifdef POKEMON_EXPANSION
+                if (isEevee)
+                    gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 45 + 26*base_i, 31, 4, 0); //Create pokemon sprite
+                else
+                    gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0); //Create pokemon sprite
+            #endif
+        }
         gSprites[gTasks[taskId].data[4+base_i]].oam.priority = 0;
     }
 }
