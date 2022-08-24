@@ -41,4 +41,5 @@ porymap.project.cfg
 *.lnk
 tools-extra/
 graphics-digi/
+sound-digi/
 *.code-workspace
