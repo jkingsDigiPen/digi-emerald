@@ -10714,30 +10714,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lyle[] = {
     .iv = 0,
     .lvl = 3,
     .species = SPECIES_WURMPLE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 0,
-    .lvl = 3,
+    .lvl = 4,
     .species = SPECIES_WURMPLE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 0,
-    .lvl = 3,
+    .lvl = 5,
     .species = SPECIES_WURMPLE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 0,
-    .lvl = 3,
+    .lvl = 6,
     .species = SPECIES_WURMPLE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jose[] = {
