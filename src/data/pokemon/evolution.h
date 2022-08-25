@@ -186,7 +186,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_LOMBRE]                = {{EVO_LEVEL, 30, SPECIES_LUDICOLO}}, // gekomon
     [SPECIES_SEEDOT]                = {{EVO_LEVEL, 14, SPECIES_NUZLEAF}}, // mushroomon
     [SPECIES_NUZLEAF]               = {{EVO_LEVEL, 30, SPECIES_SHIFTRY}}, // woodmon
-    [SPECIES_NINCADA]               = {{EVO_LEVEL_NINJASK, 20, SPECIES_NINJASK}, // kunemon
+    [SPECIES_NINCADA]               = {{EVO_LEVEL, 20, SPECIES_NINJASK}, // kunemon
                                        {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_SHEDINJA}},
     [SPECIES_TAILLOW]               = {{EVO_LEVEL, 22, SPECIES_SWELLOW}}, // hawkmon
     [SPECIES_SHROOMISH]             = {{EVO_LEVEL, 23, SPECIES_BRELOOM}}, // kotemon

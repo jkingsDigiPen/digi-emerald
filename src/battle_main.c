@@ -1013,12 +1013,12 @@ static void CB2_HandleStartBattle(void)
             ResetBlockReceivedFlags();
             memcpy(&gEnemyParty[4], gBlockRecvBuffer[enemyMultiplayerId], sizeof(struct Pokemon) * 2);
             
-            TryCorrectShedinjaLanguage(&gEnemyParty[0]);
+            /*TryCorrectShedinjaLanguage(&gEnemyParty[0]);
             TryCorrectShedinjaLanguage(&gEnemyParty[1]);
             TryCorrectShedinjaLanguage(&gEnemyParty[2]);
             TryCorrectShedinjaLanguage(&gEnemyParty[3]);
             TryCorrectShedinjaLanguage(&gEnemyParty[4]);
-            TryCorrectShedinjaLanguage(&gEnemyParty[5]);
+            TryCorrectShedinjaLanguage(&gEnemyParty[5]);*/
             gBattleCommunication[MULTIUSE_STATE]++;
         }
         break;

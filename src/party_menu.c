@@ -4334,11 +4334,11 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     u16 item = gSpecialVar_ItemId;
     bool8 canHeal, cannotUse;
 
-    if (NotUsingHPEVItemOnShedinja(mon, item) == FALSE)
+    /*if (NotUsingHPEVItemOnShedinja(mon, item) == FALSE)
     {
         cannotUse = TRUE;
     }
-    else
+    else*/
     {
         canHeal = IsHPRecoveryItem(item);
         if (canHeal == TRUE)

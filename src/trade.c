@@ -1081,7 +1081,7 @@ static bool8 BufferTradeParties(void)
         }
         break;
     case 21:
-        for (i = 0, mon = gEnemyParty; i < PARTY_SIZE; mon++, i++)
+        /*for (i = 0, mon = gEnemyParty; i < PARTY_SIZE; mon++, i++)
         {
             u8 name[POKEMON_NAME_LENGTH + 1];
             u16 species = GetMonData(mon, MON_DATA_SPECIES);
@@ -1098,7 +1098,7 @@ static bool8 BufferTradeParties(void)
                     }
                 }
             }
-        }
+        }*/
         return TRUE;
     // Delay until next state
     case 2:

@@ -819,8 +819,8 @@ static void Task_EvolutionScene(u8 taskId)
                 StopMapMusic();
                 Overworld_PlaySpecialMapMusic();
             }
-            if (!gTasks[taskId].tEvoWasStopped)
-                CreateShedinja(gTasks[taskId].tPreEvoSpecies, mon);
+            //if (!gTasks[taskId].tEvoWasStopped)
+                //CreateShedinja(gTasks[taskId].tPreEvoSpecies, mon);
 
             DestroyTask(taskId);
             FreeMonSpritesGfx();
