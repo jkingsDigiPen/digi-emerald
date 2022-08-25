@@ -79,12 +79,14 @@ The following text relates to changes to the base ROM (not my changes), and come
 - **[Content from Pokecommunity Simple Modifications Directory Content](https://www.pokecommunity.com/showthread.php?t=416647):** Setting EVs and Abilities for trainer battles, Nature Coloring and IV/EV Stat screens 
 
 ## Additional feature branches included (not already in laserXdolphin's Base ROM)
+
 - **[AsparagusEduardo's More Bag Pockets](https://www.pokecommunity.com/showthread.php?t=424360):** Expands the number of bag pockets to a whopping 10, allowing for easier location of items.
 - **[Additional parts of ghoulslash's free_saveblock](https://www.pokecommunity.com/showthread.php?p=10168472#post10168472):** Specifically, enigma berries and mystery events, which were removed as a byproduct/necessity to make room for the extra pocket data.
 
 ## Pokecommunity Simple Modifications Directory Content
+
 - [Soft Level Cap - PokemonCrazy](https://www.pokecommunity.com/showthread.php?t=435445)
-- Set a Trainer's Pokémon's [EVs - lightbox87](https://www.pokecommunity.com/showpost.php?p=10135792), [abilities - Diego Mertens](https://www.pokecommunity.com/showpost.php?p=10127338) and nature
+- [Set a Trainer's Pokémon's EVs - lightbox87](https://www.pokecommunity.com/showpost.php?p=10135792), [abilities - Diego Mertens](https://www.pokecommunity.com/showpost.php?p=10127338) and nature
 - [Nature Color - DizzyEgg](https://www.pokecommunity.com/showpost.php?p=10024409)
 - [Showing IVs/EVs in Summary Screen - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10161688) using L, R and Start
 - [Item field effect functions to increase/decrease Individual Values - Lunos](https://www.pokecommunity.com/showpost.php?p=10469674) Vitamins affect IVs
@@ -103,12 +105,15 @@ The following text relates to changes to the base ROM (not my changes), and come
 - [Power item and Destiny Knot breeding - DarkDown](https://www.pokecommunity.com/showpost.php?p=10488226)
 
 ## Additional modifications (not already in ROM base)
+
 - [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83)
 - [Remove overworld pokenav calls - Jaizu](https://www.pokecommunity.com/showpost.php?p=10210036&postcount=151)
+- [Pret RHH Intro Credits](https://github.com/Xhyzi/pokeemerald/tree/rhh-intro-credits)
 
 ## Pret Tutorial Content
 
 ### Fixes to vanilla code:
+
 - Uncommented bugfixes in config.h
 - [Surf Dismount Ground Effects - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10184839)
 - [Fix Snow Weather - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10182047)
@@ -119,10 +124,12 @@ The following text relates to changes to the base ROM (not my changes), and come
 - [Better Reflection System - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10473906)
 
 ### Removing content:
+
 - Update obedience levels to current standards
 - Disabling Union Room check when entering Pokémon Centers
 
 ### Features from other generations
+
 - [Remove the extra save confirmation - Hiroshi Sotomura](https://www.pokecommunity.com/showpost.php?p=10211835)
 - Allow running indoors
 - [Trainer Class-Based Poké Balls - Buffel Saft](https://www.pokecommunity.com/showpost.php?p=10038105)
@@ -132,8 +139,9 @@ The following text relates to changes to the base ROM (not my changes), and come
 - [Pokemart Items by Badge Count - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10172995&postcount=96)
 
 ### pokeemerald Miscellaneous
-- [Disable Bag Use in Battle - ghoulslash](https://www.pokecommunity.com/showpost.php?p=10184292&postcount=122)
+
 - Speedy Pokecenter Healing
 - Battle music changes depending on the map the player is in
 - Extra save space with two lines of code
 - Enable the Reset RTC Feature
+- Additional page for the options menu (allows toggling of certain QoL features)
