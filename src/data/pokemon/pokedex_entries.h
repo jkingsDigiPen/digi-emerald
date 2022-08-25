@@ -3527,9 +3527,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
+    // Kunemon
     [NATIONAL_DEX_NINCADA] =
     {
-        .categoryName = _("Trainee"),
+        .categoryName = _("Jolt Larva"),
         .height = 5,
         .weight = 55,
         .description = gNincadaPokedexText,
@@ -3539,9 +3540,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Flymon
     [NATIONAL_DEX_NINJASK] =
     {
-        .categoryName = _("Ninja"),
+        .categoryName = _("Buzzing"),
         .height = 8,
         .weight = 120,
         .description = gNinjaskPokedexText,
@@ -3551,9 +3553,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Shadramon
     [NATIONAL_DEX_SHEDINJA] =
     {
-        .categoryName = _("Shed"),
+        .categoryName = _("Fire Armor"),
         .height = 8,
         .weight = 12,
         .description = gShedinjaPokedexText,

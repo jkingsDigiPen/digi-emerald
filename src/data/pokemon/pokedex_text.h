@@ -1687,23 +1687,26 @@ const u8 gShiftryPokedexText[] = _(
     "Once they are close enough, it captures\n"
     "them with its vines and branches.");
 
+// Kunemon
 const u8 gNincadaPokedexText[] = _(
-    "It makes its nest at the roots of a mighty\n"
-    "tree. Using its whiskerlike antennae, it\n"
-    "probes its surroundings in the\n"
-    "pitch-black darkness of soil.");
+    "It has no recognizable eyes, but it is\n"
+    "theorized that the lightning patterns on\n"
+    "its head serve a similar function. These\n"
+    "patterns change shape with its emotions.");
 
+// Flymon
 const u8 gNinjaskPokedexText[] = _(
-    "Because it darts about vigorously at high\n"
-    "speed, it is very difficult to see. Hearing\n"
-    "its distinctive cries for too long induces\n"
-    "a headache.");
+    "When it flies about, its gigantic wings\n"
+    "produce a great howling noise, making\n"
+    "it impossible to hear anything else when\n"
+    "it is near.");
 
+// Shadramon
 const u8 gShedinjaPokedexText[] = _(
-    "A peculiar Pokémon that floats in air even\n"
-    "though its wings remain completely still.\n"
-    "The inside of its body is hollow and\n"
-    "utterly dark.");
+    "Though insectoid in nature, it stands\n"
+    "on two legs and wears armor bearing\n"
+    "flame patterns. The cannons on its hands\n"
+    "can produce dangerous flares at will.");
 
 // Hawkmon
 const u8 gTaillowPokedexText[] = _(
