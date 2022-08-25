@@ -424,6 +424,10 @@
 #define NUM_NORMAL_ABILITY_SLOTS 2
 #define NUM_HIDDEN_ABILITY_SLOTS 1
 
+#define ABILITYSLOT_ONE 0
+#define ABILITYSLOT_TWO 1
+#define ABILITYSLOT_HIDDEN 2
+
 // Species Flags
 #define FLAG_LEGENDARY          (1 << 0)
 #define FLAG_MYTHICAL           (1 << 1)

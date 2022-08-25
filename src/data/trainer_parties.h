@@ -4395,7 +4395,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .lvl = 12,
     .species = SPECIES_GEODUDE,
     .nature = NATURE_CAREFUL,
-	.ability = 1,
+	.ability = ABILITYSLOT_TWO,
     .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_ROCK_TOMB}
     },
     {
@@ -4403,6 +4403,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .lvl = 13,
     .species = SPECIES_GEODUDE,
     .nature = NATURE_CAREFUL,
+    .ability = ABILITYSLOT_ONE,
     .moves = {MOVE_TACKLE, MOVE_ROCK_POLISH, MOVE_ROLLOUT, MOVE_ROCK_TOMB}
     },
     {
@@ -4410,7 +4411,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .lvl = 15,
     .species = SPECIES_NOSEPASS,
     .nature = NATURE_CAREFUL,
-    .ability = 1,
+    .ability = ABILITYSLOT_TWO,
     .moves = {MOVE_BLOCK, MOVE_THUNDER_WAVE, MOVE_TACKLE, MOVE_METAL_CLAW}
     }
 };

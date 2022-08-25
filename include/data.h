@@ -30,7 +30,7 @@ struct TrainerMonNoItemDefaultMoves
     u16 iv;
     u8 lvl;
     u16 species;
-    u8 ability; // {ABILITY_1, ABILITY_2, ABILITY_Hidden}
+    u8 ability; // {ABILITYSLOT_ONE, ABILITYSLOT_TWO, ABILITYSLOT_HIDDEN}
     u8 evs[NUM_STATS]; // {HP_EV, ATK_EV, DEF_EV, SPEED_EV, SPATK_EV, SPDEF_EV}
 };
 
@@ -39,7 +39,7 @@ struct TrainerMonItemDefaultMoves
     u16 iv;
     u8 lvl;
     u16 species;
-    u8 ability; // {ABILITY_1, ABILITY_2, ABILITY_Hidden}
+    u8 ability; // {ABILITYSLOT_ONE, ABILITYSLOT_TWO, ABILITYSLOT_HIDDEN}
     u8 evs[NUM_STATS]; // {HP_EV, ATK_EV, DEF_EV, SPEED_EV, SPATK_EV, SPDEF_EV}
     u16 heldItem;
 };
@@ -50,7 +50,7 @@ struct TrainerMonNoItemCustomMoves
     u8 lvl;
     u16 species;
     u8 nature; // Pokemon natures NATURE_ADAMANT
-    u8 ability; // {ABILITY_1, ABILITY_2, ABILITY_Hidden}
+    u8 ability; // {ABILITYSLOT_ONE, ABILITYSLOT_TWO, ABILITYSLOT_HIDDEN}
     u8 evs[NUM_STATS]; // {HP_EV, ATK_EV, DEF_EV, SPEED_EV, SPATK_EV, SPDEF_EV}
     u16 moves[MAX_MON_MOVES];
 };
@@ -61,7 +61,7 @@ struct TrainerMonItemCustomMoves
     u8 lvl;
     u16 species;
     u8 nature; // Pokemon natures NATURE_ADAMANT
-    u8 ability; // {ABILITY_1, ABILITY_2, ABILITY_Hidden}
+    u8 ability; // {ABILITYSLOT_ONE, ABILITYSLOT_TWO, ABILITYSLOT_HIDDEN}
     u8 evs[NUM_STATS]; // {HP_EV, ATK_EV, DEF_EV, SPEED_EV, SPATK_EV, SPDEF_EV}
     u16 heldItem;
     u16 moves[MAX_MON_MOVES];
