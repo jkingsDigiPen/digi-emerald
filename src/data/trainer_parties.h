@@ -129,7 +129,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     .species = SPECIES_POOCHYENA,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
@@ -10735,14 +10735,14 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James1[] = {
     .species = SPECIES_NINCADA,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 0,
-    .lvl = 6,
+    .lvl = 7,
     .species = SPECIES_NINCADA,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James2[] = {
@@ -10752,7 +10752,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James2[] = {
     .species = SPECIES_NINJASK,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James3[] = {
@@ -10762,14 +10762,14 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James3[] = {
     .species = SPECIES_DUSTOX,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 20,
     .lvl = 29,
     .species = SPECIES_NINJASK,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
@@ -10779,21 +10779,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     .species = SPECIES_SURSKIT,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 30,
     .lvl = 31,
     .species = SPECIES_DUSTOX,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 30,
     .lvl = 31,
     .species = SPECIES_NINJASK,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
@@ -10803,28 +10803,28 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     .species = SPECIES_SURSKIT,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 40,
     .lvl = 33,
     .species = SPECIES_NINJASK,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 40,
     .lvl = 33,
     .species = SPECIES_DUSTOX,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 40,
     .lvl = 33,
     .species = SPECIES_NINJASK,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Brice[] = {
