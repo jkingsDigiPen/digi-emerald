@@ -1906,9 +1906,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy1[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
+    .species = SPECIES_IGGLYBUFF,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -1960,16 +1958,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter2[] = {
 	}
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_Cindy2[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ZIGZAGOON,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
-    .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_NONE, MOVE_NONE}
+    .species = SPECIES_IGGLYBUFF,
     }
 };
 
@@ -1999,9 +1992,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy3[] = {
     {
     .iv = 10,
     .lvl = 27,
-    .species = SPECIES_LINOONE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
+    .species = SPECIES_JIGGLYPUFF,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -2010,9 +2001,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy4[] = {
     {
     .iv = 20,
     .lvl = 30,
-    .species = SPECIES_LINOONE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
+    .species = SPECIES_JIGGLYPUFF,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -2021,23 +2010,16 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy5[] = {
     {
     .iv = 30,
     .lvl = 33,
-    .species = SPECIES_LINOONE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
+    .species = SPECIES_WIGGLYTUFF,
     .heldItem = ITEM_NUGGET
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Cindy6[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_Cindy6[] = {
     {
     .iv = 40,
     .lvl = 36,
-    .species = SPECIES_LINOONE,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
-    .moves = {MOVE_FURY_SWIPES, MOVE_MUD_SPORT, MOVE_ODOR_SLEUTH, MOVE_SAND_ATTACK}
+    .species = SPECIES_WIGGLYTUFF,
     }
 };
 
