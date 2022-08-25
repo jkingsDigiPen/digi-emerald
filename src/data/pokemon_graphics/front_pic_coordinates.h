@@ -1417,20 +1417,20 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Kunemon
     [SPECIES_NINCADA] =
     {
-        .size = MON_COORDS_SIZE(56, 32),
-        .y_offset = 16,
+        .size = MON_COORDS_SIZE(36, 42),
+        .y_offset = 8,
     },
     // Flymon
     [SPECIES_NINJASK] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(54, 64),
+        .y_offset = 0,
     },
     // Shadramon
     [SPECIES_SHEDINJA] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(56, 54),
+        .y_offset = 4,
     },
     // Hawkmon
     [SPECIES_TAILLOW] =
