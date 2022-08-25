@@ -10165,9 +10165,12 @@ u8 GetTypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId)
 
     u16 species = gBattleMons[targetId].species;
 
-    // Don't display anything if option is disabled OR mon has not been defeated in battle yet
+    // Don't display anything if option is disabled OR mon has not been caught/defeated in battle yet
+    // (NOTE: We don't count mons that are given to the player as defeated, but they do count as caught,
+    // which is sufficient for purposes of deciding whether to show type effectiveness.)
     if(gSaveBlock2Ptr->optionsShowTypeEffectiveness == OPTIONS_TYPE_EFFECTIVENESS_HIDE ||
-        !GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_DEFEATED))
+        !(GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_DEFEATED) || 
+        GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT)))
     {
         return NORMAL_EFFECTIVENESS;
     }
