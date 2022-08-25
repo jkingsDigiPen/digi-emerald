@@ -4389,35 +4389,29 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
     .lvl = 12,
     .species = SPECIES_GEODUDE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
+    .nature = NATURE_CAREFUL,
+	.ability = 1,
     .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_ROCK_TOMB}
     },
     {
-    .iv = 100,
-    .lvl = 12,
+    .iv = 150,
+    .lvl = 13,
     .species = SPECIES_GEODUDE,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
-    .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_ROCK_TOMB}
+    .nature = NATURE_CAREFUL,
+    .moves = {MOVE_TACKLE, MOVE_ROCK_POLISH, MOVE_ROLLOUT, MOVE_ROCK_TOMB}
     },
     {
     .iv = 200,
     .lvl = 15,
     .species = SPECIES_NOSEPASS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
-    .moves = {MOVE_BLOCK, MOVE_HARDEN, MOVE_TACKLE, MOVE_ROCK_TOMB}
+    .nature = NATURE_CAREFUL,
+    .ability = 1,
+    .moves = {MOVE_BLOCK, MOVE_THUNDER_WAVE, MOVE_TACKLE, MOVE_METAL_CLAW}
     }
 };
 
@@ -13475,214 +13469,134 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTorchic[] = {
 	}
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Roxanne2[] = {
     {
     .iv = 255,
     .lvl = 32,
     .species = SPECIES_GOLEM,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
+    .moves = {MOVE_METAL_SOUND, MOVE_BOOMBURST, MOVE_LAVA_PLUME, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 35,
     .species = SPECIES_KABUTO,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 35,
     .species = SPECIES_ONIX,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 37,
     .species = SPECIES_NOSEPASS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .moves = {MOVE_NO_RETREAT, MOVE_METAL_BURST, MOVE_SLASH, MOVE_SPARK}
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Roxanne3[] = {
     {
     .iv = 255,
     .lvl = 37,
     .species = SPECIES_OMANYTE,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
     },
     {
     .iv = 255,
     .lvl = 37,
     .species = SPECIES_GOLEM,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 40,
     .species = SPECIES_KABUTOPS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 40,
     .species = SPECIES_ONIX,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 42,
     .species = SPECIES_NOSEPASS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Roxanne4[] = {
     {
     .iv = 255,
     .lvl = 42,
     .species = SPECIES_OMASTAR,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
     },
     {
     .iv = 255,
     .lvl = 42,
     .species = SPECIES_GOLEM,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 45,
     .species = SPECIES_KABUTOPS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 45,
     .species = SPECIES_ONIX,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 47,
     .species = SPECIES_NOSEPASS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Roxanne5[] = {
     {
     .iv = 255,
     .lvl = 47,
     .species = SPECIES_AERODACTYL,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM, MOVE_SUPERSONIC, MOVE_PROTECT}
     },
     {
     .iv = 255,
     .lvl = 47,
     .species = SPECIES_GOLEM,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROLLOUT, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
     },
     {
     .iv = 255,
     .lvl = 47,
     .species = SPECIES_OMASTAR,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
     },
     {
     .iv = 255,
     .lvl = 50,
     .species = SPECIES_KABUTOPS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 50,
     .species = SPECIES_STEELIX,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 255,
     .lvl = 52,
     .species = SPECIES_NOSEPASS,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	.heldItem = ITEM_NONE,
     .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
     }
 };
