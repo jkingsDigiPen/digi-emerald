@@ -19,7 +19,9 @@ enum
     FLAG_GET_SEEN,
     FLAG_GET_CAUGHT,
     FLAG_SET_SEEN,
-    FLAG_SET_CAUGHT
+    FLAG_SET_CAUGHT,
+    FLAG_GET_DEFEATED,
+    FLAG_SET_DEFEATED,
 };
 
 struct PokedexEntry

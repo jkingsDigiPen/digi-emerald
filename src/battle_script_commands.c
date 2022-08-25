@@ -3950,6 +3950,13 @@ static void Cmd_getexp(void)
     gBattlerFainted = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
     sentIn = gSentPokesToOpponent[(gBattlerFainted & 2) >> 1];
 
+    // Check if we should count this mon as defeated for dex purposes
+    if(GetBattlerSide(gBattlerFainted) == B_SIDE_OPPONENT)
+    {
+        GetSetPokedexFlag(SpeciesToNationalPokedexNum(
+            gBattleMons[gBattlerFainted].species), FLAG_SET_DEFEATED);
+    }
+
     switch (gBattleScripting.getexpState)
     {
     case 0: // check if should receive exp at all

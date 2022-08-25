@@ -1968,6 +1968,7 @@ void ResetPokedex(void)
     {
         gSaveBlock1Ptr->dexCaught[i] = 0;
         gSaveBlock1Ptr->dexSeen[i] = 0;
+        gSaveBlock2Ptr->dexDefeated[i] = 0;
     }
 }
 
@@ -4901,6 +4902,12 @@ s8 GetSetPokedexFlag(u16 nationalDexNo, u8 caseID)
         break;
     case FLAG_SET_CAUGHT:
         gSaveBlock1Ptr->dexCaught[index] |= mask;
+        break;
+    case FLAG_GET_DEFEATED:
+        retVal = ((gSaveBlock2Ptr->dexDefeated[index] & mask) != 0);
+        break;
+    case FLAG_SET_DEFEATED:
+        gSaveBlock2Ptr->dexDefeated[index] |= mask;
         break;
     }
 

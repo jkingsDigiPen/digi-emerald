@@ -527,6 +527,7 @@ struct SaveBlock2
               u16 optionsGen6ExpShare:1; // Gen 6 XP Share on/off
               u16 optionsShowTypeEffectiveness:1; // Display type effectivness in battle
               u16 optionsMatchCalls:1; // Whether to enable match calls from trainers
+              u8 dexDefeated[NUM_DEX_FLAG_BYTES]; // Whether a mon has been defeated in battle
 }; // sizeof=0xF2C
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;

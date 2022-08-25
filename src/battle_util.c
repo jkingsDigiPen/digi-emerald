@@ -10163,9 +10163,11 @@ u8 GetTypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId)
     // 26 - no effect
     const static u8 NO_EFFECT = 26;
 
-    // Don't display anything if option is disabled OR mon has not been seen yet
+    u16 species = gBattleMons[targetId].species;
+
+    // Don't display anything if option is disabled OR mon has not been defeated in battle yet
     if(gSaveBlock2Ptr->optionsShowTypeEffectiveness == OPTIONS_TYPE_EFFECTIVENESS_HIDE ||
-        !GetSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[targetId].species), FLAG_GET_SEEN))
+        !GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_DEFEATED))
     {
         return NORMAL_EFFECTIVENESS;
     }
