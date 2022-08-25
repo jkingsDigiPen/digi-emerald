@@ -1639,7 +1639,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_CINDY_2] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM,
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
@@ -1648,7 +1648,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Cindy2),
-        .party = {.NoItemDefaultMoves = sParty_Cindy2},
+        .party = {.ItemDefaultMoves = sParty_Cindy2},
     },
 
     [TRAINER_BRIANNA] =
@@ -1723,7 +1723,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_CINDY_6] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM,
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
@@ -1732,7 +1732,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Cindy6),
-        .party = {.NoItemDefaultMoves = sParty_Cindy6},
+        .party = {.ItemDefaultMoves = sParty_Cindy6},
     },
 
     [TRAINER_MELISSA] =
@@ -1989,7 +1989,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_WINSTON_5] =
     {
-        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM,
         .trainerClass = TRAINER_CLASS_RICH_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_RICH_BOY,
@@ -1998,7 +1998,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Winston5),
-        .party = {.ItemCustomMoves = sParty_Winston5},
+        .party = {.ItemDefaultMoves = sParty_Winston5},
     },
 
     [TRAINER_STEVE_1] =
