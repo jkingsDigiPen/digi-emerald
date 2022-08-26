@@ -230,8 +230,8 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_SLAKOTH]               = {{EVO_LEVEL, 18, SPECIES_VIGOROTH}}, // Gazimon
     [SPECIES_VIGOROTH]              = {{EVO_LEVEL, 36, SPECIES_SLAKING}}, // Leomon
     [SPECIES_GULPIN]                = {{EVO_LEVEL, 26, SPECIES_SWALOT}},
-    [SPECIES_WHISMUR]               = {{EVO_LEVEL, 20, SPECIES_LOUDRED}},
-    [SPECIES_LOUDRED]               = {{EVO_LEVEL, 40, SPECIES_EXPLOUD}},
+    [SPECIES_WHISMUR]               = {{EVO_LEVEL, 17, SPECIES_LOUDRED}}, // Shoutmon
+    [SPECIES_LOUDRED]               = {{EVO_LEVEL, 34, SPECIES_EXPLOUD}}, // Shoutmon X2
     [SPECIES_CLAMPERL]              = {{EVO_TRADE_ITEM, ITEM_DEEP_SEA_TOOTH, SPECIES_HUNTAIL},
                                        {EVO_TRADE_ITEM, ITEM_DEEP_SEA_SCALE, SPECIES_GOREBYSS}},
     [SPECIES_ABSOL]                 = {{EVO_MEGA_EVOLUTION, ITEM_ABSOLITE, SPECIES_ABSOL_MEGA}},
