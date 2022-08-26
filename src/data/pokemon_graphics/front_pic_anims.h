@@ -792,35 +792,24 @@ static const union AnimCmd sAnim_ALAKAZAM_1[] =
     ANIMCMD_END,
 };
 
+// Gaomon
 static const union AnimCmd sAnim_MACHOP_1[] =
 {
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Gaogamon
 static const union AnimCmd sAnim_MACHOKE_1[] =
 {
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(1, 44),
-    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// MachGaogamon
 static const union AnimCmd sAnim_MACHAMP_1[] =
 {
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -856,23 +845,17 @@ static const union AnimCmd sAnim_VICTREEBEL_1[] =
     ANIMCMD_END,
 };
 
+// Gesomon
 static const union AnimCmd sAnim_TENTACOOL_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// MarineDevimon
 static const union AnimCmd sAnim_TENTACRUEL_1[] =
 {
-    ANIMCMD_FRAME(0, 19),
-    ANIMCMD_FRAME(1, 35),
-    ANIMCMD_FRAME(0, 19),
-    ANIMCMD_FRAME(1, 19),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -2480,41 +2463,29 @@ static const union AnimCmd sAnim_URSARING_1[] =
     ANIMCMD_END,
 };
 
+// BlackAgumon
 static const union AnimCmd sAnim_SLUGMA_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_SLUGMA_2[] =
 {
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(2, 20),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Monochromon
 static const union AnimCmd sAnim_MAGCARGO_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_MAGCARGO_2[] =
 {
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(2, 20),
-    ANIMCMD_FRAME(0, 20),
-    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3264,13 +3235,10 @@ static const union AnimCmd sAnim_NOSEPASS_1[] =
     ANIMCMD_END,
 };
 
+// DarkTyranomon
 static const union AnimCmd sAnim_TORKOAL_1[] =
 {
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
-    ANIMCMD_FRAME(1, 15),
-    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 

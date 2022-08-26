@@ -340,20 +340,23 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(39, 37),
         .y_offset = 0,
     },
+    // Gaomon
     [SPECIES_MACHOP] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(55, 55),
+        .y_offset = 3,
     },
+    // Gaogamon
     [SPECIES_MACHOKE] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 8,
+        .size = MON_COORDS_SIZE(59, 60),
+        .y_offset = 2,
     },
+    // MachGaogamon
     [SPECIES_MACHAMP] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(60, 59),
+        .y_offset = 2,
     },
     [SPECIES_BELLSPROUT] =
     {
@@ -370,11 +373,13 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 6,
     },
+    // Gesomon
     [SPECIES_TENTACOOL] =
     {
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 9,
     },
+    // MarineDevimon
     [SPECIES_TENTACRUEL] =
     {
         .size = MON_COORDS_SIZE(64, 48),
@@ -1109,11 +1114,13 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(56, 64),
         .y_offset = 2,
     },
+    // BlackAgumon
     [SPECIES_SLUGMA] =
     {
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 6,
     },
+    // Monochromon
     [SPECIES_MAGCARGO] =
     {
         .size = MON_COORDS_SIZE(64, 56),
@@ -1528,6 +1535,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(59, 57),
         .y_offset = 3,
     },
+    // DarkTyranomon
     [SPECIES_TORKOAL] =
     {
         .size = MON_COORDS_SIZE(64, 48),
