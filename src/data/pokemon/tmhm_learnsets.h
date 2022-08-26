@@ -7338,30 +7338,30 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM11_SUNNY_DAY)
                                             | TMHM(TM06_TOXIC)),
 
+    // Shoutmon
     [SPECIES_WHISMUR]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-                                            | TMHM(TM14_BLIZZARD)
+                                            | TMHM(TM31_BRICK_BREAK)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM42_FACADE)
                                             | TMHM(TM38_FIRE_BLAST)
                                             | TMHM(TM35_FLAMETHROWER)
                                             | TMHM(TM21_FRUSTRATION)
                                             | TMHM(TM10_HIDDEN_POWER)
-                                            | TMHM(TM13_ICE_BEAM)
                                             | TMHM(TM17_PROTECT)
-                                            | TMHM(TM18_RAIN_DANCE)
                                             | TMHM(TM44_REST)
                                             | TMHM(TM27_RETURN)
                                             | TMHM(TM05_ROAR)
+                                            | TMHM(HM06_ROCK_SMASH)
+                                            | TMHM(TM39_ROCK_TOMB)
                                             | TMHM(TM43_SECRET_POWER)
                                             | TMHM(TM30_SHADOW_BALL)
                                             | TMHM(TM34_SHOCK_WAVE)
-                                            | TMHM(TM22_SOLAR_BEAM)
+                                            | TMHM(HM04_STRENGTH)
                                             | TMHM(TM11_SUNNY_DAY)
-                                            | TMHM(TM06_TOXIC)
-                                            | TMHM(TM03_WATER_PULSE)),
+                                            | TMHM(TM06_TOXIC)),
 
+    // Shoutmon X2
     [SPECIES_LOUDRED]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-                                            | TMHM(TM14_BLIZZARD)
                                             | TMHM(TM31_BRICK_BREAK)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM26_EARTHQUAKE)
@@ -7373,7 +7373,6 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM13_ICE_BEAM)
                                             | TMHM(TM50_OVERHEAT)
                                             | TMHM(TM17_PROTECT)
-                                            | TMHM(TM18_RAIN_DANCE)
                                             | TMHM(TM44_REST)
                                             | TMHM(TM27_RETURN)
                                             | TMHM(TM05_ROAR)
@@ -7387,11 +7386,10 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM11_SUNNY_DAY)
                                             | TMHM(TM12_TAUNT)
                                             | TMHM(TM41_TORMENT)
-                                            | TMHM(TM06_TOXIC)
-                                            | TMHM(TM03_WATER_PULSE)),
+                                            | TMHM(TM06_TOXIC)),
 
+    // Shoutmon X3
     [SPECIES_EXPLOUD]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
-                                            | TMHM(TM14_BLIZZARD)
                                             | TMHM(TM31_BRICK_BREAK)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM26_EARTHQUAKE)
@@ -7404,7 +7402,6 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM13_ICE_BEAM)
                                             | TMHM(TM50_OVERHEAT)
                                             | TMHM(TM17_PROTECT)
-                                            | TMHM(TM18_RAIN_DANCE)
                                             | TMHM(TM44_REST)
                                             | TMHM(TM27_RETURN)
                                             | TMHM(TM05_ROAR)
@@ -7419,8 +7416,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(HM03_SURF)
                                             | TMHM(TM12_TAUNT)
                                             | TMHM(TM41_TORMENT)
-                                            | TMHM(TM06_TOXIC)
-                                            | TMHM(TM03_WATER_PULSE)),
+                                            | TMHM(TM06_TOXIC)),
 
     [SPECIES_MAKUHITA]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
                                             | TMHM(TM31_BRICK_BREAK)
