@@ -1777,20 +1777,23 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(56, 64),
         .y_offset = 0,
     },
+    // Shoutmon
     [SPECIES_WHISMUR] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(58, 53),
+        .y_offset = 5,
     },
+    // Shoutmon X2
     [SPECIES_LOUDRED] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 8,
+        .size = MON_COORDS_SIZE(54, 58),
+        .y_offset = 3,
     },
+    // Shoutmon X3
     [SPECIES_EXPLOUD] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(58, 56),
+        .y_offset = 3,
     },
     [SPECIES_CLAMPERL] =
     {
