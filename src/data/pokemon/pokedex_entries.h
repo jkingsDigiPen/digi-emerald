@@ -3566,9 +3566,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Shoutmon
     [NATIONAL_DEX_WHISMUR] =
     {
-        .categoryName = _("Whisper"),
+        .categoryName = _("Passionate"),
         .height = 6,
         .weight = 163,
         .description = gWhismurPokedexText,
@@ -3578,9 +3579,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Shoutmon X2
     [NATIONAL_DEX_LOUDRED] =
     {
-        .categoryName = _("Big Voice"),
+        .categoryName = _("Armor Mode"),
         .height = 10,
         .weight = 405,
         .description = gLoudredPokedexText,
@@ -3590,9 +3592,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Shoutmon X3
     [NATIONAL_DEX_EXPLOUD] =
     {
-        .categoryName = _("Loud Noise"),
+        .categoryName = _("Victory"),
         .height = 15,
         .weight = 840,
         .description = gExploudPokedexText,

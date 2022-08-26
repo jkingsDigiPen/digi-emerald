@@ -8283,11 +8283,11 @@ const struct BaseStats gBaseStats[] =
     // Shoutmon
     [SPECIES_WHISMUR] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 60,
-        .baseDefense   = 40,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 70,
+        .baseHP        = 50,
+        .baseAttack    = 65,
+        .baseDefense   = 65,
+        .baseSpeed     = 40,
+        .baseSpAttack  = 50,
         .baseSpDefense = 40,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FIRE,
@@ -8308,12 +8308,12 @@ const struct BaseStats gBaseStats[] =
     // Shoutmon X2
     [SPECIES_LOUDRED] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 70,
-        .baseDefense   = 90,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 50,
+        .baseHP        = 65,
+        .baseAttack    = 73,
+        .baseDefense   = 92,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 55,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FIRE,
         .catchRate = 120,
@@ -8333,18 +8333,18 @@ const struct BaseStats gBaseStats[] =
     // Shoutmon X3
     [SPECIES_EXPLOUD] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 90,
+        .baseHP        = 80,
+        .baseAttack    = 80,
         .baseDefense   = 100,
-        .baseSpeed     = 70,
-        .baseSpAttack  = 120,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 90,
         .baseSpDefense = 70,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FIRE,
         .catchRate = 45,
         .expYield = 221,
         .evYield_Defense = 1,
-        .evYield_SpAttack = 2,
+        .evYield_Speed = 2,
         .genderRatio = MON_GENDERLESS,
         .eggCycles = 20,
         .friendship = 70,

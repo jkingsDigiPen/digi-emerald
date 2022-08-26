@@ -2119,23 +2119,26 @@ const u8 gTropiusPokedexText[] = _(
     "neck is deliciously sweet. In the spring,\n"
     "it scatters pollen from its neck.");
 
+// Shoutmon
 const u8 gWhismurPokedexText[] = _(
-    "Its cries equal a jet plane in volume.\n"
-    "It inhales through its ear canals. Because\n"
-    "of this system, it can cry continually\n"
-    "without having to catch its breath.");
+    "It uses its microphone to amplify its\n"
+    "voice and its emotions into powerful\n"
+    "weapons. Sometimes it even uses\n"
+    "the mic as a blunt instrument.");
 
+// Shoutmon X2
 const u8 gLoudredPokedexText[] = _(
-    "It positions the round speakers on its\n"
-    "head to assail foes with ultrasonic waves\n"
-    "at massive volume. It builds power by\n"
-    "stomping the ground.");
+    "By combining itself with armored\n"
+    "Digimon, Shoutmon gains incredible\n"
+    "defensive capabilities. In this mode,\n"
+    "it also gains many high-tech attacks.");
 
+// Shoutmon X3
 const u8 gExploudPokedexText[] = _(
-    "It has sound-generating organs all over\n"
-    "its body. It communicates with others by\n"
-    "adjusting the tone and volume of the cries\n"
-    "it emits.");
+    "In this mode, Shoutmon's mobility is\n"
+    "greatly enhanced. It also retains the\n"
+    "powers from its previous forms, making\n"
+    "it a force to be reckoned with.");
 
 const u8 gClamperlPokedexText[] = _(
     "A Clamperl slams its shell closed on prey\n"
