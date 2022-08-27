@@ -388,14 +388,14 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Gottsumon
     [SPECIES_GEODUDE] =
     {
-        .size = MON_COORDS_SIZE(63, 62),
-        .y_offset = 1,
+        .size = MON_COORDS_SIZE(37, 58),
+        .y_offset = 4,
     },
     // Golemon
     [SPECIES_GRAVELER] =
     {
-        .size = MON_COORDS_SIZE(58, 49),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(64, 62),
+        .y_offset = 1,
     },
     // Volcanomon
     [SPECIES_GOLEM] =
