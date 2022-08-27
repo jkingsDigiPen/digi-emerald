@@ -4407,7 +4407,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_GEODUDE,
     .nature = NATURE_CAREFUL,
 	.ability = ABILITYSLOT_TWO,
-    .moves = {MOVE_TACKLE, MOVE_MAGNITUDE, MOVE_POISON_GAS, MOVE_ROCK_THROW}
+    .moves = {MOVE_SMOKESCREEN, MOVE_MAGNITUDE, MOVE_POISON_GAS, MOVE_ROCK_THROW}
     },
     {
     .iv = 200,
@@ -4415,7 +4415,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .species = SPECIES_GRAVELER,
     .nature = NATURE_CAREFUL,
     .ability = ABILITYSLOT_TWO,
-    .moves = {MOVE_SMOKESCREEN, MOVE_ROLLOUT, MOVE_BULLDOZE, MOVE_ROCK_TOMB}
+    .moves = {MOVE_SMOG, MOVE_POWER_UP_PUNCH, MOVE_BULLDOZE, MOVE_ROCK_TOMB}
     }
 };
 
