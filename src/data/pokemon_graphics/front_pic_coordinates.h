@@ -376,8 +376,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Gesomon
     [SPECIES_TENTACOOL] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(54, 48),
+        .y_offset = 8,
     },
     // MarineDevimon
     [SPECIES_TENTACRUEL] =
@@ -1117,14 +1117,14 @@ const struct MonCoords gMonFrontPicCoords[] =
     // BlackAgumon
     [SPECIES_SLUGMA] =
     {
-        .size = MON_COORDS_SIZE(32, 48),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(39, 61),
+        .y_offset = 2,
     },
     // Monochromon
     [SPECIES_MAGCARGO] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(62, 45),
+        .y_offset = 4,
     },
     [SPECIES_SWINUB] =
     {
@@ -1538,8 +1538,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // DarkTyranomon
     [SPECIES_TORKOAL] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 3,
+        .size = MON_COORDS_SIZE(52, 48),
+        .y_offset = 5,
     },
     [SPECIES_SABLEYE] =
     {
