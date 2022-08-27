@@ -325,7 +325,7 @@ PetalburgWoods_Text_NotAOneToBeFound:
 PetalburgWoods_Text_HaveYouSeenShroomish: @ 822E34F
 	.string "Hello, have you seen any Digimon\n"
 	.string "called Kotemon around here?\p"
-	.string "I really love that Digimon.$"
+	.string "They are my favorite Digimon!$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
 	.string "I was going to ambush you, but you\n"
