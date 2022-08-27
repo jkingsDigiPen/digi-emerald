@@ -5514,11 +5514,11 @@ const struct BaseStats gBaseStats[] =
     // Lunamon
     [SPECIES_MARILL] =
     {
-        .baseHP        = 50,
+        .baseHP        = 55,
         .baseAttack    = 70,
-        .baseDefense   = 50,
+        .baseDefense   = 55,
         .baseSpeed     = 45,
-        .baseSpAttack  = 70,
+        .baseSpAttack  = 80,
         .baseSpDefense = 60,
         .type1 = TYPE_WATER,
         .type2 = TYPE_FAIRY,
@@ -5540,12 +5540,12 @@ const struct BaseStats gBaseStats[] =
     // Lekismon
     [SPECIES_AZUMARILL] =
     {
-        .baseHP        = 70,
+        .baseHP        = 75,
         .baseAttack    = 90,
-        .baseDefense   = 70,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 80,
+        .baseDefense   = 75,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 85,
         .type1 = TYPE_ICE,
         .type2 = TYPE_FAIRY,
         .catchRate = 75,
@@ -8440,8 +8440,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_NOSEPASS] =
     {
         .baseHP        = 50,
-        .baseAttack    = 70,
-        .baseDefense   = 110,
+        .baseAttack    = 80,
+        .baseDefense   = 100,
         .baseSpeed     = 35,
         .baseSpAttack  = 40,
         .baseSpDefense = 70,
