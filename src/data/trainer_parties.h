@@ -5848,12 +5848,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ivan[] = {
     },
     {
     .iv = 0,
-    .lvl = 6,
+    .lvl = 7,
     .species = SPECIES_MAGIKARP,
     },
     {
     .iv = 0,
-    .lvl = 7,
+    .lvl = 9,
     .species = SPECIES_MAGIKARP,
     }
 };
