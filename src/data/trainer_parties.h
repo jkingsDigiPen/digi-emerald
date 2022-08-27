@@ -126,9 +126,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     {
     .iv = 0,
     .lvl = 9,
+    .species = SPECIES_SEEDOT,
+    },
+    {
+    .iv = 0,
+    .lvl = 10,
     .species = SPECIES_POOCHYENA,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
     }
 };
 
