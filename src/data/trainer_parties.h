@@ -4410,12 +4410,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .moves = {MOVE_SMOKESCREEN, MOVE_MAGNITUDE, MOVE_POISON_GAS, MOVE_ROCK_THROW}
     },
     {
-    .iv = 200,
-    .lvl = 15,
+    .iv = 100,
+    .lvl = 14,
     .species = SPECIES_GRAVELER,
     .nature = NATURE_CAREFUL,
     .ability = ABILITYSLOT_TWO,
-    .moves = {MOVE_SMOG, MOVE_POWER_UP_PUNCH, MOVE_BULLDOZE, MOVE_ROCK_TOMB}
+    .moves = {MOVE_SMOG, MOVE_MACH_PUNCH, MOVE_MAGNITUDE, MOVE_ROCK_TOMB}
     }
 };
 
