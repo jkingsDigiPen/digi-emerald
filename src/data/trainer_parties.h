@@ -10246,16 +10246,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTreecko[]
     .iv = 25,
     .lvl = 13,
     .species = SPECIES_LOTAD,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 50,
     .lvl = 15,
     .species = SPECIES_CHARMANDER,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroMudkip[] = {
@@ -10263,16 +10259,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroMudkip[] 
     .iv = 25,
     .lvl = 13,
     .species = SPECIES_WINGULL,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 50,
     .lvl = 15,
     .species = SPECIES_BOUNSWEET,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Paxton[] = {
@@ -10372,16 +10364,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTorchic[]
     .iv = 25,
     .lvl = 13,
     .species = SPECIES_SLUGMA,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 50,
     .lvl = 15,
     .species = SPECIES_POPPLIO,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroMudkip[] = {
@@ -10389,16 +10377,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroMudkip[] = {
     .iv = 25,
     .lvl = 13,
     .species = SPECIES_WINGULL,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 50,
     .lvl = 15,
     .species = SPECIES_BOUNSWEET,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMagmaHideout[] = {
@@ -13441,33 +13425,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTreecko[] = {
     .iv = 25,
     .lvl = 13,
     .species = SPECIES_LOTAD,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 50,
     .lvl = 15,
     .species = SPECIES_CHARMANDER,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTorchic[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_MayRustboroTorchic[] = {
     {
     .iv = 25,
     .lvl = 13,
     .species = SPECIES_TORKOAL,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    .moves = {MOVE_EMBER, MOVE_SMOG, MOVE_ROCK_THROW, MOVE_DRAGON_BREATH}
+    },
     {
     .iv = 50,
     .lvl = 15,
     .species = SPECIES_POPPLIO,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    .moves = {MOVE_WATER_GUN, MOVE_FAIRY_WIND, MOVE_AQUA_JET, MOVE_WITHDRAW}
+    }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Roxanne2[] = {

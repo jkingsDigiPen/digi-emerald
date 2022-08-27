@@ -10767,7 +10767,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_MAY_RUSTBORO_TORCHIC] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RIVAL,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_MAY,
@@ -10776,7 +10776,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_MayRustboroTorchic),
-        .party = {.NoItemDefaultMoves = sParty_MayRustboroTorchic},
+        .party = {.NoItemCustomMoves = sParty_MayRustboroTorchic},
     },
 
     [TRAINER_ROXANNE_2] =
