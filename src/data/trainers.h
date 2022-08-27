@@ -3718,7 +3718,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("Roxanne"),
         .items = {ITEM_POTION, ITEM_POTION, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN,
         .partySize = ARRAY_COUNT(sParty_Roxanne1),
         .party = {.NoItemCustomMoves = sParty_Roxanne1},
     },
@@ -4481,16 +4481,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JOSH] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("Josh"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Josh),
-        .party = {.NoItemCustomMoves = sParty_Josh},
+        .party = {.NoItemDefaultMoves = sParty_Josh},
     },
 
     [TRAINER_TOMMY] =
@@ -4502,7 +4502,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("Tommy"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN,
         .partySize = ARRAY_COUNT(sParty_Tommy),
         .party = {.NoItemDefaultMoves = sParty_Tommy},
     },
@@ -8002,7 +8002,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("Marc"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Marc),
         .party = {.NoItemDefaultMoves = sParty_Marc},
     },
