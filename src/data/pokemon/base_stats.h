@@ -8436,7 +8436,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    // PawnChessmonWhite
+    // PawnChessmonWhite 375
     [SPECIES_NOSEPASS] =
     {
         .baseHP        = 50,
