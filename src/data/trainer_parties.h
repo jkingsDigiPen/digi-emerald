@@ -142,14 +142,14 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
     .species = SPECIES_MANECTRIC,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 100,
     .lvl = 29,
     .species = SPECIES_SHIFTRY,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Alberto[] = {
@@ -5532,9 +5532,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     .iv = 100,
     .lvl = 10,
     .species = SPECIES_GEODUDE,
-	.nature = NATURE_SERIOUS,
-    .ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
     .moves = {MOVE_TACKLE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
@@ -5544,16 +5541,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tommy[] = {
     .iv = 110,
     .lvl = 8,
     .species = SPECIES_GEODUDE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 120,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    .species = SPECIES_SLUGMA,
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Joey[] = {
@@ -10012,16 +10005,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marc[] = {
     .iv = 120,
     .lvl = 8,
     .species = SPECIES_GEODUDE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	},
+    },
     {
     .iv = 130,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
-	.ability = 0,
-	.evs = {0, 0, 0, 0, 0, 0},
-	}
+    .species = SPECIES_NOSEPASS,
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Brenden[] = {
