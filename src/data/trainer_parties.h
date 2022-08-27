@@ -4395,14 +4395,6 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
-    .lvl = 12,
-    .species = SPECIES_GEODUDE,
-    .nature = NATURE_CAREFUL,
-	.ability = ABILITYSLOT_TWO,
-    .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_POLISH, MOVE_ROCK_THROW}
-    },
-    {
-    .iv = 150,
     .lvl = 13,
     .species = SPECIES_NOSEPASS,
     .nature = NATURE_CAREFUL,
@@ -4410,12 +4402,20 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .moves = {MOVE_BLOCK, MOVE_THUNDER_WAVE, MOVE_TACKLE, MOVE_METAL_CLAW}
     },
     {
+    .iv = 150,
+    .lvl = 14,
+    .species = SPECIES_GEODUDE,
+    .nature = NATURE_CAREFUL,
+	.ability = ABILITYSLOT_TWO,
+    .moves = {MOVE_TACKLE, MOVE_MAGNITUDE, MOVE_POISON_GAS, MOVE_ROCK_THROW}
+    },
+    {
     .iv = 200,
     .lvl = 15,
     .species = SPECIES_GRAVELER,
     .nature = NATURE_CAREFUL,
-    .ability = ABILITYSLOT_ONE,
-    .moves = {MOVE_SMOG, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_ROCK_TOMB}
+    .ability = ABILITYSLOT_TWO,
+    .moves = {MOVE_SMOKESCREEN, MOVE_ROLLOUT, MOVE_BULLDOZE, MOVE_ROCK_TOMB}
     }
 };
 
