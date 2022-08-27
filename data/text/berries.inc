@@ -177,7 +177,7 @@ Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation: @ 82A79A6
 	.string "While Berry plants are growing,\n"
-	.string "water them with the Wailmer Pail.\p"
+	.string "water them with the Wailmon Pail.\p"
 	.string "Oh, another thing.\p"
 	.string "If you don't pick Berries for a while,\n"
 	.string "they'll drop off onto the ground.\l"
