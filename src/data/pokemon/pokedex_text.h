@@ -2005,10 +2005,10 @@ const u8 gSolrockPokedexText[] = _(
 
 // Moonmon
 const u8 gAzurillPokedexText[] = _(
-    "Legends tell that this Digimon was born\n"
-    "from the fusion of data from software\n"
-    "analyzing the moon. It has a pure heart and\n"
-    "can form a strong bond with its trainer.");
+    "Data from software used to analyze\n"
+    "the moon caused this Digimon to form.\n"
+    "It has a pure heart and can form a\n"
+    "strong bond with a deciated trainer.");
 
 const u8 gSpoinkPokedexText[] = _(
     "A Pokémon that manipulates psychic power\n"
