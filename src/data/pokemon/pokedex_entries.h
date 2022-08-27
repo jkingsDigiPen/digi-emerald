@@ -800,9 +800,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Gaomon
     [NATIONAL_DEX_MACHOP] =
     {
-        .categoryName = _("Superpower"),
+        .categoryName = _("Boxing"),
         .height = 8,
         .weight = 195,
         .description = gMachopPokedexText,
@@ -812,9 +813,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Gaogamon
     [NATIONAL_DEX_MACHOKE] =
     {
-        .categoryName = _("Superpower"),
+        .categoryName = _("Dash Claw"),
         .height = 15,
         .weight = 705,
         .description = gMachokePokedexText,
@@ -824,9 +826,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // MachGaogamon
     [NATIONAL_DEX_MACHAMP] =
     {
-        .categoryName = _("Superpower"),
+        .categoryName = _("Jet Pack"),
         .height = 16,
         .weight = 1300,
         .description = gMachampPokedexText,
@@ -872,9 +875,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
+    // Gesomon
     [NATIONAL_DEX_TENTACOOL] =
     {
-        .categoryName = _("Jellyfish"),
+        .categoryName = _("Foul Squid"),
         .height = 9,
         .weight = 455,
         .description = gTentacoolPokedexText,
@@ -884,9 +888,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // MarineDevimon
     [NATIONAL_DEX_TENTACRUEL] =
     {
-        .categoryName = _("Jellyfish"),
+        .categoryName = _("Sea Devil"),
         .height = 16,
         .weight = 550,
         .description = gTentacruelPokedexText,
@@ -2634,9 +2639,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Black Agumon
     [NATIONAL_DEX_SLUGMA] =
     {
-        .categoryName = _("Lava"),
+        .categoryName = _("Reptile"),
         .height = 7,
         .weight = 350,
         .description = gSlugmaPokedexText,
@@ -2646,9 +2652,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Monochromon
     [NATIONAL_DEX_MAGCARGO] =
     {
-        .categoryName = _("Lava"),
+        .categoryName = _("Rock Hide"),
         .height = 8,
         .weight = 550,
         .description = gMagcargoPokedexText,
@@ -3945,9 +3952,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
+    // Dark Tyranomon
     [NATIONAL_DEX_TORKOAL] =
     {
-        .categoryName = _("Coal"),
+        .categoryName = _("Dark Flame"),
         .height = 5,
         .weight = 804,
         .description = gTorkoalPokedexText,

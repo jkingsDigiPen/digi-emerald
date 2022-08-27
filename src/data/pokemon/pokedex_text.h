@@ -402,23 +402,26 @@ const u8 gAlakazamPokedexText[] = _(
     "its forte. It is usually reticent to talk,\n"
     "and lives and lurks within dark places.");
 
+// Gaomon
 const u8 gMachopPokedexText[] = _(
-    "It continually undertakes strenuous\n"
-    "training to master all forms of martial\n"
-    "arts. Its strength lets it easily hoist\n"
-    "a sumo wrestler onto its shoulders.");
+    "It is adept at quick, precise movements,\n"
+    "darting in and out of reach of its foes.\n"
+    "Its claws are not fully grown, so it\n"
+    "fights with boxing gloves.");
 
+// Gaogamon
 const u8 gMachokePokedexText[] = _(
-    "A belt is worn by a Machoke to keep its\n"
-    "overwhelming power under control.\n"
-    "Because it is so dangerous, no one has\n"
-    "ever removed the belt.");
+    "Though it normally walks on all fours,\n"
+    "its incredible leg strength allow it to\n"
+    "stand up to fight as well. It attacks\n"
+    "rapidly with sharp fangs and claws.");
 
+// MachGaogamon
 const u8 gMachampPokedexText[] = _(
-    "It is impossible to defend against punches\n"
-    "and chops doled out by its four arms.\n"
-    "Its fighting spirit flares up when it faces\n"
-    "a tough opponent.");
+    "Rocket engines on its back allow this\n"
+    "Digimon to fly for short bursts. It uses\n"
+    "its limited flight powers to gain the\n"
+    "advantage, dashing to and fro.");
 
 const u8 gBellsproutPokedexText[] = _(
     "A Bellsprout's thin and flexible body lets\n"
@@ -438,17 +441,19 @@ const u8 gVictreebelPokedexText[] = _(
     "attract prey. When an unsuspecting victim\n"
     "approaches, it is swallowed whole.");
 
+// Gesomon
 const u8 gTentacoolPokedexText[] = _(
-    "Its body is almost entirely composed of\n"
-    "water. It ensnares its foe with its two\n"
-    "long tentacles, then stabs with the poison\n"
-    "stingers at their tips.");
+    "It inhabits the dark depths of the ocean,\n"
+    "where it is known as the White Demon. It\n"
+    "does not harm Digimon outside its territory,\n"
+    "but is merciless towards any that enter it.");
 
+// MarineDevimon
 const u8 gTentacruelPokedexText[] = _(
-    "It lives in complex rock formations on\n"
-    "the ocean floor and traps prey using its\n"
-    "80 tentacles. Its red orbs glow when it\n"
-    "grows excited or agitated.");
+    "It is an aquatic variant of the more common\n"
+    "Devimon. Unlike Devimon, it is solitary and\n"
+    "lacks all emotions but hatred. It never\n"
+    "relents, even if its opponent surrenders.");
 
 // Gottsumon
 const u8 gGeodudePokedexText[] = _(
@@ -1324,17 +1329,19 @@ const u8 gUrsaringPokedexText[] = _(
     "Ursaring gathers food. It walks through\n"
     "its forest collecting food every day.");
 
+// Black Agumon
 const u8 gSlugmaPokedexText[] = _(
-    "It is a species of Pokémon that lives in\n"
-    "volcanic areas. If its body cools, its skin\n"
-    "hardens and immobilizes it. To avoid that,\n"
-    "it sleeps near magma.");
+    "It is a rare variant of the Agumon species.\n"
+    "It shares much in common with its yellow\n"
+    "cousin, but tends to prefer volcanic areas,\n"
+    "and hides a darker power within itself.");
 
+// Monochromon
 const u8 gMagcargoPokedexText[] = _(
-    "The shell on its back is made of hardened\n"
-    "magma. Tens of thousands of years spent\n"
-    "living in volcanic craters have turned\n"
-    "Magcargo's bodies into magma.");
+    "Its horn and upper body are higly durable,\n"
+    "said to be as hard as diamonds. As its\n"
+    "horn grows, it becomes large enough to\n"
+    "account for nearly half its body length.");
 
 const u8 gSwinubPokedexText[] = _(
     "It roots for food by rubbing its snout\n"
@@ -1821,11 +1828,12 @@ const u8 gNosepassPokedexText[] = _(
     "danger. In groups, it can create\n"
     "a formidable defensive formation.");
 
+// Dark Tyranomon
 const u8 gTorkoalPokedexText[] = _(
-    "It battles using energy it gets from\n"
-    "burning coal. When loosing smoke from its\n"
-    "nostrils, it lets off a sound that is\n"
-    "similar to a locomotive's horn.");
+    "Its whole body has been corrupted by a\n"
+    "computer virus, giving it a vicious\n"
+    "temperament and incredible firepower.\n"
+    "Few tamers can effectively command it.");
 
 const u8 gSableyePokedexText[] = _(
     "It digs branching holes in caves using its\n"
