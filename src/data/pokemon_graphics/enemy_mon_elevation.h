@@ -34,6 +34,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_LUGIA] = 6,
     [SPECIES_HO_OH] = 6,
     [SPECIES_CELEBI] = 15,
+    [SPECIES_ZIGZAGOON] = 6,
     [SPECIES_BEAUTIFLY] = 10,
     [SPECIES_DUSTOX] = 12,
     [SPECIES_NINJASK] = 10,
