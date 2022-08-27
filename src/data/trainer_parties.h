@@ -10001,14 +10001,14 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntJaggedPass[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Marc[] = {
     {
-    .iv = 120,
-    .lvl = 8,
-    .species = SPECIES_GEODUDE,
-    },
-    {
     .iv = 130,
     .lvl = 9,
     .species = SPECIES_NOSEPASS,
+    },
+    {
+    .iv = 120,
+    .lvl = 8,
+    .species = SPECIES_GEODUDE,
     }
 };
 
