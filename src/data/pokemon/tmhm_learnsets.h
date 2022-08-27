@@ -5466,6 +5466,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM41_TORMENT)
                                             | TMHM(TM06_TOXIC)),
 
+    // Black Agumon
     [SPECIES_SLUGMA]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM42_FACADE)
@@ -5485,6 +5486,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM11_SUNNY_DAY)
                                             | TMHM(TM06_TOXIC)),
 
+    // Monochromon
     [SPECIES_MAGCARGO]    = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM26_EARTHQUAKE)
@@ -8108,6 +8110,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM11_SUNNY_DAY)
                                             | TMHM(TM06_TOXIC)),
 
+    // Dark Tyranomon
     [SPECIES_TORKOAL]     = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
                                             | TMHM(TM32_DOUBLE_TEAM)
                                             | TMHM(TM26_EARTHQUAKE)
