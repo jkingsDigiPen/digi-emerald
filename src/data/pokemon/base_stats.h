@@ -2559,6 +2559,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Gaomon
     [SPECIES_MACHOP] =
     {
         .baseHP        = 70,
@@ -2580,10 +2581,11 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         .abilities = {ABILITY_GUTS, ABILITY_NO_GUARD, ABILITY_STEADFAST},
-        .bodyColor = BODY_COLOR_GRAY,
+        .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
 
+    // Gaogamon
     [SPECIES_MACHOKE] =
     {
         .baseHP        = 80,
@@ -2605,10 +2607,11 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         .abilities = {ABILITY_GUTS, ABILITY_NO_GUARD, ABILITY_STEADFAST},
-        .bodyColor = BODY_COLOR_GRAY,
+        .bodyColor = BODY_COLOR_BLUE,
         .noFlip = TRUE,
     },
 
+    // MachGaogamon
     [SPECIES_MACHAMP] =
     {
         .baseHP        = 90,
@@ -2618,7 +2621,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 65,
         .baseSpDefense = 85,
         .type1 = TYPE_FIGHTING,
-        .type2 = TYPE_FIGHTING,
+        .type2 = TYPE_FLYING,
         .catchRate = 45,
         .expYield = 227,
         .evYield_Attack    = 3,
@@ -2630,7 +2633,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         .abilities = {ABILITY_GUTS, ABILITY_NO_GUARD, ABILITY_STEADFAST},
-        .bodyColor = BODY_COLOR_GRAY,
+        .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
 
@@ -2710,14 +2713,15 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Gesomon
     [SPECIES_TENTACOOL] =
     {
         .baseHP        = 40,
-        .baseAttack    = 40,
+        .baseAttack    = 60,
         .baseDefense   = 35,
         .baseSpeed     = 70,
         .baseSpAttack  = 50,
-        .baseSpDefense = 100,
+        .baseSpDefense = 80,
         .type1 = TYPE_WATER,
         .type2 = TYPE_POISON,
         .catchRate = 190,
@@ -2728,32 +2732,34 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_WATER_3,
+        .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_WATER_3,
         .abilities = {ABILITY_CLEAR_BODY, ABILITY_LIQUID_OOZE, ABILITY_RAIN_DISH},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
 
+    // Marine Devimon
     [SPECIES_TENTACRUEL] =
     {
         .baseHP        = 80,
-        .baseAttack    = 70,
+        .baseAttack    = 80,
         .baseDefense   = 65,
         .baseSpeed     = 100,
         .baseSpAttack  = 80,
-        .baseSpDefense = 120,
+        .baseSpDefense = 110,
         .type1 = TYPE_WATER,
         .type2 = TYPE_POISON,
         .catchRate = 60,
         .expYield = 180,
-        .evYield_SpDefense = 2,
+        .evYield_SpDefense = 1,
+        .evYield_Speed = 1,
         .item2 = ITEM_POISON_BARB,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_WATER_3,
+        .eggGroup1 = EGG_GROUP_MONSTER,
         .eggGroup2 = EGG_GROUP_WATER_3,
         .abilities = {ABILITY_CLEAR_BODY, ABILITY_LIQUID_OOZE, ABILITY_RAIN_DISH},
         .bodyColor = BODY_COLOR_BLUE,
@@ -6354,6 +6360,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Black Agumon
     [SPECIES_SLUGMA] =
     {
         .baseHP        = 40,
@@ -6371,26 +6378,22 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
+        .eggGroup1 = EGG_GROUP_MONSTER,
+        .eggGroup2 = EGG_GROUP_DRAGON,
         .abilities = {ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY, ABILITY_WEAK_ARMOR},
-        .bodyColor = BODY_COLOR_RED,
+        .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
+    // Monochromon
     [SPECIES_MAGCARGO] =
     {
-        .baseSpDefense = 80,
+        .baseHP        = 60,
         .baseAttack    = 50,
         .baseDefense   = 120,
         .baseSpeed     = 30,
-        #if P_UPDATED_STATS >= GEN_7
-            .baseHP        = 60,
-            .baseSpAttack  = 90,
-        #else
-            .baseHP        = 50,
-            .baseSpAttack  = 80,
-        #endif
+        .baseSpAttack  = 90,
+        .baseSpDefense = 80,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_ROCK,
         .catchRate = 75,
@@ -6400,11 +6403,11 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
+        .eggGroup1 = EGG_GROUP_MONSTER,
+        .eggGroup2 = EGG_GROUP_DRAGON,
         .abilities = {ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY, ABILITY_WEAK_ARMOR},
-        .bodyColor = BODY_COLOR_RED,
-        .noFlip = TRUE,
+        .bodyColor = BODY_COLOR_BLACK,
+        .noFlip = FALSE,
     },
 
     [SPECIES_SWINUB] =
@@ -9077,6 +9080,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Dark Tyranomon
     [SPECIES_TORKOAL] =
     {
         .baseHP        = 70,
@@ -9095,10 +9099,10 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_FIELD,
-        .eggGroup2 = EGG_GROUP_FIELD,
+        .eggGroup1 = EGG_GROUP_MONSTER,
+        .eggGroup2 = EGG_GROUP_DRAGON,
         .abilities = {ABILITY_WHITE_SMOKE, ABILITY_DROUGHT, ABILITY_SHELL_ARMOR},
-        .bodyColor = BODY_COLOR_BROWN,
+        .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
