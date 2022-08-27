@@ -2772,8 +2772,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_GEODUDE] =
     {
         .baseHP        = 40,
-        .baseAttack    = 70,
-        .baseDefense   = 90,
+        .baseAttack    = 65,
+        .baseDefense   = 95,
         .baseSpeed     = 20,
         .baseSpAttack  = 30,
         .baseSpDefense = 50,
@@ -2798,8 +2798,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_GRAVELER] =
     {
         .baseHP        = 60,
-        .baseAttack    = 90,
-        .baseDefense   = 110,
+        .baseAttack    = 85,
+        .baseDefense   = 115,
         .baseSpeed     = 35,
         .baseSpAttack  = 45,
         .baseSpDefense = 70,
@@ -2824,8 +2824,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_GOLEM] =
     {
         .baseHP        = 80,
-        .baseAttack    = 110,
-        .baseDefense   = 130,
+        .baseAttack    = 105,
+        .baseDefense   = 135,
         .baseSpeed     = 50,
         .baseSpAttack  = 60,
         .baseSpDefense = 90,
@@ -8440,9 +8440,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_NOSEPASS] =
     {
         .baseHP        = 50,
-        .baseAttack    = 80,
-        .baseDefense   = 100,
-        .baseSpeed     = 35,
+        .baseAttack    = 70,
+        .baseDefense   = 105,
+        .baseSpeed     = 40,
         .baseSpAttack  = 40,
         .baseSpDefense = 70,
         .type1 = TYPE_STEEL,

@@ -4395,7 +4395,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
-    .lvl = 13,
+    .lvl = 12,
     .species = SPECIES_NOSEPASS,
     .nature = NATURE_CAREFUL,
     .ability = ABILITYSLOT_TWO,
@@ -4403,15 +4403,15 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     },
     {
     .iv = 150,
-    .lvl = 14,
+    .lvl = 13,
     .species = SPECIES_GEODUDE,
     .nature = NATURE_CAREFUL,
 	.ability = ABILITYSLOT_TWO,
     .moves = {MOVE_SMOKESCREEN, MOVE_MAGNITUDE, MOVE_POISON_GAS, MOVE_ROCK_THROW}
     },
     {
-    .iv = 100,
-    .lvl = 14,
+    .iv = 50,
+    .lvl = 13,
     .species = SPECIES_GRAVELER,
     .nature = NATURE_CAREFUL,
     .ability = ABILITYSLOT_TWO,
