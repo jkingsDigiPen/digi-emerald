@@ -4414,7 +4414,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roxanne1[] = {
     .lvl = 13,
     .species = SPECIES_GRAVELER,
     .nature = NATURE_CAREFUL,
-    .ability = ABILITYSLOT_TWO,
+    .ability = ABILITYSLOT_ONE,
     .moves = {MOVE_SMOG, MOVE_MACH_PUNCH, MOVE_MAGNITUDE, MOVE_ROCK_TOMB}
     }
 };
