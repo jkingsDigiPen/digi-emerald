@@ -3803,36 +3803,24 @@ static const union AnimCmd sAnim_TROPIUS_1[] =
     ANIMCMD_END,
 };
 
+// Shoutmon
 static const union AnimCmd sAnim_WHISMUR_1[] =
 {
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 9),
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 9),
-    ANIMCMD_FRAME(0, 33),
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 9),
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 9),
-    ANIMCMD_FRAME(0, 9),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Shoutmon X2
 static const union AnimCmd sAnim_LOUDRED_1[] =
 {
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 9),
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 9),
-    ANIMCMD_FRAME(0, 33),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Shoutmon X3
 static const union AnimCmd sAnim_EXPLOUD_1[] =
 {
-    ANIMCMD_FRAME(0, 9),
-    ANIMCMD_FRAME(1, 44),
-    ANIMCMD_FRAME(0, 9),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
