@@ -43,3 +43,4 @@ tools-extra/
 graphics-digi/
 sound-digi/
 *.code-workspace
+*.bak
