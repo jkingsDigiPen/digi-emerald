@@ -2130,9 +2130,9 @@ const u8 gTropiusPokedexText[] = _(
 // Shoutmon
 const u8 gWhismurPokedexText[] = _(
     "It uses its microphone to amplify its\n"
-    "voice and its emotions into powerful\n"
-    "weapons. Sometimes it even uses\n"
-    "the mic as a blunt instrument.");
+    "voice and its emotions, turning them into\n"
+    "powerful attacks. Even the mic itself\n"
+    "can be used as a bludgeoning weapon.");
 
 // Shoutmon X2
 const u8 gLoudredPokedexText[] = _(
