@@ -28080,6 +28080,7 @@ static const u16 sIncineroarTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Syakomon
 static const u16 sPopplioTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
@@ -28106,6 +28107,7 @@ static const u16 sPopplioTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Shellmon
 static const u16 sBrionneTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
@@ -28132,6 +28134,7 @@ static const u16 sBrionneTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Mermaimon
 static const u16 sPrimarinaTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
