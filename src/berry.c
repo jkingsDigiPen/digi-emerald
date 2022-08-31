@@ -13,6 +13,7 @@
 #include "text.h"
 #include "constants/event_object_movement.h"
 #include "constants/items.h"
+#include "constants/region_map_sections.h"
 
 static u32 GetEnigmaBerryChecksum(struct EnigmaBerry *enigmaBerry);
 static bool32 BerryTreeGrow(struct BerryTree *tree);
@@ -1438,20 +1439,25 @@ const struct BerryTree gBlankBerryTree = {};
 // unused
 void ClearEnigmaBerries(void)
 {
+    #ifndef BIGGER_BAG
     CpuFill16(0, &gSaveBlock1Ptr->enigmaBerry, sizeof(gSaveBlock1Ptr->enigmaBerry));
+    #endif
 }
 
 void SetEnigmaBerry(u8 *src)
 {
+    #ifndef BIGGER_BAG
     u32 i;
     u8 *dest = (u8 *)&gSaveBlock1Ptr->enigmaBerry;
 
     for (i = 0; i < sizeof(gSaveBlock1Ptr->enigmaBerry); i++)
         dest[i] = src[i];
+    #endif
 }
 
 static u32 GetEnigmaBerryChecksum(struct EnigmaBerry *enigmaBerry)
 {
+    #ifndef BIGGER_BAG
     u32 i;
     u32 checksum;
     u8 *dest;
@@ -1462,10 +1468,14 @@ static u32 GetEnigmaBerryChecksum(struct EnigmaBerry *enigmaBerry)
         checksum += dest[i];
 
     return checksum;
+    #else
+    return 0;
+    #endif
 }
 
 bool32 IsEnigmaBerryValid(void)
 {
+    #ifndef BIGGER_BAG
     if (!gSaveBlock1Ptr->enigmaBerry.berry.stageDuration)
         return FALSE;
     if (!gSaveBlock1Ptr->enigmaBerry.berry.maxYield)
@@ -1473,12 +1483,19 @@ bool32 IsEnigmaBerryValid(void)
     if (GetEnigmaBerryChecksum(&gSaveBlock1Ptr->enigmaBerry) != gSaveBlock1Ptr->enigmaBerry.checksum)
         return FALSE;
     return TRUE;
+    #else
+    return FALSE;
+    #endif
 }
 
 const struct Berry *GetBerryInfo(u8 berry)
 {
     if (berry == ITEM_TO_BERRY(ITEM_ENIGMA_BERRY_E_READER) && IsEnigmaBerryValid())
-        return (struct Berry *)(&gSaveBlock1Ptr->enigmaBerry.berry);
+        #ifndef BIGGER_BAG
+        return (struct Berry*)(&gSaveBlock1Ptr->enigmaBerry.berry);
+        #else
+        return 0;
+        #endif
     else
     {
         if (berry == BERRY_NONE || berry > ITEM_TO_BERRY(LAST_BERRY_INDEX))
@@ -1557,7 +1574,7 @@ static bool32 BerryTreeGrow(struct BerryTree *tree)
     case BERRY_STAGE_TALLER:
         tree->stage++;
         break;
-    case BERRY_STAGE_BERRIES:
+    /*case BERRY_STAGE_BERRIES:
         tree->watered1 = 0;
         tree->watered2 = 0;
         tree->watered3 = 0;
@@ -1566,7 +1583,7 @@ static bool32 BerryTreeGrow(struct BerryTree *tree)
         tree->stage = BERRY_STAGE_SPROUTED;
         if (++tree->regrowthCount == 10)
             *tree = gBlankBerryTree;
-        break;
+        break;*/
     }
     return TRUE;
 }
@@ -1580,14 +1597,14 @@ void BerryTreeTimeUpdate(s32 minutes)
     {
         tree = &gSaveBlock1Ptr->berryTrees[i];
 
-        if (tree->berry && tree->stage && !tree->stopGrowth)
+        if (tree->berry && tree->stage && !tree->stopGrowth && (tree->stage != BERRY_STAGE_BERRIES))
         {
-            if (minutes >= GetStageDurationByBerryType(tree->berry) * 71)
+            /*if (minutes >= GetStageDurationByBerryType(tree->berry) * 71)
             {
                 *tree = gBlankBerryTree;
             }
             else
-            {
+            {*/
                 s32 time = minutes;
 
                 while (time != 0)
@@ -1604,7 +1621,7 @@ void BerryTreeTimeUpdate(s32 minutes)
                     if (tree->stage == BERRY_STAGE_BERRIES)
                         tree->minutesUntilNextStage *= 4;
                 }
-            }
+            //}
         }
     }
 }
@@ -1744,7 +1761,14 @@ static u8 CalcBerryYield(struct BerryTree *tree)
 
 static u8 GetBerryCountByBerryTreeId(u8 id)
 {
-    return gSaveBlock1Ptr->berryTrees[id].berryYield;
+    struct BerryTree *tree = GetBerryTreeInfo(id);
+    const struct Berry *berry = GetBerryInfo(tree->berry);
+    u16 currentMap = gMapHeader.regionMapSectionId;
+
+    if (currentMap == MAPSEC_ROUTE_119 || currentMap == MAPSEC_ROUTE_120 || currentMap == MAPSEC_ROUTE_123)
+        return berry->maxYield;
+    else
+        return gSaveBlock1Ptr->berryTrees[id].berryYield;
 }
 
 static u16 GetStageDurationByBerryType(u8 berry)
@@ -1786,6 +1810,8 @@ void ObjectEventInteractionGetBerryCountString(void)
     u8 treeId = GetObjectEventBerryTreeId(gSelectedObjectEvent);
     u8 berry = GetBerryTypeByBerryTreeId(treeId);
     u8 count = GetBerryCountByBerryTreeId(treeId);
+    
+    gSpecialVar_0x8006 = BerryTypeToItemId(berry);
     GetBerryCountStringByBerryType(berry, gStringVar1, count);
 }
 

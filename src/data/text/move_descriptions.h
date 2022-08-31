@@ -711,7 +711,7 @@ static const u8 sSnoreDescription[] = _(
 
 static const u8 sCurseDescription[] = _(
     "A move that functions\n"
-    "differently for GHOSTS.");
+    "differently for Ghosts.");
 
 static const u8 sFlailDescription[] = _(
     "Inflicts more damage when\n"
@@ -1139,7 +1139,7 @@ static const u8 sRevengeDescription[] = _(
 
 static const u8 sBrickBreakDescription[] = _(
     "Destroys barriers such as\n"
-    "REFLECT and causes damage.");
+    "Reflect and causes damage.");
 
 static const u8 sYawnDescription[] = _(
     "Lulls the foe into yawning,\n"
@@ -2450,11 +2450,11 @@ static const u8 sBanefulBunkerDescription[] = _(
     "foes on contact.");
 
 static const u8 sSpiritShackleDescription[] = _(
-    "After being hit, foes can\n"
-    "no longer escape.");
+    "Shoots a magical arrow\n"
+    "that pins a foe in place.");
 
 static const u8 sDarkestLariatDescription[] = _(
-    "Swings the arms to strike\n"
+    "Swings the arms to strike.\n"
     "It ignores stat changes.");
 
 static const u8 sSparklingAriaDescription[] = _(

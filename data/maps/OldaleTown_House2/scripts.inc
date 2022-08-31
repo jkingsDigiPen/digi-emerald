@@ -9,12 +9,12 @@ OldaleTown_House2_EventScript_Man::
 	msgbox OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon, MSGBOX_NPC
 	end
 
-OldaleTown_House2_Text_PokemonLevelUp:
-	.string "When POKéMON battle, they eventually\n"
+OldaleTown_House2_Text_PokemonLevelUp: @ 81FBF6D
+	.string "When Digimon battle, they eventually\n"
 	.string "level up and become stronger.$"
 
-OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon:
-	.string "If the POKéMON with you become\n"
+OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon: @ 81FBFB0
+	.string "If the Digimon with you become\n"
 	.string "stronger, you'll be able to go farther\l"
 	.string "away from here.$"
 

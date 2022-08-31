@@ -38,3 +38,9 @@ porymap.project.cfg
 *.diff
 *.sym
 *.js
+*.lnk
+tools-extra/
+graphics-digi/
+sound-digi/
+*.code-workspace
+*.bak

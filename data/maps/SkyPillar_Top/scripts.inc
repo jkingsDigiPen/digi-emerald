@@ -180,6 +180,6 @@ SkyPillar_Top_Movement_CameraPanDown:
 	walk_slow_down
 	step_end
 
-SkyPillar_Top_Text_RayquazaFlewOff:
-	.string "The awakened RAYQUAZA flew off…$"
+SkyPillar_Top_Text_RayquazaFlewOff: @ 8239860
+	.string "The awakened Rayquaza flew off…$"
 

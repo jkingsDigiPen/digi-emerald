@@ -271,8 +271,8 @@ DewfordTown_Hall_Text_GettingBoredOfTrend:
 	.string "But I'm getting kind of bored with it.\p"
 	.string "I should look for the next big thing.$"
 
-DewfordTown_Hall_Text_TeachingMonAboutTrend:
-	.string "I'm teaching my POKéMON about\n"
+DewfordTown_Hall_Text_TeachingMonAboutTrend: @ 81FD8ED
+	.string "I'm teaching my Pokémon about\n"
 	.string "“{STR_VAR_1},”\l"
 	.string "but it's not going well.\p"
 	.string "It's a bit too much, I think.$"
@@ -311,7 +311,7 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "“{STR_VAR_1}”\l"
 	.string "licensed merchandise.\p"
 	.string "I have official\n"
-	.string "“{STR_VAR_1}” DOLLS…\p"
+	.string "“{STR_VAR_1}” Dolls…\p"
 	.string "Official “{STR_VAR_1}”\n"
 	.string "brand clothing…\p"
 	.string "And officially licensed\n"
@@ -320,32 +320,32 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "Heheh, I own!\n"
 	.string "I'm not sharing anything with you!$"
 
-DewfordTown_Hall_Text_BooksAboutTrend:
-	.string "IDENTIFYING GOOD\n"
+DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
+	.string "Identifying Good\n"
 	.string "“{STR_VAR_1}” &\l"
-	.string "BAD “{STR_VAR_1}”…\p"
-	.string "THE LINK BETWEEN\n"
-	.string "“{STR_VAR_1}” AND\l"
-	.string "POKéMON…\p"
-	.string "USEFUL\n"
+	.string "Bad “{STR_VAR_1}”…\p"
+	.string "The Link Between\n"
+	.string "“{STR_VAR_1}” And\l"
+	.string "Pokémon…\p"
+	.string "Useful\n"
 	.string "“{STR_VAR_1}”…\p"
 	.string "It's neatly jammed with books about\n"
 	.string "“{STR_VAR_1}.”$"
 
-DewfordTown_Hall_Text_TrendsScream:
-	.string "“{STR_VAR_1}'S\n"
-	.string "SCREAM” is the title.$"
+DewfordTown_Hall_Text_TrendsScream: @ 81FDC05
+	.string "“{STR_VAR_1}'s\n"
+	.string "Scream” is the title.$"
 
-DewfordTown_Hall_Text_TrendsSmile:
-	.string "“{STR_VAR_1}'S\n"
-	.string "SMILE” is the title.$"
+DewfordTown_Hall_Text_TrendsSmile: @ 81FDC21
+	.string "“{STR_VAR_1}'s\n"
+	.string "Smile” is the title.$"
 
-DewfordTown_Hall_Text_LastTrend:
-	.string "It's titled “THE LAST\n"
+DewfordTown_Hall_Text_LastTrend: @ 81FDC3C
+	.string "It's titled “The Last\n"
 	.string "{STR_VAR_1}”.$"
 
-DewfordTown_Hall_Text_BirthOfTrend:
-	.string "It's titled “THE BIRTH OF\n"
+DewfordTown_Hall_Text_BirthOfTrend: @ 81FDC57
+	.string "It's titled “The Birth Of\n"
 	.string "{STR_VAR_1}”.$"
 
 DewfordTown_Hall_Text_SawTrendCoolestThing:
@@ -415,7 +415,7 @@ DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
 	.string "you're awake or asleep.\p"
 	.string "Absolutely, you're the\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "PROFESSOR, old sport!$"
+	.string "Professor, old sport!$"
 
 DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
 	.string "If you and me team up as a combo,\n"
@@ -425,21 +425,21 @@ DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
 DewfordTown_Hall_Text_WellBeTrendDuo:
 	.string "Spot on, my friend!\p"
 	.string "We shall be the\n"
-	.string "“{STR_VAR_1}” DUO!\p"
+	.string "“{STR_VAR_1}” Duo!\p"
 	.string "Isn't that a ripe image?\n"
 	.string "Hahahah!$"
 
-DewfordTown_Hall_Text_GiveYouSludgeBomb:
-	.string "For me, SLUDGE BOMB is at the peak\n"
+DewfordTown_Hall_Text_GiveYouSludgeBomb: @ 81FE142
+	.string "For me, Sludge Bomb is at the peak\n"
 	.string "of popularity. It's the one.\p"
 	.string "Hunh? You're telling me that you don't\n"
-	.string "know about SLUDGE BOMB?\p"
+	.string "know about Sludge Bomb?\p"
 	.string "That's outright pitiful.\n"
 	.string "I'll give you one.$"
 
-DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
-	.string "I love SLUDGE BOMB.\p"
-	.string "But POKéMON with the move\n"
+DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo: @ 81FE1ED
+	.string "I love Sludge Bomb.\p"
+	.string "But Pokémon with the move\n"
 	.string "“{STR_VAR_1}”\l"
 	.string "are in, too.$"
 

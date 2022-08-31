@@ -1735,6 +1735,24 @@
 	.2byte \quantity
 	.endm
 
+	.macro showdescription
+	.byte 0xe3
+	.endm
+
+	.macro showitemdesc
+	setvar VAR_0x8009, 0
+	showdescription
+	.endm
+
+	.macro showberrydesc
+	setvar VAR_0x8009, 1
+	showdescription
+	.endm
+
+	.macro hideitemdesc
+	.byte 0xe4
+	.endm
+
 
 @ Supplementary
 
@@ -2006,7 +2024,6 @@
 	.macro totemboost_evas2 battler:req
 	settotemboost \battler, 0, 0, 0, 0, 0, 0, 2
 	.endm
-
 	@ Attempts to trigger a special evolution method in the overworld.
 	@ There may be other conditions required which are coded for in GetEvolutionTargetSpecies.
 	@ EX: tryspecialevo EVO_WATER_SCROLL, FALSE, FALSE triggers Kubfu's EVO_WATER_SCROLL evolution

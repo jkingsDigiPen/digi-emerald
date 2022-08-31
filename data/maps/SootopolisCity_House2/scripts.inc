@@ -18,8 +18,8 @@ SootopolisCity_House2_EventScript_DontKnowAboutOrbs::
 	msgbox SootopolisCity_House2_Text_OughtToVisitAndSee, MSGBOX_DEFAULT
 	return
 
-SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs:
-	.string "MT. PYRE…\p"
+SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs: @ 8226AAB
+	.string "Mt. Pyre…\p"
 	.string "At its peak are two orbs placed side\n"
 	.string "by side. Did you know?$"
 

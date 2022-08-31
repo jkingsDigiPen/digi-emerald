@@ -21,6 +21,7 @@
 #include "overworld.h"
 #include "item.h"
 #include "constants/items.h"
+#include "constants/hold_effects.h"
 #include "constants/moves.h"
 #include "constants/region_map_sections.h"
 
@@ -264,8 +265,36 @@ static u16 TakeSelectedPokemonFromDaycare(struct DaycareMon *daycareMon)
     
     if (GetMonData(&pokemon, MON_DATA_LEVEL) != MAX_LEVEL)
     {
+        u8 level;
+        u8 i;
+        u8 cap;
+
         experience = GetMonData(&pokemon, MON_DATA_EXP) + daycareMon->steps;
         SetMonData(&pokemon, MON_DATA_EXP, &experience);
+        level = GetLevelFromMonExp(&pokemon);
+
+        for (i = 0; i < NUM_SOFT_CAPS; i++)
+        {
+            if (i <= 2)
+                cap = sLevelCaps[i] / 2;
+            else
+                cap = sLevelCaps[i];
+
+            if (!FlagGet(sLevelCapFlags[i]) && level >= cap)
+            {
+                u8 levelDiff;
+                u32 newSteps;
+
+                levelDiff = level - cap;
+
+                newSteps = daycareMon->steps / (levelDiff + 1);
+                experience = GetBoxMonData(&daycareMon->mon, MON_DATA_EXP) + newSteps;
+
+                SetMonData(&pokemon, MON_DATA_EXP, &experience);
+                break;
+            }
+        }
+
         ApplyDaycareExperience(&pokemon);
     }
 
@@ -298,9 +327,38 @@ u16 TakePokemonFromDaycare(void)
 static u8 GetLevelAfterDaycareSteps(struct BoxPokemon *mon, u32 steps)
 {
     struct BoxPokemon tempMon = *mon;
-
     u32 experience = GetBoxMonData(mon, MON_DATA_EXP) + steps;
-    SetBoxMonData(&tempMon, MON_DATA_EXP,  &experience);
+    u8 i;
+    u8 level;
+    u8 cap;
+
+    // set experience now to be able to get levelAfter
+    SetBoxMonData(&tempMon, MON_DATA_EXP, &experience);
+    level = GetLevelFromBoxMonExp(&tempMon);
+
+    // loop through to check caps
+    for (i = 0; i < NUM_SOFT_CAPS; i++)
+    {
+        if (i <= 2)
+            cap = sLevelCaps[i] / 2;
+        else
+            cap = sLevelCaps[i];
+
+        if (!FlagGet(sLevelCapFlags[i]) && level >= cap)
+        {
+            u8 levelDiff;
+            u32 newSteps;
+
+            levelDiff = level - cap;
+
+            newSteps = steps / (levelDiff + 1);
+            experience = GetBoxMonData(mon, MON_DATA_EXP) + newSteps;
+
+            SetBoxMonData(&tempMon, MON_DATA_EXP, &experience);
+            break;
+        }
+    }
+
     return GetLevelFromBoxMonExp(&tempMon);
 }
 
@@ -539,11 +597,12 @@ static void RemoveIVIndexFromList(u8 *ivs, u8 selectedIv)
 
 static void InheritIVs(struct Pokemon *egg, struct DayCare *daycare)
 {
-    u8 i;
-    u8 selectedIvs[INHERITED_IV_COUNT];
+    u8 i, j, k, index;
+    u8 selectedIvs[INHERITED_IV_DESTINY_KNOT_COUNT];
     u8 availableIVs[NUM_STATS];
-    u8 whichParents[INHERITED_IV_COUNT];
+    u8 whichParents[INHERITED_IV_DESTINY_KNOT_COUNT];
     u8 iv;
+	u8 inheritedN = INHERITED_IV_COUNT;
 
     // Initialize a list of IV indices.
     for (i = 0; i < NUM_STATS; i++)
@@ -551,33 +610,44 @@ static void InheritIVs(struct Pokemon *egg, struct DayCare *daycare)
         availableIVs[i] = i;
     }
 
-    // Select the 3 IVs that will be inherited.
-    for (i = 0; i < INHERITED_IV_COUNT; i++)
+    // search for power items or destiny knot
+	k = 0;
+    for (i = 0; i < DAYCARE_MON_COUNT; i++)
+    { 
+        u16 item = GetBoxMonData(&daycare->mons[i].mon, MON_DATA_HELD_ITEM);
+		if (gItems[item].holdEffect == HOLD_EFFECT_POWER_ITEM)
+		{
+			index = gItems[item].secondaryId;
+			for (j = 0; j <= index; j++)
+				if (availableIVs[j] == index)
+				{
+					selectedIvs[k] = index;
+					RemoveIVIndexFromList(availableIVs, index);
+					whichParents[k] = i;
+					k++;
+					break;
+				}
+		}
+		else if (gItems[item].holdEffect == HOLD_EFFECT_DESTINY_KNOT)
+			inheritedN = INHERITED_IV_DESTINY_KNOT_COUNT;
+    }
+	
+    // Select the 1-5 remaining IVs that will be inherited randomly.
+    for (i = k; i < inheritedN; i++)
     {
-        // Randomly pick an IV from the available list and stop from being chosen again.
-        // BUG: Instead of removing the IV that was just picked, this
-        // removes position 0 (HP) then position 1 (DEF), then position 2. This is why HP and DEF
-        // have a lower chance to be inherited in Emerald and why the IV picked for inheritance can
-        // be repeated. Amusingly, FRLG and RS also got this wrong. They remove selectedIvs[i], which
-        // is not an index! This means that it can sometimes remove the wrong stat.
-        #ifndef BUGFIX
-        selectedIvs[i] = availableIVs[Random() % (NUM_STATS - i)];
-        RemoveIVIndexFromList(availableIVs, i);
-        #else
-        u8 index = Random() % (NUM_STATS - i);
+        index = Random() % (NUM_STATS - i);
         selectedIvs[i] = availableIVs[index];
         RemoveIVIndexFromList(availableIVs, index);
-        #endif
     }
 
-    // Determine which parent each of the selected IVs should inherit from.
-    for (i = 0; i < INHERITED_IV_COUNT; i++)
+    // Determine which parent each of the random IVs should inherit from.
+    for (i = k; i < inheritedN; i++)
     {
         whichParents[i] = Random() % DAYCARE_MON_COUNT;
     }
 
     // Set each of inherited IVs on the egg mon.
-    for (i = 0; i < INHERITED_IV_COUNT; i++)
+    for (i = 0; i < inheritedN; i++)
     {
         switch (selectedIvs[i])
         {
@@ -611,7 +681,7 @@ static void InheritIVs(struct Pokemon *egg, struct DayCare *daycare)
 
 // Counts the number of egg moves a pokemon learns and stores the moves in
 // the given array.
-static u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves)
+u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves)
 {
     u16 eggMoveIdx;
     u16 numEggMoves;
@@ -640,6 +710,61 @@ static u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves)
     }
 
     return numEggMoves;
+}
+u8 GetEggMovesSpecies(u16 species, u16 *eggMoves)
+{
+    u16 eggMoveIdx;
+    u16 numEggMoves;
+    u16 i;
+
+    numEggMoves = 0;
+    eggMoveIdx = 0;
+    for (i = 0; i < ARRAY_COUNT(gEggMoves) - 1; i++)
+    {
+        if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
+        {
+            eggMoveIdx = i + 1;
+            break;
+        }
+    }
+
+    for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
+    {
+        if (gEggMoves[eggMoveIdx + i] > EGG_MOVES_SPECIES_OFFSET)
+        {
+            // TODO: the curly braces around this if statement are required for a matching build.
+            break;
+        }
+
+        eggMoves[i] = gEggMoves[eggMoveIdx + i];
+        numEggMoves++;
+    }
+
+    return numEggMoves;
+}
+bool8 SpeciesCanLearnEggMove(u16 species, u16 move) //Move search PokedexPlus HGSS_Ui
+{
+    u16 eggMoveIdx;
+    u16 i;
+    eggMoveIdx = 0;
+    for (i = 0; i < ARRAY_COUNT(gEggMoves) - 1; i++)
+    {
+        if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
+        {
+            eggMoveIdx = i + 1;
+            break;
+        }
+    }
+
+    for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
+    {
+        if (gEggMoves[eggMoveIdx + i] > EGG_MOVES_SPECIES_OFFSET)
+            return FALSE;
+
+        if (move == gEggMoves[eggMoveIdx + i])
+            return TRUE;
+    }
+    return FALSE;
 }
 
 static void BuildEggMoveset(struct Pokemon *egg, struct BoxPokemon *father, struct BoxPokemon *mother)

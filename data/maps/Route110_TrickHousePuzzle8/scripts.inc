@@ -30,20 +30,20 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 Route110_TrickHousePuzzle8_EventScript_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
-	.string "“TRICK MASTER I love.”\n"
+	.string "“Trick Master I love.”\n"
 	.string "… … … … … … … …\p"
 	.string "The lock clicked open!$"
 
-Route110_TrickHousePuzzle8_Text_VincentIntro:
-	.string "Not many TRAINERS have made it\n"
+Route110_TrickHousePuzzle8_Text_VincentIntro: @ 826E8CD
+	.string "Not many Trainers have made it\n"
 	.string "this far.$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
 	.string "That must mean you're tough, too…$"
 
-Route110_TrickHousePuzzle8_Text_VincentPostBattle:
-	.string "You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!$"
+Route110_TrickHousePuzzle8_Text_VincentPostBattle: @ 826E918
+	.string "You've beaten the Pokémon League\n"
+	.string "Champion? That's too much!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
 	.string "Consider yourself lucky to be\n"
@@ -57,9 +57,9 @@ Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
 	.string "It's a miracle that you beat me.\n"
 	.string "You can brag about it.$"
 
-Route110_TrickHousePuzzle8_Text_LeroyIntro:
-	.string "You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.$"
+Route110_TrickHousePuzzle8_Text_LeroyIntro: @ 826E9D7
+	.string "You've been slugging through the Trick\n"
+	.string "House challenge, too.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 	.string "I see…\n"
@@ -67,5 +67,5 @@ Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
 	.string "Seeing someone like you should please\n"
-	.string "the TRICK MASTER.$"
+	.string "the Trick Master.$"
 

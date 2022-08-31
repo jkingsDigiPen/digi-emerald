@@ -123,6 +123,9 @@ static void EndDrawPartyStatusSummary(void);
 
 static void ReloadMoveNames(void);
 
+// Display type effectiveness
+static void MoveSelectionDisplayMoveTypeDoubles(u8 targetId);
+
 static void (*const sPlayerBufferCommands[CONTROLLER_CMDS_COUNT])(void) =
 {
     [CONTROLLER_GETMONDATA]               = PlayerHandleGetMonData,
@@ -436,6 +439,8 @@ static void HandleInputChooseTarget(void)
                     i++;
                     break;
                 }
+                // Display type effectiveness
+                MoveSelectionDisplayMoveTypeDoubles(GetBattlerPosition(gMultiUsePlayerCursor));
 
                 if (gAbsentBattlerFlags & gBitTable[gMultiUsePlayerCursor]
                  || !CanTargetBattler(gActiveBattler, gMultiUsePlayerCursor, move))
@@ -486,6 +491,8 @@ static void HandleInputChooseTarget(void)
                     i++;
                     break;
                 }
+                // Display type effectiveness
+                MoveSelectionDisplayMoveTypeDoubles(GetBattlerPosition(gMultiUsePlayerCursor));
 
                 if (gAbsentBattlerFlags & gBitTable[gMultiUsePlayerCursor]
                  || !CanTargetBattler(gActiveBattler, gMultiUsePlayerCursor, move))
@@ -1725,7 +1732,9 @@ static void MoveSelectionDisplayMoveType(void)
     *(txtPtr)++ = FONT_NORMAL;
 
     StringCopy(txtPtr, gTypeNames[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type]);
-    BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MOVE_TYPE);
+
+    // Modified for display type effectiveness
+    BattlePutTextOnWindow(gDisplayedStringBattle, GetTypeEffectiveness(moveInfo, 1));
 }
 
 void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 baseTileNum)
@@ -3394,4 +3403,21 @@ static void PlayerHandleBattleDebug(void)
 
 static void PlayerCmdEnd(void)
 {
+}
+
+static void MoveSelectionDisplayMoveTypeDoubles(u8 targetId)
+{
+	u8 *txtPtr;
+	struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct*)(&gBattleResources->bufferA[gActiveBattler][4]);
+
+	txtPtr = StringCopy(gDisplayedStringBattle, gText_MoveInterfaceType);
+	txtPtr[0] = EXT_CTRL_CODE_BEGIN;
+	txtPtr++;
+	txtPtr[0] = 6;
+	txtPtr++;
+	txtPtr[0] = 1;
+	txtPtr++;
+
+	StringCopy(txtPtr, gTypeNames[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type]);
+	BattlePutTextOnWindow(gDisplayedStringBattle, GetTypeEffectiveness(moveInfo, targetId));
 }

@@ -14,6 +14,7 @@
 #include "strings.h"
 #include "task.h"
 #include "trainer_hill.h"
+#include "constants/abilities.h"
 #include "constants/field_poison.h"
 #include "constants/party_menu.h"
 
@@ -44,7 +45,7 @@ static void FaintFromFieldPoison(u8 partyIdx)
     struct Pokemon *pokemon = &gPlayerParty[partyIdx];
     u32 status = STATUS1_NONE;
 
-    AdjustFriendship(pokemon, FRIENDSHIP_EVENT_FAINT_FIELD_PSN);
+    //AdjustFriendship(pokemon, FRIENDSHIP_EVENT_FAINT_FIELD_PSN);
     SetMonData(pokemon, MON_DATA_STATUS, &status);
     GetMonData(pokemon, MON_DATA_NICKNAME, gStringVar1);
     StringGet_Nickname(gStringVar1);
@@ -52,10 +53,11 @@ static void FaintFromFieldPoison(u8 partyIdx)
 
 static bool32 MonFaintedFromPoison(u8 partyIdx)
 {
-    struct Pokemon *pokemon = &gPlayerParty[partyIdx];
-    if (IsMonValidSpecies(pokemon) && GetMonData(pokemon, MON_DATA_HP) == 0 && GetAilmentFromStatus(GetMonData(pokemon, MON_DATA_STATUS)) == AILMENT_PSN)
+    struct Pokemon *pokemon = gPlayerParty + partyIdx;
+    if (IsMonValidSpecies(pokemon) && GetMonData(pokemon, MON_DATA_HP) == 1 && GetAilmentFromStatus(GetMonData(pokemon, MON_DATA_STATUS)) == AILMENT_PSN)
+    {
         return TRUE;
-
+    }
     return FALSE;
 }
 
@@ -123,13 +125,16 @@ s32 DoPoisonFieldEffect(void)
 
     for (i = 0; i < PARTY_SIZE; i++)
     {
-        if (GetMonData(pokemon, MON_DATA_SANITY_HAS_SPECIES) && GetAilmentFromStatus(GetMonData(pokemon, MON_DATA_STATUS)) == AILMENT_PSN)
+        if (GetMonData(pokemon, MON_DATA_SANITY_HAS_SPECIES) &&
+        GetAilmentFromStatus(GetMonData(pokemon, MON_DATA_STATUS)) == AILMENT_PSN &&
+        GetMonAbility(&gPlayerParty[i]) != ABILITY_POISON_HEAL)
         {
             // Apply poison damage
             hp = GetMonData(pokemon, MON_DATA_HP);
-            if (hp == 0 || --hp == 0)
+            if (hp == 1 || --hp == 1)
+            {
                 numFainted++;
-
+            }
             SetMonData(pokemon, MON_DATA_HP, &hp);
             numPoisoned++;
         }

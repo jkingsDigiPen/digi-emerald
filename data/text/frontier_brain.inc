@@ -20,8 +20,8 @@ gText_TuckerDefeatSilver::
 	.string "Grr…\n"
 	.string "What the…$"
 
-gText_TuckerWonGold::
-	.string "My DOME ACE title isn't just for show!$"
+gText_TuckerWonGold:: @ 82C84D0
+	.string "My Dome Ace title isn't just for show!$"
 
 gText_TuckerDefeatGold::
 	.string "Ahahaha!\n"
@@ -74,9 +74,9 @@ gText_GretaDefeatGold::
 	.string "Are you serious?!$"
 
 @ Battle Palace
-gText_SpenserWonSilver::
-	.string "Your POKéMON are wimpy because\n"
-	.string "you're wimpy as a TRAINER!$"
+gText_SpenserWonSilver:: @ 82C8628
+	.string "Your Pokémon are wimpy because\n"
+	.string "you're wimpy as a Trainer!$"
 
 gText_SpenserDefeatSilver::
 	.string "Ah…\n"

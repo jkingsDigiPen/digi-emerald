@@ -34,15 +34,15 @@ SlateportCity_Mart_EventScript_Man::
 	msgbox SlateportCity_Mart_Text_GreatBallIsBetter, MSGBOX_NPC
 	end
 
-SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
-	.string "The MARKET does have some interesting\n"
+SlateportCity_Mart_Text_SomeItemsOnlyAtMart: @ 820DC88
+	.string "The Market does have some interesting\n"
 	.string "merchandise.\p"
 	.string "But there are some items you can only\n"
-	.string "get at a POKéMON MART.$"
+	.string "get at a Pokémon Mart.$"
 
-SlateportCity_Mart_Text_GreatBallIsBetter:
-	.string "A GREAT BALL is better than a POKé BALL\n"
-	.string "at catching POKéMON.\p"
+SlateportCity_Mart_Text_GreatBallIsBetter: @ 820DCF8
+	.string "A Great Ball is better than a Poké Ball\n"
+	.string "at catching Pokémon.\p"
 	.string "With this, I should be able to get that\n"
-	.string "elusive POKéMON…$"
+	.string "elusive Pokémon…$"
 

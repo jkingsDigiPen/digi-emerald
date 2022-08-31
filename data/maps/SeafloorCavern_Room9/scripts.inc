@@ -225,22 +225,22 @@ SeafloorCavern_Room9_Movement_Delay32:
 	delay_16
 	step_end
 
-SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-	.string "ARCHIE: Hold it right there.$"
+SeafloorCavern_Room9_Text_ArchieHoldItRightThere: @ 823505F
+	.string "Archie: Hold it right there.$"
 
-SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-	.string "ARCHIE: Fufufu…\n"
+SeafloorCavern_Room9_Text_ArchieSoItWasYou: @ 823507C
+	.string "Archie: Fufufu…\n"
 	.string "So it was you, after all.$"
 
-SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-	.string "ARCHIE: Behold!\p"
+SeafloorCavern_Room9_Text_ArchieBeholdKyogre: @ 82350A6
+	.string "Archie: Behold!\p"
 	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient POKéMON KYOGRE!\p"
+	.string "form of the ancient Pokémon Kyogre!\p"
 	.string "I have waited so long for this day to\n"
 	.string "come…$"
 
-SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-	.string "ARCHIE: It surprises me, how you've\n"
+SeafloorCavern_Room9_Text_ArchieYouMustDisappear: @ 823512C
+	.string "Archie: It surprises me, how you've\n"
 	.string "managed to chase me here.\p"
 	.string "But that's all over now.\p"
 	.string "For the realization of my dream,\n"
@@ -250,35 +250,35 @@ SeafloorCavern_Room9_Text_ArchieDefeat:
 	.string "What?!\n"
 	.string "I lost to a mere child like you?!$"
 
-SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-	.string "ARCHIE: Fufufu…\p"
+SeafloorCavern_Room9_Text_ArchieWithThisRedOrb: @ 82351E5
+	.string "Archie: Fufufu…\p"
 	.string "I commend you. I must recognize that\n"
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "With this Red Orb, I can make Kyogre…$"
 
-SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
+SeafloorCavern_Room9_Text_RedOrbShinesByItself: @ 8235279
+	.string "The Red Orb suddenly began shining\n"
 	.string "by itself!$"
 
-SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-	.string "ARCHIE: What?!\p"
+SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo: @ 82352A7
+	.string "Archie: What?!\p"
 	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "Why did the Red Orb…\p"
+	.string "Where did Kyogre go?$"
 
-SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "ARCHIE: Hm? It's a message from our\n"
+SeafloorCavern_Room9_Text_ArchieAMessageFromOutside: @ 82352F6
+	.string "Archie: Hm? It's a message from our\n"
 	.string "members outside…$"
 
-SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-	.string "ARCHIE: Yes, what is it?\p"
+SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
+	.string "Archie: Yes, what is it?\p"
 	.string "Hm…\n"
 	.string "It's raining heavily?\p"
 	.string "Good… That should have happened.\n"
-	.string "That is why we awakened KYOGRE,\l"
-	.string "to realize TEAM AQUA's vision of\l"
+	.string "That is why we awakened Kyogre,\l"
+	.string "to realize Team Aqua's vision of\l"
 	.string "expanding the sea.\p"
 	.string "What?!\p"
 	.string "It's raining far harder than we\n"
@@ -288,39 +288,39 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "Hold your position and monitor\n"
 	.string "the situation!$"
 
-SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-	.string "ARCHIE: There's something wrong…\p"
-	.string "The RED ORB is supposed to awaken\n"
-	.string "and control KYOGRE…\p"
+SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear: @ 823546F
+	.string "Archie: There's something wrong…\p"
+	.string "The Red Orb is supposed to awaken\n"
+	.string "and control Kyogre…\p"
 	.string "But… Why?\n"
-	.string "Why did KYOGRE disappear?\p"
+	.string "Why did Kyogre disappear?\p"
 	.string "Why?!$"
 
-SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-	.string "MAXIE: What have you wrought?\p"
-	.string "ARCHIE… You've finally awoken KYOGRE,\n"
+SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought: @ 82354F0
+	.string "Maxie: What have you wrought?\p"
+	.string "Archie… You've finally awoken Kyogre,\n"
 	.string "haven't you?\p"
 	.string "What will happen to the world if this\n"
 	.string "downpour continues for all eternity?\p"
 	.string "The world's landmass will drown in\n"
 	.string "the deepening sea…$"
 
-SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-	.string "ARCHIE: W-what?!\n"
+SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty: @ 82355C2
+	.string "Archie: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, TEAM MAGMA, that\n"
-	.string "infuriated GROUDON?\p"
-	.string "So long as I have this RED ORB,\n"
-	.string "I should be able to control KYOGRE…\p"
+	.string "Wasn't it you, Team Magma, that\n"
+	.string "infuriated Groudon?\p"
+	.string "So long as I have this Red Orb,\n"
+	.string "I should be able to control Kyogre…\p"
 	.string "I should be able to control it…$"
 
-SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-	.string "MAXIE: We don't have the time to\n"
+SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue: @ 8235692
+	.string "Maxie: We don't have the time to\n"
 	.string "argue about it here!\p"
 	.string "Get outside and see for yourself!\p"
 	.string "See if what you've wrought is the\n"
 	.string "world that we desired!$"
 
-SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "MAXIE: {PLAYER}, come on, you have\n"
+SeafloorCavern_Room9_Text_MaxieComeOnPlayer: @ 8235723
+	.string "Maxie: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"

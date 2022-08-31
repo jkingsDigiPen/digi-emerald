@@ -4315,6 +4315,15 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                         effect++;
                     }
                     break;
+                case WEATHER_SNOW:
+                    if (!(gBattleWeather & B_WEATHER_HAIL))
+                    {
+                        gBattleWeather = B_WEATHER_HAIL;
+                        gBattleScripting.animArg1 = B_ANIM_HAIL_CONTINUES;
+                        gBattleScripting.battler = battler;
+                        effect++;
+                    }
+                    break;
                 }
             }
             if (effect != 0)
@@ -7676,12 +7685,20 @@ u8 IsMonDisobedient(void)
 
         obedienceLevel = 10;
 
+        if (FlagGet(FLAG_BADGE01_GET))
+            obedienceLevel = 20;
         if (FlagGet(FLAG_BADGE02_GET))
             obedienceLevel = 30;
+        if (FlagGet(FLAG_BADGE03_GET))
+            obedienceLevel = 40;
         if (FlagGet(FLAG_BADGE04_GET))
             obedienceLevel = 50;
+        if (FlagGet(FLAG_BADGE05_GET))
+            obedienceLevel = 60;
         if (FlagGet(FLAG_BADGE06_GET))
             obedienceLevel = 70;
+        if (FlagGet(FLAG_BADGE07_GET))
+            obedienceLevel = 80;
     }
 
     if (gBattleMons[gBattlerAttacker].level <= obedienceLevel)
@@ -10264,4 +10281,77 @@ bool32 CanTargetBattler(u8 battlerAtk, u8 battlerDef, u16 move)
       && gStatuses3[battlerAtk] & STATUS3_HEAL_BLOCK)
         return FALSE;   // Pokémon affected by Heal Block cannot target allies with Pollen Puff
     return TRUE;
+}
+
+// Display type effectiveness
+u8 GetTypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId)
+{
+	bool8 isInverse = (B_FLAG_INVERSE_BATTLE != 0 && FlagGet(B_FLAG_INVERSE_BATTLE)) ? TRUE : FALSE;
+
+    // 10 - normal effectiveness
+    const static u8 NORMAL_EFFECTIVENESS = 10;
+    // 24 - super effective
+    const static u8 SUPER_EFFECTIVE = 24;
+    // 25 - not very effective
+    const static u8 NOT_VERY_EFFECTIVE = 25;
+    // 26 - no effect
+    const static u8 NO_EFFECT = 26;
+
+    u16 species = gBattleMons[targetId].species;
+
+    // Don't display anything if option is disabled OR mon has not been caught/defeated in battle yet
+    // (NOTE: We don't count mons that are given to the player as defeated, but they do count as caught,
+    // which is sufficient for purposes of deciding whether to show type effectiveness.)
+    if(gSaveBlock2Ptr->optionsShowTypeEffectiveness == OPTIONS_TYPE_EFFECTIVENESS_HIDE ||
+        !(GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_DEFEATED) || 
+        GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT)))
+    {
+        return NORMAL_EFFECTIVENESS;
+    }
+	
+	if (gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].power == 0)
+		return NORMAL_EFFECTIVENESS;
+	else
+	{
+		u16 mod = sTypeEffectivenessTable[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type][gBattleMons[targetId].type1];
+
+		if (gBattleMons[targetId].type2 != gBattleMons[targetId].type1)
+		{
+			u16 mod2 = sTypeEffectivenessTable[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type][gBattleMons[targetId].type2];
+			MulModifier(&mod, mod2);
+		}
+
+		if (gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].effect == EFFECT_TWO_TYPED_MOVE)
+		{
+			u16 mod3 = sTypeEffectivenessTable[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].argument][gBattleMons[targetId].type1];
+			MulModifier(&mod, mod3);
+
+			if (gBattleMons[targetId].type2 != gBattleMons[targetId].type1)
+			{
+				u16 mod4 = sTypeEffectivenessTable[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].argument][gBattleMons[targetId].type2];
+				MulModifier(&mod, mod4);
+			}
+		}
+
+		if (mod == UQ_4_12(0.0)) {
+			if(isInverse)
+				return SUPER_EFFECTIVE;
+			else
+				return NO_EFFECT;
+		}
+		else if (mod <= UQ_4_12(0.5)) {
+			if(isInverse)
+				return SUPER_EFFECTIVE;
+			else
+				return NOT_VERY_EFFECTIVE;
+		}
+		else if (mod >= UQ_4_12(2.0)) {
+			if(isInverse)
+				return NOT_VERY_EFFECTIVE;
+			else
+				return SUPER_EFFECTIVE;
+		}
+		else
+			return NORMAL_EFFECTIVENESS;
+	}
 }

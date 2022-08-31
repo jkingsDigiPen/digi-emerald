@@ -2475,11 +2475,11 @@ static void CalcDomeMonStats(u16 species, int level, int ivs, u8 evBits, u8 natu
             evs[i] = resultingEvs;
     }
 
-    if (species == SPECIES_SHEDINJA)
+    /*if (species == SPECIES_SHEDINJA)
     {
         stats[STAT_HP] = 1;
     }
-    else
+    else*/
     {
         int n = 2 * gBaseStats[species].baseHP;
         stats[STAT_HP] = (((n + ivs + evs[STAT_HP] / 4) * level) / 100) + level + 10;

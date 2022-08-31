@@ -575,6 +575,24 @@ static void Cmd_trygetbaddreamstarget(void);
 static void Cmd_tryworryseed(void);
 static void Cmd_metalburstdamagecalculator(void);
 
+const u16 sLevelCapFlags[NUM_SOFT_CAPS] =
+{
+    FLAG_BADGE01_GET, FLAG_BADGE02_GET, FLAG_BADGE03_GET, FLAG_BADGE04_GET,
+    FLAG_BADGE05_GET, FLAG_BADGE06_GET, FLAG_BADGE07_GET, FLAG_BADGE08_GET,
+    FLAG_IS_CHAMPION
+};
+const u16 sLevelCaps[NUM_SOFT_CAPS] = { 15, 19, 24, 29, 31, 33, 42, 46, 58 };
+const double sLevelCapReduction[7] = { .5, .33, .25, .20, .15, .10, .05 };
+const double sRelativePartyScaling[27] =
+{
+    3.00, 2.75, 2.50, 2.33, 2.25,
+    2.00, 1.80, 1.70, 1.60, 1.50,
+    1.40, 1.30, 1.20, 1.10, 1.00,
+    0.90, 0.80, 0.75, 0.66, 0.50,
+    0.40, 0.33, 0.25, 0.20, 0.15,
+    0.10, 0.05,
+};
+
 void (* const gBattleScriptingCommandsTable[])(void) =
 {
     Cmd_attackcanceler,                          //0x0
@@ -2577,7 +2595,7 @@ static void Cmd_waitmessage(void)
         else
         {
             u16 toWait = T2_READ_16(gBattlescriptCurrInstr + 1);
-            if (++gPauseCounterBattle >= toWait)
+            if (++gPauseCounterBattle >= toWait || (JOY_NEW(A_BUTTON | B_BUTTON)))
             {
                 gPauseCounterBattle = 0;
                 gBattlescriptCurrInstr += 3;
@@ -3908,6 +3926,72 @@ static void Cmd_jumpbasedontype(void)
     }
 }
 
+u8 GetTeamLevel(void)
+{
+    u8 i;
+    u16 partyLevel = 0;
+    u16 threshold = 0;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) != SPECIES_NONE)
+            partyLevel += gPlayerParty[i].level;
+        else
+            break;
+    }
+    partyLevel /= i;
+
+    threshold = partyLevel * .8;
+    partyLevel = 0;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) != SPECIES_NONE)
+        {
+            if (gPlayerParty[i].level >= threshold)
+                partyLevel += gPlayerParty[i].level;
+        }
+        else
+            break;
+    }
+    partyLevel /= i;
+
+    return partyLevel;
+}
+
+double GetPkmnExpMultiplier(u8 level)
+{
+    u8 i;
+    double lvlCapMultiplier = 1.0;
+    u8 levelDiff;
+    s8 avgDiff;
+
+    // multiply the usual exp yield by the soft cap multiplier
+    for (i = 0; i < NUM_SOFT_CAPS; i++)
+    {
+        if (!FlagGet(sLevelCapFlags[i]) && level >= sLevelCaps[i])
+        {
+            levelDiff = level - sLevelCaps[i];
+            if (levelDiff > 6)
+                levelDiff = 6;
+            lvlCapMultiplier = sLevelCapReduction[levelDiff];
+            break;
+        }
+    }
+
+    // multiply the usual exp yield by the party level multiplier
+    avgDiff = level - GetTeamLevel();
+
+    if (avgDiff >= 12)
+        avgDiff = 12;
+    else if (avgDiff <= -14)
+        avgDiff = -14;
+
+    avgDiff += 14;
+
+    return lvlCapMultiplier * sRelativePartyScaling[avgDiff];
+}
+
 static void Cmd_getexp(void)
 {
     u16 item;
@@ -3919,6 +4003,13 @@ static void Cmd_getexp(void)
 
     gBattlerFainted = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
     sentIn = gSentPokesToOpponent[(gBattlerFainted & 2) >> 1];
+
+    // Check if we should count this mon as defeated for dex purposes
+    if(GetBattlerSide(gBattlerFainted) == B_SIDE_OPPONENT)
+    {
+        GetSetPokedexFlag(SpeciesToNationalPokedexNum(
+            gBattleMons[gBattlerFainted].species), FLAG_SET_DEFEATED);
+    }
 
     switch (gBattleScripting.getexpState)
     {
@@ -3955,18 +4046,27 @@ static void Cmd_getexp(void)
                 item = GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM);
 
                 if (item == ITEM_ENIGMA_BERRY_E_READER)
+                {
+                    #ifndef BIGGER_BAG
                     holdEffect = gSaveBlock1Ptr->enigmaBerry.holdEffect;
+                    #else
+                    holdEffect = 0;
+                    #endif
+                }
                 else
                     holdEffect = ItemId_GetHoldEffect(item);
 
-                if (holdEffect == HOLD_EFFECT_EXP_SHARE)
-                    viaExpShare++;
+                //if (holdEffect == HOLD_EFFECT_EXP_SHARE)
+                //  viaExpShare++;
             }
             #if (B_SCALED_EXP >= GEN_5) && (B_SCALED_EXP != GEN_6)
                 calculatedExp = gBaseStats[gBattleMons[gBattlerFainted].species].expYield * gBattleMons[gBattlerFainted].level / 5;
             #else
                 calculatedExp = gBaseStats[gBattleMons[gBattlerFainted].species].expYield * gBattleMons[gBattlerFainted].level / 7;
             #endif
+
+            if (gSaveBlock2Ptr->optionsGen6ExpShare == OPTIONS_GEN6_XP_SHARE_ON) // exp share is turned on
+                viaExpShare = gSaveBlock1Ptr->playerPartyCount;
 
             #if B_SPLIT_EXP < GEN_6
                 if (viaExpShare) // at least one mon is getting exp via exp share
@@ -4004,11 +4104,17 @@ static void Cmd_getexp(void)
             item = GetMonData(&gPlayerParty[gBattleStruct->expGetterMonId], MON_DATA_HELD_ITEM);
 
             if (item == ITEM_ENIGMA_BERRY_E_READER)
+            {
+                #ifndef BIGGER_BAG
                 holdEffect = gSaveBlock1Ptr->enigmaBerry.holdEffect;
+                #else
+                holdEffect = 0;
+                #endif
+            }
             else
                 holdEffect = ItemId_GetHoldEffect(item);
 
-            if (holdEffect != HOLD_EFFECT_EXP_SHARE && !(gBattleStruct->sentInPokes & 1))
+            if (gSaveBlock2Ptr->optionsGen6ExpShare == OPTIONS_GEN6_XP_SHARE_OFF && !(gBattleStruct->sentInPokes & 1))
             {
                 *(&gBattleStruct->sentInPokes) >>= 1;
                 gBattleScripting.getexpState = 5;
@@ -4040,14 +4146,15 @@ static void Cmd_getexp(void)
 
                 if (GetMonData(&gPlayerParty[gBattleStruct->expGetterMonId], MON_DATA_HP))
                 {
+                    double expMultiplier = GetPkmnExpMultiplier(gPlayerParty[gBattleStruct->expGetterMonId].level);
                     if (gBattleStruct->sentInPokes & 1)
-                        gBattleMoveDamage = *exp;
+                        gBattleMoveDamage = *exp * expMultiplier;
                     else
                         gBattleMoveDamage = 0;
 
                     // only give exp share bonus in later gens if the mon wasn't sent out
-                    if ((holdEffect == HOLD_EFFECT_EXP_SHARE) && ((gBattleMoveDamage == 0) || (B_SPLIT_EXP < GEN_6)))
-                        gBattleMoveDamage += gExpShareExp;
+                    if ((gSaveBlock2Ptr->optionsGen6ExpShare == OPTIONS_GEN6_XP_SHARE_ON || holdEffect == HOLD_EFFECT_EXP_SHARE) && ((gBattleMoveDamage == 0) || (B_SPLIT_EXP < GEN_6)))
+                        gBattleMoveDamage += gExpShareExp * expMultiplier;
                     if (holdEffect == HOLD_EFFECT_LUCKY_EGG)
                         gBattleMoveDamage = (gBattleMoveDamage * 150) / 100;
                     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && B_TRAINER_EXP_MULTIPLIER <= GEN_7)
@@ -4650,7 +4757,7 @@ static void Cmd_pause(void)
     if (gBattleControllerExecFlags == 0)
     {
         u16 value = T2_READ_16(gBattlescriptCurrInstr + 1);
-        if (++gPauseCounterBattle >= value)
+        if (++gPauseCounterBattle >= value || (JOY_NEW(A_BUTTON | B_BUTTON)))
         {
             gPauseCounterBattle = 0;
             gBattlescriptCurrInstr += 3;
@@ -14012,6 +14119,11 @@ static void Cmd_trysetcaughtmondexflags(void)
 
     if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT))
     {
+        gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
+    }
+    else if (!FlagGet(FLAG_SYS_POKEDEX_GET))
+    {
+        HandleSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_SET_CAUGHT, personality);
         gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
     }
     else

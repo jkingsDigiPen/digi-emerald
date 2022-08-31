@@ -15,10 +15,10 @@ RustboroCity_Flat2_1F_EventScript_Skitty::
 	release
 	end
 
-RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
-	.string "DEVON CORPORATION's workers live in\n"
+RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere: @ 8215F93
+	.string "Devon Corporation's workers live in\n"
 	.string "this building.$"
 
-RustboroCity_Flat2_1F_Text_Skitty:
-	.string "SKITTY: Gyaaaah!$"
+RustboroCity_Flat2_1F_Text_Skitty: @ 8215FC6
+	.string "Skitty: Gyaaaah!$"
 

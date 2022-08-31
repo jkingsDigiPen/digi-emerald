@@ -871,6 +871,7 @@ static void Task_UseRepel(u8 taskId)
     if (!IsSEPlaying())
     {
         VarSet(VAR_REPEL_STEP_COUNT, ItemId_GetHoldEffectParam(gSpecialVar_ItemId));
+        VarSet(VAR_REPEL_LAST_USED, gSpecialVar_ItemId);
         RemoveUsedItem();
         if (!InBattlePyramid())
             DisplayItemMessage(taskId, FONT_NORMAL, gStringVar4, CloseItemMessage);
@@ -1196,6 +1197,40 @@ void ItemUseOutOfBattle_FormChange_ConsumedOnUse(u8 taskId)
 void ItemUseOutOfBattle_CannotUse(u8 taskId)
 {
     DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+}
+
+void ItemUseOutOfBattle_ReduceIV(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_ReduceIV;
+    SetUpItemUseCallback(taskId);
+}
+
+void ItemUseOutOfBattle_IncreaseIV(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_IncreaseIV;
+    SetUpItemUseCallback(taskId);
+}
+
+// Gen 6 Exp Share!
+void ItemUseOutOfBattle_ExpShare(u8 taskId)
+{
+    if (gSaveBlock2Ptr->optionsGen6ExpShare == OPTIONS_GEN6_XP_SHARE_OFF)
+    {
+        PlaySE(SE_EXP_MAX);
+        if (!gTasks[taskId].data[2]) // to account for pressing select in the overworld
+            DisplayItemMessageOnField(taskId, gText_ExpShareOn, Task_CloseCantUseKeyItemMessage);
+        else
+            DisplayItemMessage(taskId, 1, gText_ExpShareOn, CloseItemMessage);
+    }
+    else
+    {
+        PlaySE(SE_PC_OFF);
+        if (!gTasks[taskId].data[2]) // to account for pressing select in the overworld
+            DisplayItemMessageOnField(taskId, gText_ExpShareOff, Task_CloseCantUseKeyItemMessage);
+        else
+            DisplayItemMessage(taskId, 1, gText_ExpShareOff, CloseItemMessage);
+    }
+    gSaveBlock2Ptr->optionsGen6ExpShare = !gSaveBlock2Ptr->optionsGen6ExpShare;
 }
 
 #undef tUsingRegisteredKeyItem

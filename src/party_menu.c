@@ -80,6 +80,7 @@ enum {
     MENU_ITEM,
     MENU_GIVE,
     MENU_TAKE_ITEM,
+    MENU_MOVE_ITEM,
     MENU_MAIL,
     MENU_TAKE_MAIL,
     MENU_READ,
@@ -459,6 +460,7 @@ static void CursorCb_Cancel1(u8);
 static void CursorCb_Item(u8);
 static void CursorCb_Give(u8);
 static void CursorCb_TakeItem(u8);
+static void CursorCb_MoveItem(u8);
 static void CursorCb_Mail(u8);
 static void CursorCb_Read(u8);
 static void CursorCb_TakeMail(u8);
@@ -4279,7 +4281,13 @@ static bool8 IsHPRecoveryItem(u16 item)
     const u8 *effect;
 
     if (item == ITEM_ENIGMA_BERRY_E_READER)
+    {
+        #ifndef BIGGER_BAG
         effect = gSaveBlock1Ptr->enigmaBerry.itemEffect;
+        #else
+        effect = 0;
+        #endif
+    }
     else
         effect = gItemEffectTable[item - ITEM_POTION];
 
@@ -4389,11 +4397,11 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     u16 item = gSpecialVar_ItemId;
     bool8 canHeal, cannotUse;
 
-    if (NotUsingHPEVItemOnShedinja(mon, item) == FALSE)
+    /*if (NotUsingHPEVItemOnShedinja(mon, item) == FALSE)
     {
         cannotUse = TRUE;
     }
-    else
+    else*/
     {
         canHeal = IsHPRecoveryItem(item);
         if (canHeal == TRUE)
@@ -4790,7 +4798,13 @@ void ItemUseCB_PPRecovery(u8 taskId, TaskFunc task)
     u16 item = gSpecialVar_ItemId;
 
     if (item == ITEM_ENIGMA_BERRY_E_READER)
+    {
+        #ifndef BIGGER_BAG
         effect = gSaveBlock1Ptr->enigmaBerry.itemEffect;
+        #else
+        effect = 0;
+        #endif
+    }
     else
         effect = gItemEffectTable[item - ITEM_POTION];
 
@@ -5626,7 +5640,13 @@ u8 GetItemEffectType(u16 item)
 
     // Read the item's effect properties.
     if (item == ITEM_ENIGMA_BERRY_E_READER)
+    {
+        #ifndef BIGGER_BAG
         itemEffect = gSaveBlock1Ptr->enigmaBerry.itemEffect;
+        #else
+        itemEffect = 0;
+        #endif
+    }
     else
         itemEffect = gItemEffectTable[item - ITEM_POTION];
 
@@ -6797,5 +6817,313 @@ void IsLastMonThatKnowsSurf(void)
         }
         if (AnyStorageMonWithMove(move) != TRUE)
             gSpecialVar_Result = TRUE;
+    }
+}
+
+void CursorCb_MoveItemCallback(u8 taskId)
+{
+    u16 item1, item2;
+    u8 buffer[100];
+
+    if (gPaletteFade.active || MenuHelpers_ShouldWaitForLinkRecv())
+        return;
+
+    switch (PartyMenuButtonHandler(&gPartyMenu.slotId2))
+    {
+    case 2:     // User hit B or A while on Cancel
+        HandleChooseMonCancel(taskId, &gPartyMenu.slotId2);
+        break;
+    case 1:     // User hit A on a Pokemon
+        // Pokemon can't give away items to eggs or themselves
+        if (GetMonData(&gPlayerParty[gPartyMenu.slotId2], MON_DATA_IS_EGG)
+            || gPartyMenu.slotId == gPartyMenu.slotId2)
+        {
+            PlaySE(SE_FAILURE);
+            return;
+        }
+
+        if(GetMonData(&gPlayerParty[gPartyMenu.slotId2], MON_DATA_HELD_ITEM) >= ITEM_ORANGE_MAIL
+        && GetMonData(&gPlayerParty[gPartyMenu.slotId2], MON_DATA_HELD_ITEM) <= ITEM_RETRO_MAIL)
+        {
+            PlaySE(SE_FAILURE);
+            return;
+        }
+
+        PlaySE(SE_SELECT);
+        gPartyMenu.action = PARTY_ACTION_CHOOSE_MON;
+
+        // look up held items
+        item1 = GetMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_HELD_ITEM);
+        item2 = GetMonData(&gPlayerParty[gPartyMenu.slotId2], MON_DATA_HELD_ITEM);
+
+        // swap the held items
+        SetMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_HELD_ITEM, &item2);
+        SetMonData(&gPlayerParty[gPartyMenu.slotId2], MON_DATA_HELD_ITEM, &item1);
+
+        // update the held item icons
+        UpdatePartyMonHeldItemSprite(
+            &gPlayerParty[gPartyMenu.slotId],
+            &sPartyMenuBoxes[gPartyMenu.slotId]
+        );
+
+        UpdatePartyMonHeldItemSprite(
+            &gPlayerParty[gPartyMenu.slotId2],
+            &sPartyMenuBoxes[gPartyMenu.slotId2]
+        );
+
+        // create the string describing the move
+        if (item2 == ITEM_NONE)
+        {
+            GetMonNickname(&gPlayerParty[gPartyMenu.slotId2], gStringVar1);
+            CopyItemName(item1, gStringVar2);
+            StringExpandPlaceholders(gStringVar4, gText_PkmnWasGivenItem);
+        }
+        else
+        {
+            GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+            CopyItemName(item1, gStringVar2);
+            StringExpandPlaceholders(buffer, gText_XsYAnd);
+
+            StringAppend(buffer, gText_XsYWereSwapped);
+            GetMonNickname(&gPlayerParty[gPartyMenu.slotId2], gStringVar1);
+            CopyItemName(item2, gStringVar2);
+            StringExpandPlaceholders(gStringVar4, buffer);
+        }
+
+        // display the string
+        DisplayPartyMenuMessage(gStringVar4, TRUE);
+
+        // update colors of selected boxes
+        AnimatePartySlot(gPartyMenu.slotId2, 0);
+        AnimatePartySlot(gPartyMenu.slotId, 1);
+
+        // return to the main party menu
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = Task_UpdateHeldItemSprite;
+        break;
+    }
+}
+
+void CursorCb_MoveItem(u8 taskId)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+
+    PlaySE(SE_SELECT);
+
+    // delete old windows
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+
+    if (GetMonData(mon, MON_DATA_HELD_ITEM) != ITEM_NONE)
+    {
+        gPartyMenu.action = PARTY_ACTION_SWITCH;
+
+        // show "Move item to where" in bottom left
+        DisplayPartyMenuStdMessage(PARTY_MSG_MOVE_ITEM_WHERE);
+        // update color of first selected box
+        AnimatePartySlot(gPartyMenu.slotId, 1);
+
+        // set up callback
+        gPartyMenu.slotId2 = gPartyMenu.slotId;
+        gTasks[taskId].func = CursorCb_MoveItemCallback;
+    }
+    else
+    {
+        // create and display string about lack of hold item
+        GetMonNickname(mon, gStringVar1);
+        StringExpandPlaceholders(gStringVar4, gText_PkmnNotHolding);
+        DisplayPartyMenuMessage(gStringVar4, TRUE);
+
+        // return to the main party menu
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = Task_UpdateHeldItemSprite;
+    }
+}
+
+void ItemUseCB_ReduceIV(u8 taskId, TaskFunc task)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+    u16 item = gSpecialVar_ItemId;
+    u8 modifier;
+    u8 health = GetMonData(mon, MON_DATA_HP_IV);
+    u8 attack = GetMonData(mon, MON_DATA_ATK_IV);
+    u8 defense = GetMonData(mon, MON_DATA_DEF_IV);
+    u8 speed = GetMonData(mon, MON_DATA_SPEED_IV);
+    u8 spAttack = GetMonData(mon, MON_DATA_SPATK_IV);
+    u8 spDefense = GetMonData(mon, MON_DATA_SPDEF_IV);
+    bool8 didActivate = FALSE;
+
+    switch (ItemId_GetSecondaryId(item))
+    {
+    case STAT_HP:
+        if (health != 0)
+        {
+            modifier = (health >= 10) ? (health - 10) : 0;
+            SetMonData(mon, MON_DATA_HP_IV, &modifier);
+            StringCopy(gStringVar2, gText_HP3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_ATK:
+        if (attack != 0)
+        {
+            modifier = (attack >= 10) ? (attack - 10) : 0;
+            SetMonData(mon, MON_DATA_ATK_IV, &modifier);
+            StringCopy(gStringVar2, gText_Attack3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_DEF:
+        if (defense != 0)
+        {
+            modifier = (defense >= 10) ? (defense - 10) : 0;
+            SetMonData(mon, MON_DATA_DEF_IV, &modifier);
+            StringCopy(gStringVar2, gText_Defense3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_SPEED:
+        if (speed != 0)
+        {
+            modifier = (speed >= 10) ? (speed - 10) : 0;
+            SetMonData(mon, MON_DATA_SPEED_IV, &modifier);
+            StringCopy(gStringVar2, gText_Speed2);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_SPATK:
+        if (spAttack != 0)
+        {
+            modifier = (spAttack >= 10) ? (spAttack - 10) : 0;
+            SetMonData(mon, MON_DATA_SPATK_IV, &modifier);
+            StringCopy(gStringVar2, gText_SpAtk3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_SPDEF:
+        if (spDefense != 0)
+        {
+            modifier = (spDefense >= 10) ? (spDefense - 10) : 0;
+            SetMonData(mon, MON_DATA_SPDEF_IV, &modifier);
+            StringCopy(gStringVar2, gText_SpDef3);
+            didActivate = TRUE;
+        }
+        break;
+    }
+
+    if (didActivate)
+    {
+        gPartyMenuUseExitCallback = TRUE;
+        PlaySE(SE_USE_ITEM);
+        RemoveBagItem(item, 1);
+        AdjustFriendship(mon, FRIENDSHIP_EVENT_VITAMIN);
+        GetMonNickname(mon, gStringVar1);
+        StringExpandPlaceholders(gStringVar4, gText_PkmnFriendlyBaseVar2Fell);
+        DisplayPartyMenuMessage(gStringVar4, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = task;
+    }
+    else
+    {
+        gPartyMenuUseExitCallback = FALSE;
+        PlaySE(SE_SELECT);
+        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = task;
+    }
+}
+
+void ItemUseCB_IncreaseIV(u8 taskId, TaskFunc task)
+{
+    struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
+    u16 item = gSpecialVar_ItemId;
+    u8 modifier;
+    u8 health = GetMonData(mon, MON_DATA_HP_IV);
+    u8 attack = GetMonData(mon, MON_DATA_ATK_IV);
+    u8 defense = GetMonData(mon, MON_DATA_DEF_IV);
+    u8 speed = GetMonData(mon, MON_DATA_SPEED_IV);
+    u8 spAttack = GetMonData(mon, MON_DATA_SPATK_IV);
+    u8 spDefense = GetMonData(mon, MON_DATA_SPDEF_IV);
+    bool8 didActivate = FALSE;
+
+    u8 stat_increase = 5;
+
+    switch (ItemId_GetSecondaryId(item))
+    {
+    case STAT_HP:
+        if (health != MAX_PER_STAT_IVS)
+        {
+            modifier = (health <= (MAX_PER_STAT_IVS - stat_increase)) ? (health + stat_increase) : MAX_PER_STAT_IVS;
+            SetMonData(mon, MON_DATA_HP_IV, &modifier);
+            StringCopy(gStringVar2, gText_HP3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_ATK:
+        if (attack != MAX_PER_STAT_IVS)
+        {
+            modifier = (attack <= (MAX_PER_STAT_IVS - stat_increase)) ? (attack + stat_increase) : MAX_PER_STAT_IVS;
+            SetMonData(mon, MON_DATA_ATK_IV, &modifier);
+            StringCopy(gStringVar2, gText_Attack3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_DEF:
+        if (defense != MAX_PER_STAT_IVS)
+        {
+            modifier = (defense <= (MAX_PER_STAT_IVS - stat_increase)) ? (defense + stat_increase) : MAX_PER_STAT_IVS;
+            SetMonData(mon, MON_DATA_DEF_IV, &modifier);
+            StringCopy(gStringVar2, gText_Defense3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_SPEED:
+        if (speed != MAX_PER_STAT_IVS)
+        {
+            modifier = (speed <= (MAX_PER_STAT_IVS - stat_increase)) ? (speed + stat_increase) : MAX_PER_STAT_IVS;
+            SetMonData(mon, MON_DATA_SPEED_IV, &modifier);
+            StringCopy(gStringVar2, gText_Speed2);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_SPATK:
+        if (spAttack != MAX_PER_STAT_IVS)
+        {
+            modifier = (spAttack <= (MAX_PER_STAT_IVS - stat_increase)) ? (spAttack + stat_increase) : MAX_PER_STAT_IVS;
+            SetMonData(mon, MON_DATA_SPATK_IV, &modifier);
+            StringCopy(gStringVar2, gText_SpAtk3);
+            didActivate = TRUE;
+        }
+        break;
+    case STAT_SPDEF:
+        if (spDefense != MAX_PER_STAT_IVS)
+        {
+            modifier = (spDefense <= (MAX_PER_STAT_IVS - stat_increase)) ? (spDefense + stat_increase) : MAX_PER_STAT_IVS;
+            SetMonData(mon, MON_DATA_SPDEF_IV, &modifier);
+            StringCopy(gStringVar2, gText_SpDef3);
+            didActivate = TRUE;
+        }
+        break;
+    }
+
+    if (didActivate)
+    {
+        gPartyMenuUseExitCallback = TRUE;
+        PlaySE(SE_USE_ITEM);
+        RemoveBagItem(item, 1);
+        AdjustFriendship(mon, FRIENDSHIP_EVENT_VITAMIN);
+        GetMonNickname(mon, gStringVar1);
+        StringExpandPlaceholders(gStringVar4, gText_PkmnBaseVar2StatIncreased);
+        DisplayPartyMenuMessage(gStringVar4, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = task;
+    }
+    else
+    {
+        gPartyMenuUseExitCallback = FALSE;
+        PlaySE(SE_SELECT);
+        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = task;
     }
 }

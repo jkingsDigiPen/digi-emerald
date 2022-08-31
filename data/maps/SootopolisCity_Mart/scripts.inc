@@ -54,10 +54,10 @@ SootopolisCity_Mart_EventScript_GentlemanNoLegendaries::
 	release
 	end
 
-SootopolisCity_Mart_Text_PPUpIsGreat:
-	.string "PP UP is great!\p"
-	.string "It raises the POWER POINTS, the PP,\n"
-	.string "of a POKéMON move.$"
+SootopolisCity_Mart_Text_PPUpIsGreat: @ 8226816
+	.string "PP Up is great!\p"
+	.string "It raises the Power Points, the PP,\n"
+	.string "of a Pokémon move.$"
 
 SootopolisCity_Mart_Text_TooScaryOutside:
 	.string "What…\n"
@@ -65,8 +65,8 @@ SootopolisCity_Mart_Text_TooScaryOutside:
 	.string "I really want to know, but it's too\n"
 	.string "scary to go outside.$"
 
-SootopolisCity_Mart_Text_FullRestoreItemOfDreams:
-	.string "Do you know FULL RESTORE?\p"
+SootopolisCity_Mart_Text_FullRestoreItemOfDreams: @ 82268AF
+	.string "Do you know Full Restore?\p"
 	.string "Full restoration of HP!\n"
 	.string "Eradication of all status problems!\p"
 	.string "It's truly an item of your dreams!$"

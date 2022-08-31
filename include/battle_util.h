@@ -203,4 +203,8 @@ bool32 CanBeConfused(u8 battlerId);
 bool32 IsBattlerTerrainAffected(u8 battlerId, u32 terrainFlag);
 u32 GetMonFriendshipScore(struct Pokemon *pokemon);
 
+// Display type effectiveness
+struct ChooseMoveStruct;
+u8 GetTypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId);
+
 #endif // GUARD_BATTLE_UTIL_H

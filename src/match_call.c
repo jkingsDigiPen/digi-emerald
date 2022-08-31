@@ -1161,7 +1161,9 @@ bool32 TryStartMatchCall(void)
         && MapAllowsMatchCall()
         && SelectMatchCallTrainer())
     {
-        StartMatchCall();
+        // Only do match call if option is enabled
+        if(gSaveBlock2Ptr->optionsMatchCalls == OPTIONS_MATCH_CALLS_ON)
+            StartMatchCall();
         return TRUE;
     }
 

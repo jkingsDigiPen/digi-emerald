@@ -45,6 +45,7 @@
 #include "mystery_gift.h"
 #include "union_room_chat.h"
 #include "constants/items.h"
+#include "constants/map_groups.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
@@ -96,6 +97,9 @@ static void SetDefaultOptions(void)
     gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SHIFT;
     gSaveBlock2Ptr->optionsBattleSceneOff = FALSE;
     gSaveBlock2Ptr->regionMapZoom = FALSE;
+    gSaveBlock2Ptr->optionsShowTypeEffectiveness = OPTIONS_TYPE_EFFECTIVENESS_HIDE;
+    gSaveBlock2Ptr->optionsGen6ExpShare = OPTIONS_GEN6_XP_SHARE_OFF;
+    gSaveBlock2Ptr->optionsMatchCalls = OPTIONS_MATCH_CALLS_ON;
 }
 
 static void ClearPokedexFlags(void)
@@ -103,6 +107,7 @@ static void ClearPokedexFlags(void)
     gUnusedPokedexU8 = 0;
     memset(&gSaveBlock1Ptr->dexCaught, 0, sizeof(gSaveBlock1Ptr->dexCaught));
     memset(&gSaveBlock1Ptr->dexSeen, 0, sizeof(gSaveBlock1Ptr->dexSeen));
+    memset(&gSaveBlock2Ptr->dexDefeated, 0, sizeof(gSaveBlock2Ptr->dexDefeated));
 }
 
 void ClearAllContestWinnerPics(void)
@@ -204,6 +209,10 @@ void NewGameInitData(void)
     WipeTrainerNameRecords();
     ResetTrainerHillResults();
     ResetContestLinkResults();
+    memset(gSaveBlock1Ptr->dexNavSearchLevels, 0, sizeof(gSaveBlock1Ptr->dexNavSearchLevels));
+    gSaveBlock1Ptr->dexNavChain = 0;
+    
+    memset(&gSaveBlock2Ptr->itemFlags, 0, sizeof(gSaveBlock2Ptr->itemFlags));
 }
 
 static void ResetMiniGamesRecords(void)

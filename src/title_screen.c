@@ -30,6 +30,14 @@
 #define VERSION_BANNER_Y_GOAL 66
 #define START_BANNER_X 128
 
+#define TAG_VERSION_BANNER      1000
+#define TAG_COPYRIGHT_BANNER    1001
+#define TAG_LOGO_SHINE          1002
+
+#define TAG_EBUWONMON           2000
+#define TAG_AZULONGMON          2001
+#define TAG_FANGLONGMON         2002
+
 #define CLEAR_SAVE_BUTTON_COMBO (B_BUTTON | SELECT_BUTTON | DPAD_UP)
 #define RESET_RTC_BUTTON_COMBO (B_BUTTON | SELECT_BUTTON | DPAD_LEFT)
 #define BERRY_UPDATE_BUTTON_COMBO (B_BUTTON | SELECT_BUTTON)
@@ -51,6 +59,11 @@ static void SpriteCB_VersionBannerRight(struct Sprite *sprite);
 static void SpriteCB_PressStartCopyrightBanner(struct Sprite *sprite);
 static void SpriteCB_PokemonLogoShine(struct Sprite *sprite);
 
+// New title screen mon sprite!
+static void SpriteCB_Ebuwonmon(struct Sprite *sprite);
+static void SpriteCB_Fanglongmon(struct Sprite *sprite);
+static void SpriteCB_Azulongmon(struct Sprite *sprite);
+
 // const rom data
 static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unused.gbapal");
 
@@ -59,7 +72,13 @@ static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_scre
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.lz");
 static const u32 sTitleScreenCloudsGfx[] = INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
 
-
+// Intro mons!
+static const u32 gEbuwonmonFrontPic[] = INCBIN_U32("graphics/pokemon/kyogre/front.4bpp.lz");
+static const u32 gEbuwonmonPal[] = INCBIN_U32("graphics/pokemon/kyogre/normal.gbapal.lz");
+static const u32 gFanglongmonFrontPic[] = INCBIN_U32("graphics/pokemon/groudon/front.4bpp.lz");
+static const u32 gFanglongmonPal[] = INCBIN_U32("graphics/pokemon/groudon/normal.gbapal.lz");
+static const u32 gAzulongmonFrontPic[] = INCBIN_U32("graphics/pokemon/rayquaza/front.4bpp.lz");
+static const u32 gAzuglongmonPal[] = INCBIN_U32("graphics/pokemon/rayquaza/normal.gbapal.lz");
 
 // Used to blend "Emerald Version" as it passes over over the Pokémon banner.
 // Also used by the intro to blend the Game Freak name/logo in and out as they appear and disappear
@@ -158,8 +177,8 @@ static const union AnimCmd *const sVersionBannerRightAnimTable[] =
 
 static const struct SpriteTemplate sVersionBannerLeftSpriteTemplate =
 {
-    .tileTag = 1000,
-    .paletteTag = 1000,
+    .tileTag = TAG_VERSION_BANNER,
+    .paletteTag = TAG_VERSION_BANNER,
     .oam = &sVersionBannerLeftOamData,
     .anims = sVersionBannerLeftAnimTable,
     .images = NULL,
@@ -169,8 +188,8 @@ static const struct SpriteTemplate sVersionBannerLeftSpriteTemplate =
 
 static const struct SpriteTemplate sVersionBannerRightSpriteTemplate =
 {
-    .tileTag = 1000,
-    .paletteTag = 1000,
+    .tileTag = TAG_VERSION_BANNER,
+    .paletteTag = TAG_VERSION_BANNER,
     .oam = &sVersionBannerRightOamData,
     .anims = sVersionBannerRightAnimTable,
     .images = NULL,
@@ -183,7 +202,7 @@ static const struct CompressedSpriteSheet sSpriteSheet_EmeraldVersion[] =
     {
         .data = gTitleScreenEmeraldVersionGfx,
         .size = 0x1000,
-        .tag = 1000
+        .tag = TAG_VERSION_BANNER
     },
     {},
 };
@@ -272,8 +291,8 @@ static const union AnimCmd *const sStartCopyrightBannerAnimTable[] =
 
 static const struct SpriteTemplate sStartCopyrightBannerSpriteTemplate =
 {
-    .tileTag = 1001,
-    .paletteTag = 1001,
+    .tileTag = TAG_COPYRIGHT_BANNER,
+    .paletteTag = TAG_COPYRIGHT_BANNER,
     .oam = &sOamData_CopyrightBanner,
     .anims = sStartCopyrightBannerAnimTable,
     .images = NULL,
@@ -286,7 +305,7 @@ static const struct CompressedSpriteSheet sSpriteSheet_PressStart[] =
     {
         .data = gTitleScreenPressStartGfx,
         .size = 0x520,
-        .tag = 1001
+        .tag = TAG_COPYRIGHT_BANNER
     },
     {},
 };
@@ -295,7 +314,7 @@ static const struct SpritePalette sSpritePalette_PressStart[] =
 {
     {
         .data = gTitleScreenPressStartPal,
-        .tag = 1001
+        .tag = TAG_COPYRIGHT_BANNER
     },
     {},
 };
@@ -330,8 +349,8 @@ static const union AnimCmd *const sPokemonLogoShineAnimTable[] =
 
 static const struct SpriteTemplate sPokemonLogoShineSpriteTemplate =
 {
-    .tileTag = 1002,
-    .paletteTag = 1001,
+    .tileTag = TAG_LOGO_SHINE,
+    .paletteTag = TAG_COPYRIGHT_BANNER,
     .oam = &sPokemonLogoShineOamData,
     .anims = sPokemonLogoShineAnimTable,
     .images = NULL,
@@ -344,12 +363,184 @@ static const struct CompressedSpriteSheet sPokemonLogoShineSpriteSheet[] =
     {
         .data = sTitleScreenLogoShineGfx,
         .size = 0x800,
-        .tag = 1002
+        .tag = TAG_LOGO_SHINE
     },
     {},
 };
 
+// For new title screen mon sprites
+static const union AnimCmd sEbuwonmon_Anim1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sEbuwonmon_AnimTable[] =
+{
+	sEbuwonmon_Anim1,
+};
+
+static const union AnimCmd sAzulongmon_Anim1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sAzulongmon_AnimTable[] =
+{
+	sAzulongmon_Anim1,
+};
+
+// For new title screen mon sprite
+static const union AnimCmd sFanglongmon_Anim1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sFanglongmon_AnimTable[] =
+{
+	sFanglongmon_Anim1,
+};
+
+static const struct CompressedSpriteSheet sEbuwonmonSpriteSheet[] =
+{
+    {gEbuwonmonFrontPic, 4096, TAG_EBUWONMON},
+    {NULL},
+};
+
+static const struct CompressedSpritePalette sEbuwonmonPalette[] =
+{
+    {gEbuwonmonPal, TAG_EBUWONMON},
+    {NULL},
+};
+
+static const struct CompressedSpriteSheet sAzulongmonSpriteSheet[] =
+{
+    {gAzulongmonFrontPic, 4096, TAG_AZULONGMON},
+    {NULL},
+};
+
+static const struct CompressedSpritePalette sAzulongmonPalette[] =
+{
+    {gAzuglongmonPal, TAG_AZULONGMON},
+    {NULL},
+};
+
+static const struct CompressedSpriteSheet sFanglongmonSpriteSheet[] =
+{
+    {gFanglongmonFrontPic, 4096, TAG_FANGLONGMON},
+    {NULL},
+};
+
+static const struct CompressedSpritePalette sFanglongmonPalette[] =
+{
+    {gFanglongmonPal, TAG_FANGLONGMON},
+    {NULL},
+};
+
+static const struct OamData sEbuwonmonOamData =
+{
+    .y = 0,
+    .affineMode = 0,
+    .objMode = 0,
+    .mosaic = 0,
+    .bpp = 0,
+    .shape = 0,
+    .x = 0,
+    .matrixNum = 0,
+    .size = 3,
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct OamData sAzulongmonOamData =
+{
+    .y = 0,
+    .affineMode = 0,
+    .objMode = 0,
+    .mosaic = 0,
+    .bpp = 0,
+    .shape = 0,
+    .x = 0,
+    .matrixNum = 0,
+    .size = 3,
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct OamData sFanglongmonOamData =
+{
+    .y = 0,
+    .affineMode = 0,
+    .objMode = 0,
+    .mosaic = 0,
+    .bpp = 0,
+    .shape = 0,
+    .x = 0,
+    .matrixNum = 0,
+    .size = 3,
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct SpriteTemplate sEbuwonmonSpriteTemplate =
+{
+    .tileTag = TAG_EBUWONMON,
+    .paletteTag = TAG_EBUWONMON,
+    .oam = &sEbuwonmonOamData,
+    .anims = sEbuwonmon_AnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCB_Ebuwonmon,
+};
+
+static const struct SpriteTemplate sAzulongmonSpriteTemplate =
+{
+    .tileTag = TAG_AZULONGMON,
+    .paletteTag = TAG_AZULONGMON,
+    .oam = &sAzulongmonOamData,
+    .anims = sAzulongmon_AnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCB_Azulongmon,
+};
+
+static const struct SpriteTemplate sFanglongmonSpriteTemplate =
+{
+    .tileTag = TAG_FANGLONGMON,
+    .paletteTag = TAG_FANGLONGMON,
+    .oam = &sFanglongmonOamData,
+    .anims = sFanglongmon_AnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCB_Fanglongmon,
+};
+
 // code
+
+// New mon sprites
+static void SpriteCB_Ebuwonmon(struct Sprite *sprite)
+{
+    sprite->hFlip = FALSE;
+}
+
+static void SpriteCB_Azulongmon(struct Sprite *sprite)
+{
+    sprite->hFlip = TRUE;
+}
+
+static void SpriteCB_Fanglongmon(struct Sprite *sprite)
+{
+    sprite->hFlip = FALSE;
+}
+
 static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
 {
     if (gTasks[sprite->data[1]].data[1] != 0)
@@ -565,6 +756,15 @@ void CB2_InitTitleScreen(void)
         LoadCompressedSpriteSheet(&sPokemonLogoShineSpriteSheet[0]);
         LoadPalette(gTitleScreenEmeraldVersionPal, 0x100, 0x20);
         LoadSpritePalette(&sSpritePalette_PressStart[0]);
+
+        // New title screen mons!
+        LoadCompressedSpriteSheet(sEbuwonmonSpriteSheet);
+        LoadCompressedSpritePalette(sEbuwonmonPalette);
+        LoadCompressedSpriteSheet(sAzulongmonSpriteSheet);
+        LoadCompressedSpritePalette(sAzulongmonPalette);
+        LoadCompressedSpriteSheet(sFanglongmonSpriteSheet);
+        LoadCompressedSpritePalette(sFanglongmonPalette);
+
         gMain.state = 2;
         break;
     case 2:
@@ -703,8 +903,14 @@ static void Task_TitleScreenPhase2(u8 taskId)
                                     | DISPCNT_BG1_ON
                                     | DISPCNT_BG2_ON
                                     | DISPCNT_OBJ_ON);
-        CreatePressStartBanner(START_BANNER_X, 108);
-        CreateCopyrightBanner(START_BANNER_X, 148);
+        CreatePressStartBanner(START_BANNER_X, 148);
+        //CreateCopyrightBanner(START_BANNER_X, 148);
+
+        // New title screen mon!
+        CreateSprite(&sEbuwonmonSpriteTemplate, 120, 113, 0);
+        CreateSprite(&sAzulongmonSpriteTemplate, 40, 88, 0);
+        CreateSprite(&sFanglongmonSpriteTemplate, 200, 88, 0);
+
         gTasks[taskId].data[4] = 0;
         gTasks[taskId].func = Task_TitleScreenPhase3;
     }
@@ -736,8 +942,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
     {
         SetMainCallback2(CB2_GoToClearSaveDataScreen);
     }
-    else if (JOY_HELD(RESET_RTC_BUTTON_COMBO) == RESET_RTC_BUTTON_COMBO
-      && CanResetRTC() == TRUE)
+    else if (JOY_HELD(RESET_RTC_BUTTON_COMBO) == RESET_RTC_BUTTON_COMBO)
     {
         FadeOutBGM(4);
         BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
@@ -760,7 +965,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
             gBattle_BG1_Y = gTasks[taskId].data[4] / 2;
             gBattle_BG1_X = 0;
         }
-        UpdateLegendaryMarkingColor(gTasks[taskId].tCounter);
+        //UpdateLegendaryMarkingColor(gTasks[taskId].tCounter);
         if ((gMPlayInfo_BGM.status & 0xFFFF) == 0)
         {
             BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_WHITEALPHA);

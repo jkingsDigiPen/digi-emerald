@@ -308,9 +308,9 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 	.string "Despite that, we never stop trying.\n"
 	.string "Why? It's a dream that never ends.$"
 
-MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
-	.string "Those MAGMA thugs have their sights\n"
-	.string "set on our SPACE CENTER.\p"
+MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter: @ 82234B7
+	.string "Those Magma thugs have their sights\n"
+	.string "set on our Space Center.\p"
 	.string "But we can't allow anything that minor\n"
 	.string "to interfere with our rocket launch!$"
 
@@ -320,28 +320,28 @@ MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
 	.string "It's not anything I need, so you can\n"
 	.string "have it.$"
 
-MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
-	.string "The HOENN region has been famous for \n"
+MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers: @ 82235A6
+	.string "The Hoenn region has been famous for \n"
 	.string "its meteor showers for a long time.$"
 
-MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
-	.string "TEAM MAGMA can't be allowed to steal\n"
+MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis: @ 82235F0
+	.string "Team Magma can't be allowed to steal\n"
 	.string "the rocket fuel.\p"
 	.string "Oh, by the way, you can have this stone\n"
 	.string "I found on the beach.$"
 
-MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
-	.string "With TEAM MAGMA around, I guess\n"
+MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma: @ 8223664
+	.string "With Team Magma around, I guess\n"
 	.string "strolls on the beach aren't safe.$"
 
-MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
-	.string "Some people claim that POKéMON came\n"
+MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace: @ 82236A6
+	.string "Some people claim that Pokémon came\n"
 	.string "from space. Could it be true?$"
 
-MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-	.string "TEAM AQUA should take care of\n"
-	.string "TEAM MAGMA!\p"
-	.string "But if they did that, TEAM AQUA will\n"
+MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma: @ 82236E8
+	.string "Team Aqua should take care of\n"
+	.string "Team Magma!\p"
+	.string "But if they did that, Team Aqua will\n"
 	.string "become bold and brazen, won't they?$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
@@ -352,14 +352,14 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "A giant chunk of metal bursts through\n"
 	.string "the skies and flies into space…\p"
-	.string "But TEAM MAGMA wants to spoil\n"
+	.string "But Team Magma wants to spoil\n"
 	.string "that dream of mine!\p"
 	.string "I'm not having any of that!$"
 
-MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
+MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel: @ 8223849
+	.string "Steven: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
-	.string "TEAM MAGMA is coming after the rocket\n"
+	.string "Team Magma is coming after the rocket\n"
 	.string "fuel on this island.\p"
 	.string "I don't know what they'd need it for,\n"
 	.string "but they can't be allowed to take it.\p"
@@ -391,8 +391,8 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
 	.string "Okay, I get it already! The next time,\n"
 	.string "we'll come unannounced.$"
 
-MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
-	.string "The rocket fuel the SPACE CENTER has\n"
+MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro: @ 8223A8A
+	.string "The rocket fuel the Space Center has\n"
 	.string "in storage--that's what we're after.\p"
 	.string "We mean to take every last bit of it!$"
 
@@ -421,11 +421,11 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "This is…\n"
 	.string "An intent-to-steal notice?\p"
-	.string "“To the staff of the SPACE CENTER:\n"
+	.string "“To the staff of the Space Center:\n"
 	.string "How are you? We are doing fine.\p"
 	.string "“We will soon visit you to take your\n"
 	.string "rocket fuel.\p"
 	.string "“Please don't try to stop us.\n"
 	.string "We will take the fuel no matter what.\p"
 	.string "“Let there be more land!\n"
-	.string "                                          TEAM MAGMA”$"
+	.string "                                          Team Magma”$"

@@ -272,70 +272,70 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 	.string "We're developing a device for talking\n"
-	.string "with POKéMON.\p"
+	.string "with Digimon.\p"
 	.string "But we haven't had much success…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
 	.string "I'm developing new kinds of\n"
-	.string "POKé BALLS…\p"
+	.string "Digi Balls…\p"
 	.string "But I haven't made much headway…$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "We finally made new kinds of\n"
-	.string "POKé BALLS!\p"
-	.string "The REPEAT BALL makes it easier to\n"
-	.string "catch POKéMON you've caught before.\p"
-	.string "The TIMER BALL gets better at catching\n"
-	.string "POKéMON the longer a battle runs.\p"
+	.string "Digi Balls!\p"
+	.string "The Repeat Ball makes it easier to\n"
+	.string "catch Digimon you've caught before.\p"
+	.string "The Timer Ball gets better at catching\n"
+	.string "Digimon the longer a battle runs.\p"
 	.string "Both are proudly developed by\n"
-	.string "the DEVON CORPORATION.\p"
+	.string "the Devon Corporation.\p"
 	.string "Please give them a try!$"
 
-RustboroCity_DevonCorp_2F_Text_IMadePokenav:
-	.string "I made the POKéNAV!\p"
+RustboroCity_DevonCorp_2F_Text_IMadePokenav: @ 8211D9F
+	.string "I made the Diginav!\p"
 	.string "As an engineer, I feel blessed to have\n"
 	.string "made something so great!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
+	.string "That's a Diginav!\p"
 	.string "It came about as a result of our\n"
-	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of POKéMON.\p"
+	.string "President's desire to learn about\l"
+	.string "the feelings of Digimon.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "trying the Diginav out.$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 	.string "I'm trying to develop a device that\n"
 	.string "visually reproduces the dreams of\l"
-	.string "POKéMON…\p"
+	.string "Digimon…\p"
 	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 	.string "I've been trying to develop a device\n"
-	.string "that resurrects POKéMON from fossils…\p"
+	.string "that resurrects Digimon from fossils…\p"
 	.string "And, it's working!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "Wait! That thing you have there…\n"
-	.string "Is that a POKéMON fossil?\p"
-	.string "Would you like to bring that POKéMON\n"
+	.string "Is that a Digimon fossil?\p"
+	.string "Would you like to bring that Digimon\n"
 	.string "back to life?\p"
 	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.$"
+	.string "Fossil Regenerator.$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
 	.string "Oh, is that so?\p"
-	.string "DEVON's technological expertise\n"
+	.string "Devon's technological expertise\n"
 	.string "is outstanding, I tell you.$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "Oh, now that's a surprise!\n"
 	.string "You have not one, but two, fossils?\p"
 	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one POKéMON at a time.\p"
+	.string "regenerate one Digimon at a time.\p"
 	.string "Would you like to pick one of your\n"
 	.string "fossils for regeneration?$"
 
@@ -343,10 +343,10 @@ RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 	.string "Excellent!\n"
 	.string "Let's do this right away.\p"
 	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "the Devon Researcher.$"
 
-RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
+RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime: @ 82121A2
+	.string "The Fossil Regenerator, which I made,\n"
 	.string "is incredible.\p"
 	.string "But it has one drawback--it takes\n"
 	.string "a long time to work.\p"
@@ -355,23 +355,23 @@ RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 	.string "Thanks for waiting!\p"
-	.string "Your fossilized POKéMON has been\n"
+	.string "Your fossilized Digimon has been\n"
 	.string "brought back to life!\p"
-	.string "The fossil was an ancient POKéMON.\n"
+	.string "The fossil was an ancient Digimon.\n"
 	.string "{STR_VAR_2}, it was!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
 	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "the Devon Researcher.$"
 
 @ Unused
-RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
-	.string "Uh-oh, you've got too many POKéMON.\n"
+RustboroCity_DevonCorp_2F_Text_TooManyPokemon: @ 82122F5
+	.string "Uh-oh, you've got too many Digimon.\n"
 	.string "You have no room for this one.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
+	.string "for the Diginav…\p"
 	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:

@@ -102,7 +102,7 @@ Route110_TrickHousePuzzle2_EventScript_Georgia::
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
-	.string "“TRICK MASTER is smart.”\n"
+	.string "“Trick Master is smart.”\n"
 	.string "… … … … … … … …\p"
 	.string "The lock clicked open!$"
 
@@ -117,19 +117,19 @@ Route110_TrickHousePuzzle2_Text_TedPostBattle:
 	.string "Can I get you to push all the buttons\n"
 	.string "for me?$"
 
-Route110_TrickHousePuzzle2_Text_PaulIntro:
-	.string "Oh! You're on your second TRICK HOUSE\n"
+Route110_TrickHousePuzzle2_Text_PaulIntro: @ 826BD9E
+	.string "Oh! You're on your second Trick House\n"
 	.string "challenge!$"
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat:
 	.string "You're good at battling too?$"
 
-Route110_TrickHousePuzzle2_Text_PaulPostBattle:
-	.string "The TRICK MASTER rigged all the tricks\n"
+Route110_TrickHousePuzzle2_Text_PaulPostBattle: @ 826BDEC
+	.string "The Trick Master rigged all the tricks\n"
 	.string "in this house all by himself.$"
 
-Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
-	.string "I want to make my own GYM one day.\n"
+Route110_TrickHousePuzzle2_Text_GeorgiaIntro: @ 826BE31
+	.string "I want to make my own Gym one day.\n"
 	.string "So, I'm studying how to set traps.$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
@@ -137,5 +137,5 @@ Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
 	.string "You're strong, aren't you?\n"
-	.string "Maybe even enough to be a GYM LEADER!$"
+	.string "Maybe even enough to be a Gym Leader!$"
 

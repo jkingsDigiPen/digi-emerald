@@ -26,6 +26,9 @@ extern u8 gSelectedMonPartyId;
 extern MainCallback gPostMenuFieldCallback;
 extern u8 gSelectedOrderFromParty[MAX_FRONTIER_PARTY_SIZE];
 extern u8 gBattlePartyCurrentOrder[PARTY_SIZE / 2];
+extern const struct SpriteSheet sSpriteSheet_HeldItem;
+extern const struct SpritePalette sSpritePalette_HeldItem;
+extern const u16 sHeldItemPalette[];
 
 extern void (*gItemUseCB)(u8, TaskFunc);
 
@@ -92,5 +95,7 @@ void MoveDeleterForgetMove(void);
 void BufferMoveDeleterNicknameAndMove(void);
 void GetNumMovesSelectedMonHas(void);
 void MoveDeleterChooseMoveToForget(void);
+void ItemUseCB_ReduceIV(u8 taskId, TaskFunc task);
+void ItemUseCB_IncreaseIV(u8 taskId, TaskFunc task);
 
 #endif // GUARD_PARTY_MENU_H

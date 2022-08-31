@@ -1,7 +1,7 @@
 const u32 *const gItemIconTable[][2] =
 {
     [ITEM_NONE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    // Poké Balls
+    // Digi Balls
     [ITEM_POKE_BALL] = {gItemIcon_PokeBall, gItemIconPalette_PokeBall},
     [ITEM_GREAT_BALL] = {gItemIcon_GreatBall, gItemIconPalette_GreatBall},
     [ITEM_ULTRA_BALL] = {gItemIcon_UltraBall, gItemIconPalette_UltraBall},
@@ -672,6 +672,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_TM48] = {gItemIcon_TM, gItemIconPalette_PsychicTMHM},
     [ITEM_TM49] = {gItemIcon_TM, gItemIconPalette_DarkTMHM},
     [ITEM_TM50] = {gItemIcon_TM, gItemIconPalette_FireTMHM},
+    /*
     [ITEM_TM51] = {gItemIcon_TM, gItemIconPalette_NormalTMHM},  // Todo
     [ITEM_TM52] = {gItemIcon_TM, gItemIconPalette_NormalTMHM},  // Todo
     [ITEM_TM53] = {gItemIcon_TM, gItemIconPalette_NormalTMHM},  // Todo
@@ -722,6 +723,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_TM98] = {gItemIcon_TM, gItemIconPalette_NormalTMHM},  // Todo
     [ITEM_TM99] = {gItemIcon_TM, gItemIconPalette_NormalTMHM},  // Todo
     [ITEM_TM100] = {gItemIcon_TM, gItemIconPalette_NormalTMHM}, // Todo
+    */
     [ITEM_HM01] = {gItemIcon_HM, gItemIconPalette_NormalTMHM},
     [ITEM_HM02] = {gItemIcon_HM, gItemIconPalette_FlyingTMHM},
     [ITEM_HM03] = {gItemIcon_HM, gItemIconPalette_WaterTMHM},
