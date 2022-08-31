@@ -6709,11 +6709,13 @@ static bool8 CalculateMoves(void)
     //TMHM moves
     for (j = 0; j < NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES; j++)
     {
-        if (CanLearnTeachableMove(species, j))
+        u16 moveId = ItemIdToBattleMoveId(ITEM_TM01 + j);
+
+        if (CanLearnTeachableMove(species, moveId))
         {
-            sStatsMoves[movesTotal] = ItemIdToBattleMoveId(ITEM_TM01_FOCUS_PUNCH + j);
+            sStatsMoves[movesTotal] = moveId;
             movesTotal++;
-            sStatsMovesTMHM_ID[numTMHMMoves] = (ITEM_TM01_FOCUS_PUNCH + j);
+            sStatsMovesTMHM_ID[numTMHMMoves] = (ITEM_TM01 + j);
             numTMHMMoves++;
         }
     }
