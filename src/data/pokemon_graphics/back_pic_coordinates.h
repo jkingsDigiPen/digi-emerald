@@ -212,15 +212,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(57, 56),
         .y_offset = 6,
     },
+    // DemiDevimon
     [SPECIES_ZUBAT] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(64, 46),
+        .y_offset = 3,
     },
+    // Devimon
     [SPECIES_GOLBAT] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 13,
+        .size = MON_COORDS_SIZE(64, 61),
+        .y_offset = 2,
     },
     [SPECIES_ODDISH] =
     {
@@ -867,10 +869,11 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 9,
     },
+    // Myotismon
     [SPECIES_CROBAT] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 1,
+        .size = MON_COORDS_SIZE(49, 61),
+        .y_offset = 2,
     },
     [SPECIES_CHINCHOU] =
     {
@@ -1541,10 +1544,11 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(60, 57),
         .y_offset = 4,
     },
+    // Digitamamon
     [SPECIES_SABLEYE] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 13,
+        .size = MON_COORDS_SIZE(48, 57),
+        .y_offset = 3,
     },
     [SPECIES_BARBOACH] =
     {
@@ -1606,15 +1610,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 3,
     },
+    // Monodramon
     [SPECIES_MAKUHITA] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 8,
+        .size = MON_COORDS_SIZE(64, 59),
+        .y_offset = 2,
     },
+    // Strikedramon
     [SPECIES_HARIYAMA] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(61, 59),
+        .y_offset = 2,
     },
     [SPECIES_ELECTRIKE] =
     {
@@ -1712,15 +1718,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 7,
     },
+    // Lopmon
     [SPECIES_MEDITITE] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(60, 38),
+        .y_offset = 4,
     },
+    // Antylamon
     [SPECIES_MEDICHAM] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(64, 61),
+        .y_offset = 2,
     },
     [SPECIES_SWABLU] =
     {
@@ -1838,30 +1846,34 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 1,
     },
+    // Wendigomon
     [SPECIES_ZANGOOSE] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(64, 51),
+        .y_offset = 3,
     },
     [SPECIES_RELICANTH] =
     {
         .size = MON_COORDS_SIZE(64, 40),
         .y_offset = 12,
     },
+    // Hagurumon
     [SPECIES_ARON] =
     {
-        .size = MON_COORDS_SIZE(48, 40),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(64, 45),
+        .y_offset = 9,
     },
+    // Guardromon
     [SPECIES_LAIRON] =
     {
-        .size = MON_COORDS_SIZE(64, 40),
-        .y_offset = 15,
+        .size = MON_COORDS_SIZE(64, 53),
+        .y_offset = 3,
     },
+    // Andromon
     [SPECIES_AGGRON] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 5,
+        .size = MON_COORDS_SIZE(48, 61),
+        .y_offset = 2,
     },
     [SPECIES_CASTFORM] =
     {
