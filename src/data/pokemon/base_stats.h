@@ -8600,51 +8600,53 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Lopmon
     [SPECIES_MEDITITE] =
     {
-        .baseHP        = 30,
-        .baseAttack    = 40,
-        .baseDefense   = 55,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 55,
+        .baseHP        = 35,
+        .baseAttack    = 45,
+        .baseDefense   = 60,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 60,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 180,
         .expYield = 56,
-        .evYield_Speed     = 1,
+        .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-        .abilities = {ABILITY_PURE_POWER, ABILITY_NONE, ABILITY_TELEPATHY},
-        .bodyColor = BODY_COLOR_BLUE,
+        .abilities = {ABILITY_DEFEATIST, ABILITY_NONE, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
 
+    // Antylamon 525
     [SPECIES_MEDICHAM] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 75,
+        .baseHP        = 65, // +30
+        .baseAttack    = 90, // +45
+        .baseDefense   = 90, // +30
+        .baseSpeed     = 115,// +60
+        .baseSpAttack  = 75, // +30
+        .baseSpDefense = 90, // +30
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 90,
         .expYield = 144,
-        .evYield_Speed     = 2,
+        .evYield_Speed = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-        .abilities = {ABILITY_PURE_POWER, ABILITY_NONE, ABILITY_TELEPATHY},
-        .bodyColor = BODY_COLOR_RED,
+        .abilities = {ABILITY_HEALER, ABILITY_NONE, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
 
@@ -9314,29 +9316,30 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Wendigomon 490
     [SPECIES_ZANGOOSE] =
     {
-        .baseHP        = 73,
-        .baseAttack    = 115,
-        .baseDefense   = 60,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 60,
-        .type1 = TYPE_NORMAL,
-        .type2 = TYPE_NORMAL,
+        .baseHP        = 90, // +55
+        .baseAttack    = 120,// +75
+        .baseDefense   = 57, // +15
+        .baseSpeed     = 70, // +15
+        .baseSpAttack  = 60, // +15
+        .baseSpDefense = 75, // +15
+        .type1 = TYPE_FIGHTING,
+        .type2 = TYPE_DARK,
         .catchRate = 90,
         .expYield = 160,
-        .evYield_Attack    = 2,
+        .evYield_Attack = 2,
         .itemRare = ITEM_QUICK_CLAW,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
-        .growthRate = GROWTH_ERRATIC,
-        .eggGroup1 = EGG_GROUP_FIELD,
-        .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_IMMUNITY, ABILITY_NONE, ABILITY_TOXIC_BOOST},
-        .bodyColor = BODY_COLOR_WHITE,
-        .noFlip = TRUE,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_MONSTER,
+        .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
+        .abilities = {ABILITY_BEAST_BOOST, ABILITY_NONE, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
     },
 
     [SPECIES_SEVIPER] =

@@ -2040,12 +2040,14 @@ const u8 gMawilePokedexText[] = _(
     "complacency with its adorable gestures,\n"
     "then chomps them with its huge jaws.");
 
+// Lopmon
 const u8 gMedititePokedexText[] = _(
-    "It continually meditates for hours every\n"
-    "day. As a result of rigorous and dedicated\n"
-    "yoga training, it has tempered its\n"
-    "spiritual power so much it can fly.");
+    "It often appears to be sad and lonely, and\n"
+    "contains frightening amounts of potential\n"
+    "within. Under the care of a good trainer,\n"
+    "it can harness this power for good.");
 
+// Antylamon
 const u8 gMedichamPokedexText[] = _(
     "Through crushingly harsh yoga training, it\n"
     "gained the power to foretell its foe's\n"
@@ -2190,11 +2192,12 @@ const u8 gSeviperPokedexText[] = _(
     "with its swordlike tail, which also oozes\n"
     "a horrible poison.");
 
+// Wendigomon
 const u8 gZangoosePokedexText[] = _(
-    "When it battles, it stands on its hind legs\n"
-    "and attacks with its sharply clawed\n"
-    "forelegs. Its fur bristles if it encounters\n"
-    "any Seviper.");
+    "Though not completely evil, its anger\n"
+    "often overwhelms its other emotions. It\n"
+    "possesses immense strength, which grows\n"
+    "even further when it is enraged.");
 
 const u8 gRelicanthPokedexText[] = _(
     "A Pokémon that was once believed to have\n"

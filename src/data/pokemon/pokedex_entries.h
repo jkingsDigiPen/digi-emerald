@@ -3748,9 +3748,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
+    // Lopmon
     [NATIONAL_DEX_MEDITITE] =
     {
-        .categoryName = _("Meditate"),
+        .categoryName = _("Lop Ear"),
         .height = 6,
         .weight = 112,
         .description = gMedititePokedexText,
@@ -3760,9 +3761,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Antylamon
     [NATIONAL_DEX_MEDICHAM] =
     {
-        .categoryName = _("Meditate"),
+        .categoryName = _("RabbitDeva"),
         .height = 13,
         .weight = 315,
         .description = gMedichamPokedexText,
@@ -4085,9 +4087,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Wendigomon
     [NATIONAL_DEX_ZANGOOSE] =
     {
-        .categoryName = _("Cat Ferret"),
+        .categoryName = _("Abominable"),
         .height = 13,
         .weight = 403,
         .description = gZangoosePokedexText,
