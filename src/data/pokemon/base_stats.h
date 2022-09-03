@@ -8525,6 +8525,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Hagurumon
     [SPECIES_ARON] =
     {
         .baseHP        = 50,
@@ -8534,7 +8535,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 40,
         .baseSpDefense = 40,
         .type1 = TYPE_STEEL,
-        .type2 = TYPE_ROCK,
+        .type2 = TYPE_ELECTRIC,
         .catchRate = 180,
         .expYield = 66,
         .evYield_Defense   = 1,
@@ -8550,6 +8551,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Guardromon
     [SPECIES_LAIRON] =
     {
         .baseHP        = 60,
@@ -8559,7 +8561,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 50,
         .baseSpDefense = 50,
         .type1 = TYPE_STEEL,
-        .type2 = TYPE_ROCK,
+        .type2 = TYPE_ELECTRIC,
         .catchRate = 90,
         .expYield = 151,
         .evYield_Defense   = 2,
@@ -8575,6 +8577,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Andromon
     [SPECIES_AGGRON] =
     {
         .baseHP        = 70,
@@ -8584,7 +8587,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 60,
         .type1 = TYPE_STEEL,
-        .type2 = TYPE_ROCK,
+        .type2 = TYPE_ELECTRIC,
         .catchRate = 45,
         .expYield = 239,
         .evYield_Defense   = 3,
