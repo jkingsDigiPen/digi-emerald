@@ -1918,6 +1918,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = TRUE,
     },
 
+    // DemiDevimon 245
     [SPECIES_ZUBAT] =
     {
         .baseHP        = 40,
@@ -1937,31 +1938,33 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INFILTRATOR},
+        .abilities = {ABILITY_POISON_TOUCH, ABILITY_INFILTRATOR, ABILITY_MERCILESS},
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
 
+    // Devimon 455
     [SPECIES_GOLBAT] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 80,
-        .baseDefense   = 70,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 75,
+        .baseHP        = 70, // +30 (40)
+        .baseAttack    = 85, // +30 (45)
+        .baseDefense   = 70, // +30 (35)
+        .baseSpeed     = 90, // +35 (55)
+        .baseSpAttack  = 65, // +35 (30)
+        .baseSpDefense = 75, // +35 (40)
         .type1 = TYPE_POISON,
         .type2 = TYPE_FLYING,
         .catchRate = 90,
         .expYield = 159,
-        .evYield_Speed     = 2,
-        .genderRatio = PERCENT_FEMALE(50),
+        .evYield_Attack = 1,
+        .evYield_Speed = 1,
+        .genderRatio = MON_MALE,
         .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
-        .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INFILTRATOR},
+        .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
+        .abilities = {ABILITY_POISON_TOUCH, ABILITY_INFILTRATOR, ABILITY_MERCILESS},
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
@@ -5140,26 +5143,28 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Myotismon 535
     [SPECIES_CROBAT] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 90,
-        .baseDefense   = 80,
-        .baseSpeed     = 130,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 80,
-        .type1 = TYPE_POISON,
+        .baseHP        = 80, // +10 (70)
+        .baseAttack    = 95, // +10 (85)
+        .baseDefense   = 80, // +10 (70)
+        .baseSpeed     = 115, // +25 (90)
+        .baseSpAttack  = 85, // +20 (65)
+        .baseSpDefense = 80, // +5 (75)
+        .type1 = TYPE_DARK,
         .type2 = TYPE_FLYING,
         .catchRate = 90,
         .expYield = 241,
-        .evYield_Speed     = 3,
-        .genderRatio = PERCENT_FEMALE(50),
+        .evYield_Attack = 1,
+        .evYield_Speed = 2,
+        .genderRatio = MON_MALE,
         .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
-        .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INFILTRATOR},
+        .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
+        .abilities = {ABILITY_BAD_DREAMS, ABILITY_INFILTRATOR, ABILITY_MERCILESS},
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
@@ -8324,7 +8329,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 50,
         .baseSpAttack  = 30,
         .baseSpDefense = 40,
-        .type1 = TYPE_FIGHTING,
+        .type1 = TYPE_DRAGON,
         .type2 = TYPE_FIGHTING,
         .catchRate = 180,
         .expYield = 47,
@@ -8350,7 +8355,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 80,
         .baseSpAttack  = 40,
         .baseSpDefense = 60,
-        .type1 = TYPE_FIGHTING,
+        .type1 = TYPE_DRAGON,
         .type2 = TYPE_FIGHTING,
         .catchRate = 200,
         .expYield = 166,
@@ -8525,80 +8530,77 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    // Hagurumon
+    // Hagurumon 300
     [SPECIES_ARON] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 70,
-        .baseDefense   = 100,
+        .baseHP        = 40,
+        .baseAttack    = 55,
+        .baseDefense   = 70,
         .baseSpeed     = 30,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 40,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 60,
         .type1 = TYPE_STEEL,
-        .type2 = TYPE_ELECTRIC,
+        .type2 = TYPE_STEEL,
         .catchRate = 180,
         .expYield = 66,
         .evYield_Defense   = 1,
-        .itemRare = ITEM_HARD_STONE,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 35,
         .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_MONSTER,
-        .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_STURDY, ABILITY_ROCK_HEAD, ABILITY_HEAVY_METAL},
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_MINERAL,
+        .eggGroup2 = EGG_GROUP_MINERAL,
+        .abilities = {ABILITY_WEAK_ARMOR, ABILITY_NONE, ABILITY_HEAVY_METAL},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
 
-    // Guardromon
+    // Guardromon 440
     [SPECIES_LAIRON] =
     {
         .baseHP        = 60,
-        .baseAttack    = 90,
-        .baseDefense   = 140,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 50,
+        .baseAttack    = 80,
+        .baseDefense   = 95,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 85,
         .type1 = TYPE_STEEL,
-        .type2 = TYPE_ELECTRIC,
+        .type2 = TYPE_STEEL,
         .catchRate = 90,
         .expYield = 151,
         .evYield_Defense   = 2,
-        .itemRare = ITEM_HARD_STONE,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 35,
         .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_MONSTER,
-        .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_STURDY, ABILITY_ROCK_HEAD, ABILITY_HEAVY_METAL},
-        .bodyColor = BODY_COLOR_GRAY,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_MINERAL,
+        .eggGroup2 = EGG_GROUP_MINERAL,
+        .abilities = {ABILITY_PRISM_ARMOR, ABILITY_NONE, ABILITY_HEAVY_METAL},
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
-    // Andromon
+    // Andromon 520
     [SPECIES_AGGRON] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 110,
-        .baseDefense   = 180,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 60,
+        .baseHP        = 60,
+        .baseAttack    = 100,
+        .baseDefense   = 115,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 85,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 45,
         .expYield = 239,
         .evYield_Defense   = 3,
-        .itemRare = ITEM_HARD_STONE,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 35,
         .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_MONSTER,
-        .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_STURDY, ABILITY_ROCK_HEAD, ABILITY_HEAVY_METAL},
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_MINERAL,
+        .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
+        .abilities = {ABILITY_GALVANIZE, ABILITY_NONE, ABILITY_HEAVY_METAL},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
