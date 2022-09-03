@@ -1965,7 +1965,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         .abilities = {ABILITY_POISON_TOUCH, ABILITY_INFILTRATOR, ABILITY_MERCILESS},
-        .bodyColor = BODY_COLOR_PURPLE,
+        .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
