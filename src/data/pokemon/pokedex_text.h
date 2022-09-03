@@ -249,17 +249,19 @@ const u8 gWigglytuffPokedexText[] = _(
     "those it deems as evil, striking with\n"
     "holy arrows until they relent.");
 
+// DemiDevimon
 const u8 gZubatPokedexText[] = _(
-    "While living in pitch-black caverns, their\n"
-    "eyes gradually grew shut and deprived\n"
-    "them of vision. They use ultrasonic waves\n"
-    "to detect obstacles.");
+    "Its strength is unremarkable, so it prefers\n"
+    "hiding in the shadow of larger dark Digimon.\n"
+    "It makes up for its lack of power with pure\n"
+    "cunning, making mischief wherever it can.");
 
+// Devimon
 const u8 gGolbatPokedexText[] = _(
-    "Its fangs easily puncture even thick\n"
-    "animal hide. It loves to feast on the blood\n"
-    "of people and Pokémon. It flits about in\n"
-    "darkness and strikes from behind.");
+    "It was once an angel Digimon, but fell into\n"
+    "darkness and became evil. It possesses an\n"
+    "impressive intellect, and delights in\n"
+    "confusing and manipulating other Digimon.");
 
 const u8 gOddishPokedexText[] = _(
     "This Pokémon grows by absorbing moonlight.\n"
@@ -1032,11 +1034,12 @@ const u8 gAriadosPokedexText[] = _(
     "vertical walls. It constricts its foe with\n"
     "thin and strong silk webbing.");
 
+// Myotismon
 const u8 gCrobatPokedexText[] = _(
-    "Over the course of evolution, its hind legs\n"
-    "turned into wings. By alternately resting\n"
-    "its front and rear wings, it can fly all day\n"
-    "without having to stop.");
+    "It was originally a fiendishly designed\n"
+    "computer virus. In this form, it absorbed\n"
+    "data and used it to create more viruses.\n"
+    "Now, it rules over other undead Digimon.");
 
 const u8 gChinchouPokedexText[] = _(
     "When it senses danger, it discharges\n"
@@ -1835,11 +1838,12 @@ const u8 gTorkoalPokedexText[] = _(
     "temperament and incredible firepower.\n"
     "Few tamers can effectively command it.");
 
+// Digitamamon
 const u8 gSableyePokedexText[] = _(
-    "It digs branching holes in caves using its\n"
-    "sharp claws in search of food--raw gems.\n"
-    "A Sableye lurks in darkness and is seen\n"
-    "only rarely.");
+    "It takes on the appearance of a DigiEgg, the\n"
+    "beginning and ending form of all Digimon. It\n"
+    "is rumored that it can evolve, though the cause\n"
+    "and what form it might take are unknown.");
 
 const u8 gBarboachPokedexText[] = _(
     "Its body is covered with a slimy film.\n"
@@ -1913,17 +1917,19 @@ const u8 gFlygonPokedexText[] = _(
     "it hides itself by flapping up a cloud of\n"
     "desert sand.");
 
+// Monodramon
 const u8 gMakuhitaPokedexText[] = _(
-    "It loves to toughen up its body above all\n"
-    "else. If you hear quaking rumbles in a cave,\n"
-    "it is the sound of Makuhita undertaking\n"
-    "strenuous training.");
+    "It is a small dragon that loves brawling\n"
+    "more than anything. Even Digimon that\n"
+    "bully other Digimon, like Ogremon, are\n"
+    "wary of interacting with it.");
 
+// Strikedramon
 const u8 gHariyamaPokedexText[] = _(
-    "It has the habit of challenging others\n"
-    "without hesitation to tests of strength.\n"
-    "It's been known to stand on train tracks\n"
-    "and stop trains using forearm thrusts.");
+    "It is an evolved form of Monodramon\n"
+    "that actively seeks out virus Digimon.\n"
+    "Once it finds one, it won't stop until\n"
+    "it reduces its opponent to trash data.");
 
 const u8 gElectrikePokedexText[] = _(
     "It generates electricity using friction\n"
@@ -2049,10 +2055,10 @@ const u8 gMedititePokedexText[] = _(
 
 // Antylamon
 const u8 gMedichamPokedexText[] = _(
-    "Through crushingly harsh yoga training, it\n"
-    "gained the power to foretell its foe's\n"
-    "actions. It battles with elegant, dance-\n"
-    "like movement.");
+    "It manipulates the qi within its body to\n"
+    "allow it to both move like water and unleash\n"
+    "heavy attacks. Its perfected state of mind\n"
+    "allows it to shrug off most wounds.");
 
 const u8 gSwabluPokedexText[] = _(
     "A Pokémon that has wings like cottony\n"
@@ -2205,23 +2211,26 @@ const u8 gRelicanthPokedexText[] = _(
     "its form for 100 million years. It walks on\n"
     "the seafloor using its pectoral fins.");
 
+// Hagurumon
 const u8 gAronPokedexText[] = _(
-    "A Pokémon that is clad in steel armor.\n"
-    "A new suit of armor is made when it evolves.\n"
-    "The old, discarded armor is salvaged as\n"
-    "metal for making iron products.");
+    "There are countless gears built into its\n"
+    "body, constantly rotating. If even a single\n"
+    "gear is removed, it becomes completely\n"
+    "inert and lifeless.");
 
+// Guardromon
 const u8 gLaironPokedexText[] = _(
-    "When two Lairon meet in the wild, they\n"
-    "fight for territory by bashing into each\n"
-    "other with their steel bodies. The sound\n"
-    "of their collision carries for miles.");
+    "It serves as a security program, defending\n"
+    "networks from would-be intruders. Though\n"
+    "difficult to destroy, it poses no threat\n"
+    "to anyone who isn't actively trespassing.");
 
+// Andromon
 const u8 gAggronPokedexText[] = _(
-    "Its iron horns grow longer a little at\n"
-    "a time. They are used to determine the\n"
-    "Aggron's age. The gouges in its armor are\n"
-    "worn with pride as mementos from battles.");
+    "It was originally developed as a prototype.\n"
+    "Though powerful in its own right, most of\n"
+    "its technology has been appropriated for use\n"
+    "in several cyborg dragon Digimon.");
 
 const u8 gCastformPokedexText[] = _(
     "It alters its form depending on the\n"

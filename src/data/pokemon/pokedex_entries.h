@@ -497,9 +497,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // DemiDevimon
     [NATIONAL_DEX_ZUBAT] =
     {
-        .categoryName = _("Bat"),
+        .categoryName = _("Tiny Devil"),
         .height = 8,
         .weight = 75,
         .description = gZubatPokedexText,
@@ -509,9 +510,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Devimon
     [NATIONAL_DEX_GOLBAT] =
     {
-        .categoryName = _("Bat"),
+        .categoryName = _("Evil Mark"),
         .height = 16,
         .weight = 550,
         .description = gGolbatPokedexText,
@@ -2048,9 +2050,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Myotismon
     [NATIONAL_DEX_CROBAT] =
     {
-        .categoryName = _("Bat"),
+        .categoryName = _("Vampiric"),
         .height = 18,
         .weight = 750,
         .description = gCrobatPokedexText,
@@ -3612,9 +3615,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Monodramon
     [NATIONAL_DEX_MAKUHITA] =
     {
-        .categoryName = _("Guts"),
+        .categoryName = _("Brawling"),
         .height = 10,
         .weight = 864,
         .description = gMakuhitaPokedexText,
@@ -3624,9 +3628,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Strikedramon
     [NATIONAL_DEX_HARIYAMA] =
     {
-        .categoryName = _("Arm Thrust"),
+        .categoryName = _("Commando"),
         .height = 23,
         .weight = 2538,
         .description = gHariyamaPokedexText,
@@ -3688,9 +3693,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Digitamamon
     [NATIONAL_DEX_SABLEYE] =
     {
-        .categoryName = _("Darkness"),
+        .categoryName = _("Perfect"),
         .height = 5,
         .weight = 110,
         .description = gSableyePokedexText,
@@ -3712,9 +3718,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Hagurumon
     [NATIONAL_DEX_ARON] =
     {
-        .categoryName = _("Iron Armor"),
+        .categoryName = _("Clockwork"),
         .height = 4,
         .weight = 600,
         .description = gAronPokedexText,
@@ -3724,9 +3731,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Guardromon
     [NATIONAL_DEX_LAIRON] =
     {
-        .categoryName = _("Iron Armor"),
+        .categoryName = _("Security"),
         .height = 9,
         .weight = 1200,
         .description = gLaironPokedexText,
@@ -3736,9 +3744,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Andromon
     [NATIONAL_DEX_AGGRON] =
     {
-        .categoryName = _("Iron Armor"),
+        .categoryName = _("Prototype"),
         .height = 21,
         .weight = 3600,
         .description = gAggronPokedexText,
