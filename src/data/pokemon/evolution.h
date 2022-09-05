@@ -194,7 +194,8 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_WINGULL]               = {{EVO_LEVEL, 27, SPECIES_PELIPPER}}, // falcomon
     [SPECIES_SURSKIT]               = {{EVO_LEVEL, 22, SPECIES_MASQUERAIN}}, // hyokomon
     [SPECIES_WAILMER]               = {{EVO_LEVEL, 40, SPECIES_WAILORD}},
-    [SPECIES_SKITTY]                = {{EVO_LEVEL, 24, SPECIES_DELCATTY}}, // labramon
+    [SPECIES_SKITTY]                = {{EVO_LEVEL, 24, SPECIES_DELCATTY}, // labramon
+                                       {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_GALLADE}},
     [SPECIES_BALTOY]                = {{EVO_LEVEL, 36, SPECIES_CLAYDOL}},
     [SPECIES_NOSEPASS]              = {{EVO_LEVEL, 35, SPECIES_PROBOPASS}}, // pawnchessmonwhite
     [SPECIES_SABLEYE]               = {{EVO_MEGA_EVOLUTION, ITEM_SABLENITE, SPECIES_SABLEYE_MEGA}},
