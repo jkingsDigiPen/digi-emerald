@@ -1700,11 +1700,11 @@ static void UpdateCursorPosition(void)
         y = ROW_LAND_BOT_ICON_Y;
         sDexNavUiDataPtr->environment = ENCOUNTER_TYPE_LAND;
         break;
-    case ROW_HIDDEN:
+    /*case ROW_HIDDEN:
         x = ROW_HIDDEN_ICON_X + (24 * sDexNavUiDataPtr->cursorCol);
         y = ROW_HIDDEN_ICON_Y;
         sDexNavUiDataPtr->environment = ENCOUNTER_TYPE_HIDDEN;
-        break;
+        break;*/
     default:
         return;
     }
@@ -1804,7 +1804,7 @@ static bool8 CapturedAllWaterMons(u16 headerId)
 
 static bool8 CapturedAllHiddenMons(u16 headerId)
 {
-    u32 i;
+    /*u32 i;
     u16 species;
     u8 count = 0;
     const struct WildPokemonInfo* hiddenMonsInfo = gWildMonHeaders[headerId].hiddenMonsInfo;
@@ -1828,7 +1828,7 @@ static bool8 CapturedAllHiddenMons(u16 headerId)
     else
     {
         return TRUE;    //technically, no mon data means you caught them all
-    }
+    }*/
 
     return FALSE;
 }
@@ -2028,7 +2028,7 @@ static void DrawSpeciesIcons(void)
         TryDrawIconInSlot(species, x, y);
     }
     
-    for (i = 0; i < HIDDEN_WILD_COUNT; i++)
+    /*for (i = 0; i < HIDDEN_WILD_COUNT; i++)
     {
         species = sDexNavUiDataPtr->hiddenSpecies[i];
         x = ROW_HIDDEN_ICON_X + 24 * i;
@@ -2039,7 +2039,7 @@ static void DrawSpeciesIcons(void)
             CreateNoDataIcon(x, y);
         else
             CreateMonIcon(SPECIES_NONE, SpriteCB_MonIcon, x, y, 0, 0xFFFFFFFF); //question mark if detector mode inactive
-    }
+    }*/
 }
 
 static u16 DexNavGetSpecies(void)
@@ -2057,12 +2057,12 @@ static u16 DexNavGetSpecies(void)
     case ROW_LAND_BOT:
         species = sDexNavUiDataPtr->landSpecies[sDexNavUiDataPtr->cursorCol + COL_LAND_COUNT];
         break;
-    case ROW_HIDDEN:
+    /*case ROW_HIDDEN:
         if (!FlagGet(FLAG_SYS_DETECTOR_MODE))
             species = SPECIES_NONE;
         else
             species = sDexNavUiDataPtr->hiddenSpecies[sDexNavUiDataPtr->cursorCol];
-        break;
+        break;*/
     default:
         return SPECIES_NONE;
     }
@@ -2378,9 +2378,12 @@ static void Task_DexNavMain(u8 taskId)
     {
         if (sDexNavUiDataPtr->cursorRow == ROW_WATER)
         {
-            sDexNavUiDataPtr->cursorRow = ROW_HIDDEN;
+            /*sDexNavUiDataPtr->cursorRow = ROW_HIDDEN;
             if (sDexNavUiDataPtr->cursorCol >= COL_HIDDEN_COUNT)
-                sDexNavUiDataPtr->cursorCol = COL_HIDDEN_MAX;
+                sDexNavUiDataPtr->cursorCol = COL_HIDDEN_MAX;*/
+            sDexNavUiDataPtr->cursorRow = ROW_LAND_BOT;
+            if (sDexNavUiDataPtr->cursorCol >= COL_LAND_COUNT)
+                sDexNavUiDataPtr->cursorCol = COL_LAND_MAX;
         }
         else
         {
@@ -2395,16 +2398,21 @@ static void Task_DexNavMain(u8 taskId)
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
-        if (sDexNavUiDataPtr->cursorRow == ROW_HIDDEN)
+        /*if (sDexNavUiDataPtr->cursorRow == ROW_HIDDEN)
         {
             sDexNavUiDataPtr->cursorRow = ROW_WATER;
         }
-        else if (sDexNavUiDataPtr->cursorRow == ROW_LAND_BOT)
+        else*/ if (sDexNavUiDataPtr->cursorRow == ROW_LAND_BOT)
         {
-            if (sDexNavUiDataPtr->cursorCol >= COL_HIDDEN_COUNT)
+            /*if (sDexNavUiDataPtr->cursorCol >= COL_HIDDEN_COUNT)
                 sDexNavUiDataPtr->cursorCol = COL_HIDDEN_MAX;
             
-            sDexNavUiDataPtr->cursorRow++;
+            sDexNavUiDataPtr->cursorRow++;*/
+
+            if (sDexNavUiDataPtr->cursorCol >= COL_WATER_COUNT)
+                sDexNavUiDataPtr->cursorCol = COL_WATER_MAX;
+
+            sDexNavUiDataPtr->cursorRow = ROW_WATER;
         }
         else
         {
@@ -2423,9 +2431,9 @@ static void Task_DexNavMain(u8 taskId)
             case ROW_WATER:
                 sDexNavUiDataPtr->cursorCol = COL_WATER_MAX;
                 break;
-            case ROW_HIDDEN:
+            /*case ROW_HIDDEN:
                 sDexNavUiDataPtr->cursorCol = COL_HIDDEN_MAX;
-                break;
+                break;*/
             default:
                 sDexNavUiDataPtr->cursorCol = COL_LAND_MAX;
                 break;
@@ -2449,12 +2457,12 @@ static void Task_DexNavMain(u8 taskId)
             else
                 sDexNavUiDataPtr->cursorCol++;
             break;
-        case ROW_HIDDEN:
+        /*case ROW_HIDDEN:
             if (sDexNavUiDataPtr->cursorCol == COL_HIDDEN_MAX)
                 sDexNavUiDataPtr->cursorCol = 0;
             else
                 sDexNavUiDataPtr->cursorCol++;
-            break;
+            break;*/
         default:
             if (sDexNavUiDataPtr->cursorCol == COL_LAND_MAX)
                 sDexNavUiDataPtr->cursorCol = 0;
@@ -2496,7 +2504,7 @@ static void Task_DexNavMain(u8 taskId)
         {
             gSpecialVar_0x8000 = species;
             gSpecialVar_0x8001 = sDexNavUiDataPtr->environment;
-            gSpecialVar_0x8002 = (sDexNavUiDataPtr->cursorRow == ROW_HIDDEN) ? TRUE : FALSE;
+            gSpecialVar_0x8002 = FALSE; //= (sDexNavUiDataPtr->cursorRow == ROW_HIDDEN) ? TRUE : FALSE;
             PlaySE(SE_DEX_SEARCH);
             BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
             task->func = Task_DexNavExitAndSearch;
