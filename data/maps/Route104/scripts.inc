@@ -1083,14 +1083,14 @@ Route104_Text_TrainerTipsDoubleBattles: @ 81EDAEF
 
 Route104_Text_MayWeShouldRegister: @ 81EDBFF
 	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "Devon upgraded your Diginav with\n"
+	.string "Devon upgraded your DigiNav with\n"
 	.string "the Match Call system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay: @ 81EDC8F
 	.string "{PLAYER} registered May\n"
-	.string "in the Diginav.$"
+	.string "in the DigiNav.$"
 
 Route104_Text_MayHowsYourPokedex: @ 81EDCB1
 	.string "May: Oh, by the way, {PLAYER}{KUN},\n"
@@ -1127,16 +1127,16 @@ Route104_Text_MayPostBattle: @ 81EDE3E
 	.string "It's important to become friends with\n"
 	.string "Digimon, too.$"
 
-Route104_Text_BrendanWeShouldRegister: @ 81EDF04
+Route104_Text_BrendanWeShouldRegister:
 	.string "Brendan: Oh, hey, {PLAYER}!\p"
 	.string "Cool, you had Devon install the Match\n"
-	.string "CALL system on your Diginav!\p"
+	.string "Call system on your DigiNav!\p"
 	.string "Let's register each other in our\n"
-	.string "Diginavs so we can keep in touch.$"
+	.string "DigiNavs so we can keep in touch.$"
 
-Route104_Text_RegisteredBrendan: @ 81EDFA0
+Route104_Text_RegisteredBrendan:
 	.string "{PLAYER} registered Brendan\n"
-	.string "in the Diginav.$"
+	.string "in the DigiNav.$"
 
 Route104_Text_BrendanHowsYourPokedex: @ 81EDFC6
 	.string "Brendan: {PLAYER}, how's your Digidex?\n"

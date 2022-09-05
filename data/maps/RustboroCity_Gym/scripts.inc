@@ -250,7 +250,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 
 RustboroCity_Gym_Text_RegisteredRoxanne: @ 8213C01
 	.string "Registered Gym Leader Roxanne\n"
-	.string "in the Diginav.$"
+	.string "in the DigiNav.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch: @ 8213C2F
 	.string "Roxanne: I'm so glad to see you again.\n"

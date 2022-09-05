@@ -221,11 +221,11 @@ RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis: @ 821277C
 	.string "That's why I want you to have this!$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav: @ 8212820
-	.string "{PLAYER} received a Diginav.$"
+	.string "{PLAYER} received a DigiNav.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "Mr. Stone: That device…\p"
-	.string "It's a Digimon Navigator, or Diginav\n"
+	.string "It's a Digimon Navigator, or DigiNav\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "Trainer on an adventure.\p"

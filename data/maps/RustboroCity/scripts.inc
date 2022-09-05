@@ -1137,14 +1137,14 @@ RustboroCity_Text_PleaseComeWithMe:
 RustboroCity_Text_MayHiLetsRegister: @ 81E1A49
 	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "You had a Match Call feature put\n"
-	.string "on your Diginav!\p"
+	.string "on your DigiNav!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredMay: @ 81E1ADB
 	.string "Registered May\n"
-	.string "in the Diginav.$"
+	.string "in the DigiNav.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
 	.string "May: Oh, by the way, I passed\n"
@@ -1184,14 +1184,14 @@ RustboroCity_Text_MayMrBrineyHint: @ 81E1CE7
 RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
 	.string "Brendan: Oh, hey, {PLAYER}!\p"
 	.string "You had a Match Call feature put\n"
-	.string "on your Diginav! Cool!\p"
+	.string "on your DigiNav! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan: @ 81E1E11
 	.string "Registered Brendan\n"
-	.string "in the Diginav.$"
+	.string "in the DigiNav.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 	.string "Brendan: By the way, {PLAYER}, I walked\n"
@@ -1264,25 +1264,25 @@ RustboroCity_Text_CuttersHouse: @ 81E2296
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
 	.string "I've been developing an added feature\n"
-	.string "for the Diginav…\p"
+	.string "for the DigiNav…\p"
 	.string "And it turned out great!\p"
-	.string "{PLAYER}, may I see that Diginav?\n"
+	.string "{PLAYER}, may I see that DigiNav?\n"
 	.string "The one our President gave you?$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 	.string "There you go, {PLAYER}!\p"
 	.string "I added a new feature named\n"
-	.string "Match Call to your Diginav.\p"
+	.string "Match Call to your DigiNav.\p"
 	.string "Using the Match Call feature,\n"
 	.string "you can chat with people who have\l"
-	.string "been registered in your Diginav.\p"
+	.string "been registered in your DigiNav.\p"
 	.string "{PLAYER}, our President Stone should\n"
-	.string "be registered in your Diginav.\p"
+	.string "be registered in your DigiNav.\p"
 	.string "Test it out.\n"
 	.string "Please give our President a call.$"
 
 RustboroCity_Text_PleaseSelectPokenav: @ 81E2449
-	.string "Please select the Diginav.$"
+	.string "Please select the DigiNav.$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
 	.string "Okay, I'd better get back to work.\n"

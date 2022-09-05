@@ -142,5 +142,5 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "pharmaceuticals for better lifestyles.\p"
 	.string "“Recently, Devon has begun marketing\n"
 	.string "tools for Digimon Trainers, including\l"
-	.string "Digi Balls and Diginav systems.”$"
+	.string "Digi Balls and DigiNav systems.”$"
 
