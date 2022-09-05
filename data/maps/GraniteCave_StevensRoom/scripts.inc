@@ -98,19 +98,19 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis: @ 822DDBD
 	.string "Steel Wing.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
-	.string "Steven: Your Pokémon appear quite\n"
+	.string "Steven: Your Digimon appear quite\n"
 	.string "capable.\p"
 	.string "If you keep training, you could even\n"
-	.string "become the Champion of the Pokémon\l"
+	.string "become the Champion of the Digimon\l"
 	.string "League one day. That's what I think.\p"
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"
-	.string "our Pokénavs.\p"
+	.string "our DigiNavs.\p"
 	.string "… … … … … …$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven: @ 822DF6A
 	.string "Registered Steven\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 	.string "Now, I've got to hurry along.$"

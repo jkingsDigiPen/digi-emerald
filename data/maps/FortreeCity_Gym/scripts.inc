@@ -136,7 +136,7 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 	.string "Yo, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "Fortree Gym Leader Winona is\n"
-	.string "a master of Flying-type Pokémon.\p"
+	.string "a master of Flying-type Digimon.\p"
 	.string "She's waiting at the back of this Gym,\n"
 	.string "behind the rotating doors.\p"
 	.string "She's waiting for new challengers\n"
@@ -149,7 +149,7 @@ FortreeCity_Gym_Text_GymGuidePostVictory:
 
 FortreeCity_Gym_Text_JaredIntro:
 	.string "Behold the elegant battle style of\n"
-	.string "Bird Pokémon!$"
+	.string "Bird Digimon!$"
 
 FortreeCity_Gym_Text_JaredDefeat:
 	.string "You…\n"
@@ -162,7 +162,7 @@ FortreeCity_Gym_Text_JaredPostBattle: @ 82168E7
 	.string "our Leader?$"
 
 FortreeCity_Gym_Text_EdwardoIntro: @ 821695A
-	.string "The lovers of Bird Pokémon aspire\n"
+	.string "The lovers of Bird Digimon aspire\n"
 	.string "to join this Gym.\p"
 	.string "As a member of the Fortree Gym,\n"
 	.string "I'm not allowed to lose!$"
@@ -219,7 +219,7 @@ FortreeCity_Gym_Text_HumbertoPostBattle:
 
 FortreeCity_Gym_Text_DariusIntro:
 	.string "You'd better know that there are all\n"
-	.string "sorts of Flying-type Pokémon.\p"
+	.string "sorts of Flying-type Digimon.\p"
 	.string "You do know that, right?$"
 
 FortreeCity_Gym_Text_DariusDefeat:
@@ -228,21 +228,21 @@ FortreeCity_Gym_Text_DariusDefeat:
 FortreeCity_Gym_Text_DariusPostBattle:
 	.string "Sure, you beat me all right.\n"
 	.string "But you'd better watch it! Our Leader\l"
-	.string "Winona's Pokémon are all business.$"
+	.string "Winona's Digimon are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
 	.string "I am Winona. I am the Leader of\n"
-	.string "the Fortree Pokémon Gym.\p"
-	.string "I have become one with Bird Pokémon\n"
+	.string "the Fortree Digimon Gym.\p"
+	.string "I have become one with Bird Digimon\n"
 	.string "and have soared the skies…\p"
 	.string "However grueling the battle, we have\n"
 	.string "triumphed with grace…\p"
 	.string "Witness the elegant choreography\n"
-	.string "of Bird Pokémon and I!$"
+	.string "of Bird Digimon and I!$"
 
 FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
 	.string "Never before have I seen a Trainer\n"
-	.string "command Pokémon with more grace\l"
+	.string "command Digimon with more grace\l"
 	.string "than I…\p"
 	.string "In recognition of your prowess,\n"
 	.string "I present to you this Gym Badge.$"
@@ -252,7 +252,7 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
 	.string "from Winona.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
-	.string "With the Feather Badge, all Pokémon up\n"
+	.string "With the Feather Badge, all Digimon up\n"
 	.string "to LV 70, even those received through\l"
 	.string "trades, will obey your every command.\p"
 	.string "You will also be able to use\n"
@@ -263,22 +263,22 @@ FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
 FortreeCity_Gym_Text_ExplainAerialAce: @ 8216FEC
 	.string "TM40 contains Aerial Ace.\p"
 	.string "Its speed…\n"
-	.string "No Pokémon should be able to avoid it.\p"
+	.string "No Digimon should be able to avoid it.\p"
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
 	.string "Registered Gym Leader Winona\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
 	.string "Though I fell to you, I will remain\n"
-	.string "devoted to Bird Pokémon.$"
+	.string "devoted to Bird Digimon.$"
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
-	.string "Fortree City Pokémon Gym$"
+	.string "Fortree City Digimon Gym$"
 
 FortreeCity_Gym_Text_GymStatueCertified: @ 82170C7
-	.string "Fortree City Pokémon Gym\p"
+	.string "Fortree City Digimon Gym\p"
 	.string "Winona's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
@@ -312,6 +312,6 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons: @ 8217292
 	.string "Please, allow me to see your power\n"
 	.string "at full flight!\p"
 	.string "Oh, no… Do you have but one\n"
-	.string "Pokémon with you?\p"
-	.string "Please return with two Pokémon\n"
+	.string "Digimon with you?\p"
+	.string "Please return with two Digimon\n"
 	.string "at the very least.$"

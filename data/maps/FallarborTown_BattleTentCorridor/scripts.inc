@@ -52,9 +52,9 @@ FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
 	.string "See!\n"
-	.string "My Pokémon won all these Ribbons!\p"
-	.string "Have your Pokémon earned any Ribbons?\n"
-	.string "You can check them on your Pokénav.$"
+	.string "My Digimon won all these Ribbons!\p"
+	.string "Have your Digimon earned any Ribbons?\n"
+	.string "You can check them on your DigiNav.$"
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere: @ 8200802
@@ -65,6 +65,6 @@ FallarborTown_ContestHall_Text_CantWinEverywhere: @ 8200802
 
 @ Unused
 FallarborTown_ContestHall_Text_SuperRankStage: @ 8200876
-	.string "Pokémon Contests\n"
+	.string "Digimon Contests\n"
 	.string "Super Rank Stage!$"
 

@@ -72,12 +72,12 @@ MeteorFalls_1F_2R_Text_NicolasDefeat:
 
 MeteorFalls_1F_2R_Text_NicolasPostBattle:
 	.string "The road ahead remains long and harsh.\p"
-	.string "When will my Pokémon and I become\n"
+	.string "When will my Digimon and I become\n"
 	.string "the best?$"
 
 MeteorFalls_1F_2R_Text_NicolasRegister:
 	.string "I want to know more about your power.\n"
-	.string "Let me register you in my Pokénav.$"
+	.string "Let me register you in my DigiNav.$"
 
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:
 	.string "Since we met, we have trained hard\n"
@@ -91,12 +91,12 @@ MeteorFalls_1F_2R_Text_NicolasRematchDefeat:
 
 MeteorFalls_1F_2R_Text_NicolasPostRematch:
 	.string "You've obviously kept up your\n"
-	.string "Pokémon training.\p"
+	.string "Digimon training.\p"
 	.string "So long as you remain strong, I, too,\n"
 	.string "can become stronger!$"
 
 MeteorFalls_1F_2R_Text_JohnIntro: @ 822C843
-	.string "John: We've always battled Pokémon\n"
+	.string "John: We've always battled Digimon\n"
 	.string "together as a twosome.\l"
 	.string "We've confidence in ourselves.$"
 
@@ -113,7 +113,7 @@ MeteorFalls_1F_2R_Text_JohnPostBattle: @ 822C8C1
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons: @ 822C92B
 	.string "John: Well, well, what a young Trainer!\p"
 	.string "Will you battle with us? If so, you'll\n"
-	.string "have to return with more Pokémon.$"
+	.string "have to return with more Digimon.$"
 
 MeteorFalls_1F_2R_Text_JohnRegister: @ 822C99C
 	.string "John: Young Trainer, if the chance\n"
@@ -132,16 +132,16 @@ MeteorFalls_1F_2R_Text_JayDefeat: @ 822CA44
 MeteorFalls_1F_2R_Text_JayPostBattle: @ 822CA70
 	.string "Jay: Fifty years of marriage…\p"
 	.string "If we ever argued, we always settled\n"
-	.string "it with a Pokémon battle…$"
+	.string "it with a Digimon battle…$"
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons: @ 822CACD
 	.string "Jay: Well, well, aren't you a young\n"
 	.string "Trainer?\p"
 	.string "If you'd care to battle with us, you'll\n"
-	.string "have to come back with more Pokémon.$"
+	.string "have to come back with more Digimon.$"
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro: @ 822CB47
-	.string "John: We've always battled Pokémon\n"
+	.string "John: We've always battled Digimon\n"
 	.string "together as a twosome.\l"
 	.string "We've confidence in ourselves.$"
 
@@ -157,7 +157,7 @@ MeteorFalls_1F_2R_Text_JohnPostRematch: @ 822CBC5
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons: @ 822CC27
 	.string "John: Well, well, what a young Trainer!\p"
 	.string "Will you battle with us? If so, you'll\n"
-	.string "have to return with more Pokémon.$"
+	.string "have to return with more Digimon.$"
 
 MeteorFalls_1F_2R_Text_JayRematchIntro: @ 822CC98
 	.string "Jay: We've been married for\n"
@@ -179,5 +179,5 @@ MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons: @ 822CDAB
 	.string "Jay: Well, well, aren't you a young\n"
 	.string "Trainer?\p"
 	.string "If you'd care to battle with us, you'll\n"
-	.string "have to come back with more Pokémon.$"
+	.string "have to come back with more Digimon.$"
 

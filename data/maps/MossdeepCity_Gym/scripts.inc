@@ -368,15 +368,15 @@ MossdeepCity_Gym_Text_GymGuideAdvice: @ 8220CD5
 	.string "Yo, how's it going, Champion-bound\n"
 	.string "{PLAYER}?\p"
 	.string "The Gym Leaders here use\n"
-	.string "Psychic-type Pokémon.\p"
+	.string "Psychic-type Digimon.\p"
 	.string "If you go up against them with\n"
-	.string "Fighting- or Poison-type Pokémon,\l"
+	.string "Fighting- or Poison-type Digimon,\l"
 	.string "they'll inflict horrible damage!\p"
 	.string "Plus, they'll come at you with\n"
 	.string "outstanding combination attacks.\p"
 	.string "If you want to win, you'll need to show\n"
 	.string "them how tight you are with your\l"
-	.string "Pokémon. Go for it!$"
+	.string "Digimon. Go for it!$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
 	.string "Wow, you're astounding!\n"
@@ -407,18 +407,18 @@ MossdeepCity_Gym_Text_VirgilPostBattle:
 	.string "than them…$"
 
 MossdeepCity_Gym_Text_BlakeIntro: @ 8220FB0
-	.string "Fufufufu… Watch me levitate a Poké\n"
+	.string "Fufufufu… Watch me levitate a Digi\n"
 	.string "Ball telekinetically!\p"
 	.string "Wrooooooooaaaar!\n"
 	.string "… … … … … … …\p"
 	.string "Sometimes, I'm out of sync…$"
 
 MossdeepCity_Gym_Text_BlakeDefeat: @ 8221024
-	.string "My Pokémon battling skills are out\n"
+	.string "My Digimon battling skills are out\n"
 	.string "of sync, too!$"
 
 MossdeepCity_Gym_Text_BlakePostBattle: @ 8221055
-	.string "A Poké Ball was too heavy to lift\n"
+	.string "A Digi Ball was too heavy to lift\n"
 	.string "psychically. But this dust bunny…\p"
 	.string "Whoooooooooooooooh!\n"
 	.string "… … … … … …\p"
@@ -535,7 +535,7 @@ MossdeepCity_Gym_Text_MaceyPostBattle:
 
 MossdeepCity_Gym_Text_NicholasIntro:
 	.string "Wroooar! Have a taste of my super\n"
-	.string "Pokémon hard-battling power!$"
+	.string "Digimon hard-battling power!$"
 
 MossdeepCity_Gym_Text_NicholasDefeat:
 	.string "Oh!\n"
@@ -543,7 +543,7 @@ MossdeepCity_Gym_Text_NicholasDefeat:
 
 MossdeepCity_Gym_Text_NicholasPostBattle:
 	.string "All right! I think I'll develop a special\n"
-	.string "invincible Pokémon power next.$"
+	.string "invincible Digimon power next.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
 	.string "Tate: Hehehe… Were you surprised?\p"
@@ -571,7 +571,7 @@ MossdeepCity_Gym_Text_ReceivedMindBadge: @ 822196A
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis: @ 8221999
 	.string "Tate: The Mind Badge enhances the\n"
-	.string "Sp. Atk and Sp. Def of Pokémon.\p"
+	.string "Sp. Atk and Sp. Def of Digimon.\p"
 	.string "Liza: It also lets you use the HM move\n"
 	.string "Dive outside of battle.\p"
 	.string "Tate: You should also take this, too.$"
@@ -582,16 +582,16 @@ MossdeepCity_Gym_Text_ExplainCalmMind: @ 8221A40
 	.string "Tate: It raises Sp. Atk and…\n"
 	.string "Liza: It raises Sp. Def!\p"
 	.string "Tate: It's a move that's perfect…\n"
-	.string "Liza: For Psychic Pokémon!\p"
+	.string "Liza: For Psychic Digimon!\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza: @ 8221AEA
 	.string "Registered Gym Leaders Tate & Liza\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
 	.string "Tate: Looks like the bond between you\n"
-	.string "and your Pokémon is far stronger than\l"
+	.string "and your Digimon is far stronger than\l"
 	.string "the bond that we share as twins.\p"
 	.string "Liza: You will become even stronger!\n"
 	.string "We've battled you, so we know.$"
@@ -600,22 +600,22 @@ MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons: @ 8221BCE
 	.string "Tate: Hehehe… Were you surprised?\p"
 	.string "Liza: That there are two Gym Leaders?\p"
 	.string "Tate: Oops, you have only one…\n"
-	.string "Liza: Pokémon that can battle.\p"
+	.string "Liza: Digimon that can battle.\p"
 	.string "Tate: We can't battle that way!\p"
 	.string "Liza: If you want to challenge us,\n"
-	.string "bring some more Pokémon.$"
+	.string "bring some more Digimon.$"
 
 MossdeepCity_Gym_Text_GymStatue: @ 8221CB0
-	.string "Mossdeep City Pokémon Gym$"
+	.string "Mossdeep City Digimon Gym$"
 
 MossdeepCity_Gym_Text_GymStatueCertified: @ 8221CCA
-	.string "Mossdeep City Pokémon Gym\p"
+	.string "Mossdeep City Digimon Gym\p"
 	.string "Liza And Tate's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
-	.string "Tate: Pokémon…\n"
-	.string "Liza: Pokémon…\p"
+	.string "Tate: Digimon…\n"
+	.string "Liza: Digimon…\p"
 	.string "Tate: By changing the party's mix…\n"
 	.string "Liza: The battle style changes.\p"
 	.string "Tate: But me…\n"
@@ -626,7 +626,7 @@ MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
 	.string "Liza: We'll show you again and again!$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat: @ 8221E05
-	.string "Tate: You and your Pokémon…\n"
+	.string "Tate: You and your Digimon…\n"
 	.string "Liza: It's as if you were siblings!$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch: @ 8221E45
@@ -642,7 +642,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons: @ 8221EB8
 	.string "Liza: To give us a rematch.\p"
 	.string "Tate: But…\n"
 	.string "Liza: For our match…\p"
-	.string "Tate: You brought just one Pokémon!\n"
-	.string "Liza: You brought just one Pokémon!\p"
+	.string "Tate: You brought just one Digimon!\n"
+	.string "Liza: You brought just one Digimon!\p"
 	.string "Tate: We need you to bring at least…\n"
-	.string "Liza: Two Pokémon when you come back.$"
+	.string "Liza: Two Digimon when you come back.$"

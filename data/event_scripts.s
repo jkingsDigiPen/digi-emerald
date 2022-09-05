@@ -835,11 +835,11 @@ Common_EventScript_PlayerHandedOverTheItem::
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
 	.string "“Selected items for your convenience!”\n"
-	.string "Pokémon Mart$"
+	.string "Digimon Mart$"
 
 gText_PokemonCenterSign::
 	.string "“Rejuvenate your tired partners!”\n"
-	.string "Pokémon Center$"
+	.string "Digimon Center$"
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"
@@ -859,12 +859,12 @@ gText_SelectWithoutRegisteredItem:: @ 8272C98
 	.string "registered to Select for easy use.$"
 
 gText_PokemonTrainerSchoolEmail:: @ 8272CD5
-	.string "There's an e-mail from Pokémon Trainer\n"
+	.string "There's an e-mail from Digimon Trainer\n"
 	.string "School.\p"
 	.string "… … … … … …\p"
-	.string "A Pokémon may learn up to four moves.\p"
+	.string "A Digimon may learn up to four moves.\p"
 	.string "A Trainer's expertise is tested on the\n"
-	.string "move sets chosen for Pokémon.\p"
+	.string "move sets chosen for Digimon.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
@@ -879,11 +879,11 @@ gText_UnusedNicknameReceivedPokemon::
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER} is out of usable\n"
-	.string "Pokémon!\p{PLAYER} whited out!$"
+	.string "Digimon!\p{PLAYER} whited out!$"
 
 gText_RegisteredTrainerinPokeNav::
 	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 gText_ComeBackWithSecretPower:: @ 8272E30
 	.string "Do you know the TM Secret Power?\p"
@@ -895,12 +895,12 @@ gText_ComeBackWithSecretPower:: @ 8272E30
 	.string "you good stuff in secrecy.$"
 
 gText_PokerusExplanation:: @ 8272F07
-	.string "Your Pokémon may be infected with\n"
-	.string "Pokérus.\p"
-	.string "Little is known about the Pokérus\n"
+	.string "Your Digimon may be infected with\n"
+	.string "Digirus.\p"
+	.string "Little is known about the Digirus\n"
 	.string "except that they are microscopic life-\l"
-	.string "forms that attach to Pokémon.\p"
-	.string "While infected, Pokémon are said to\n"
+	.string "forms that attach to Digimon.\p"
+	.string "While infected, Digimon are said to\n"
 	.string "grow exceptionally well.$"
 
 	.include "data/text/surf.inc"
@@ -914,7 +914,7 @@ gText_BigHoleInTheWall::
 
 gText_SorryWirelessClubAdjustments::
 	.string "I'm terribly sorry.\n"
-	.string "The Pokémon Wireless Club is\l"
+	.string "The Digimon Wireless Club is\l"
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments::

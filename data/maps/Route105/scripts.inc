@@ -84,7 +84,7 @@ Route104_Text_DadPokenavCall:
 	.string "Where are you now?\l"
 	.string "It sounds windy wherever you are.\p"
 	.string "I just heard from Devon's Mr. Stone\n"
-	.string "about your Pokénav, so I decided\l"
+	.string "about your DigiNav, so I decided\l"
 	.string "to give you a call.\p"
 	.string "It sounds like you're doing fine,\n"
 	.string "so that's fine with me.\p"
@@ -94,4 +94,4 @@ Route104_Text_DadPokenavCall:
 
 Route104_Text_RegisteredDadInPokenav: @ 81EE463
 	.string "Registered Dad Norman\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"

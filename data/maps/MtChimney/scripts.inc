@@ -561,7 +561,7 @@ MtChimney_Text_MaxieIntro: @ 822F32E
 	.string "That is why Team Magma is dedicated\n"
 	.string "to the expansion of the land mass.\p"
 	.string "It is for further advancement of\n"
-	.string "humankind and Pokémon!\p"
+	.string "humankind and Digimon!\p"
 	.string "And for that, we need the power of\n"
 	.string "what sleeps within this mountain…\p"
 	.string "Oh! There was no need for you to\n"
@@ -692,7 +692,7 @@ MtChimney_Text_MagmaOutnumbersUs: @ 822FD1F
 
 MtChimney_Text_LessHabitatForWaterPokemon:
 	.string "If they expand the land, there'll be\n"
-	.string "less habitats for Water Pokémon!$"
+	.string "less habitats for Water Digimon!$"
 
 MtChimney_Text_MagmasNameSimilar: @ 822FDA1
 	.string "We're Team Aqua!\p"
@@ -766,7 +766,7 @@ MtChimney_Text_ShelbyRegister:
 
 MtChimney_Text_ShelbyRematchIntro:
 	.string "If you can mesh your heart with those\n"
-	.string "of your Pokémon, why, you should be\l"
+	.string "of your Digimon, why, you should be\l"
 	.string "able to achieve great things.$"
 
 MtChimney_Text_ShelbyRematchDefeat:
@@ -775,7 +775,7 @@ MtChimney_Text_ShelbyRematchDefeat:
 
 MtChimney_Text_ShelbyPostRematch:
 	.string "Perhaps your heart has become one\n"
-	.string "with the hearts of your Pokémon.$"
+	.string "with the hearts of your Digimon.$"
 
 MtChimney_Text_MelissaIntro:
 	.string "I've got the fire in me, baby.\n"
@@ -790,7 +790,7 @@ MtChimney_Text_MelissaPostBattle: @ 8230292
 
 MtChimney_Text_SheilaIntro: @ 82302BD
 	.string "I've finally made it to Mt. Chimney.\n"
-	.string "I want to make my Pokémon battle!$"
+	.string "I want to make my Digimon battle!$"
 
 MtChimney_Text_SheilaDefeat:
 	.string "The way you battle…\n"
@@ -830,7 +830,7 @@ MtChimney_Text_SawyerPostBattle: @ 8230519
 
 MtChimney_Text_SawyerRegister:
 	.string "I like little fireballs like you.\n"
-	.string "Let me register you in my Pokénav.$"
+	.string "Let me register you in my DigiNav.$"
 
 MtChimney_Text_SawyerRematchIntro:
 	.string "I'm happily surrounded by hot people\n"

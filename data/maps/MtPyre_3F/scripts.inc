@@ -68,31 +68,31 @@ MtPyre_3F_Text_GabrielleDefeat:
 	.string "You're a very special Trainer.$"
 
 MtPyre_3F_Text_GabriellePostBattle: @ 823199B
-	.string "Pokémon no longer of this world.\n"
-	.string "Pokémon that are with you now.\p"
-	.string "And the Pokémon that you will meet\n"
+	.string "Digimon no longer of this world.\n"
+	.string "Digimon that are with you now.\p"
+	.string "And the Digimon that you will meet\n"
 	.string "in the future…\p"
 	.string "They are all to be equally cherished.\n"
 	.string "Please remember that.$"
 
 MtPyre_3F_Text_GabrielleRegister: @ 8231A49
-	.string "I would like to see your Pokémon\n"
+	.string "I would like to see your Digimon\n"
 	.string "when they grow up some more…\p"
-	.string "Please, I need to see your Pokénav.$"
+	.string "Please, I need to see your DigiNav.$"
 
 MtPyre_3F_Text_GabrielleRematchIntro:
 	.string "Oh, it's you…\p"
 	.string "Have you come to show me your grown\n"
-	.string "Pokémon?$"
+	.string "Digimon?$"
 
 MtPyre_3F_Text_GabrielleRematchDefeat:
 	.string "How amazing!\n"
 	.string "You are a special person.$"
 
 MtPyre_3F_Text_GabriellePostRematch: @ 8231B0D
-	.string "Pokémon no longer of this world.\n"
-	.string "Pokémon that are with you now.\p"
-	.string "And the Pokémon that you will meet\n"
+	.string "Digimon no longer of this world.\n"
+	.string "Digimon that are with you now.\p"
+	.string "And the Digimon that you will meet\n"
 	.string "in the future…\p"
 	.string "They are all to be equally cherished.\n"
 	.string "I see that you've remembered that.$"

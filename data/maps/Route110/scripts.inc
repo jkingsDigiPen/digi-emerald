@@ -762,7 +762,7 @@ Route110_Text_AquaActionsBringSmiles: @ 81EFC0D
 Route110_Text_MayLetsBattle: @ 81EFC48
 	.string "May: Hi, {PLAYER}{KUN}, long time no see!\p"
 	.string "While I was searching for other\n"
-	.string "Pokémon, my Pokémon grew stronger.\p"
+	.string "Digimon, my Digimon grew stronger.\p"
 	.string "So…\n"
 	.string "How about a little battle?$"
 
@@ -789,7 +789,7 @@ Route110_Text_BrendanLetsBattle: @ 81EFE3F
 	.string "Brendan: Hey, {PLAYER}.\n"
 	.string "So this is where you were.\l"
 	.string "How's it going?\p"
-	.string "Have you been raising your Pokémon?\n"
+	.string "Have you been raising your Digimon?\n"
 	.string "I'll check for you.$"
 
 Route110_Text_BrendanDefeated:
@@ -809,7 +809,7 @@ Route110_Text_BrendanExplainItemfinder: @ 81EFF1C
 	.string "If it senses something, it emits\n"
 	.string "a sound.\p"
 	.string "Anyway, I'm off to look for new\n"
-	.string "Pokémon.$"
+	.string "Digimon.$"
 
 Route110_Text_RideBikeAtFullSpeed:
 	.string "Wouldn't it be great to ride a BIKE\n"
@@ -839,7 +839,7 @@ Route110_Text_YouGotBikeFromRydel: @ 81F006A
 
 Route110_Text_TwoRoads:
 	.string "The two roads, one above, one below…\p"
-	.string "A road each for people and Pokémon.\n"
+	.string "A road each for people and Digimon.\n"
 	.string "Perhaps that is right and fair.$"
 
 Route110_Text_WalkOnTheLowRoad: @ 81F02CA
@@ -856,7 +856,7 @@ Route110_Text_WhichShouldIChoose:
 	.string "Which should I choose?\p"
 	.string "Make a beeline for Mauville on\n"
 	.string "Cycling Road, or take the low road\l"
-	.string "and look for Pokémon?$"
+	.string "and look for Digimon?$"
 
 Route110_Text_CyclingChallengeResultSummary:
 	.string "Number of collisions:\n"
@@ -943,7 +943,7 @@ Route110_Text_TrainerTipsPrlzSleep: @ 81F090D
 	.string "The foe can be made helpless by\n"
 	.string "paralyzing it or causing it to sleep.\p"
 	.string "It is an important technique for\n"
-	.string "Pokémon battles.$"
+	.string "Digimon battles.$"
 
 Route110_Text_TrainerTipsRegisterItems: @ 81F0992
 	.string "Trainer Tips\p"
@@ -973,17 +973,17 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Oh, I see!\n"
 	.string "You two are running separately.\l"
 	.string "Well, that's fine.\p"
-	.string "Oh, yes, I heard that your Pokénav\n"
+	.string "Oh, yes, I heard that your DigiNav\n"
 	.string "had the Match Call system installed.\p"
 	.string "Well, then, I should register you in\n"
-	.string "my Pokénav as well.\p"
+	.string "my DigiNav as well.\p"
 	.string "That way, even when we're apart,\n"
-	.string "I can rate your Pokédex anytime.\p"
+	.string "I can rate your Digidex anytime.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav: @ 81F0C0C
 	.string "Registered Prof. Birch\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 Route110_Text_KeepAnEyeOutForRival: @ 81F0C33
 	.string "Prof. Birch: {PLAYER}{KUN}…\p"

@@ -189,8 +189,8 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice: @ 81FE9BF
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "Lavaridge's Gym Leader Flannery\n"
-	.string "uses Fire-type Pokémon.\p"
-	.string "Her passion for Pokémon burns stronger\n"
+	.string "uses Fire-type Digimon.\p"
+	.string "Her passion for Digimon burns stronger\n"
 	.string "and hotter than a volcano.\p"
 	.string "Don't get too close to her--you'll burn!\n"
 	.string "Hose her down with water and then\l"
@@ -242,7 +242,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 	.string "burned seriously.$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro: @ 81FED72
-	.string "Can your Pokémon withstand\n"
+	.string "Can your Digimon withstand\n"
 	.string "392-degree heat?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
@@ -251,7 +251,7 @@ LavaridgeTown_Gym_1F_Text_GeraldDefeat:
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "The temperature of magma is\n"
 	.string "392 degrees.\p"
-	.string "Your Pokémon beat me, so they should\n"
+	.string "Your Digimon beat me, so they should\n"
 	.string "easily survive in magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
@@ -326,7 +326,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "I tried too hard to be someone\n"
 	.string "I'm not.\p"
 	.string "I have to do things my natural way. If\n"
-	.string "I don't, my Pokémon will be confused.\p"
+	.string "I don't, my Digimon will be confused.\p"
 	.string "Thanks for teaching me that.\n"
 	.string "For that, you deserve this.$"
 
@@ -335,11 +335,11 @@ LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge: @ 81FF32F
 	.string "from Flannery.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis: @ 81FF359
-	.string "If you have a Heat Badge, all Pokémon\n"
+	.string "If you have a Heat Badge, all Digimon\n"
 	.string "up to Level 50, even those you get in\l"
 	.string "trades from other people, will obey\l"
 	.string "you completely.\p"
-	.string "And, it lets Pokémon use the HM move\n"
+	.string "And, it lets Digimon use the HM move\n"
 	.string "Strength outside of battle.\p"
 	.string "This is a token of my appreciation.\n"
 	.string "Don't be shy about taking it!$"
@@ -349,12 +349,12 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat: @ 81FF45C
 	.string "That move inflicts serious damage on\n"
 	.string "the opponent.\p"
 	.string "But it also sharply cuts the Sp. Atk\n"
-	.string "of the Pokémon using it. It might not\l"
+	.string "of the Digimon using it. It might not\l"
 	.string "be suitable for longer battles.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery: @ 81FF517
 	.string "Registered Gym Leader Flannery\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 	.string "Your power reminds me of someone…\p"
@@ -362,17 +362,17 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 	.string "the Gym Leader of Petalburg.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
-	.string "Lavaridge Town Pokémon Gym$"
+	.string "Lavaridge Town Digimon Gym$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified: @ 81FF5C4
-	.string "Lavaridge Town Pokémon Gym\p"
+	.string "Lavaridge Town Digimon Gym\p"
 	.string "Flannery's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch: @ 81FF601
 	.string "Flannery: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
-	.string "I love Pokémon.\n"
+	.string "I love Digimon.\n"
 	.string "I love to battle.\l"
 	.string "And… I love this Gym!\p"
 	.string "Let's exchange superhot moves\n"
@@ -393,12 +393,12 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostRematch: @ 81FF6BF
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons: @ 81FF75E
 	.string "Flannery: Losing a battle isn't going\n"
 	.string "to deflate me.\p"
-	.string "I love Pokémon.\n"
+	.string "I love Digimon.\n"
 	.string "I love to battle.\l"
 	.string "And… I love this Gym!\p"
 	.string "Let's exchange superhot moves\n"
 	.string "in another battle!\p"
-	.string "Oh, wait. Do you only have one Pokémon\n"
+	.string "Oh, wait. Do you only have one Digimon\n"
 	.string "that can battle?\p"
 	.string "I hate to say this, but when you come\n"
-	.string "see me, bring at least two Pokémon.$"
+	.string "see me, bring at least two Digimon.$"

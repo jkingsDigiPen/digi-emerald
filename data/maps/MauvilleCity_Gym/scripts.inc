@@ -260,9 +260,9 @@ MauvilleCity_Gym_Text_GymGuideAdvice: @ 820E17F
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "Wattson, the Leader of Mauville\n"
-	.string "Gym, uses Electric-type Pokémon.\p"
+	.string "Gym, uses Electric-type Digimon.\p"
 	.string "If you challenge him with Water-type\n"
-	.string "Pokémon, he'll zap them! Bzzt!\p"
+	.string "Digimon, he'll zap them! Bzzt!\p"
 	.string "And, he's put in switch-controlled\n"
 	.string "doors all over his Gym! Eccentric!\p"
 	.string "Hey, go for it!$"
@@ -280,7 +280,7 @@ MauvilleCity_Gym_Text_KirkDefeat:
 	.string "over-driven electric, man!$"
 
 MauvilleCity_Gym_Text_KirkPostBattle: @ 820E336
-	.string "Pokémon and rock, it's all about heart,\n"
+	.string "Digimon and rock, it's all about heart,\n"
 	.string "whoa-yeah!$"
 
 MauvilleCity_Gym_Text_ShawnIntro: @ 820E369
@@ -308,7 +308,7 @@ MauvilleCity_Gym_Text_BenPostBattle: @ 820E47E
 	.string "little traps with switches.$"
 
 MauvilleCity_Gym_Text_VivianIntro: @ 820E4BB
-	.string "With my charm and my Pokémon's moves,\n"
+	.string "With my charm and my Digimon's moves,\n"
 	.string "you'll be shocked!$"
 
 MauvilleCity_Gym_Text_VivianDefeat:
@@ -356,9 +356,9 @@ MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
 	.string "from Wattson.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis: @ 820E7AA
-	.string "With the Dynamo Badge, Pokémon can\n"
+	.string "With the Dynamo Badge, Digimon can\n"
 	.string "use Rock Smash out of battle.\p"
-	.string "And, it will make your Pokémon a little\n"
+	.string "And, it will make your Digimon a little\n"
 	.string "bit faster, too.\p"
 	.string "Hmm…\n"
 	.string "You should take this, too!$"
@@ -371,7 +371,7 @@ MauvilleCity_Gym_Text_ExplainShockWave: @ 820E844
 
 MauvilleCity_Gym_Text_RegisteredWattson: @ 820E8B5
 	.string "Registered Gym Leader Wattson\n"
-	.string "in the Pokénav.$"
+	.string "in the DigiNav.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
 	.string "I swell with optimism, seeing a promising\n"
@@ -382,17 +382,17 @@ MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Go forth and endeavor, youngster!$"
 
 MauvilleCity_Gym_Text_GymStatue: @ 820E952
-	.string "Mauville City Pokémon Gym$"
+	.string "Mauville City Digimon Gym$"
 
 MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
-	.string "Mauville City Pokémon Gym\p"
+	.string "Mauville City Digimon Gym\p"
 	.string "Wattson's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch: @ 820E9A7
 	.string "Wattson: Ah-ha! Here at last!\n"
 	.string "I know what you want.\l"
-	.string "You want to battle my Pokémon!\p"
+	.string "You want to battle my Digimon!\p"
 	.string "Wahahahaha!\p"
 	.string "I'll make sparks fly from you!\n"
 	.string "Don't say I didn't warn you!$"
@@ -412,10 +412,10 @@ MauvilleCity_Gym_Text_WattsonPostRematch: @ 820EA5E
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons: @ 820EAFD
 	.string "Wattson: Ah-ha! Here at last!\n"
 	.string "I know what you want.\l"
-	.string "You want to battle my Pokémon!\p"
+	.string "You want to battle my Digimon!\p"
 	.string "Wahahahaha!\p"
 	.string "Oops! Wait!\n"
-	.string "You've only one Pokémon with you!\p"
+	.string "You've only one Digimon with you!\p"
 	.string "Come see me with two or more\n"
-	.string "Pokémon, all right?$"
+	.string "Digimon, all right?$"
 
