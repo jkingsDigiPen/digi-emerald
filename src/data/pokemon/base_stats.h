@@ -5273,7 +5273,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         .abilities = {ABILITY_CUTE_CHARM, ABILITY_OBLIVIOUS, ABILITY_FRIEND_GUARD},
         .bodyColor = BODY_COLOR_PINK,
-        .noFlip = TRUE,
+        .noFlip = FALSE,
     },
 
     [SPECIES_TOGEPI] =
