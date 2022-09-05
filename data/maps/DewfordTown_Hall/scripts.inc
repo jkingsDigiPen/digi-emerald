@@ -272,7 +272,7 @@ DewfordTown_Hall_Text_GettingBoredOfTrend:
 	.string "I should look for the next big thing.$"
 
 DewfordTown_Hall_Text_TeachingMonAboutTrend: @ 81FD8ED
-	.string "I'm teaching my Pokémon about\n"
+	.string "I'm teaching my Digimon about\n"
 	.string "“{STR_VAR_1},”\l"
 	.string "but it's not going well.\p"
 	.string "It's a bit too much, I think.$"
@@ -326,7 +326,7 @@ DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
 	.string "Bad “{STR_VAR_1}”…\p"
 	.string "The Link Between\n"
 	.string "“{STR_VAR_1}” And\l"
-	.string "Pokémon…\p"
+	.string "Digimon…\p"
 	.string "Useful\n"
 	.string "“{STR_VAR_1}”…\p"
 	.string "It's neatly jammed with books about\n"
@@ -437,9 +437,9 @@ DewfordTown_Hall_Text_GiveYouSludgeBomb: @ 81FE142
 	.string "That's outright pitiful.\n"
 	.string "I'll give you one.$"
 
-DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo: @ 81FE1ED
+DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
 	.string "I love Sludge Bomb.\p"
-	.string "But Pokémon with the move\n"
+	.string "But Digimon with the move\n"
 	.string "“{STR_VAR_1}”\l"
 	.string "are in, too.$"
 

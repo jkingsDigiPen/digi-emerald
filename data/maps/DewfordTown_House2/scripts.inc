@@ -45,7 +45,7 @@ DewfordTown_House2_Text_ExplainSilkScarf: @ 81FE3D1
 	.string "The Silk Scarf raises the power of\n"
 	.string "Normal-type moves.\p"
 	.string "It's a marvelous Scarf that will go\n"
-	.string "with almost all Pokémon!$"
+	.string "with almost all Digimon!$"
 
 DewfordTown_House2_Text_BrawlySoCool:
 	.string "Wow, you bothered to cross the sea\n"

@@ -22,7 +22,7 @@ DewfordTown_House1_EventScript_Zigzagoon::
 DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland:
 	.string "There's a lot to be said for living on\n"
 	.string "a small island like this in harmony with\l"
-	.string "Pokémon and the family.$"
+	.string "Digimon and the family.$"
 
 DewfordTown_House1_Text_LifeGoesSlowlyOnIsland: @ 81FC45B
 	.string "I left the major port of Slateport\n"
@@ -32,5 +32,5 @@ DewfordTown_House1_Text_LifeGoesSlowlyOnIsland: @ 81FC45B
 	.string "beautiful sea--that's happiness, too.$"
 
 DewfordTown_House1_Text_Zigzagoon: @ 81FC510
-	.string "Zigzagoon: Guguuh!$"
+	.string "Kudamon: Guguuh!$"
 
