@@ -958,7 +958,7 @@ const u8 gText_WhatWouldYouLikeToDo[] = _("What would you like to do?"); // Unus
 const u8 gText_WithdrawPokemon[] = _("Withdraw Digimon");
 const u8 gText_DepositPokemon[] = _("Deposit Digimon");
 const u8 gText_MovePokemon[] = _("Move Digimon");
-const u8 gText_MoveItems[] = _("Move ITEMS");
+const u8 gText_MoveItems[] = _("Move Items");
 const u8 gText_SeeYa[] = _("See Ya!");
 const u8 gText_WithdrawMonDescription[] = _("Move Digimon stored in Boxes to\nyour party.");
 const u8 gText_DepositMonDescription[] = _("Store Digimon in your party in Boxes.");
@@ -1980,7 +1980,7 @@ const u8 gText_FORMS_Buttons_Submenu_PE[]           = _("{DPAD_NONE}FORMs {A_BUT
 const u8 gText_FORMS_Buttons_Submenu_Decapped_PE[]  = _("{DPAD_NONE}Forms {A_BUTTON}Check {START_BUTTON}Evos");
 const u8 gText_FORMS_NONE[]                         = _("{STR_VAR_1} has no alternate forms.");
 
-const u8 gMenuText_Move[] = _("MOVE");
+const u8 gMenuText_Move[] = _("Move");
 const u8 gText_MoveItemWhere[] = _("Move item to where?");
 const u8 gText_XsYAnd[] = _("{STR_VAR_1}'s\n{STR_VAR_2} and\l");
 const u8 gText_XsYWereSwapped[] = _("{STR_VAR_1}'s\l{STR_VAR_2} were swapped!{PAUSE_UNTIL_PRESS}");
