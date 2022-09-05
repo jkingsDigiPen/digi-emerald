@@ -31,9 +31,9 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 
 GraniteCave_1F_Text_ExplainFlash: @ 822DBB7
 	.string "Teach that hidden move Flash to\n"
-	.string "a Pokémon and use it.\p"
+	.string "a Digimon and use it.\p"
 	.string "It lights up even the inky darkness\n"
 	.string "of caves.\p"
 	.string "But, to use it, you need the Gym Badge\n"
-	.string "from Dewford's Pokémon Gym.$"
+	.string "from Dewford's Digimon Gym.$"
 
