@@ -1966,6 +1966,10 @@ static void DexNavLoadEncounterData(void)
     {
         for (i = 0; i < LAND_WILD_COUNT; i++)
         {
+            // Fix for maps without encounters
+            if(landMonsInfo->wildPokemon[i].species > NUM_SPECIES)
+                break;
+
             species = landMonsInfo->wildPokemon[i].species;
             if (species != SPECIES_NONE && !SpeciesInArray(species, 0))
                 sDexNavUiDataPtr->landSpecies[grassIndex++] = landMonsInfo->wildPokemon[i].species;
@@ -1977,6 +1981,10 @@ static void DexNavLoadEncounterData(void)
     {
         for (i = 0; i < WATER_WILD_COUNT; i++)
         {
+            // Fix for maps without encounters
+            if(waterMonsInfo->wildPokemon[i].species > NUM_SPECIES)
+                break;
+
             species = waterMonsInfo->wildPokemon[i].species;
             if (species != SPECIES_NONE && !SpeciesInArray(species, 1))
                 sDexNavUiDataPtr->waterSpecies[waterIndex++] = waterMonsInfo->wildPokemon[i].species;
@@ -1988,6 +1996,10 @@ static void DexNavLoadEncounterData(void)
     {
         for (i = 0; i < HIDDEN_WILD_COUNT; i++)
         {
+            // Fix for maps without encounters
+            if(hiddenMonsInfo->wildPokemon[i].species > NUM_SPECIES)
+                break;
+
             species = hiddenMonsInfo->wildPokemon[i].species;
             if (species != SPECIES_NONE && !SpeciesInArray(species, 2))
                 sDexNavUiDataPtr->hiddenSpecies[hiddenIndex++] = hiddenMonsInfo->wildPokemon[i].species;
