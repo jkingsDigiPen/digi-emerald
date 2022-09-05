@@ -11877,6 +11877,7 @@ static const u16 sShroomishTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_THUNDER_PUNCH,
     MOVE_UNAVAILABLE,
 };
 
