@@ -1486,8 +1486,8 @@ const struct MonCoords gMonBackPicCoords[] =
     // Hyokomon
     [SPECIES_SURSKIT] =
     {
-        .size = MON_COORDS_SIZE(41, 37),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(41, 44),
+        .y_offset = 5,
     },
     // Buraimon
     [SPECIES_MASQUERAIN] =
