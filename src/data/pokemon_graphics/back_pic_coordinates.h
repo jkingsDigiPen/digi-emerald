@@ -1796,7 +1796,7 @@ const struct MonCoords gMonBackPicCoords[] =
     // Shoutmon
     [SPECIES_WHISMUR] =
     {
-        .size = MON_COORDS_SIZE(58, 53),
+        .size = MON_COORDS_SIZE(63, 53),
         .y_offset = 5,
     },
     // Shoutmon X2
