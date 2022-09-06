@@ -245,7 +245,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_AGGRON]                = {{EVO_MEGA_EVOLUTION, ITEM_AGGRONITE, SPECIES_AGGRON_MEGA}},
     [SPECIES_LILEEP]                = {{EVO_LEVEL, 40, SPECIES_CRADILY}},
     [SPECIES_ANORITH]               = {{EVO_LEVEL, 40, SPECIES_ARMALDO}},
-    [SPECIES_RALTS]                 = {{EVO_LEVEL, 20, SPECIES_KIRLIA}}, // puttimon
+    [SPECIES_RALTS]                 = {{EVO_LEVEL, 15, SPECIES_KIRLIA}}, // puttimon
     [SPECIES_KIRLIA]                = {{EVO_LEVEL, 30, SPECIES_GARDEVOIR}, // tapirmon
                                        {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_GALLADE}},
     [SPECIES_GARDEVOIR]             = {{EVO_MEGA_EVOLUTION, ITEM_GARDEVOIRITE, SPECIES_GARDEVOIR_MEGA}},
