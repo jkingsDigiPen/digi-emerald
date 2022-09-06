@@ -1,6 +1,6 @@
 # Digi-Emerald
 
-![Title Screen](/screenshots/title-screen-01.png?raw=true)
+![Title Screen](/screenshots/title-screen-01.png?raw=true) ![Shoutmon vs DemiDevimon](/screenshots/battle-01.png?raw=true) ![Syakomon in the Party Menu](/screenshots/party-info-01.png?raw=true) 
 
 ## What is Digi-Emerald?
 
