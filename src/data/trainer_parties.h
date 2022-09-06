@@ -5877,21 +5877,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Claude[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
     {
     .iv = 0,
-    .lvl = 10,
+    .lvl = 8,
     .species = SPECIES_MAGIKARP,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	},
     {
     .iv = 0,
-    .lvl = 7,
+    .lvl = 10,
     .species = SPECIES_TENTACOOL,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
 	},
     {
     .iv = 0,
-    .lvl = 10,
+    .lvl = 8,
     .species = SPECIES_MAGIKARP,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
@@ -5901,7 +5901,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Ned[] = {
     {
     .iv = 10,
-    .lvl = 11,
+    .lvl = 14,
     .species = SPECIES_TENTACOOL,
 	.ability = 0,
 	.evs = {0, 0, 0, 0, 0, 0},
