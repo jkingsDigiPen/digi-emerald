@@ -41,6 +41,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_PELIPPER] = 8,
     [SPECIES_MASQUERAIN] = 10,
     [SPECIES_TAILLOW] = 13,
+    [SPECIES_ARON] = 6,
     [SPECIES_BALTOY] = 5,
     [SPECIES_CLAYDOL] = 10,
     [SPECIES_FLYGON] = 7,
