@@ -1175,7 +1175,7 @@ static const struct LevelUpMove sPoliwrathLevelUpLearnset[] = {
 // Renamon
 static const struct LevelUpMove sAbraLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
-    LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_MOVE( 1, MOVE_MEDITATE),
     LEVEL_UP_MOVE( 5, MOVE_EMBER),
     LEVEL_UP_MOVE(11, MOVE_AGILITY),
     LEVEL_UP_MOVE(14, MOVE_FLAME_CHARGE),
@@ -1197,7 +1197,7 @@ static const struct LevelUpMove sAbraLevelUpLearnset[] = {
 static const struct LevelUpMove sKadabraLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_WILL_O_WISP),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
-    LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_MOVE( 1, MOVE_MEDITATE),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 5, MOVE_EMBER),
     LEVEL_UP_MOVE(11, MOVE_AGILITY),
@@ -1272,8 +1272,8 @@ static const struct LevelUpMove sMachopLevelUpLearnset[] = {
 
 // Gaogamon
 static const struct LevelUpMove sMachokeLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_ACROBATICS),
-    LEVEL_UP_MOVE( 1, MOVE_ACROBATICS),
+    LEVEL_UP_MOVE( 0, MOVE_AERIAL_ACE),
+    LEVEL_UP_MOVE( 1, MOVE_AERIAL_ACE),
     LEVEL_UP_MOVE( 1, MOVE_MACH_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_HOWL),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
