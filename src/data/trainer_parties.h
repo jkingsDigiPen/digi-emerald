@@ -4425,30 +4425,30 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     .lvl = 16,
     .species = SPECIES_MACHOP,
 	.nature = NATURE_SERIOUS,
-    .ability = 0,
+    .ability = ABILITYSLOT_ONE,
 	.evs = {0, 0, 0, 0, 0, 0},
 	.heldItem = ITEM_NONE,
-    .moves = {MOVE_KARATE_CHOP, MOVE_LOW_KICK, MOVE_SEISMIC_TOSS, MOVE_BULK_UP}
+    .moves = {MOVE_MACH_PUNCH, MOVE_PURSUIT, MOVE_AERIAL_ACE, MOVE_BULK_UP}
     },
     {
-    .iv = 100,
+    .iv = 150,
     .lvl = 16,
     .species = SPECIES_MEDITITE,
 	.nature = NATURE_SERIOUS,
-    .ability = 0,
+    .ability = ABILITYSLOT_HIDDEN,
 	.evs = {0, 0, 0, 0, 0, 0},
 	.heldItem = ITEM_NONE,
-    .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_BULK_UP}
+    .moves = {MOVE_FORCE_PALM, MOVE_POWDER_SNOW, MOVE_HEART_STAMP, MOVE_BULK_UP}
     },
     {
-    .iv = 200,
-    .lvl = 19,
-    .species = SPECIES_MAKUHITA,
+    .iv = 50,
+    .lvl = 15,
+    .species = SPECIES_HARIYAMA,
 	.nature = NATURE_SERIOUS,
-    .ability = 0,
+    .ability = ABILITYSLOT_ONE,
 	.evs = {0, 0, 0, 0, 0, 0},
 	.heldItem = ITEM_NONE,
-    .moves = {MOVE_ARM_THRUST, MOVE_VITAL_THROW, MOVE_REVERSAL, MOVE_BULK_UP}
+    .moves = {MOVE_ARM_THRUST, MOVE_BITE, MOVE_DRAGON_TAIL, MOVE_BULK_UP}
     }
 };
 
