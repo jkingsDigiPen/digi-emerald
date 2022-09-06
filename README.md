@@ -1,5 +1,7 @@
 # Digi-Emerald
 
+![Title Screen](/screenshots/title-screen-01.png?raw=true)
+
 ## What is Digi-Emerald?
 
 This is a Pokemon to Digimon conversion project, using a modified Pokemon Emerald as a base. This began as a fork of laserXdolphin's excellent PokeEmerald Expansions Base, a modification of the Pokemon Emerald decomp that includes many feature branches and changes that drastically improve the quality of life of the base Pokemon Emerald game. My aim is to build off of these features to create a Pokemon game featuring Digimon instead of Pokemon. Aside from the aforementioned QoL changes, the conversion of Pokemon to Digimon will primarily be aesthetic. If I have time, I will make additional changes (listed below), but without drastically altering the difficulty or pacing of the game.
@@ -59,6 +61,7 @@ Sprites and Authors:
 - Morphomon sprite by ExTyrannomon https://www.artstation.com/extyrannomon
 - Angewomon sprite by Paburo-Hu https://twitter.com/paburo1/
 - Lilamon sprite modified from SantoryuMUGENJUS1 https://www.deviantart.com/MUGENJUS1
+- Gazimon sprite by SubSpeedRay6018 https://www.twitter.com/SubSpeedRay6018
 
 All other Digimon sprites are modified versions of art from other Digimon games, primarily the Digimon Story games for the Nintendo DS (known as Digimon World DS an Digimon World Dawn and Dusk in their official ports).
 
@@ -68,11 +71,14 @@ The following text relates to changes to the base ROM (not my changes), and come
 
 ## What feature branches are included?
 
-- **[RHH's Battle Engine Upgrade](https://github.com/pret/pokeemerald/wiki/Feature-Branches#battle_engine):** Upgrades the battle engine in pokeemerald to newer Generation games' standards. It also adds newer moves and abilities.
+- **[RHH's Battle Engine Upgrade](https://github.com/pret/pokeemerald/wiki/Feature-Branches#battle_engine):** Upgrades the battle engine in pokeemerald to newer Generation games' standards. It also adds newer moves and abilities.  
+![Fairy Type in Emerald](/screenshots/party-info-02.png?raw=true)
 - **[RHH's Pokémon Expansion](https://github.com/pret/pokeemerald/wiki/Feature-Branches#pokemon_expansion):** Adds Pokémon from newer Generations and makes them available in the National Dex. It also updates base stats and other Pokémon info.
 - **[RHH's Item Expansion](https://github.com/pret/pokeemerald/wiki/Feature-Branches#item_expansion):** Adds items from newer Generations and also updates item effects for field use. (Removed TM51 - TM100)
-- **[TheXaman's PokedexPlus with a HGSS style](https://www.pokecommunity.com/showthread.php?t=441996):** 
-- **[ghoulslash's DexNav & Detector Mode](https://www.pokecommunity.com/showthread.php?t=440571):**
+- **[TheXaman's PokedexPlus with a HGSS style](https://www.pokecommunity.com/showthread.php?t=441996):**  
+![Digidex Evolution Info](/screenshots/dex-evos-01.png?raw=true)
+- **[ghoulslash's DexNav & Detector Mode](https://www.pokecommunity.com/showthread.php?t=440571):**  
+![DexNav in Action](/screenshots/dexnav-01.png?raw=true)
 - **[Some of ghoulslash's free_saveblock](https://www.pokecommunity.com/showthread.php?p=10168472#post10168472):** Namely FREE_UNION_ROOM_CHAT, FREE_LINK_BATTLE_RECORDS, FREE_RECORD_MIXING_HALL_RECORDS and APPRENTICE_COUNT set to 1 instead of 4 as well as MAIL_COUNT set to (PARTY_SIZE) instead of (10 + PARTY_SIZE)
 - **[Prof. Leon Dias' Fully Decapitalized Pokeemerald](https://www.pokecommunity.com/showthread.php?t=451448)**
 - **[Fixes and content from the pret tutorials](https://github.com/pret/pokeemerald/wiki/Tutorials):** Indoor running, BW Repel System, Trainer Classed Pokeballs, Map dependent Trainer Battle Music
@@ -106,7 +112,9 @@ The following text relates to changes to the base ROM (not my changes), and come
 
 ## Additional modifications (not already in ROM base)
 
-- [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83)
+- Toggle-able Gen 6 Style Whole Party EXP Share  
+![Additional Options](/screenshots/new-options-01.png?raw=true)
+- [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83)  
 - [Remove overworld pokenav calls - Jaizu](https://www.pokecommunity.com/showpost.php?p=10210036&postcount=151)
 - [Pret RHH Intro Credits](https://github.com/Xhyzi/pokeemerald/tree/rhh-intro-credits)
 
