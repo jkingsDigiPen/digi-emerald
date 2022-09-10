@@ -10,11 +10,11 @@ SlateportCity_House_EventScript_Girl::
 	end
 
 SlateportCity_House_Text_NatureToDoWithStatGains: @ 820D9C1
-	.string "My Pokémon has a Hasty nature.\p"
+	.string "My Digimon has a Hasty nature.\p"
 	.string "It has higher Speed compared to\n"
-	.string "my other Pokémon.\p"
+	.string "my other Digimon.\p"
 	.string "Maybe their nature has something to\n"
-	.string "do with the stat gains of Pokémon.$"
+	.string "do with the stat gains of Digimon.$"
 
 SlateportCity_House_Text_MustBeGoingToBattleTent: @ 820DA59
 	.string "You're a Trainer, aren't you?\p"

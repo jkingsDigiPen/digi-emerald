@@ -522,7 +522,7 @@ Route109_Text_LittleKidsDartAround:
 	.string "Little kids can dart around so quickly…\p"
 	.string "You don't dare take your eyes off them\n"
 	.string "for an instant. It's very taxing.\p"
-	.string "Mine are with my Pokémon, so they\n"
+	.string "Mine are with my Digimon, so they\n"
 	.string "should be okay, but…$"
 
 Route109_Text_SandCastleTakingLongTime:
@@ -541,7 +541,7 @@ Route109_Text_WereGoingToMakeBigCastle:
 
 Route109_Text_ZigzagoonPicksUpLitter:
 	.string "The water around these parts is clean.\p"
-	.string "But, I get my Zigzagoon to pick up\n"
+	.string "But, I get my Kudamon to pick up\n"
 	.string "litter from the shoreline at times.\p"
 	.string "Dirty water becomes rain and joins our\n"
 	.string "rivers, which we drink from…\p"
@@ -549,7 +549,7 @@ Route109_Text_ZigzagoonPicksUpLitter:
 	.string "back to haunt us eventually.$"
 
 Route109_Text_ZigzagoonCry: @ 81EF173
-	.string "Zigzagoon: Guguu?$"
+	.string "Kudamon: Guguu?$"
 
 Route109_Text_SeashoreHouseSign: @ 81EF185
 	.string "Seashore House\p"
@@ -558,7 +558,7 @@ Route109_Text_SeashoreHouseSign: @ 81EF185
 
 Route109_Text_TrainerTipsSign: @ 81EF1D5
 	.string "Trainer Tips\p"
-	.string "Pokémon at the same level may not\n"
+	.string "Digimon at the same level may not\n"
 	.string "always have identical stats.\p"
-	.string "Pokémon raised by Trainers are said\n"
-	.string "to grow stronger than wild Pokémon.$"
+	.string "Digimon raised by Trainers are said\n"
+	.string "to grow stronger than wild Digimon.$"
