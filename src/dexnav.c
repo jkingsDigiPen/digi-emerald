@@ -2530,7 +2530,8 @@ static void Task_DexNavMain(u8 taskId)
 /////////////////////////
 bool8 TryFindHiddenPokemon(void)
 {
-    u16 *stepPtr = GetVarPointer(VAR_DEXNAV_STEP_COUNTER);
+    // Disable searching for hidden mons for now
+    /*u16 *stepPtr = GetVarPointer(VAR_DEXNAV_STEP_COUNTER);
     u32 attempts = 0;
     u16 currSteps;
 
@@ -2650,7 +2651,7 @@ bool8 TryFindHiddenPokemon(void)
         HideMapNamePopUpWindow();
         ChangeBgY_ScreenOff(0, 0, 0);
         return FALSE;   //we dont actually want to enable the script context or the game will freeze
-    }
+    }*/
     
     return FALSE;
 }
