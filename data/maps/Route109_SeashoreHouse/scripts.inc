@@ -100,7 +100,7 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro: @ 8269555
 	.string "I'm the owner of the Seashore House.\n"
 	.string "But you can call me Mr. Sea!\p"
 	.string "What I love above all is to see hot\n"
-	.string "Pokémon battles.\p"
+	.string "Digimon battles.\p"
 	.string "Let me see that your heart burns hot!\p"
 	.string "If you can defeat all the Trainers\n"
 	.string "here, I'll reward your efforts.$"
@@ -124,7 +124,7 @@ Route109_SeashoreHouse_Text_BagFull: @ 826973A
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop: @ 826977E
 	.string "Want to buy some Soda Pop?\n"
-	.string "Pokémon love it!\p"
+	.string "Digimon love it!\p"
 	.string "Just ¥300 a bottle!\n"
 	.string "Buy some!$"
 
@@ -154,7 +154,7 @@ Route109_SeashoreHouse_Text_DwaynePostBattle: @ 826989D
 Route109_SeashoreHouse_Text_JohannaIntro:
 	.string "Boring battles aren't worth the effort.\p"
 	.string "Fiery hot battles are what toughen up\n"
-	.string "Trainers and Pokémon!$"
+	.string "Trainers and Digimon!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
 	.string "That's hot!$"
@@ -165,13 +165,13 @@ Route109_SeashoreHouse_Text_JohannaPostBattle:
 
 Route109_SeashoreHouse_Text_SimonIntro:
 	.string "I'm going to show you how great\n"
-	.string "my Pokémon are, but don't cry!$"
+	.string "my Digimon are, but don't cry!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated:
 	.string "…I lost, but I won't cry…$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle: @ 82699DF
-	.string "If one of my Pokémon knew the move\n"
+	.string "If one of my Digimon knew the move\n"
 	.string "for carrying me across water on its\l"
 	.string "back, I could get rid of this inner tube.$"
 
