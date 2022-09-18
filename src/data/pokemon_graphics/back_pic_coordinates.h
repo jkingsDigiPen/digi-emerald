@@ -528,14 +528,14 @@ const struct MonCoords gMonBackPicCoords[] =
     // Terriermon
     [SPECIES_VOLTORB] =
     {
-        .size = MON_COORDS_SIZE(48, 40),
-        .y_offset = 14,
+        .size = MON_COORDS_SIZE(64, 37),
+        .y_offset = 4,
     },
     // Gargomon
     [SPECIES_ELECTRODE] =
     {
-        .size = MON_COORDS_SIZE(64, 40),
-        .y_offset = 13,
+        .size = MON_COORDS_SIZE(63, 60),
+        .y_offset = 2,
     },
     [SPECIES_EXEGGCUTE] =
     {
