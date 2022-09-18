@@ -425,15 +425,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 9,
     },
+    // Kokuwamon
     [SPECIES_MAGNEMITE] =
     {
-        .size = MON_COORDS_SIZE(48, 40),
-        .y_offset = 15,
+        .size = MON_COORDS_SIZE(64, 62),
+        .y_offset = 2,
     },
+    // Mekanorimon
     [SPECIES_MAGNETON] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 6,
+        .size = MON_COORDS_SIZE(64, 62),
+        .y_offset = 2,
     },
     [SPECIES_FARFETCHD] =
     {
@@ -1778,15 +1780,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(50, 56),
         .y_offset = 4,
     },
+    // Pagumon
     [SPECIES_GULPIN] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(54, 25),
+        .y_offset = 8,
     },
+    // Raremon
     [SPECIES_SWALOT] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 2,
+        .size = MON_COORDS_SIZE(64, 60),
+        .y_offset = 3,
     },
     [SPECIES_TROPIUS] =
     {
@@ -2389,10 +2393,11 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 6,
     },
+    // Nanomon
     [SPECIES_MAGNEZONE] =
     {
-        .size = MON_COORDS_SIZE(64, 40),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(64, 45),
+        .y_offset = 4,
     },
     [SPECIES_LICKILICKY] =
     {
