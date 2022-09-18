@@ -224,16 +224,19 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(51, 54),
         .y_offset = 5,
     },
+    // Floramon
     [SPECIES_ODDISH] =
     {
         .size = MON_COORDS_SIZE(40, 40),
         .y_offset = 14,
     },
+    // Vegimon
     [SPECIES_GLOOM] =
     {
         .size = MON_COORDS_SIZE(56, 48),
         .y_offset = 11,
     },
+    // Blossomon
     [SPECIES_VILEPLUME] =
     {
         .size = MON_COORDS_SIZE(56, 56),
@@ -522,11 +525,13 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 48),
         .y_offset = 8,
     },
+    // Terriermon
     [SPECIES_VOLTORB] =
     {
         .size = MON_COORDS_SIZE(32, 40),
         .y_offset = 11,
     },
+    // Gargomon
     [SPECIES_ELECTRODE] =
     {
         .size = MON_COORDS_SIZE(48, 48),
@@ -937,6 +942,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(56, 64),
         .y_offset = 2,
     },
+    // Ceresmon Medium
     [SPECIES_BELLOSSOM] =
     {
         .size = MON_COORDS_SIZE(32, 40),
@@ -1626,11 +1632,13 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(52, 56),
         .y_offset = 3,
     },
+    // Elecmon
     [SPECIES_ELECTRIKE] =
     {
         .size = MON_COORDS_SIZE(48, 40),
         .y_offset = 14,
     },
+    // Centarumon
     [SPECIES_MANECTRIC] =
     {
         .size = MON_COORDS_SIZE(56, 64),
@@ -1707,11 +1715,13 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(56, 64),
         .y_offset = 2,
     },
+    // QueenChessmon
     [SPECIES_PLUSLE] =
     {
         .size = MON_COORDS_SIZE(40, 48),
         .y_offset = 11,
     },
+    // KingChessmon
     [SPECIES_MINUN] =
     {
         .size = MON_COORDS_SIZE(40, 48),
