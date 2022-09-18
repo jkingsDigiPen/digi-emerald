@@ -1635,14 +1635,14 @@ const struct MonCoords gMonBackPicCoords[] =
     // Elecmon
     [SPECIES_ELECTRIKE] =
     {
-        .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 13,
+        .size = MON_COORDS_SIZE(62, 54),
+        .y_offset = 3,
     },
     // Centarumon
     [SPECIES_MANECTRIC] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
-        .y_offset = 0,
+        .size = MON_COORDS_SIZE(64, 61),
+        .y_offset = 2,
     },
     [SPECIES_NUMEL] =
     {
