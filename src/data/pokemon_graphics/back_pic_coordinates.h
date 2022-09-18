@@ -1587,15 +1587,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Tylomon
     [SPECIES_CARVANHA] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(61, 58),
+        .y_offset = 2,
     },
+    // Seahomon
     [SPECIES_SHARPEDO] =
     {
-        .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 3,
+        .size = MON_COORDS_SIZE(64, 60),
+        .y_offset = 2,
     },
     [SPECIES_TRAPINCH] =
     {

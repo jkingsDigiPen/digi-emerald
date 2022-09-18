@@ -3289,31 +3289,17 @@ static const union AnimCmd sAnim_MILOTIC_1[] =
     ANIMCMD_END,
 };
 
+// Tylomon
 static const union AnimCmd sAnim_CARVANHA_1[] =
 {
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Sharpedo
 static const union AnimCmd sAnim_SHARPEDO_1[] =
 {
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 6),
-    ANIMCMD_FRAME(1, 6),
-    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
