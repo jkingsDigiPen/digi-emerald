@@ -494,34 +494,24 @@ static const union AnimCmd sAnim_GOLBAT_1[] =
     ANIMCMD_END,
 };
 
+// Floramon
 static const union AnimCmd sAnim_ODDISH_1[] =
 {
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 11),
-    ANIMCMD_FRAME(1, 11),
-    ANIMCMD_FRAME(0, 6),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Vegimon
 static const union AnimCmd sAnim_GLOOM_1[] =
 {
-    ANIMCMD_FRAME(0, 21),
-    ANIMCMD_FRAME(1, 45),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Blossmon
 static const union AnimCmd sAnim_VILEPLUME_1[] =
 {
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 13),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -1108,23 +1098,17 @@ static const union AnimCmd sAnim_KINGLER_1[] =
     ANIMCMD_END,
 };
 
+// Terriermon
 static const union AnimCmd sAnim_VOLTORB_1[] =
 {
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 4),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Gargomon
 static const union AnimCmd sAnim_ELECTRODE_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -2041,15 +2025,10 @@ static const union AnimCmd sAnim_AMPHAROS_1[] =
     ANIMCMD_END,
 };
 
+// Ceresmon Medium
 static const union AnimCmd sAnim_BELLOSSOM_1[] =
 {
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3351,23 +3330,17 @@ static const union AnimCmd sAnim_HARIYAMA_1[] =
     ANIMCMD_END,
 };
 
+// Elecmon
 static const union AnimCmd sAnim_ELECTRIKE_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 17),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 3),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// Centarumon
 static const union AnimCmd sAnim_MANECTRIC_1[] =
 {
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 33),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 3),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -3543,23 +3516,17 @@ static const union AnimCmd sAnim_GRUMPIG_1[] =
     ANIMCMD_END,
 };
 
+// QueenChessmon
 static const union AnimCmd sAnim_PLUSLE_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
+// KingChessmon
 static const union AnimCmd sAnim_MINUN_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
