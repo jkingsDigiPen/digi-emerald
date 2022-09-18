@@ -227,20 +227,20 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Floramon
     [SPECIES_ODDISH] =
     {
-        .size = MON_COORDS_SIZE(40, 40),
-        .y_offset = 14,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
     },
     // Vegimon
     [SPECIES_GLOOM] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 11,
+        .size = MON_COORDS_SIZE(54, 48),
+        .y_offset = 5,
     },
     // Blossomon
     [SPECIES_VILEPLUME] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 2,
     },
     [SPECIES_PARAS] =
     {
@@ -945,8 +945,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     // Ceresmon Medium
     [SPECIES_BELLOSSOM] =
     {
-        .size = MON_COORDS_SIZE(32, 40),
-        .y_offset = 12,
+        .size = MON_COORDS_SIZE(38, 58),
+        .y_offset = 3,
     },
     // Lunamon
     [SPECIES_MARILL] =
