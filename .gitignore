@@ -44,3 +44,4 @@ graphics-digi/
 sound-digi/
 *.code-workspace
 *.bak
+mgba.sh
