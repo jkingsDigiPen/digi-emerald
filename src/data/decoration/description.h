@@ -208,12 +208,12 @@ const u8 DecorDesc_TV[] = _(
 const u8 DecorDesc_ROUND_TV[] = _(
     "A toy TV modeled\n"
         "in the image of a\n"
-        "Seedot.");
+        "Mushroomon.");
 
 const u8 DecorDesc_CUTE_TV[] = _(
     "A toy TV modeled\n"
         "in the image of a\n"
-        "Skitty.");
+        "Labramon.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
     "An odd mat that\n"
@@ -312,148 +312,148 @@ const u8 DecorDesc_BALL_POSTER[] = _(
 
 const u8 DecorDesc_GREEN_POSTER[] = _(
     "A small poster with\n"
-        "a Treecko print.");
+        "a Lalamon print.");
 
 const u8 DecorDesc_RED_POSTER[] = _(
     "A small poster with\n"
-        "a Torchic print.");
+        "a Agumon print.");
 
 const u8 DecorDesc_BLUE_POSTER[] = _(
     "A small poster with\n"
-        "a Mudkip print.");
+        "a Syakomon print.");
 
 const u8 DecorDesc_CUTE_POSTER[] = _(
     "A small poster with\n"
-        "an Azurill print.");
+        "an Moonmon print.");
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
     "A large poster with\n"
-        "a Pikachu and\n"
-        "Pichu print.");
+        "a Tentomon and\n"
+        "Motimon print.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
     "A large poster with\n"
-        "a Seviper print.");
+        "a Sandiramn print.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
     "A large poster with\n"
-        "a Relicanth print.");
+        "a Coelamon print.");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
     "A large poster with\n"
-        "a Wingull print.");
+        "a Falcomon print.");
 
 const u8 DecorDesc_KISS_POSTER[] = _(
     "A large poster with\n"
-        "a Smoochum print.");
+        "a Angewomon print.");
 
 const u8 DecorDesc_PICHU_DOLL[] = _(
-    "A Pichu doll.\n"
+    "A Motimon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "A Pikachu doll.\n"
+    "A Tentomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_MARILL_DOLL[] = _(
-    "A Marill doll.\n"
+    "A Lunamon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_TOGEPI_DOLL[] = _(
-    "A Togepi doll.\n"
+    "A Salamon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "A Cyndaquil doll.\n"
+    "A Renamon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "A Chikorita doll.\n"
+    "A Palmon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "A Totodile doll.\n"
+    "A Gomamon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _(
-    "A Jigglypuff doll.\n"
+    "A Hawkmon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_MEOWTH_DOLL[] = _(
-    "A Meowth doll.\n"
+    "A Gatomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
-    "A Clefairy doll.\n"
+    "A Biyomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_DITTO_DOLL[] = _(
-    "A Ditto doll.\n"
+    "A Poyomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_SMOOCHUM_DOLL[] = _(
-    "A Smoochum doll.\n"
+    "A Angewomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_TREECKO_DOLL[] = _(
-    "A Treecko doll.\n"
+    "A Lalamon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_TORCHIC_DOLL[] = _(
-    "A Torchic doll.\n"
+    "A Agumon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_MUDKIP_DOLL[] = _(
-    "A Mudkip doll.\n"
+    "A Syakomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_DUSKULL_DOLL[] = _(
-    "A Duskull doll.\n"
+    "A Tsukaimon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "A Wynaut doll.\n"
+    "A ToyAgumon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_BALTOY_DOLL[] = _(
-    "A Baltoy doll.\n"
+    "A Shakkoumn doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_KECLEON_DOLL[] = _(
-    "A Kecleon doll.\n"
+    "A Puppetmon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_AZURILL_DOLL[] = _(
-    "An Azurill doll.\n"
+    "An Moonmon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A Skitty doll.\n"
+    "A Labramon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_SWABLU_DOLL[] = _(
-    "A Swablu doll.\n"
+    "A Veemon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -463,42 +463,42 @@ const u8 DecorDesc_GULPIN_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_LOTAD_DOLL[] = _(
-    "A Lotad doll.\n"
+    "An Otamamon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_SEEDOT_DOLL[] = _(
-    "A Seedot doll.\n"
+    "A Mushroomon doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "A Pikachu cushion.\n"
+    "A Tentomon cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_ROUND_CUSHION[] = _(
-    "A Marill cushion.\n"
+    "A Lunamon cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_KISS_CUSHION[] = _(
-    "A Smoochum\n"
+    "A Angewomon\n"
         "cushion. Place it on\n"
         "a mat or a desk.");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "A Zigzagoon\n"
+    "A Kudamon\n"
         "cushion. Place it on\n"
         "a mat or a desk.");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "A Spinda cushion.\n"
+    "A Monzaemn cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "A Sableye cushion.\n"
+    "A Digitamamn cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 
