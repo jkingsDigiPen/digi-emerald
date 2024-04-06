@@ -29,4 +29,4 @@ gText_NoMoreRoomForPokemon:: @ 827331C
 
 gText_NicknameThisPokemon::
 	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "{STR_VAR_1}?$"

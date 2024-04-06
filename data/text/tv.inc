@@ -1007,14 +1007,14 @@ gTVPokemonTodaySuccessfulText08::
 
 gTVPokemonTodaySuccessfulText09:: @ 0828394A
 	.string "As far as I know, no Trainer has ever\n"
-	.string "given the nickname {STR_VAR_2} to their\l"
+	.string "given the nickname {STR_VAR_2} to\l"
 	.string "{STR_VAR_1}!\p"
 	.string "Big Bro: That just goes to show what\n"
 	.string "great taste the Trainer has in picking\l"
 	.string "nicknames!$"
 
 gTVPokemonTodaySuccessfulText10:: @ 082839EA
-	.string "The next time I catch a Pokémon,\n"
+	.string "The next time I catch a Digimon,\n"
 	.string "I should give it the name {STR_VAR_2}.\p"
 	.string "Big Bro: Huh? Me, too!\n"
 	.string "I'll use the nickname {STR_VAR_2}, too!$"
@@ -1025,7 +1025,7 @@ gTVPokemonTodaySuccessfulText11:: @ 08283A5F
 	.string "Well, gang, this is it for today.\n"
 	.string "See you again next time!\p"
 	.string "Big Bro: Remember, it could be your\n"
-	.string "Pokémon in the spotlight next time!$"
+	.string "Digimon in the spotlight next time!$"
 
 SmartShopper_Text_Intro::
 	.string "Hello!\p"

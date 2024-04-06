@@ -707,14 +707,14 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
 	.string "Oh, yes. As thanks for rescuing me,\n"
 	.string "I'd like you to have the Digimon you\l"
 	.string "used earlier.\p"
-	.string "{PLAYER} received the {STR_VAR_1}!$"
+	.string "{PLAYER} received {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon: @ 81FA8B1
 	.string "Prof. Birch: While you're at it, why not\n"
-	.string "give a nickname to that {STR_VAR_1}?$"
+	.string "give a nickname to {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival: @ 81FA8F6
-	.string "Prof. Birch: If you work at Digimon\n"
+	.string "Prof. Birch: If you work with Digimon\n"
 	.string "and gain experience, I think you'll make\l"
 	.string "an extremely good Trainer.\p"
 	.string "My kid, {RIVAL}, is also studying\n"

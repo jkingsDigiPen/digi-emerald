@@ -875,7 +875,7 @@ gText_PokeblockLinkCanceled::
 
 gText_UnusedNicknameReceivedPokemon::
 	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string "{STR_VAR_2}?$"
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER} is out of usable\n"
