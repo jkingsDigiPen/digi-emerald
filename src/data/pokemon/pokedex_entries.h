@@ -3893,7 +3893,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CARVANHA] =
     {
-        .categoryName = _("Savage"),
+        .categoryName = _("Water Jet"),
         .height = 8,
         .weight = 208,
         .description = gCarvanhaPokedexText,
@@ -3905,7 +3905,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SHARPEDO] =
     {
-        .categoryName = _("Brutal"),
+        .categoryName = _("Submarine"),
         .height = 18,
         .weight = 888,
         .description = gSharpedoPokedexText,

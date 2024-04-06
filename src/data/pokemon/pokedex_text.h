@@ -1888,16 +1888,16 @@ const u8 gMiloticPokedexText[] = _(
     "depicted in paintings and statues.");
 
 const u8 gCarvanhaPokedexText[] = _(
-    "Carvanha attack ships in swarms, making\n"
-    "them sink. Although it is said to be a very\n"
-    "vicious Pokémon, it timidly flees as soon\n"
-    "as it finds itself alone.");
+    "Tylomon is ferocious, willing to attack\n"
+    "those that are larger than itself.\n"
+    "In water it can move extremely fast,\n"
+    "rivaling even Metal Seadramon.");
 
 const u8 gSharpedoPokedexText[] = _(
-    "The vicious and sly gangster of the sea.\n"
-    "Its skin is specially textured to minimize\n"
-    "drag in water. Its speed tops out at over\n"
-    "75 miles per hour.");
+    "Though it typically dwells in deep waters,\n"
+    "where it is quite small, it becomes much\n"
+    "larger in shallow water. Calming rainbow\n"
+    "beams emit from its trumpet-like mouth.");
 
 const u8 gTrapinchPokedexText[] = _(
     "Its big jaws crunch through boulders.\n"

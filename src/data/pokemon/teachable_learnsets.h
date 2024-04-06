@@ -13369,6 +13369,7 @@ static const u16 sSwalotTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Tylomon
 static const u16 sCarvanhaTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
@@ -13405,6 +13406,7 @@ static const u16 sCarvanhaTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Seahomon
 static const u16 sSharpedoTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
