@@ -1,56 +1,56 @@
 gTrickHouse_Mechadoll_Oddish:: @ 27ECBC
-	.string "Oddish$"
+	.string "Floramon$"
 
 gTrickHouse_Mechadoll_Poochyena:: @ 27ECC3
-	.string "Poochyena$"
+	.string "Dracmon$"
 
 gTrickHouse_Mechadoll_Taillow:: @ 27ECCD
-	.string "Taillow$"
+	.string "Hawkmon$"
 
 gTrickHouse_Mechadoll_Azurill:: @ 27ECD5
-	.string "Azurill$"
+	.string "Moonmon$"
 
 gTrickHouse_Mechadoll_Lotad:: @ 27ECDD
-	.string "Lotad$"
+	.string "Otamamon$"
 
 gTrickHouse_Mechadoll_Wingull:: @ 27ECE3
-	.string "Wingull$"
+	.string "Falcomon$"
 
 gTrickHouse_Mechadoll_Dustox:: @ 27ECEB
-	.string "Dustox$"
+	.string "Stingmon$"
 
 gTrickHouse_Mechadoll_Zubat:: @ 27ECF2
-	.string "Zubat$"
+	.string "DemiDevimn$"
 
 gTrickHouse_Mechadoll_Nincada:: @ 27ECF8
-	.string "Nincada$"
+	.string "Kunemon$"
 
 gTrickHouse_Mechadoll_Ralts:: @ 27ED00
-	.string "Ralts$"
+	.string "Puttimon$"
 
 gTrickHouse_Mechadoll_Zigzagoon:: @ 27ED06
-	.string "Zigzagoon$"
+	.string "Kudamon$"
 
 gTrickHouse_Mechadoll_Slakoth:: @ 27ED10
-	.string "Slakoth$"
+	.string "Gazimon$"
 
 gTrickHouse_Mechadoll_Poochyena2:: @ 27ED18
-	.string "Poochyena$"
+	.string "Dracmon$"
 
 gTrickHouse_Mechadoll_Shroomish:: @ 27ED22
-	.string "Shroomish$"
+	.string "Kotemon$"
 
 gTrickHouse_Mechadoll_Zigzagoon2:: @ 27ED2C
-	.string "Zigzagoon$"
+	.string "Kudamon$"
 
 gTrickHouse_Mechadoll_Poochyena3:: @ 27ED36
-	.string "Poochyena$"
+	.string "Dracmon$"
 
 gTrickHouse_Mechadoll_Zubat2:: @ 27ED40
-	.string "Zubat$"
+	.string "DemiDevimon$"
 
 gTrickHouse_Mechadoll_Carvanha:: @ 27ED46
-	.string "Carvanha$"
+	.string "Tylomon$"
 
 gTrickHouse_Mechadoll_BurnHeal:: @ 27ED4F
 	.string "Burn Heal$"
