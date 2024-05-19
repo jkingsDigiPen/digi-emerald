@@ -13,7 +13,7 @@ Route104_Text_PlantBerriesInSoilTakeThis: @ 82A6D86
 Route104_Text_TrainersOftenMakeMonHoldBerries:
 	.string "The way you look, you must be a\n"
 	.string "Trainer, no?\p"
-	.string "Trainers often make Pokémon hold\n"
+	.string "Trainers often make Digimon hold\n"
 	.string "Berries.\p"
 	.string "It's up to you whether to grow Berries\n"
 	.string "or use them.$"
@@ -86,7 +86,7 @@ LilycoveCity_Text_BecauseYoureTrainer:
 LilycoveCity_Text_PokeblocksSuitPokemon:
 	.string "When it gets right down to it…\p"
 	.string "The way dignified simplicity suits me,\n"
-	.string "{POKEBLOCK}s perfectly suit Pokémon.$"
+	.string "{POKEBLOCK}s perfectly suit Digimon.$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry: @ 82A7386
 	.string "You may call me the Berry Master.\p"
@@ -193,10 +193,10 @@ Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries: @ 82A7AF3
 	.string "You can plant a Berry and grow it big,\n"
-	.string "or you can make a Pokémon hold it.\p"
+	.string "or you can make a Digimon hold it.\p"
 	.string "But now they have a machine that mixes\n"
 	.string "up different Berries and makes candies\l"
-	.string "for Pokémon.\p"
+	.string "for Digimon.\p"
 	.string "I want some candy, too.$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese:
