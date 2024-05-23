@@ -362,6 +362,7 @@ static void HandleInputChooseTarget(void)
     static const u8 identities[MAX_BATTLERS_COUNT] = {B_POSITION_PLAYER_LEFT, B_POSITION_PLAYER_RIGHT, B_POSITION_OPPONENT_RIGHT, B_POSITION_OPPONENT_LEFT};
     u16 move = GetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_MOVE1 + gMoveSelectionCursor[gActiveBattler]);
     u16 moveTarget = GetBattlerMoveTargetType(gActiveBattler, move);
+    u32 canceled = 0;
 
     DoBounceEffect(gMultiUsePlayerCursor, BOUNCE_HEALTHBOX, 15, 1);
     for (i = 0; i < gBattlersCount; i++)
@@ -396,6 +397,7 @@ static void HandleInputChooseTarget(void)
         DoBounceEffect(gActiveBattler, BOUNCE_HEALTHBOX, 7, 1);
         DoBounceEffect(gActiveBattler, BOUNCE_MON, 7, 1);
         EndBounceEffect(gMultiUsePlayerCursor, BOUNCE_HEALTHBOX);
+        canceled = 1;
     }
     else if (JOY_NEW(DPAD_LEFT | DPAD_UP))
     {
@@ -446,8 +448,6 @@ static void HandleInputChooseTarget(void)
             } while (i == 0);
         }
 
-        // Display type effectiveness
-        MoveSelectionDisplayMoveTypeDoubles(GetBattlerPosition(gMultiUsePlayerCursor));
         gSprites[gBattlerSpriteIds[gMultiUsePlayerCursor]].callback = SpriteCB_ShowAsMoveTarget;
     }
     else if (JOY_NEW(DPAD_RIGHT | DPAD_DOWN))
@@ -498,11 +498,15 @@ static void HandleInputChooseTarget(void)
                     i = 0;
             } while (i == 0);
         }
-
-        // Display type effectiveness
-        MoveSelectionDisplayMoveTypeDoubles(GetBattlerPosition(gMultiUsePlayerCursor));
+        
         gSprites[gBattlerSpriteIds[gMultiUsePlayerCursor]].callback = SpriteCB_ShowAsMoveTarget;
     }
+
+    // Display type effectiveness
+    if(canceled)
+        MoveSelectionDisplayMoveType();
+    else 
+        MoveSelectionDisplayMoveTypeDoubles(GetBattlerPosition(gMultiUsePlayerCursor));
 }
 
 static void HideAllTargets(void)
@@ -1735,7 +1739,7 @@ static void MoveSelectionDisplayMoveType(void)
     StringCopy(txtPtr, gTypeNames[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type]);
 
     // Modified for display type effectiveness
-    BattlePutTextOnWindow(gDisplayedStringBattle, GetTypeEffectiveness(moveInfo, 1));
+    BattlePutTextOnWindow(gDisplayedStringBattle, gBattleResources->bufferA[gActiveBattler][1] ? 10 : GetTypeEffectiveness(moveInfo, 1));
 }
 
 void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 baseTileNum)
