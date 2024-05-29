@@ -112,6 +112,7 @@ The following text relates to changes to the base ROM (not my changes), and come
 
 ## Additional modifications (not already in ROM base)
 
+- Additional page for the options menu (allows customization of additional QoL features)
 - Toggle-able Gen 6 Style Whole Party EXP Share  
 ![Additional Options](/screenshots/new-options-01.png?raw=true)
 - [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83) (Modifications were needed for this to work properly in double battles)
@@ -152,4 +153,3 @@ The following text relates to changes to the base ROM (not my changes), and come
 - Battle music changes depending on the map the player is in
 - Extra save space with two lines of code
 - Enable the Reset RTC Feature
-- Additional page for the options menu (allows toggling of certain QoL features)
