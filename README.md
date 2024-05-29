@@ -97,7 +97,7 @@ The following text relates to changes to the base ROM (not my changes), and come
 - [Showing IVs/EVs in Summary Screen - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10161688) using L, R and Start
 - [Item field effect functions to increase/decrease Individual Values - Lunos](https://www.pokecommunity.com/showpost.php?p=10469674) Vitamins affect IVs
 - [Restoring the Shred Split Battle Transition - Lunos](https://www.pokecommunity.com/showpost.php?p=10449556)
-- [Poisonpoint no Overworld Poison Damage - Lunos](https://www.pokecommunity.com/showpost.php?p=10349195) 
+- [Poison Heal no Overworld Poison Damage - Lunos](https://www.pokecommunity.com/showpost.php?p=10349195) 
 - "Move Pokémon" as first PSS option
 - [Improving the Pace of Battles - Mkol103](https://www.pokecommunity.com/showpost.php?p=10266925)
 - [Wrapping Summary Screen - Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875)
