@@ -114,7 +114,7 @@ The following text relates to changes to the base ROM (not my changes), and come
 
 - Toggle-able Gen 6 Style Whole Party EXP Share  
 ![Additional Options](/screenshots/new-options-01.png?raw=true)
-- [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83)  
+- [Show type effectiveness in battle - PokemonCrazy](https://www.pokecommunity.com/showpost.php?p=10167016&postcount=83) (Modifications were needed for this to work properly in double battles)
 - [Remove overworld pokenav calls - Jaizu](https://www.pokecommunity.com/showpost.php?p=10210036&postcount=151)
 - [Pret RHH Intro Credits](https://github.com/Xhyzi/pokeemerald/tree/rhh-intro-credits)
 
