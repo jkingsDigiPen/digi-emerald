@@ -1969,6 +1969,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Floramon
     [SPECIES_ODDISH] =
     {
         .baseHP        = 45,
@@ -1994,6 +1995,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Vegiemon
     [SPECIES_GLOOM] =
     {
         .baseHP        = 60,
@@ -2019,6 +2021,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Blossomon
     [SPECIES_VILEPLUME] =
     {
         .baseHP        = 75,
@@ -5459,6 +5462,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Ceresmon Medium
     [SPECIES_BELLOSSOM] =
     {
         .baseHP        = 75,
@@ -8656,20 +8660,21 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Elecmon 295
     [SPECIES_ELECTRIKE] =
     {
         .baseHP        = 40,
-        .baseAttack    = 45,
+        .baseAttack    = 50,
         .baseDefense   = 40,
         .baseSpeed     = 65,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 60,
         .baseSpDefense = 40,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 120,
         .expYield = 59,
         .evYield_Speed     = 1,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_SLOW,
@@ -8680,20 +8685,21 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    // Centarumon 475
     [SPECIES_MANECTRIC] =
     {
         .baseHP        = 70,
-        .baseAttack    = 75,
-        .baseDefense   = 60,
+        .baseAttack    = 90,
+        .baseDefense   = 65,
         .baseSpeed     = 105,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 60,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 55,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 45,
         .expYield = 166,
         .evYield_Speed     = 2,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_SLOW,

@@ -523,9 +523,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Floramon
     [NATIONAL_DEX_ODDISH] =
     {
-        .categoryName = _("Weed"),
+        .categoryName = _("Petal Head"),
         .height = 5,
         .weight = 54,
         .description = gOddishPokedexText,
@@ -535,9 +536,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Vegiemon
     [NATIONAL_DEX_GLOOM] =
     {
-        .categoryName = _("Weed"),
+        .categoryName = _("Fly Trap"),
         .height = 8,
         .weight = 86,
         .description = gGloomPokedexText,
@@ -547,9 +549,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Blossomon
     [NATIONAL_DEX_VILEPLUME] =
     {
-        .categoryName = _("Flower"),
+        .categoryName = _("Root Vine"),
         .height = 12,
         .weight = 186,
         .description = gVileplumePokedexText,
@@ -2208,9 +2211,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Ceresmon Medium
     [NATIONAL_DEX_BELLOSSOM] =
     {
-        .categoryName = _("Flower"),
+        .categoryName = _("Fruit Gift"),
         .height = 4,
         .weight = 58,
         .description = gBellossomPokedexText,
@@ -3783,6 +3787,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Elecmon
     [NATIONAL_DEX_ELECTRIKE] =
     {
         .categoryName = _("Lightning"),
@@ -3795,9 +3800,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Centarumon
     [NATIONAL_DEX_MANECTRIC] =
     {
-        .categoryName = _("Discharge"),
+        .categoryName = _("Half-Human"),
         .height = 15,
         .weight = 402,
         .description = gManectricPokedexText,

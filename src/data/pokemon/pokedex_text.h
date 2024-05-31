@@ -263,23 +263,26 @@ const u8 gGolbatPokedexText[] = _(
     "impressive intellect, and delights in\n"
     "confusing and manipulating other Digimon.");
 
+// Floramon
 const u8 gOddishPokedexText[] = _(
-    "This Pokémon grows by absorbing moonlight.\n"
-    "During the daytime, it buries itself in the\n"
-    "ground, leaving only its leaves exposed to\n"
-    "avoid detection by its enemies.");
+    "It generates allergy-inducing pollen to\n"
+    "weaken the spirits of its enemies. When\n"
+    "it is safe and its mood is high, it\n"
+    "opens the petals on its head and arms.");
 
+// Vegiemon
 const u8 gGloomPokedexText[] = _(
-    "A horribly noxious honey drools from its\n"
-    "mouth. One whiff of the honey can result\n"
-    "in memory loss. Some fans are said to\n"
-    "enjoy this overwhelming stink, however.");
+    "It uses the sweet scent it breathes from\n"
+    "its mouth to attract small Digimon, then\n"
+    "pulls them in with long, tentacle-like\n"
+    "vines. It typically avoids larger foes.");
 
+// Blossomon
 const u8 gVileplumePokedexText[] = _(
-    "In seasons when it produces more pollen,\n"
-    "the air around a Vileplume turns yellow\n"
-    "with the powder as it walks. The pollen is\n"
-    "highly toxic and causes paralysis.");
+    "It typically lives near water, though\n"
+    "it rarely appears before people due to its\n"
+    "docile nature. When threatened, it hurls\n"
+    "the flowers from its vines like shuriken.");
 
 const u8 gParasPokedexText[] = _(
     "A Paras has parasitic tochukaso\n"
@@ -1114,11 +1117,12 @@ const u8 gAmpharosPokedexText[] = _(
     "days used its light to send signals back\n"
     "and forth with others far away.");
 
+// Ceresmon Medium
 const u8 gBellossomPokedexText[] = _(
-    "Its flower petals deepen in color through\n"
-    "exposure to sunlight. When cloudy weather\n"
-    "persists, it does a dance that is thought\n"
-    "to be a ritual for summoning the sun.");
+    "Ceresmon Medium offers rare fruits and\n"
+    "shelter to hungry and injured Digimon, but\n"
+    "any who defile its territory will quickly\n"
+    "find the land choked with terrible poisons.");
 
 // Lunamon
 const u8 gMarillPokedexText[] = _(
@@ -1931,17 +1935,19 @@ const u8 gHariyamaPokedexText[] = _(
     "Once it finds one, it won't stop until\n"
     "it reduces its opponent to trash data.");
 
+// Elecmon
 const u8 gElectrikePokedexText[] = _(
-    "It generates electricity using friction\n"
-    "from the atmosphere. In seasons with\n"
-    "especially arid air, its entire body blazes\n"
-    "with violent showers of sparks.");
+    "A curious and lively Digimon that loves\n"
+    "playing pranks. It possesses nine tails,\n"
+    "which it fans out like a peacock to\n"
+    "intimidate its opponents.");
 
+// Centarumon
 const u8 gManectricPokedexText[] = _(
-    "Because lightning falls in their vicinities,\n"
-    "Manectric were thought to have been born\n"
-    "from lightning. In battle, they create\n"
-    "thunderclouds.");
+    "The ducts on its back spout high-pressure\n"
+    "vapors, allowing it to move at near-sonic\n"
+    "speeds for short periods. It is prideful\n"
+    "and hates being restrained.");
 
 const u8 gNumelPokedexText[] = _(
     "A Numel stores boiling magma in the hump\n"

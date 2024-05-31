@@ -12987,15 +12987,16 @@ static const u16 sMedichamTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Elecmon
 static const u16 sElectrikeTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
-    MOVE_IRON_TAIL,
+    MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_RAIN_DANCE,
@@ -13008,10 +13009,10 @@ static const u16 sElectrikeTeachableLearnset[] = {
     MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
-    MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
+    MOVE_ICY_WIND,
+    MOVE_MEGA_KICK,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
@@ -13023,8 +13024,9 @@ static const u16 sElectrikeTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Centarumon
 static const u16 sManectricTeachableLearnset[] = {
-    MOVE_ATTRACT,
+    MOVE_BLIZZARD,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLAMETHROWER,
@@ -13032,7 +13034,7 @@ static const u16 sManectricTeachableLearnset[] = {
     MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
     MOVE_HYPER_BEAM,
-    MOVE_IRON_TAIL,
+    MOVE_ICE_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_OVERHEAT,
     MOVE_PROTECT,
@@ -13046,10 +13048,10 @@ static const u16 sManectricTeachableLearnset[] = {
     MOVE_THIEF,
     MOVE_THUNDER,
     MOVE_THUNDERBOLT,
-    MOVE_TOXIC,
     MOVE_BODY_SLAM,
-    MOVE_DOUBLE_EDGE,
     MOVE_ENDURE,
+    MOVE_ICY_WIND,
+    MOVE_MEGA_KICK,
     MOVE_MIMIC,
     MOVE_MUD_SLAP,
     MOVE_SLEEP_TALK,
