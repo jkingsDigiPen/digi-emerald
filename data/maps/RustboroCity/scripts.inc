@@ -1067,9 +1067,9 @@ RustboroCity_Text_MrBrineyLovesPeeko: @ 81E1589
 	.string "The old sailor Mr. Briney lives in\n"
 	.string "a cottage by the sea.\p"
 	.string "He said he was going shopping in\n"
-	.string "Slateport for his pet, Peeko.\p"
+	.string "Slateport for his pet, Hawkmon.\p"
 	.string "That old sea dog, he must really love\n"
-	.string "that Peeko.$"
+	.string "that Hawkmon.$"
 
 RustboroCity_Text_WowYouHavePokemon: @ 81E1633
 	.string "Wow, you have Digimon with you, too.\p"

@@ -2339,7 +2339,7 @@ MatchCall_Text_May1:: @ 2B3AB3
 	.string "May: Hi, {PLAYER}{KUN}!\p"
 	.string "Mr. Briney retired as a Sailor,\n"
 	.string "but I still see him out on the sea\l"
-	.string "with his pet Peeko sometimes.\p"
+	.string "with his pet Hawkmon sometimes.\p"
 	.string "He must love the sea still.$"
 
 MatchCall_Text_May2:: @ 2B3B3F
@@ -2464,7 +2464,7 @@ MatchCall_Text_Brendan1:: @ 2B43EF
 	.string "Brendan: Hey, {PLAYER}!\p"
 	.string "Mr. Briney retired as a Sailor,\n"
 	.string "but I still see him out on the sea\l"
-	.string "with his pet Peeko sometimes.\p"
+	.string "with his pet Hawkmon sometimes.\p"
 	.string "I guess he must love\n"
 	.string "the sea still.$"
 

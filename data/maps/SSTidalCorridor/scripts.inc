@@ -325,7 +325,7 @@ SSTidalCorridor_Text_BrineyWelcomeAboard: @ 823C6EC
 	.string "soul as a sailor!$"
 
 SSTidalCorridor_Text_Peeko: @ 823C7E1
-	.string "Peeko: Pihyo pihyohyo…$"
+	.string "Hawkmon: Pihyo pihyohyo…$"
 
 SSTidalCorridor_Text_Cabin1:
 	.string "Cabin 1$"
