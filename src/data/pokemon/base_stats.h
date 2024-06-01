@@ -2021,7 +2021,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    // Blossomon
+    // Ceresmon Medium
     [SPECIES_VILEPLUME] =
     {
         .baseHP        = 75,
@@ -2040,7 +2040,7 @@ const struct BaseStats gBaseStats[] =
         .expYield = 221,
         .evYield_SpAttack  = 3,
         .itemRare = ITEM_ABSORB_BULB,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = MON_FEMALE,
         .eggCycles = 20,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
@@ -5462,7 +5462,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    // Ceresmon Medium
+    // Blossomon
     [SPECIES_BELLOSSOM] =
     {
         .baseHP        = 75,

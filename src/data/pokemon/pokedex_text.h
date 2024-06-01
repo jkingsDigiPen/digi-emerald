@@ -277,12 +277,12 @@ const u8 gGloomPokedexText[] = _(
     "pulls them in with long, tentacle-like\n"
     "vines. It typically avoids larger foes.");
 
-// Blossomon
+// Ceresmon Medium
 const u8 gVileplumePokedexText[] = _(
-    "It typically lives near water, though\n"
-    "it rarely appears before people due to its\n"
-    "docile nature. When threatened, it hurls\n"
-    "the flowers from its vines like shuriken.");
+    "Ceresmon Medium offers rare fruits and\n"
+    "shelter to hungry and injured Digimon, but\n"
+    "any who defile its territory will quickly\n"
+    "find the land choked with terrible poisons.");
 
 const u8 gParasPokedexText[] = _(
     "A Paras has parasitic tochukaso\n"
@@ -1117,12 +1117,12 @@ const u8 gAmpharosPokedexText[] = _(
     "days used its light to send signals back\n"
     "and forth with others far away.");
 
-// Ceresmon Medium
+// Blossomon
 const u8 gBellossomPokedexText[] = _(
-    "Ceresmon Medium offers rare fruits and\n"
-    "shelter to hungry and injured Digimon, but\n"
-    "any who defile its territory will quickly\n"
-    "find the land choked with terrible poisons.");
+    "It typically lives near water, though\n"
+    "it rarely appears before people due to its\n"
+    "docile nature. When threatened, it hurls\n"
+    "the flowers from its vines like shuriken.");
 
 // Lunamon
 const u8 gMarillPokedexText[] = _(

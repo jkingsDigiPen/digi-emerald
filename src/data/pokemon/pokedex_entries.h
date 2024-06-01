@@ -549,10 +549,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    // Blossomon
+    // Ceresmon Medium
     [NATIONAL_DEX_VILEPLUME] =
     {
-        .categoryName = _("Root Vine"),
+        .categoryName = _("Fruit Gift"),
         .height = 12,
         .weight = 186,
         .description = gVileplumePokedexText,
@@ -2211,10 +2211,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    // Ceresmon Medium
+    // Blossomon
     [NATIONAL_DEX_BELLOSSOM] =
     {
-        .categoryName = _("Fruit Gift"),
+        .categoryName = _("Root Vine"),
         .height = 4,
         .weight = 58,
         .description = gBellossomPokedexText,
