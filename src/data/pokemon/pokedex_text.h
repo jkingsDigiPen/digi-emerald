@@ -2123,17 +2123,19 @@ const u8 gSlakingPokedexText[] = _(
     "more than a soulless puppet. Beware, for\n"
     "it attacks relentlessly when angered.");
 
+// Pagumon
 const u8 gGulpinPokedexText[] = _(
-    "This Pokémon's stomach fluid can even\n"
-    "digest scrap iron. In one gulp, it can\n"
-    "swallow something that is as large as\n"
-    "itself.");
+    "This small Digimon uses the ear-like\n"
+    "parts on its head to perform crude,\n"
+    "mocking gestures. It even spits at\n"
+    "other Digimon to bully them.");
 
+// Raremon
 const u8 gSwalotPokedexText[] = _(
-    "Its powerful stomach acid is capable of\n"
-    "digesting almost anything. The one thing\n"
-    "in the whole world a Swalot can't digest is\n"
-    "its own stomach.");
+    "A horrific Digimon that died but has\n"
+    "somehow been kept alive by mechanical\n"
+    "parts. Its mental capacity is non-\n"
+    "-existent, making it very slow to act.");
 
 const u8 gTropiusPokedexText[] = _(
     "It flies by flapping its broad leaves.\n"

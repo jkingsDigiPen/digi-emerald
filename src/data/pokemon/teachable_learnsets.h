@@ -1684,6 +1684,7 @@ static const u16 sGolbatTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Floramon
 static const u16 sOddishTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,
@@ -1714,6 +1715,7 @@ static const u16 sOddishTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Vegiemon
 static const u16 sGloomTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,
@@ -1744,6 +1746,7 @@ static const u16 sGloomTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Ceresmon Medium
 static const u16 sVileplumeTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,
@@ -7586,6 +7589,7 @@ static const u16 sAmpharosTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+// Blossomon
 static const u16 sBellossomTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,

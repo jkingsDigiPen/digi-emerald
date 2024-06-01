@@ -1969,14 +1969,14 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    // Floramon
+    // Floramon 320
     [SPECIES_ODDISH] =
     {
         .baseHP        = 45,
-        .baseAttack    = 50,
+        .baseAttack    = 55,
         .baseDefense   = 55,
         .baseSpeed     = 30,
-        .baseSpAttack  = 75,
+        .baseSpAttack  = 70,
         .baseSpDefense = 65,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
@@ -1990,19 +1990,19 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_GRASS,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_RUN_AWAY},
-        .bodyColor = BODY_COLOR_BLUE,
+        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NATURAL_CURE, ABILITY_RUN_AWAY},
+        .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
-    // Vegiemon
+    // Vegiemon 395
     [SPECIES_GLOOM] =
     {
         .baseHP        = 60,
-        .baseAttack    = 65,
+        .baseAttack    = 70,
         .baseDefense   = 70,
         .baseSpeed     = 40,
-        .baseSpAttack  = 85,
+        .baseSpAttack  = 80,
         .baseSpDefense = 75,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
@@ -2016,24 +2016,20 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_GRASS,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_STENCH},
-        .bodyColor = BODY_COLOR_BLUE,
+        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NATURAL_CURE, ABILITY_STENCH},
+        .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
 
-    // Ceresmon Medium
+    // Ceresmon Medium 490
     [SPECIES_VILEPLUME] =
     {
         .baseHP        = 75,
         .baseAttack    = 80,
-        .baseDefense   = 85,
+        .baseDefense   = 80,
         .baseSpeed     = 50,
-        .baseSpDefense = 90,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 110,
-        #else
-            .baseSpAttack  = 100,
-        #endif
+        .baseSpDefense = 95,
+        .baseSpAttack  = 110,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_POISON,
         .catchRate = 45,
@@ -2046,8 +2042,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_GRASS,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_EFFECT_SPORE},
-        .bodyColor = BODY_COLOR_RED,
+        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NATURAL_CURE, ABILITY_HEALER},
+        .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
 
@@ -5466,15 +5462,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_BELLOSSOM] =
     {
         .baseHP        = 75,
-        .baseAttack    = 80,
+        .baseAttack    = 90,
         .baseSpeed     = 50,
-        .baseSpAttack  = 90,
+        .baseSpAttack  = 80,
         .baseSpDefense = 100,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseDefense   = 95,
-        #else
-            .baseDefense   = 85,
-        #endif
+        .baseDefense   = 95,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_GRASS,
         .catchRate = 45,
@@ -5487,7 +5479,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_GRASS,
         .eggGroup2 = EGG_GROUP_GRASS,
-        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_HEALER},
+        .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NATURAL_CURE, ABILITY_EFFECT_SPORE},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
@@ -8681,7 +8673,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         .abilities = {ABILITY_STATIC, ABILITY_LIGHTNING_ROD, ABILITY_MINUS},
-        .bodyColor = BODY_COLOR_GREEN,
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
@@ -8706,7 +8698,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         .abilities = {ABILITY_STATIC, ABILITY_LIGHTNING_ROD, ABILITY_MINUS},
-        .bodyColor = BODY_COLOR_YELLOW,
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
@@ -8845,14 +8837,15 @@ const struct BaseStats gBaseStats[] =
         .noFlip = TRUE,
     },
 
+    // Pagumon 305
     [SPECIES_GULPIN] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 43,
-        .baseDefense   = 53,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 43,
-        .baseSpDefense = 53,
+        .baseHP        = 45,
+        .baseAttack    = 55,
+        .baseDefense   = 50,
+        .baseSpeed     = 45,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 50,
         .type1 = TYPE_POISON,
         .type2 = TYPE_POISON,
         .catchRate = 225,
@@ -8866,19 +8859,20 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FLUCTUATING,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_LIQUID_OOZE, ABILITY_STICKY_HOLD, ABILITY_GLUTTONY},
-        .bodyColor = BODY_COLOR_GREEN,
+        .abilities = {ABILITY_LIQUID_OOZE, ABILITY_STICKY_HOLD, ABILITY_STENCH},
+        .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
 
+    // Raremon 470
     [SPECIES_SWALOT] =
     {
         .baseHP        = 100,
-        .baseAttack    = 73,
-        .baseDefense   = 83,
+        .baseAttack    = 65,
+        .baseDefense   = 80,
         .baseSpeed     = 55,
-        .baseSpAttack  = 73,
-        .baseSpDefense = 83,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 85,
         .type1 = TYPE_POISON,
         .type2 = TYPE_POISON,
         .catchRate = 75,
@@ -8892,7 +8886,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FLUCTUATING,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_LIQUID_OOZE, ABILITY_STICKY_HOLD, ABILITY_GLUTTONY},
+        .abilities = {ABILITY_LIQUID_OOZE, ABILITY_STICKY_HOLD, ABILITY_STENCH},
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },

@@ -3873,9 +3873,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Pagumon
     [NATIONAL_DEX_GULPIN] =
     {
-        .categoryName = _("Stomach"),
+        .categoryName = _("Rude Bully"),
         .height = 4,
         .weight = 103,
         .description = gGulpinPokedexText,
@@ -3885,9 +3886,10 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+    // Raremon
     [NATIONAL_DEX_SWALOT] =
     {
-        .categoryName = _("Poison Bag"),
+        .categoryName = _("Grotesque"),
         .height = 17,
         .weight = 800,
         .description = gSwalotPokedexText,
